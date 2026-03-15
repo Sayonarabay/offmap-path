@@ -171,7 +171,7 @@ function dayTheme(acts, lang) {
 }
 
 function mergeAI(trip, ai) {
-  const { _destData, ...clean } = trip;
+  const { _destData, ...clean } = trip; // strip internal KB ref, keep _activities
   return { ...clean, title: ai.title || trip.destination, introduction: ai.introduction || '', tips: ai.tips || [] };
 }
 
