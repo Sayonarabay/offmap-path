@@ -23,21 +23,24 @@
           "icon": "✈️",
           "label": "Vuelo a París (CDG/ORY)",
           "desc": "Desde la mayoría de ciudades europeas, 1-3h. Busca en Skyscanner con 3-4 semanas de antelación.",
-          "url": "https://www.skyscanner.es/vuelos/paris"
+          "url": "https://www.skyscanner.es/vuelos/paris",
+          "priceEst": 120
         },
         {
           "id": "paris-rer",
           "icon": "🚇",
           "label": "RER B — Aeropuerto → Centro",
           "desc": "CDG a Châtelet: 35 min, €12. El más rápido y sin atascos.",
-          "url": ""
+          "url": "",
+          "priceEst": 12
         },
         {
           "id": "paris-metro",
           "icon": "🚇",
           "label": "Metro París — Pase semanal",
           "desc": "Navigo Semaine: €30 ilimitado toda la semana en metro, bus y RER.",
-          "url": ""
+          "url": "",
+          "priceEst": 30
         }
       ]
     },
@@ -84,21 +87,24 @@
           "icon": "✈️",
           "label": "Vuelo a Lisboa (LIS)",
           "desc": "1-3h desde la mayoría de ciudades europeas. TAP, Ryanair y EasyJet tienen rutas frecuentes.",
-          "url": "https://www.skyscanner.es/vuelos/lisboa"
+          "url": "https://www.skyscanner.es/vuelos/lisboa",
+          "priceEst": 80
         },
         {
           "id": "lisbon-metro",
           "icon": "🚇",
           "label": "Metro + Tram — Pase de 24h",
           "desc": "Tarjeta Viva Viagem €0.50 + carga. 24h ilimitado: €6.40. Válida en metro, tram y bus.",
-          "url": ""
+          "url": "",
+          "priceEst": 20
         },
         {
           "id": "lisbon-tram28",
           "icon": "🚊",
           "label": "Tram 28 — Ruta histórica",
           "desc": "Conecta los barrios históricos. Usa la tarjeta recargable, no pagues en efectivo (más caro).",
-          "url": ""
+          "url": "",
+          "priceEst": 0
         }
       ]
     },
@@ -144,21 +150,24 @@
           "icon": "✈️",
           "label": "Vuelo a Osaka (KIX) o Tokio (NRT)",
           "desc": "Vuela a Kansai (KIX) para llegar directamente a Kyoto. Desde Europa: ~12h con escala.",
-          "url": "https://www.skyscanner.es/vuelos/osaka"
+          "url": "https://www.skyscanner.es/vuelos/osaka",
+          "priceEst": 650
         },
         {
           "id": "kyoto-haruka",
           "icon": "🚂",
           "label": "Haruka Express — KIX → Kyoto",
           "desc": "75 min, ~€15. Directo desde el aeropuerto de Kansai. Reserva online con antelación.",
-          "url": ""
+          "url": "",
+          "priceEst": 15
         },
         {
           "id": "kyoto-iccard",
           "icon": "🚌",
           "label": "IC Card (Suica/ICOCA)",
           "desc": "Tarjeta recargable válida en todo el transporte público de Kyoto y Japón. Imprescindible.",
-          "url": ""
+          "url": "",
+          "priceEst": 25
         }
       ]
     },
@@ -205,21 +214,24 @@
           "icon": "✈️",
           "label": "Vuelo de ida a Sevilla (SVQ)",
           "desc": "Vuela a Sevilla para empezar el road trip. Iberia, Vueling y Ryanair tienen buenas frecuencias.",
-          "url": "https://www.skyscanner.es/vuelos/sevilla"
+          "url": "https://www.skyscanner.es/vuelos/sevilla",
+          "priceEst": 100
         },
         {
           "id": "andal-flight-malaga",
           "icon": "✈️",
           "label": "Vuelo de vuelta desde Málaga (AGP)",
           "desc": "Termina el road trip en Málaga y vuela de vuelta. Recuerda devolver el coche en AGP.",
-          "url": "https://www.skyscanner.es/vuelos/malaga"
+          "url": "https://www.skyscanner.es/vuelos/malaga",
+          "priceEst": 100
         },
         {
           "id": "andal-car",
           "icon": "🚗",
           "label": "Alquiler de coche — Sevilla → Málaga",
           "desc": "Alquiler de ida (one-way). Sevilla SVQ → Málaga AGP. ~7 días, desde €150 total. Reserva con antelación.",
-          "url": "https://www.rentalcars.com/?destinationName=Sevilla"
+          "url": "https://www.rentalcars.com/?destinationName=Sevilla",
+          "priceEst": 180
         }
       ]
     },
