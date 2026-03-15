@@ -342,6 +342,28 @@ input::placeholder{color:var(--muted)}
 #loadBar{height:100%;width:0%;background:linear-gradient(90deg,var(--forest-mid),var(--forest));
   transition:width .4s ease;border-radius:2px}
 
+/* ── TRANSPORT OPTIONS ── */
+.tc-options{display:flex;flex-direction:column;gap:.6rem;margin-top:.8rem}
+.tc-option{display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);
+  border-radius:10px;padding:.8rem 1rem;transition:border-color .15s}
+.tc-option:hover{border-color:rgba(255,255,255,.25)}
+.tc-option-left{display:flex;align-items:flex-start;gap:.7rem;flex:1;min-width:0}
+.tc-option-icon{font-size:1.2rem;flex-shrink:0;margin-top:.1rem}
+.tc-option-label{font-size:.86rem;font-weight:700;color:#fff;margin-bottom:.18rem}
+.tc-option-desc{font-size:.74rem;color:rgba(255,255,255,.48);line-height:1.5}
+.tc-option-right{display:flex;align-items:center;gap:.5rem;flex-shrink:0}
+.tc-search-link{font-size:.68rem;font-weight:700;color:#86EFAC;
+  text-decoration:none;border:1px solid rgba(134,239,172,.35);
+  border-radius:6px;padding:.22rem .6rem;transition:all .14s;white-space:nowrap}
+.tc-search-link:hover{background:rgba(134,239,172,.12)}
+.tc-add-btn{padding:.28rem .7rem;border-radius:6px;
+  border:1.5px solid rgba(255,255,255,.3);background:transparent;
+  color:rgba(255,255,255,.85);font-size:.66rem;font-weight:700;
+  cursor:pointer;transition:all .14s;white-space:nowrap;font-family:var(--font-body)}
+.tc-add-btn:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.6)}
+.tc-add-btn.added{background:var(--forest-mid);border-color:var(--forest-mid);color:#fff}
+
 /* ── ADD ACTIVITY BUTTON ── */
 .act-add-btn{
   margin-left:.4rem;padding:.15rem .5rem;border-radius:5px;
@@ -599,6 +621,9 @@ const T = {
   tipsTitle:    {es:'Consejos prácticos', en:'Practical tips', fr:'Conseils pratiques'},
   addActBtn:    {es:'+ Añadir a mi viaje', en:'+ Add to my trip', fr:'+ Ajouter à mon voyage'},
   addedActBtn:  {es:'✓ Añadido', en:'✓ Added', fr:'✓ Ajouté'},
+  addTransport: {es:'+ Añadir a mi viaje', en:'+ Add to my trip', fr:'+ Ajouter à mon voyage'},
+  addedTransport:{es:'✓ Añadido', en:'✓ Added', fr:'✓ Ajouté'},
+  searchLink:   {es:'Buscar →', en:'Search →', fr:'Chercher →'},
   summaryTitle: {es:'Mi viaje', en:'My trip', fr:'Mon voyage'},
   summaryDest:  {es:'Destino', en:'Destination', fr:'Destination'},
   summaryDays:  {es:'Días', en:'Days', fr:'Jours'},
@@ -853,12 +878,86 @@ function renderTrip(trip){
 function renderTransport(tr, dest){
   const el = document.getElementById('transportBlock');
   if(!tr){ el.innerHTML=''; return; }
+
+  // Build transport options from KB data
+  const options = tr.options || [];
+
+  // Fallback: if no options array, build one from legacy fields
+  const items = options.length ? options : [
+    tr.system && {
+      id:    'transport-main',
+      icon:  guessIcon(tr.system),
+      label: tr.system,
+      desc:  tr.description || '',
+      url:   buildSearchUrl(tr.system, dest),
+    },
+    tr.airportTransfer && {
+      id:    'transport-airport',
+      icon:  '✈️',
+      label: {es:'Traslado aeropuerto', en:'Airport transfer', fr:'Transfert aéroport'}[lang],
+      desc:  tr.airportTransfer,
+      url:   '',
+    },
+  ].filter(Boolean);
+
+  const rows = items.map(item => {
+    const added = selectedActivities.some(x => x.id === item.id);
+    return `<div class="tc-option" id="tco-${item.id}">
+      <div class="tc-option-left">
+        <span class="tc-option-icon">${item.icon||'🚌'}</span>
+        <div>
+          <div class="tc-option-label">${item.label}</div>
+          ${item.desc ? `<div class="tc-option-desc">${item.desc}</div>` : ''}
+        </div>
+      </div>
+      <div class="tc-option-right">
+        ${item.url ? `<a class="tc-search-link" href="${item.url}" target="_blank" rel="noopener">${t('searchLink')}</a>` : ''}
+        <button class="tc-add-btn ${added?'added':''}" onclick="toggleTransport('${item.id}','${item.label}','${item.icon||'🚌'}')">
+          ${added ? t('addedTransport') : t('addTransport')}
+        </button>
+      </div>
+    </div>`;
+  }).join('');
+
   el.innerHTML = `<div class="transport-card" style="margin-bottom:1.5rem">
-    <div class="tc-badge">🚌 ${t('transportLbl')} · ${dest}</div>
-    <div class="tc-system">${tr.system||''}</div>
-    <div class="tc-desc">${tr.description||''}</div>
-    ${tr.airportTransfer ? `<div class="tc-detail">✈ ${tr.airportTransfer}</div>` : ''}
+    <div class="tc-badge">🗺️ ${t('transportLbl')} · ${dest}</div>
+    <div class="tc-options">${rows}</div>
   </div>`;
+}
+
+function guessIcon(system) {
+  const s = (system||'').toLowerCase();
+  if (/train|tren|rail|rer|shinkansen|tgv/.test(s)) return '🚂';
+  if (/flight|vuelo|avion|avión|fly/.test(s))        return '✈️';
+  if (/car|coche|voiture|rent/.test(s))               return '🚗';
+  if (/bus|autobus|autocars/.test(s))                 return '🚌';
+  if (/metro|subway|underground/.test(s))             return '🚇';
+  if (/ferry|boat|barco/.test(s))                     return '⛴️';
+  if (/bike|bici|vélo/.test(s))                       return '🚲';
+  if (/tram/.test(s))                                 return '🚊';
+  return '🚌';
+}
+
+function buildSearchUrl(system, dest) {
+  const s = (system||'').toLowerCase();
+  const q = encodeURIComponent(dest);
+  if (/train|tren|rail|rer|shinkansen/.test(s)) return `https://www.thetrainline.com/search?destination=${q}`;
+  if (/car|coche|voiture|rent/.test(s))          return `https://www.rentalcars.com/?destinationName=${q}`;
+  if (/flight|vuelo|avion|fly/.test(s))          return `https://www.skyscanner.es/vuelos/${q}`;
+  return `https://www.rome2rio.com/s/${q}`;
+}
+
+function toggleTransport(id, label, icon) {
+  const idx = selectedActivities.findIndex(x => x.id === id);
+  if (idx >= 0) {
+    selectedActivities.splice(idx, 1);
+  } else {
+    selectedActivities.push({ id, label, day: 1, icon });
+  }
+  const added = selectedActivities.some(x => x.id === id);
+  const btn = document.querySelector(`#tco-${id} .tc-add-btn`);
+  if (btn) { btn.classList.toggle('added', added); btn.textContent = added ? t('addedTransport') : t('addTransport'); }
+  renderSummary();
 }
 
 function renderAccom(accom, dest){
