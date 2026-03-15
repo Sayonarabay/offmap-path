@@ -52,7 +52,6 @@ module.exports = async (req, res) => {
   // Sort by score descending
   scored.sort((a, b) => b._score - a._score);
 
-  // Pick top 3 ensuring variety: try to have 1 nearby, 1 far, 1 roadtrip
   // but if not possible, just take top 3
   const proposals = pickDiverseTop3(scored, days, travelers);
 
@@ -62,7 +61,7 @@ module.exports = async (req, res) => {
       name:               d.name,
       country:            d.country,
       region:             d.region,
-      proximity:          d.type === 'roadtrip' ? 'roadtrip' : d.proximity,
+      proximity:          d.proximity,
       estimatedCostTotal: Math.round(d._cpd * days * travelers),
       tags:               d.tripTypes || [],
       highlight:          d.highlight || '',
@@ -71,21 +70,19 @@ module.exports = async (req, res) => {
   });
 };
 
-// Pick 3 diverse destinations: ideally 1 nearby city, 1 far city, 1 roadtrip
+// Pick 3 diverse destinations: 1 nearby, 1 far, 1 best overall
 // Falls back to top 3 if not enough variety
 function pickDiverseTop3(scored, days, travelers) {
-  const nearby    = scored.filter(d => d.proximity === 'nearby' && d.type !== 'roadtrip');
-  const far       = scored.filter(d => d.proximity === 'far'    && d.type !== 'roadtrip');
-  const roadtrips = scored.filter(d => d.type === 'roadtrip');
+  const nearby = scored.filter(d => d.proximity === 'nearby');
+  const far    = scored.filter(d => d.proximity === 'far');
 
   const result = [];
 
   // Take best from each category
-  if (nearby.length)    result.push(nearby[0]);
-  if (far.length)       result.push(far[0]);
-  if (roadtrips.length) result.push(roadtrips[0]);
+  if (nearby.length) result.push(nearby[0]);
+  if (far.length)    result.push(far[0]);
 
-  // If we have fewer than 3 (e.g. no roadtrips), fill with next best overall
+  // Fill to 3 with next best overall
   if (result.length < 3) {
     for (const d of scored) {
       if (result.length >= 3) break;
