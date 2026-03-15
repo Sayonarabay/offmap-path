@@ -1,1 +1,79 @@
-
+{
+  "slug": "paris-7day-cultural",
+  "destination": "paris",
+  "days_count": 7,
+  "tripType": "cultural",
+  "tags": ["art", "gastronomy", "history", "architecture"],
+  "days": [
+    {
+      "day": 1,
+      "title": "Arrival & the Marais",
+      "theme": "settling in",
+      "morning": "Check in and walk the Marais neighbourhood. Visit Place des Vosges, the oldest square in Paris.",
+      "afternoon": "Explore the Pompidou Centre exterior and nearby galleries. Coffee at Café de Flore.",
+      "evening": "Dinner in the Marais — try L'As du Fallafel or a classic French bistro on Rue de Bretagne.",
+      "gem": "The hidden courtyards (cours) of the Marais — most are open and completely tourist-free.",
+      "activities": ["place-des-vosges", "pompidou-exterior", "marais-walk"]
+    },
+    {
+      "day": 2,
+      "title": "Louvre & Tuileries",
+      "theme": "world-class art",
+      "morning": "Louvre Museum — book timed entry online. Focus on one wing (Richelieu or Denon) to avoid overwhelm.",
+      "afternoon": "Walk through Tuileries Garden to Place de la Concorde. Up the Champs-Élysées to the Arc de Triomphe.",
+      "evening": "Drinks in the 8th arrondissement. Dinner near Saint-Lazare.",
+      "gem": "The Louvre's medieval moat — visible from the basement level, almost no one goes.",
+      "activities": ["louvre", "tuileries-garden", "arc-de-triomphe"]
+    },
+    {
+      "day": 3,
+      "title": "Montmartre & Sacré-Cœur",
+      "theme": "bohemian Paris",
+      "morning": "Walk up to Sacré-Cœur early (before 9am) to avoid crowds. Explore the hilltop streets.",
+      "afternoon": "Place du Tertre for artists, then down through Abbesses. Visit the Musée de Montmartre.",
+      "evening": "Dinner in Pigalle — great natural wine bars on Rue des Martyrs.",
+      "gem": "Vineyard of Montmartre — a real working vineyard inside Paris, hidden behind a stone wall.",
+      "activities": ["sacre-coeur", "montmartre-walk", "musee-de-montmartre"]
+    },
+    {
+      "day": 4,
+      "title": "Seine & Île de la Cité",
+      "theme": "historic core",
+      "morning": "Notre-Dame exterior (reconstruction ongoing). Walk across Île Saint-Louis for the best ice cream in Paris (Berthillon).",
+      "afternoon": "Sainte-Chapelle — stunning Gothic stained glass, worth every minute in the queue. Latin Quarter stroll.",
+      "evening": "Dinner in Saint-Germain-des-Prés. Theatre or jazz if available.",
+      "gem": "Square du Vert-Galant — a hidden garden at the tip of the island, locals come to read and picnic.",
+      "activities": ["notre-dame-exterior", "sainte-chapelle", "ile-saint-louis"]
+    },
+    {
+      "day": 5,
+      "title": "Musée d'Orsay & Saint-Germain",
+      "theme": "impressionism & culture",
+      "morning": "Musée d'Orsay — Impressionist and Post-Impressionist masterpieces. Pre-book entry.",
+      "afternoon": "Walk Saint-Germain: browse Librairie La Hune, visit the Luxembourg Gardens.",
+      "evening": "Apéro at a café-terrasse. Dinner in the 6th.",
+      "gem": "Top floor of Musée d'Orsay has a giant clock window overlooking the city — most visitors miss it.",
+      "activities": ["musee-dorsay", "luxembourg-gardens", "saint-germain-walk"]
+    },
+    {
+      "day": 6,
+      "title": "Versailles Day Trip",
+      "theme": "royal grandeur",
+      "morning": "Take RER C to Versailles (40 min). Arrive early — Palace opens at 9am.",
+      "afternoon": "Walk the Grand Canal and gardens. Return to Paris by 5pm.",
+      "evening": "Easy dinner near your hotel — you'll be tired!",
+      "gem": "The Trianon Palaces (Petit and Grand Trianon) — included in the ticket, much less crowded than the main palace.",
+      "activities": ["versailles-palace", "versailles-gardens", "trianon-palaces"]
+    },
+    {
+      "day": 7,
+      "title": "Eiffel Tower & Farewell",
+      "theme": "iconic goodbye",
+      "morning": "Eiffel Tower — summit ticket, book 2 weeks ahead. Visit in the morning for clear skies.",
+      "afternoon": "Trocadéro for photos, then Palais de Tokyo if time allows. Last shopping on Rue de Rivoli.",
+      "evening": "Farewell dinner — splurge on a brasserie classic: steak-frites and a carafe of Bordeaux.",
+      "gem": "The view from Champ de Mars grass at dusk — free, relaxed, and somehow still magical.",
+      "activities": ["eiffel-tower", "trocadero", "champ-de-mars"]
+    }
+  ]
+}
