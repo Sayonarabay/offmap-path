@@ -34,6 +34,7 @@ function buildTrip({ destination, days, tripType, travelers, budget, lang }) {
       luxury:  Math.round(cpd * 1.8  * days * travelers),
     },
     title: null, introduction: null, tips: [],
+    _destData: dest, // used by transportBuilder, stripped before response
   };
 }
 
@@ -46,6 +47,10 @@ function buildCityItinerary({ activities, days, tripRules, lang, destName }) {
   const itinerary = [];
 
   for (let d = 0; d < days; d++) {
+    // If pool exhausted, reset used so activities can repeat
+    const available = pool.filter(a => !used.has(a.id));
+    if (available.length < 3) used.clear();
+
     const dayActs = pickActivities({ pool, used });
     itinerary.push({
       day:       d + 1,
@@ -166,7 +171,8 @@ function dayTheme(acts, lang) {
 }
 
 function mergeAI(trip, ai) {
-  return { ...trip, title: ai.title || trip.destination, introduction: ai.introduction || '', tips: ai.tips || [] };
+  const { _destData, ...clean } = trip;
+  return { ...clean, title: ai.title || trip.destination, introduction: ai.introduction || '', tips: ai.tips || [] };
 }
 
 module.exports = { buildTrip, mergeAI };
