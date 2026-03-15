@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Terra — Viajes con criterio</title>
+<title>Offmap — Viajes con criterio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Instrument+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet"/>
 <style>
@@ -249,8 +249,6 @@ input::placeholder{color:var(--muted)}
   padding:.2rem .55rem;cursor:pointer;transition:all .13s;white-space:nowrap;font-family:var(--font-body)}
 .accom-add-btn:hover{background:var(--forest-mid);color:#fff}
 .accom-add-btn.added{background:var(--forest);color:#fff;border-color:var(--forest)}
-.accom-roadtrip-note{font-size:.75rem;color:var(--ink2);font-style:italic;
-  padding:.6rem 1.5rem;border-bottom:1px solid var(--border);background:var(--forest-pale)}
 
 /* Day cards */
 .day-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r-lg);
@@ -436,7 +434,7 @@ input::placeholder{color:var(--muted)}
 
 <!-- NAV -->
 <nav>
-  <div class="logo">Terra<span>Nova</span></div>
+  <div class="logo">Off<span>map</span></div>
   <div class="nav-actions">
     <div class="lang-sw">
       <button class="lang-btn on" onclick="setLang('es')">ES</button>
@@ -628,7 +626,6 @@ const T = {
   chooseLbl:    {es:'Elegir este destino', en:'Choose this destination', fr:'Choisir cette destination'},
   nearbyLbl:    {es:'Destino cercano', en:'Nearby destination', fr:'Destination proche'},
   farLbl:       {es:'Destino lejano', en:'Far destination', fr:'Destination lointaine'},
-  roadtripLbl:  {es:'Road trip', en:'Road trip', fr:'Road trip'},
   estCostLbl:   {es:'Coste estimado', en:'Estimated cost', fr:'Coût estimé'},
   tagsLbl:      {es:'Tipo', en:'Type', fr:'Type'},
   loadSearch:   {es:'Buscando propuestas…', en:'Searching proposals…', fr:'Recherche de propositions…'},
@@ -787,7 +784,7 @@ async function doSearch(){
 // ═══════════════════════════════════
 // RENDER PROPOSALS
 // ═══════════════════════════════════
-const PROXIMITY_LABELS = { nearby:'nearbyLbl', far:'farLbl', roadtrip:'roadtripLbl' };
+const PROXIMITY_LABELS = { nearby:'nearbyLbl', far:'farLbl' };
 
 function renderProposals(proposals, days){
   const grid = document.getElementById('proposalsGrid');
@@ -839,7 +836,8 @@ async function selectProposal(idx){
       method:'POST',
       headers:{'Content-Type':'application/json'},
       body: JSON.stringify({ destination: slug, days, travelers: pax, tripType, budget, lang,
-        origin: document.getElementById('origin')?.value?.trim() || '' })
+        origin: document.getElementById('origin')?.value?.trim() || '',
+        departureDate: document.getElementById('df')?.value || '' })
     });
     if(!res.ok){ const err=await res.json(); throw new Error(err.error||'Server error'); }
     currentTrip = await res.json();
@@ -858,7 +856,7 @@ async function selectProposal(idx){
 // ═══════════════════════════════════
 const GRAD_PRESETS = {
   paris:['#18181B','#2C3E6B','#1A2E5A'], lisbon:['#1A1A18','#5A3A1A','#3A2A0A'],
-  kyoto:['#1A1822','#3A1A3A','#1A2A1A'], 'andalucia-roadtrip':['#1A1210','#3A1A0A','#2A1A10'],
+  kyoto:['#1A1822','#3A1A3A','#1A2A1A'],
   default:['#18181B','#2C3E6B','#1A3A2A']
 };
 function getGrad(slug){ return GRAD_PRESETS[slug] || GRAD_PRESETS.default; }
@@ -887,8 +885,16 @@ function renderTrip(trip){
 
   // AI intro
   const introEl = document.getElementById('itinIntro');
-  if(trip.introduction){ introEl.innerHTML = trip.introduction; introEl.style.display='block'; }
-  else introEl.style.display = 'none';
+  if(trip.introduction){
+    // Convert plain text sentences to styled paragraphs
+    const html = trip.introduction
+      .split(/\n+/).filter(s => s.trim())
+      .map(s => `<p>${s.trim()}</p>`).join('');
+    introEl.innerHTML = html || trip.introduction;
+    introEl.style.display = 'block';
+  } else {
+    introEl.style.display = 'none';
+  }
 
   // Transport
   renderTransport(trip.transport, trip.destination);
@@ -945,7 +951,6 @@ function renderTransport(tr, dest){
 function renderAccom(accom, dest){
   const el = document.getElementById('accomBlock');
   if(!accom?.length){ el.innerHTML=''; return; }
-  const isRoadtrip = currentTrip?.tripType === 'roadtrip' || (currentTrip?.slug||'').includes('roadtrip');
   const BOOK_URL = `https://www.booking.com/search.html?ss=${encodeURIComponent(dest)}`;
 
   const rows = accom.map(a => {
@@ -965,13 +970,10 @@ function renderAccom(accom, dest){
     </div>`;
   }).join('');
 
-  const roadtripNote = isRoadtrip
-    ? `<div class="accom-roadtrip-note">🚗 ${({es:'Road trip: reserva hotel a hotel según tu ruta.',en:'Road trip: book hotel by hotel along your route.',fr:'Road trip: réservez hôtel par hôtel sur votre route.'})[lang]}</div>`
-    : '';
+
 
   el.innerHTML = `<div class="accom-card" style="margin-bottom:1.5rem">
     <div class="accom-header"><div class="accom-title">🏨 ${t('accomLbl')}</div></div>
-    ${roadtripNote}
     <div class="accom-rows">${rows}</div>
   </div>`;
 }
@@ -989,7 +991,6 @@ function toggleAccom(id, label) {
 // Auto-select all transport + accommodation items
 function autoSelectAll(trip) {
   selectedActivities = [];
-  const isRoadtrip = trip.tripType === 'roadtrip' || (trip.slug||'').includes('roadtrip');
 
   // Transport → all pre-selected
   const trOptions = trip.transport?.options || [];
@@ -1000,38 +1001,15 @@ function autoSelectAll(trip) {
     selectedActivities.push({ id:'transport-main', label:trip.transport.system, day:0, icon:guessIcon(trip.transport.system), price:0 });
   }
 
-  // Accommodation:
-  // - city trip → only mid tier pre-selected
-  // - roadtrip  → mid tier × number of cities (days - 1 nights, but 1 hotel entry per city)
+  // Accommodation → mid tier pre-selected
   const accom = trip.accommodation || [];
   const midOption = accom.find(a => a.type === 'mid') || accom[0];
   if (midOption) {
-    if (isRoadtrip) {
-      // One hotel entry per city in the itinerary
-      const cities = getRoadtripCities(trip);
-      cities.forEach((city, i) => {
-        const id    = `hotel-city-${i}`;
-        const label = `🏨 ${city} — ${midOption.zone} (~€${midOption.pricePerNight}/noche)`;
-        selectedActivities.push({ id, label, day: i+1, icon: '🏨', price: midOption.pricePerNight, nights: 1 });
-      });
-    } else {
-      const nights = trip.days - 1;
-      const id    = `hotel-mid`;
-      const label = `🏨 ${midOption.zone} · ${nights} noches (~€${midOption.pricePerNight}/noche)`;
-      selectedActivities.push({ id, label, day: 0, icon: '🏨', price: midOption.pricePerNight * nights });
-    }
+    const nights = trip.days - 1;
+    const id    = 'hotel-mid';
+    const label = `🏨 ${midOption.zone} · ${nights} noches (~€${midOption.pricePerNight}/noche)`;
+    selectedActivities.push({ id, label, day: 0, icon: '🏨', price: midOption.pricePerNight * nights });
   }
-}
-
-// Extract city names from roadtrip itinerary days
-function getRoadtripCities(trip) {
-  if (!trip.itinerary?.length) return [];
-  return trip.itinerary.map(d => {
-    const title = typeof d.title === 'object' ? (d.title.es || d.title.en || '') : (d.title || '');
-    // Try to extract city name from title (e.g. "Arrival in Seville" → "Seville")
-    const m = title.match(/(?:en|in|à|a)\s+([A-ZÁÉÍÓÚÀÂÊ][a-záéíóúàâêñ]+)/);
-    return m ? m[1] : title.split(' ').slice(-1)[0] || `Ciudad ${d.day}`;
-  }).filter((c,i,arr) => arr.indexOf(c) === i); // deduplicate
 }
 
 function toggleTransport(id, label, icon) {
