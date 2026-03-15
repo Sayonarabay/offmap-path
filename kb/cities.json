@@ -966,5 +966,357 @@
     },
     "nights": 1,
     "order": 6
+  },
+  {
+    "id": "lisbon-city",
+    "destination": "lisbon-porto-roadtrip",
+    "name": {
+      "es": "Lisboa",
+      "en": "Lisbon",
+      "fr": "Lisbonne"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "sintra-city",
+    "destination": "lisbon-porto-roadtrip",
+    "name": {
+      "es": "Sintra",
+      "en": "Sintra",
+      "fr": "Sintra"
+    },
+    "nights": 1,
+    "order": 2
+  },
+  {
+    "id": "obidos",
+    "destination": "lisbon-porto-roadtrip",
+    "name": {
+      "es": "Óbidos",
+      "en": "Óbidos",
+      "fr": "Óbidos"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "porto-city",
+    "destination": "lisbon-porto-roadtrip",
+    "name": {
+      "es": "Oporto",
+      "en": "Porto",
+      "fr": "Porto"
+    },
+    "nights": 3,
+    "order": 4
+  },
+  {
+    "id": "naples",
+    "destination": "amalfi-coast-roadtrip",
+    "name": {
+      "es": "Nápoles",
+      "en": "Naples",
+      "fr": "Naples"
+    },
+    "nights": 1,
+    "order": 1
+  },
+  {
+    "id": "positano",
+    "destination": "amalfi-coast-roadtrip",
+    "name": {
+      "es": "Positano",
+      "en": "Positano",
+      "fr": "Positano"
+    },
+    "nights": 2,
+    "order": 2
+  },
+  {
+    "id": "amalfi",
+    "destination": "amalfi-coast-roadtrip",
+    "name": {
+      "es": "Amalfi",
+      "en": "Amalfi",
+      "fr": "Amalfi"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "ravello",
+    "destination": "amalfi-coast-roadtrip",
+    "name": {
+      "es": "Ravello",
+      "en": "Ravello",
+      "fr": "Ravello"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "edinburgh",
+    "destination": "scotland-roadtrip",
+    "name": {
+      "es": "Edimburgo",
+      "en": "Edinburgh",
+      "fr": "Édimbourg"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "inverness",
+    "destination": "scotland-roadtrip",
+    "name": {
+      "es": "Inverness",
+      "en": "Inverness",
+      "fr": "Inverness"
+    },
+    "nights": 1,
+    "order": 2
+  },
+  {
+    "id": "nc500",
+    "destination": "scotland-roadtrip",
+    "name": {
+      "es": "NC500 Highlands",
+      "en": "NC500 Highlands",
+      "fr": "NC500 Highlands"
+    },
+    "nights": 3,
+    "order": 3
+  },
+  {
+    "id": "isle-of-skye",
+    "destination": "scotland-roadtrip",
+    "name": {
+      "es": "Isle of Skye",
+      "en": "Isle of Skye",
+      "fr": "Île de Skye"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "marrakech-city",
+    "destination": "morocco-roadtrip",
+    "name": {
+      "es": "Marrakech",
+      "en": "Marrakech",
+      "fr": "Marrakech"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "ouarzazate",
+    "destination": "morocco-roadtrip",
+    "name": {
+      "es": "Ouarzazate",
+      "en": "Ouarzazate",
+      "fr": "Ouarzazate"
+    },
+    "nights": 1,
+    "order": 2
+  },
+  {
+    "id": "sahara",
+    "destination": "morocco-roadtrip",
+    "name": {
+      "es": "Desierto del Sáhara",
+      "en": "Sahara Desert",
+      "fr": "Désert du Sahara"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "fes",
+    "destination": "morocco-roadtrip",
+    "name": {
+      "es": "Fes",
+      "en": "Fes",
+      "fr": "Fès"
+    },
+    "nights": 2,
+    "order": 4
+  },
+  {
+    "id": "chefchaouen",
+    "destination": "morocco-roadtrip",
+    "name": {
+      "es": "Chefchauen",
+      "en": "Chefchaouen",
+      "fr": "Chefchaouen"
+    },
+    "nights": 1,
+    "order": 5
+  },
+  {
+    "id": "amsterdam-city",
+    "destination": "amsterdam",
+    "name": {
+      "es": "Ámsterdam",
+      "en": "Amsterdam",
+      "fr": "Amsterdam"
+    },
+    "nights": 5,
+    "order": 1
+  },
+  {
+    "id": "rome-city",
+    "destination": "rome",
+    "name": {
+      "es": "Roma",
+      "en": "Rome",
+      "fr": "Rome"
+    },
+    "nights": 6,
+    "order": 1
+  },
+  {
+    "id": "barcelona-city",
+    "destination": "barcelona",
+    "name": {
+      "es": "Barcelona",
+      "en": "Barcelona",
+      "fr": "Barcelone"
+    },
+    "nights": 6,
+    "order": 1
+  },
+  {
+    "id": "prague-city",
+    "destination": "prague",
+    "name": {
+      "es": "Praga",
+      "en": "Prague",
+      "fr": "Prague"
+    },
+    "nights": 5,
+    "order": 1
+  },
+  {
+    "id": "tokyo-city",
+    "destination": "tokyo",
+    "name": {
+      "es": "Tokio",
+      "en": "Tokyo",
+      "fr": "Tokyo"
+    },
+    "nights": 8,
+    "order": 1
+  },
+  {
+    "id": "marrakech-single",
+    "destination": "marrakech",
+    "name": {
+      "es": "Marrakech",
+      "en": "Marrakech",
+      "fr": "Marrakech"
+    },
+    "nights": 5,
+    "order": 1
+  },
+  {
+    "id": "nyc-city",
+    "destination": "new-york",
+    "name": {
+      "es": "Nueva York",
+      "en": "New York",
+      "fr": "New York"
+    },
+    "nights": 7,
+    "order": 1
+  },
+  {
+    "id": "berlin-city",
+    "destination": "berlin",
+    "name": {
+      "es": "Berlín",
+      "en": "Berlin",
+      "fr": "Berlin"
+    },
+    "nights": 5,
+    "order": 1
+  },
+  {
+    "id": "bangkok-city",
+    "destination": "bangkok",
+    "name": {
+      "es": "Bangkok",
+      "en": "Bangkok",
+      "fr": "Bangkok"
+    },
+    "nights": 6,
+    "order": 1
+  },
+  {
+    "id": "vienna-city",
+    "destination": "vienna",
+    "name": {
+      "es": "Viena",
+      "en": "Vienna",
+      "fr": "Vienne"
+    },
+    "nights": 5,
+    "order": 1
+  },
+  {
+    "id": "copenhagen-city",
+    "destination": "copenhagen",
+    "name": {
+      "es": "Copenhague",
+      "en": "Copenhagen",
+      "fr": "Copenhague"
+    },
+    "nights": 5,
+    "order": 1
+  },
+  {
+    "id": "istanbul-city",
+    "destination": "istanbul",
+    "name": {
+      "es": "Estambul",
+      "en": "Istanbul",
+      "fr": "Istanbul"
+    },
+    "nights": 5,
+    "order": 1
+  },
+  {
+    "id": "cdmx-city",
+    "destination": "mexico-city",
+    "name": {
+      "es": "Ciudad de México",
+      "en": "Mexico City",
+      "fr": "Mexico"
+    },
+    "nights": 6,
+    "order": 1
+  },
+  {
+    "id": "dubai-city",
+    "destination": "dubai",
+    "name": {
+      "es": "Dubái",
+      "en": "Dubai",
+      "fr": "Dubaï"
+    },
+    "nights": 4,
+    "order": 1
+  },
+  {
+    "id": "bali-city",
+    "destination": "bali",
+    "name": {
+      "es": "Bali",
+      "en": "Bali",
+      "fr": "Bali"
+    },
+    "nights": 9,
+    "order": 1
   }
 ]

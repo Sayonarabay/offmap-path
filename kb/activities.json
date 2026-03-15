@@ -5518,5 +5518,2750 @@
     "duration_hours": 4,
     "price_eur": 0,
     "iconic": false
+  },
+  {
+    "id": "rijksmuseum",
+    "city": "amsterdam",
+    "destination": "amsterdam",
+    "name": {
+      "es": "Rijksmuseum",
+      "en": "Rijksmuseum",
+      "fr": "Rijksmuseum"
+    },
+    "desc": {
+      "es": "La colección holandesa más importante — Rembrandt, Vermeer y 800 años de historia. Reserva online.",
+      "en": "The most important Dutch collection — Rembrandt, Vermeer and 800 years of history. Book online.",
+      "fr": "La plus importante collection néerlandaise — Rembrandt, Vermeer et 800 ans d'histoire."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 22,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "van-gogh-museum",
+    "city": "amsterdam",
+    "destination": "amsterdam",
+    "name": {
+      "es": "Museo Van Gogh",
+      "en": "Van Gogh Museum",
+      "fr": "Musée Van Gogh"
+    },
+    "desc": {
+      "es": "La mayor colección de Van Gogh del mundo. Reserva imprescindible — las colas sin reserva son enormes.",
+      "en": "The world's largest Van Gogh collection. Booking essential — queues without are enormous.",
+      "fr": "La plus grande collection de Van Gogh au monde. Réservation indispensable."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 22,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "canal-walk",
+    "city": "amsterdam",
+    "destination": "amsterdam",
+    "name": {
+      "es": "Paseo por los canales",
+      "en": "Canal walk",
+      "fr": "Promenade sur les canaux"
+    },
+    "desc": {
+      "es": "Las 165 canales de Amsterdam son Patrimonio UNESCO. El paseo nocturno con los puentes iluminados es mágico.",
+      "en": "Amsterdam's 165 canals are UNESCO heritage. The evening walk with illuminated bridges is magical.",
+      "fr": "Les 165 canaux d'Amsterdam sont patrimoine UNESCO. La promenade nocturne est magique."
+    },
+    "tags": [
+      "walk",
+      "iconic",
+      "views",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "anne-frank-house",
+    "city": "amsterdam",
+    "destination": "amsterdam",
+    "name": {
+      "es": "Casa de Ana Frank",
+      "en": "Anne Frank House",
+      "fr": "Maison d'Anne Frank"
+    },
+    "desc": {
+      "es": "El escondite donde Ana Frank escribió su diario. Una experiencia profundamente conmovedora.",
+      "en": "The hiding place where Anne Frank wrote her diary. A profoundly moving experience.",
+      "fr": "La cachette où Anne Frank a écrit son journal. Une expérience profondément émouvante."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 16,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "jordaan-walk",
+    "city": "amsterdam",
+    "destination": "amsterdam",
+    "name": {
+      "es": "Barrio Jordaan",
+      "en": "Jordaan neighbourhood",
+      "fr": "Quartier Jordaan"
+    },
+    "desc": {
+      "es": "El barrio más bonito de Amsterdam. Galerías de arte, mercados de segunda mano y cafés bruin.",
+      "en": "Amsterdam's most beautiful neighbourhood. Art galleries, vintage markets and brown cafés.",
+      "fr": "Le plus beau quartier d'Amsterdam. Galeries d'art, marchés vintage et cafés bruns."
+    },
+    "tags": [
+      "walk",
+      "local",
+      "culture",
+      "food"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "heineken-experience",
+    "city": "amsterdam",
+    "destination": "amsterdam",
+    "name": {
+      "es": "Heineken Experience",
+      "en": "Heineken Experience",
+      "fr": "Heineken Experience"
+    },
+    "desc": {
+      "es": "La antigua fábrica de cerveza reconvertida en museo interactivo. Incluye 2 cervezas al final.",
+      "en": "The former brewery turned interactive museum. Includes 2 beers at the end.",
+      "fr": "L'ancienne brasserie reconvertie en musée interactif. Inclut 2 bières à la fin."
+    },
+    "tags": [
+      "local",
+      "food",
+      "culture",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 23,
+    "iconic": false
+  },
+  {
+    "id": "albert-cuyp-market",
+    "city": "amsterdam",
+    "destination": "amsterdam",
+    "name": {
+      "es": "Mercado Albert Cuyp",
+      "en": "Albert Cuyp Market",
+      "fr": "Marché Albert Cuyp"
+    },
+    "desc": {
+      "es": "El mercado al aire libre más grande de los Países Bajos. Stroopwafels, quesos y flores.",
+      "en": "The largest outdoor market in the Netherlands. Stroopwafels, cheese and flowers.",
+      "fr": "Le plus grand marché en plein air des Pays-Bas. Stroopwafels, fromages et fleurs."
+    },
+    "tags": [
+      "food",
+      "local",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "amsterdam-nightlife",
+    "city": "amsterdam",
+    "destination": "amsterdam",
+    "name": {
+      "es": "Vida nocturna de Amsterdam",
+      "en": "Amsterdam nightlife",
+      "fr": "Vie nocturne d'Amsterdam"
+    },
+    "desc": {
+      "es": "Leidseplein y Rembrandtplein — el corazón de la noche en Amsterdam. Bares, clubs y cafés hasta el amanecer.",
+      "en": "Leidseplein and Rembrandtplein — the heart of Amsterdam's night. Bars, clubs and cafés till dawn.",
+      "fr": "Leidseplein et Rembrandtplein — le cœur de la nuit à Amsterdam."
+    },
+    "tags": [
+      "nightlife",
+      "local",
+      "food"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 30,
+    "iconic": false
+  },
+  {
+    "id": "colosseum",
+    "city": "rome",
+    "destination": "rome",
+    "name": {
+      "es": "Coliseo Romano",
+      "en": "Colosseum",
+      "fr": "Colisée"
+    },
+    "desc": {
+      "es": "El anfiteatro más grande jamás construido. Reserva con días de antelación — las colas son enormes.",
+      "en": "The largest amphitheater ever built. Book days ahead — queues are enormous.",
+      "fr": "Le plus grand amphithéâtre jamais construit. Réservez à l'avance — les files sont énormes."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 18,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "vatican",
+    "city": "rome",
+    "destination": "rome",
+    "name": {
+      "es": "Vaticano y Capilla Sixtina",
+      "en": "Vatican & Sistine Chapel",
+      "fr": "Vatican et Chapelle Sixtine"
+    },
+    "desc": {
+      "es": "El estado más pequeño del mundo con el mayor tesoro artístico. Reserva obligatoria — venden menos entradas que el aforo real.",
+      "en": "The world's smallest state with the greatest artistic treasure. Booking mandatory.",
+      "fr": "Le plus petit État du monde avec le plus grand trésor artistique."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "art",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 4,
+    "price_eur": 20,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "roman-forum",
+    "city": "rome",
+    "destination": "rome",
+    "name": {
+      "es": "Foro Romano y Palatino",
+      "en": "Roman Forum & Palatine Hill",
+      "fr": "Forum Romain et Palatin"
+    },
+    "desc": {
+      "es": "El corazón de la Roma antigua. Incluido en la entrada del Coliseo — no salgas sin verlo.",
+      "en": "The heart of ancient Rome. Included in the Colosseum ticket — don't leave without seeing it.",
+      "fr": "Le cœur de la Rome antique. Inclus dans le billet du Colisée."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "trevi-fountain",
+    "city": "rome",
+    "destination": "rome",
+    "name": {
+      "es": "Fontana di Trevi",
+      "en": "Trevi Fountain",
+      "fr": "Fontaine de Trevi"
+    },
+    "desc": {
+      "es": "La fuente más famosa del mundo. Ve de noche para evitar el caos turístico y las fotos serán perfectas.",
+      "en": "The world's most famous fountain. Go at night to avoid tourist chaos — photos will be perfect.",
+      "fr": "La fontaine la plus célèbre du monde. Allez-y la nuit pour éviter le chaos touristique."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "walk",
+      "photo"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 0.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "pantheon",
+    "city": "rome",
+    "destination": "rome",
+    "name": {
+      "es": "Panteón de Roma",
+      "en": "Pantheon",
+      "fr": "Panthéon de Rome"
+    },
+    "desc": {
+      "es": "El edificio antiguo mejor conservado del mundo. 2000 años de historia con la cúpula perfecta.",
+      "en": "The best-preserved ancient building in the world. 2000 years of history with the perfect dome.",
+      "fr": "Le bâtiment antique le mieux conservé au monde. 2000 ans d'histoire."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 5,
+    "iconic": true
+  },
+  {
+    "id": "trastevere",
+    "city": "rome",
+    "destination": "rome",
+    "name": {
+      "es": "Paseo por Trastevere",
+      "en": "Trastevere walk",
+      "fr": "Promenade à Trastevere"
+    },
+    "desc": {
+      "es": "El barrio más auténtico de Roma. Callejones medievales, osterie familiares y la vida local.",
+      "en": "Rome's most authentic neighbourhood. Medieval alleys, family osterie and real local life.",
+      "fr": "Le quartier le plus authentique de Rome. Ruelles médiévales et vraie vie locale."
+    },
+    "tags": [
+      "walk",
+      "local",
+      "food",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "roman-food",
+    "city": "rome",
+    "destination": "rome",
+    "name": {
+      "es": "Cena romana clásica",
+      "en": "Classic Roman dinner",
+      "fr": "Dîner romain classique"
+    },
+    "desc": {
+      "es": "Cacio e pepe, carbonara, coda alla vaccinara. Una trattoria de barrio sin carta en inglés.",
+      "en": "Cacio e pepe, carbonara, coda alla vaccinara. A neighbourhood trattoria with no English menu.",
+      "fr": "Cacio e pepe, carbonara, coda alla vaccinara. Une trattoria de quartier sans menu en anglais."
+    },
+    "tags": [
+      "food",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 30,
+    "iconic": false
+  },
+  {
+    "id": "borghese-gallery",
+    "city": "rome",
+    "destination": "rome",
+    "name": {
+      "es": "Galería Borghese",
+      "en": "Borghese Gallery",
+      "fr": "Galerie Borghèse"
+    },
+    "desc": {
+      "es": "Las esculturas de Bernini más perfectas del mundo. Solo 360 visitantes cada 2h — reserva imprescindible.",
+      "en": "Bernini's most perfect sculptures. Only 360 visitors every 2h — booking absolutely essential.",
+      "fr": "Les sculptures de Bernini les plus parfaites. Seulement 360 visiteurs toutes les 2h."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 15,
+    "book_ahead": true,
+    "iconic": false
+  },
+  {
+    "id": "sagrada-familia",
+    "city": "barcelona",
+    "destination": "barcelona",
+    "name": {
+      "es": "Sagrada Família",
+      "en": "Sagrada Família",
+      "fr": "Sagrada Família"
+    },
+    "desc": {
+      "es": "La obra maestra inacabada de Gaudí. En construcción desde 1882. Reserva entrada con semanas de antelación.",
+      "en": "Gaudí's unfinished masterpiece. Under construction since 1882. Book weeks ahead.",
+      "fr": "Le chef-d'œuvre inachevé de Gaudí. En construction depuis 1882. Réservez des semaines à l'avance."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "architecture",
+      "art",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 26,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "park-guell",
+    "city": "barcelona",
+    "destination": "barcelona",
+    "name": {
+      "es": "Park Güell",
+      "en": "Park Güell",
+      "fr": "Park Güell"
+    },
+    "desc": {
+      "es": "El parque de Gaudí con vistas panorámicas de Barcelona. La zona monumental requiere reserva.",
+      "en": "Gaudí's park with panoramic views of Barcelona. The monumental zone requires booking.",
+      "fr": "Le parc de Gaudí avec des vues panoramiques. La zone monumentale nécessite une réservation."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "architecture",
+      "views"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "boqueria",
+    "city": "barcelona",
+    "destination": "barcelona",
+    "name": {
+      "es": "La Boqueria",
+      "en": "La Boqueria Market",
+      "fr": "La Boqueria"
+    },
+    "desc": {
+      "es": "El mercado más famoso de España. Ve a primera hora para ver a los locales — los turistas llegan a las 10h.",
+      "en": "Spain's most famous market. Go early to see locals — tourists arrive at 10am.",
+      "fr": "Le marché le plus célèbre d'Espagne. Arrivez tôt pour voir les habitants locaux."
+    },
+    "tags": [
+      "food",
+      "iconic",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "gothic-quarter",
+    "city": "barcelona",
+    "destination": "barcelona",
+    "name": {
+      "es": "Barrio Gótico",
+      "en": "Gothic Quarter",
+      "fr": "Quartier Gothique"
+    },
+    "desc": {
+      "es": "El centro medieval de Barcelona. Ruinas romanas, la catedral y callejones con 2000 años de historia.",
+      "en": "Barcelona's medieval centre. Roman ruins, the cathedral and alleys with 2000 years of history.",
+      "fr": "Le centre médiéval de Barcelone. Ruines romaines, cathédrale et ruelles de 2000 ans d'histoire."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "barceloneta",
+    "city": "barcelona",
+    "destination": "barcelona",
+    "name": {
+      "es": "Barceloneta y el mar",
+      "en": "Barceloneta beach",
+      "fr": "Plage de la Barceloneta"
+    },
+    "desc": {
+      "es": "La playa más céntrica de Europa. Chiringuitos, vermut y el Mediterráneo a 10 minutos del centro.",
+      "en": "The most central beach in Europe. Beach bars, vermouth and the Mediterranean 10 minutes from the centre.",
+      "fr": "La plage la plus centrale d'Europe. Bars de plage, vermouth et Méditerranée à 10 minutes du centre."
+    },
+    "tags": [
+      "beach",
+      "relax",
+      "local",
+      "food"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "passeig-de-gracia",
+    "city": "barcelona",
+    "destination": "barcelona",
+    "name": {
+      "es": "Passeig de Gràcia",
+      "en": "Passeig de Gràcia",
+      "fr": "Passeig de Gràcia"
+    },
+    "desc": {
+      "es": "El boulevard más elegante de Barcelona. Casa Batlló y Casa Milà (La Pedrera) en la misma manzana.",
+      "en": "Barcelona's most elegant boulevard. Casa Batlló and Casa Milà (La Pedrera) on the same block.",
+      "fr": "Le boulevard le plus élégant de Barcelone. Casa Batlló et Casa Milà sur le même pâté de maisons."
+    },
+    "tags": [
+      "architecture",
+      "iconic",
+      "walk",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "barcelona-tapas",
+    "city": "barcelona",
+    "destination": "barcelona",
+    "name": {
+      "es": "Vermut y tapas en el Eixample",
+      "en": "Vermouth & tapas in Eixample",
+      "fr": "Vermouth et tapas dans l'Eixample"
+    },
+    "desc": {
+      "es": "El ritual barcelonés del domingo — vermut, patatas bravas y pan con tomate. Los locales lo hacen a las 13h.",
+      "en": "The Barcelona Sunday ritual — vermouth, patatas bravas and pan con tomate. Locals do it at 1pm.",
+      "fr": "Le rituel barcelonais du dimanche — vermouth, patatas bravas et pan con tomate."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "barcelona-nightlife",
+    "city": "barcelona",
+    "destination": "barcelona",
+    "name": {
+      "es": "Noche en Barcelona",
+      "en": "Barcelona nightlife",
+      "fr": "Nuit à Barcelone"
+    },
+    "desc": {
+      "es": "La mejor noche de Europa. Los barceloneses cenan a las 22h y salen a las 0h. Los clubs abren a las 2h.",
+      "en": "Europe's best night out. Barcelonans dine at 10pm, go out at midnight. Clubs open at 2am.",
+      "fr": "La meilleure nuit d'Europe. Les Barcelonais dînent à 22h, sortent à minuit."
+    },
+    "tags": [
+      "nightlife",
+      "local",
+      "food"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 4,
+    "price_eur": 40,
+    "iconic": false
+  },
+  {
+    "id": "prague-castle",
+    "city": "prague",
+    "destination": "prague",
+    "name": {
+      "es": "Castillo de Praga",
+      "en": "Prague Castle",
+      "fr": "Château de Prague"
+    },
+    "desc": {
+      "es": "El castillo más grande del mundo por superficie. La Catedral de San Vito, el Palacio Real y el Callejón Dorado.",
+      "en": "The world's largest castle by area. St Vitus Cathedral, Royal Palace and Golden Lane.",
+      "fr": "Le plus grand château du monde en superficie. Cathédrale Saint-Guy et Ruelle d'Or."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 15,
+    "book_ahead": false,
+    "iconic": true
+  },
+  {
+    "id": "old-town-square",
+    "city": "prague",
+    "destination": "prague",
+    "name": {
+      "es": "Plaza de la Ciudad Vieja",
+      "en": "Old Town Square",
+      "fr": "Place de la Vieille Ville"
+    },
+    "desc": {
+      "es": "La plaza más hermosa de Europa Central. El reloj astronómico medieval da la hora cada hora en punto.",
+      "en": "The most beautiful square in Central Europe. The medieval astronomical clock chimes every hour.",
+      "fr": "La plus belle place d'Europe centrale. L'horloge astronomique médiévale sonne à chaque heure."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "charles-bridge",
+    "city": "prague",
+    "destination": "prague",
+    "name": {
+      "es": "Puente de Carlos",
+      "en": "Charles Bridge",
+      "fr": "Pont Charles"
+    },
+    "desc": {
+      "es": "El puente medieval con 30 estatuas barrocas sobre el Moldava. Ve al amanecer para tenerlo solo.",
+      "en": "The medieval bridge with 30 Baroque statues over the Vltava. Go at sunrise to have it to yourself.",
+      "fr": "Le pont médiéval avec 30 statues baroques sur la Vltava. Allez-y au lever du soleil."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "walk",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "evening"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "prague-beer",
+    "city": "prague",
+    "destination": "prague",
+    "name": {
+      "es": "Cerveza checa en U Fleků",
+      "en": "Czech beer at U Fleků",
+      "fr": "Bière tchèque à U Fleků"
+    },
+    "desc": {
+      "es": "La cervecería más antigua de Praga, desde 1499. La mejor cerveza dark de Europa a €2 la jarra.",
+      "en": "Prague's oldest brewery, since 1499. The best dark beer in Europe at €2 a mug.",
+      "fr": "La plus ancienne brasserie de Prague, depuis 1499. La meilleure bière brune d'Europe."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "wenceslas-square",
+    "city": "prague",
+    "destination": "prague",
+    "name": {
+      "es": "Plaza de Wenceslao",
+      "en": "Wenceslas Square",
+      "fr": "Place Venceslas"
+    },
+    "desc": {
+      "es": "El corazón moderno de Praga. Centro comercial, restaurantes y la historia del siglo XX en cada esquina.",
+      "en": "Prague's modern heart. Shopping, restaurants and 20th century history on every corner.",
+      "fr": "Le cœur moderne de Prague. Shopping, restaurants et histoire du XXe siècle."
+    },
+    "tags": [
+      "walk",
+      "culture",
+      "history",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "josefov",
+    "city": "prague",
+    "destination": "prague",
+    "name": {
+      "es": "Barrio Judío Josefov",
+      "en": "Jewish Quarter Josefov",
+      "fr": "Quartier Juif Josefov"
+    },
+    "desc": {
+      "es": "El barrio judío medieval con seis sinagogas y el cementerio más antiguo de Europa Central.",
+      "en": "The medieval Jewish quarter with six synagogues and Central Europe's oldest cemetery.",
+      "fr": "Le quartier juif médiéval avec six synagogues et le cimetière le plus ancien d'Europe centrale."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 16,
+    "iconic": false
+  },
+  {
+    "id": "shibuya-crossing",
+    "city": "tokyo",
+    "destination": "tokyo",
+    "name": {
+      "es": "Cruce de Shibuya",
+      "en": "Shibuya Crossing",
+      "fr": "Carrefour de Shibuya"
+    },
+    "desc": {
+      "es": "El cruce peatonal más transitado del mundo. 3000 personas cruzando a la vez. Ve al Starbucks de arriba para la vista.",
+      "en": "The world's busiest pedestrian crossing. 3000 people crossing at once. Go to the Starbucks above for the view.",
+      "fr": "Le passage piéton le plus fréquenté au monde. Allez au Starbucks au-dessus pour la vue."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "walk",
+      "photo"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "senso-ji",
+    "city": "tokyo",
+    "destination": "tokyo",
+    "name": {
+      "es": "Templo Senso-ji en Asakusa",
+      "en": "Senso-ji Temple Asakusa",
+      "fr": "Temple Senso-ji à Asakusa"
+    },
+    "desc": {
+      "es": "El templo más antiguo de Tokio. El mercado Nakamise lleva hasta la puerta principal con puestos de street food.",
+      "en": "Tokyo's oldest temple. The Nakamise market leads to the main gate with street food stalls.",
+      "fr": "Le temple le plus ancien de Tokyo. Le marché Nakamise mène à la porte principale."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "spiritual",
+      "history"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "tsukiji-market",
+    "city": "tokyo",
+    "destination": "tokyo",
+    "name": {
+      "es": "Mercado exterior de Tsukiji",
+      "en": "Tsukiji outer market",
+      "fr": "Marché extérieur de Tsukiji"
+    },
+    "desc": {
+      "es": "El mejor sushi de desayuno del mundo. Los puestos abren a las 5h — llega antes de las 8h.",
+      "en": "The world's best breakfast sushi. Stalls open at 5am — arrive before 8am.",
+      "fr": "Le meilleur sushi petit-déjeuner du monde. Les étals ouvrent à 5h — arrivez avant 8h."
+    },
+    "tags": [
+      "food",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 20,
+    "iconic": true
+  },
+  {
+    "id": "shinjuku-golden-gai",
+    "city": "tokyo",
+    "destination": "tokyo",
+    "name": {
+      "es": "Golden Gai de Shinjuku",
+      "en": "Shinjuku Golden Gai",
+      "fr": "Golden Gai de Shinjuku"
+    },
+    "desc": {
+      "es": "200 bares diminutos en 6 callejones. Cada uno con capacidad para 6-8 personas y su propio tema.",
+      "en": "200 tiny bars in 6 alleys. Each with capacity for 6-8 people and its own theme.",
+      "fr": "200 minuscules bars dans 6 ruelles. Chacun avec une capacité de 6-8 personnes."
+    },
+    "tags": [
+      "nightlife",
+      "local",
+      "iconic",
+      "food"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 25,
+    "iconic": true
+  },
+  {
+    "id": "meiji-shrine",
+    "city": "tokyo",
+    "destination": "tokyo",
+    "name": {
+      "es": "Santuario Meiji",
+      "en": "Meiji Shrine",
+      "fr": "Sanctuaire Meiji"
+    },
+    "desc": {
+      "es": "El santuario sintoísta en el centro del bosque de Yoyogi. 70.000 árboles donados de todo Japón.",
+      "en": "The Shinto shrine at the heart of Yoyogi forest. 70,000 trees donated from across Japan.",
+      "fr": "Le sanctuaire shinto au cœur de la forêt Yoyogi. 70 000 arbres donnés de tout le Japon."
+    },
+    "tags": [
+      "culture",
+      "spiritual",
+      "nature",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "teamlab",
+    "city": "tokyo",
+    "destination": "tokyo",
+    "name": {
+      "es": "teamLab Borderless",
+      "en": "teamLab Borderless",
+      "fr": "teamLab Borderless"
+    },
+    "desc": {
+      "es": "El museo de arte digital más visitado del mundo. Una experiencia inmersiva de luz y movimiento.",
+      "en": "The world's most visited digital art museum. An immersive experience of light and movement.",
+      "fr": "Le musée d'art numérique le plus visité au monde. Une expérience immersive de lumière."
+    },
+    "tags": [
+      "art",
+      "culture",
+      "iconic",
+      "tech"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 30,
+    "book_ahead": true,
+    "iconic": false
+  },
+  {
+    "id": "tokyo-ramen",
+    "city": "tokyo",
+    "destination": "tokyo",
+    "name": {
+      "es": "Ramen en Ichiran",
+      "en": "Ramen at Ichiran",
+      "fr": "Ramen chez Ichiran"
+    },
+    "desc": {
+      "es": "El ramen solitario — cada cliente en su propio cubículo individual. El más auténtico y delicioso.",
+      "en": "Solo ramen — each customer in their own individual booth. The most authentic and delicious.",
+      "fr": "Ramen en solo — chaque client dans son propre box individuel."
+    },
+    "tags": [
+      "food",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "harajuku",
+    "city": "tokyo",
+    "destination": "tokyo",
+    "name": {
+      "es": "Harajuku y Takeshita Street",
+      "en": "Harajuku & Takeshita Street",
+      "fr": "Harajuku et Takeshita Street"
+    },
+    "desc": {
+      "es": "La calle más excéntrica del mundo. Moda japonesa extrema, crepes de colores y subcultura pop.",
+      "en": "The world's most eccentric street. Extreme Japanese fashion, coloured crepes and pop subculture.",
+      "fr": "La rue la plus excentrique du monde. Mode japonaise extrême et subculture pop."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "walk",
+      "food"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "iconic": false
+  },
+  {
+    "id": "djemaa-el-fna",
+    "city": "marrakech",
+    "destination": "marrakech",
+    "name": {
+      "es": "Plaza Djemaa el-Fna",
+      "en": "Djemaa el-Fna square",
+      "fr": "Place Djemaa el-Fna"
+    },
+    "desc": {
+      "es": "La plaza más animada del mundo UNESCO. De día — zumos y encantadores de serpientes. De noche — 100 puestos de comida y músicos.",
+      "en": "The world's most vibrant UNESCO square. Day — juices and snake charmers. Night — 100 food stalls and musicians.",
+      "fr": "La place UNESCO la plus animée du monde. Jour — jus et charmeurs de serpents. Nuit — 100 stands de nourriture."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "food",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "medina-souks",
+    "city": "marrakech",
+    "destination": "marrakech",
+    "name": {
+      "es": "Souks de la Medina",
+      "en": "Medina souks",
+      "fr": "Souks de la Médina"
+    },
+    "desc": {
+      "es": "El laberinto de mercados más fascinante del mundo. Especias, cuero, babuchas y alfombras beréberes.",
+      "en": "The world's most fascinating market labyrinth. Spices, leather, babouches and Berber carpets.",
+      "fr": "Le labyrinthe de marchés le plus fascinant du monde. Épices, cuir, babouches et tapis berbères."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "local",
+      "food"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "bahia-palace",
+    "city": "marrakech",
+    "destination": "marrakech",
+    "name": {
+      "es": "Palacio Bahía",
+      "en": "Bahia Palace",
+      "fr": "Palais Bahia"
+    },
+    "desc": {
+      "es": "El palacio más espectacular de Marrakech. 8 hectáreas de jardines, azulejos y madera de cedro tallada.",
+      "en": "Marrakech's most spectacular palace. 8 hectares of gardens, tilework and carved cedarwood.",
+      "fr": "Le palais le plus spectaculaire de Marrakech. 8 hectares de jardins, zelliges et bois de cèdre sculpté."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 8,
+    "iconic": true
+  },
+  {
+    "id": "hammam",
+    "city": "marrakech",
+    "destination": "marrakech",
+    "name": {
+      "es": "Hammam tradicional",
+      "en": "Traditional hammam",
+      "fr": "Hammam traditionnel"
+    },
+    "desc": {
+      "es": "El ritual del baño bereber — vapor, exfoliación con kessa y jabón de argán. La experiencia más local de Marrakech.",
+      "en": "The Berber bathing ritual — steam, kessa scrub and argan soap. Marrakech's most local experience.",
+      "fr": "Le rituel du bain berbère — vapeur, gommage au kessa et savon à l'argan."
+    },
+    "tags": [
+      "relax",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "majorelle-garden",
+    "city": "marrakech",
+    "destination": "marrakech",
+    "name": {
+      "es": "Jardín Majorelle",
+      "en": "Majorelle Garden",
+      "fr": "Jardin Majorelle"
+    },
+    "desc": {
+      "es": "El jardín de Yves Saint Laurent. El azul Majorelle es uno de los colores más fotografiados del mundo.",
+      "en": "Yves Saint Laurent's garden. Majorelle blue is one of the world's most photographed colours.",
+      "fr": "Le jardin d'Yves Saint Laurent. Le bleu Majorelle est l'une des couleurs les plus photographiées."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 8,
+    "iconic": true
+  },
+  {
+    "id": "marrakech-food",
+    "city": "marrakech",
+    "destination": "marrakech",
+    "name": {
+      "es": "Cena en riad con tajine",
+      "en": "Riad dinner with tajine",
+      "fr": "Dîner en riad avec tajine"
+    },
+    "desc": {
+      "es": "Un riad privado con cocina marroquí auténtica — tajine, cuscús y pastilla. La experiencia gastronómica definitiva.",
+      "en": "A private riad with authentic Moroccan cooking — tajine, couscous and pastilla.",
+      "fr": "Un riad privé avec cuisine marocaine authentique — tajine, couscous et pastilla."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 25,
+    "iconic": false
+  },
+  {
+    "id": "atlas-day-trip",
+    "city": "marrakech",
+    "destination": "marrakech",
+    "name": {
+      "es": "Excursión al Atlas",
+      "en": "Atlas Mountains day trip",
+      "fr": "Excursion dans l'Atlas"
+    },
+    "desc": {
+      "es": "Los pueblos beréberes en las faldas del Atlas a 1h de Marrakech. Trekking, mulas y vistas de 4000m.",
+      "en": "Berber villages in the Atlas foothills 1h from Marrakech. Trekking, mules and 4000m views.",
+      "fr": "Villages berbères dans les contreforts de l'Atlas à 1h de Marrakech."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "culture",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 6,
+    "price_eur": 35,
+    "iconic": false
+  },
+  {
+    "id": "central-park",
+    "city": "new-york",
+    "destination": "new-york",
+    "name": {
+      "es": "Central Park",
+      "en": "Central Park",
+      "fr": "Central Park"
+    },
+    "desc": {
+      "es": "El parque más famoso del mundo. 843 acres de naturaleza en el centro de Manhattan — correr, patinar, hacer picnic.",
+      "en": "The world's most famous park. 843 acres of nature in the heart of Manhattan — run, skate, picnic.",
+      "fr": "Le parc le plus célèbre du monde. 843 acres de nature au cœur de Manhattan."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "walk",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "met-museum",
+    "city": "new-york",
+    "destination": "new-york",
+    "name": {
+      "es": "The Metropolitan Museum",
+      "en": "The Metropolitan Museum",
+      "fr": "Le Metropolitan Museum"
+    },
+    "desc": {
+      "es": "Uno de los museos más grandes del mundo. 5000 años de arte en 17 departamentos. Dedica al menos medio día.",
+      "en": "One of the world's largest museums. 5000 years of art in 17 departments. Dedicate at least half a day.",
+      "fr": "L'un des plus grands musées au monde. 5000 ans d'art en 17 départements."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 25,
+    "iconic": true
+  },
+  {
+    "id": "high-line",
+    "city": "new-york",
+    "destination": "new-york",
+    "name": {
+      "es": "The High Line",
+      "en": "The High Line",
+      "fr": "The High Line"
+    },
+    "desc": {
+      "es": "El parque lineal elevado sobre las vías del tren de Manhattan Oeste. Arte, jardines y vistas del Hudson.",
+      "en": "The elevated linear park on West Manhattan's old rail tracks. Art, gardens and Hudson views.",
+      "fr": "Le parc linéaire surélevé sur les anciennes voies ferrées. Art, jardins et vues sur l'Hudson."
+    },
+    "tags": [
+      "walk",
+      "art",
+      "views",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "brooklyn-bridge",
+    "city": "new-york",
+    "destination": "new-york",
+    "name": {
+      "es": "Puente de Brooklyn",
+      "en": "Brooklyn Bridge",
+      "fr": "Pont de Brooklyn"
+    },
+    "desc": {
+      "es": "Cruzar el puente andando desde Manhattan hasta Brooklyn — 30 minutos con las mejores vistas del skyline.",
+      "en": "Walk across from Manhattan to Brooklyn — 30 minutes with the best skyline views.",
+      "fr": "Traverser à pied de Manhattan à Brooklyn — 30 minutes avec les meilleures vues sur les toits."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "walk",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "evening"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "times-square",
+    "city": "new-york",
+    "destination": "new-york",
+    "name": {
+      "es": "Times Square",
+      "en": "Times Square",
+      "fr": "Times Square"
+    },
+    "desc": {
+      "es": "El cruce más famoso del mundo. Abrumador de día, mágico de noche. Ve una sola vez — basta.",
+      "en": "The world's most famous crossroads. Overwhelming by day, magical at night. Go once — that's enough.",
+      "fr": "Le carrefour le plus célèbre du monde. Accablant le jour, magique la nuit."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "photo"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "brooklyn-food",
+    "city": "new-york",
+    "destination": "new-york",
+    "name": {
+      "es": "Brunch en Brooklyn",
+      "en": "Brooklyn brunch",
+      "fr": "Brunch à Brooklyn"
+    },
+    "desc": {
+      "es": "El brunch americano en su máxima expresión. Williamsburg y DUMBO tienen los mejores cafés de NY.",
+      "en": "The American brunch at its finest. Williamsburg and DUMBO have the best cafés in NYC.",
+      "fr": "Le brunch américain à son meilleur. Williamsburg et DUMBO ont les meilleurs cafés de NY."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 25,
+    "iconic": false
+  },
+  {
+    "id": "moma",
+    "city": "new-york",
+    "destination": "new-york",
+    "name": {
+      "es": "MoMA",
+      "en": "MoMA",
+      "fr": "MoMA"
+    },
+    "desc": {
+      "es": "El museo de arte moderno más importante del mundo. Picasso, Warhol, Rothko — todo en uno.",
+      "en": "The world's most important modern art museum. Picasso, Warhol, Rothko — all in one place.",
+      "fr": "Le musée d'art moderne le plus important au monde. Picasso, Warhol, Rothko — tout en un."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 25,
+    "iconic": false
+  },
+  {
+    "id": "nyc-nightlife",
+    "city": "new-york",
+    "destination": "new-york",
+    "name": {
+      "es": "Noche en Nueva York",
+      "en": "New York nightlife",
+      "fr": "Nuit à New York"
+    },
+    "desc": {
+      "es": "Jazz en el Village, cócteles en speakeasies de East Village y clubs de Manhattan hasta las 4h.",
+      "en": "Jazz in the Village, cocktails in East Village speakeasies and Manhattan clubs till 4am.",
+      "fr": "Jazz au Village, cocktails dans des speakeasies et clubs de Manhattan jusqu'à 4h."
+    },
+    "tags": [
+      "nightlife",
+      "local",
+      "culture",
+      "food"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 4,
+    "price_eur": 50,
+    "iconic": false
+  },
+  {
+    "id": "berlin-wall",
+    "city": "berlin",
+    "destination": "berlin",
+    "name": {
+      "es": "East Side Gallery",
+      "en": "East Side Gallery",
+      "fr": "East Side Gallery"
+    },
+    "desc": {
+      "es": "El tramo más largo del Muro de Berlín conservado — 1,3km de murales de artistas de 21 países.",
+      "en": "The longest remaining stretch of the Berlin Wall — 1.3km of murals by artists from 21 countries.",
+      "fr": "La plus longue section conservée du Mur de Berlin — 1,3km de fresques d'artistes de 21 pays."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "art",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "checkpoint-charlie",
+    "city": "berlin",
+    "destination": "berlin",
+    "name": {
+      "es": "Checkpoint Charlie",
+      "en": "Checkpoint Charlie",
+      "fr": "Checkpoint Charlie"
+    },
+    "desc": {
+      "es": "El cruce más famoso de la Guerra Fría. El museo de la pared y las historias de los escapados.",
+      "en": "The most famous Cold War crossing point. The Wall museum and stories of those who escaped.",
+      "fr": "Le point de passage le plus célèbre de la Guerre Froide."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 15,
+    "iconic": true
+  },
+  {
+    "id": "museum-island",
+    "city": "berlin",
+    "destination": "berlin",
+    "name": {
+      "es": "Isla de los Museos",
+      "en": "Museum Island",
+      "fr": "Île aux Musées"
+    },
+    "desc": {
+      "es": "5 museos de clase mundial en una isla del Spree. El Pergamonmuseum es el más espectacular.",
+      "en": "5 world-class museums on a Spree island. The Pergamon Museum is the most spectacular.",
+      "fr": "5 musées de classe mondiale sur une île de la Spree. Le Pergamonmuseum est le plus spectaculaire."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "art",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 19,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "berlin-food",
+    "city": "berlin",
+    "destination": "berlin",
+    "name": {
+      "es": "Currywurst y Döner",
+      "en": "Currywurst & Döner",
+      "fr": "Currywurst et Döner"
+    },
+    "desc": {
+      "es": "Los dos platos más berlineses. Currywurst en Curry 36 y Döner en Mustafa's Gemüse Kebap — la cola siempre vale la pena.",
+      "en": "Berlin's two most iconic dishes. Currywurst at Curry 36 and Döner at Mustafa's — the queue is always worth it.",
+      "fr": "Les deux plats les plus berlinois. Currywurst chez Curry 36 et Döner chez Mustafa's."
+    },
+    "tags": [
+      "food",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "berlin-techno",
+    "city": "berlin",
+    "destination": "berlin",
+    "name": {
+      "es": "Clubbing en Berlín",
+      "en": "Berlin clubbing",
+      "fr": "Clubbing à Berlin"
+    },
+    "desc": {
+      "es": "La mejor escena techno del mundo. Berghain, Tresor, Watergate. Las colas empiezan a las 2h y los clubs abren todo el fin de semana.",
+      "en": "The world's best techno scene. Berghain, Tresor, Watergate. Queues start at 2am and clubs run all weekend.",
+      "fr": "La meilleure scène techno du monde. Berghain, Tresor, Watergate."
+    },
+    "tags": [
+      "nightlife",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 6,
+    "price_eur": 20,
+    "iconic": true
+  },
+  {
+    "id": "tiergarten",
+    "city": "berlin",
+    "destination": "berlin",
+    "name": {
+      "es": "Tiergarten y Puerta de Brandeburgo",
+      "en": "Tiergarten & Brandenburg Gate",
+      "fr": "Tiergarten et Porte de Brandebourg"
+    },
+    "desc": {
+      "es": "El parque más grande de Berlín con la Puerta de Brandeburgo al este. Perfecto en bicicleta.",
+      "en": "Berlin's largest park with the Brandenburg Gate to the east. Perfect by bicycle.",
+      "fr": "Le plus grand parc de Berlin avec la Porte de Brandebourg à l'est."
+    },
+    "tags": [
+      "walk",
+      "iconic",
+      "history",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "wat-pho",
+    "city": "bangkok",
+    "destination": "bangkok",
+    "name": {
+      "es": "Wat Pho — Buda Reclinado",
+      "en": "Wat Pho — Reclining Buddha",
+      "fr": "Wat Pho — Bouddha Couché"
+    },
+    "desc": {
+      "es": "El templo del Buda de 46 metros de largo. La mascarilla de oro cubre los pies — 108 metros de nácar.",
+      "en": "The temple of the 46-metre long Buddha. The gold mask covers feet — 108 metres of mother-of-pearl.",
+      "fr": "Le temple du Bouddha de 46 mètres de long. Le masque d'or couvre les pieds."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "spiritual",
+      "history"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 4,
+    "iconic": true
+  },
+  {
+    "id": "grand-palace",
+    "city": "bangkok",
+    "destination": "bangkok",
+    "name": {
+      "es": "Gran Palacio y Wat Phra Kaew",
+      "en": "Grand Palace & Wat Phra Kaew",
+      "fr": "Grand Palais et Wat Phra Kaew"
+    },
+    "desc": {
+      "es": "El complejo palaciego más impresionante de Asia. El Buda de Esmeralda lleva traje diferente cada estación.",
+      "en": "The most impressive palace complex in Asia. The Emerald Buddha wears a different costume each season.",
+      "fr": "Le complexe palatial le plus impressionnant d'Asie. Le Bouddha d'Émeraude change de costume chaque saison."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 15,
+    "book_ahead": false,
+    "iconic": true
+  },
+  {
+    "id": "chatuchak-market",
+    "city": "bangkok",
+    "destination": "bangkok",
+    "name": {
+      "es": "Mercado de Chatuchak",
+      "en": "Chatuchak Weekend Market",
+      "fr": "Marché du Week-end de Chatuchak"
+    },
+    "desc": {
+      "es": "El mayor mercado de fin de semana del mundo. 15.000 puestos en 35 hectáreas. Solo abre sábado y domingo.",
+      "en": "The world's largest weekend market. 15,000 stalls across 35 hectares. Saturday and Sunday only.",
+      "fr": "Le plus grand marché du week-end au monde. 15 000 stands sur 35 hectares."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "bangkok-street-food",
+    "city": "bangkok",
+    "destination": "bangkok",
+    "name": {
+      "es": "Street food en Chinatown",
+      "en": "Chinatown street food",
+      "fr": "Street food à Chinatown"
+    },
+    "desc": {
+      "es": "La Yaowarat Road de noche — pad thai, pato asado, durian y marisco fresco en la calle más sabrosa de Asia.",
+      "en": "Yaowarat Road at night — pad thai, roast duck, durian and fresh seafood on Asia's tastiest street.",
+      "fr": "La Yaowarat Road de nuit — pad thaï, canard rôti, durian et fruits de mer frais."
+    },
+    "tags": [
+      "food",
+      "iconic",
+      "local",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 15,
+    "iconic": true
+  },
+  {
+    "id": "rooftop-bar",
+    "city": "bangkok",
+    "destination": "bangkok",
+    "name": {
+      "es": "Rooftop bar en Bangkok",
+      "en": "Bangkok rooftop bar",
+      "fr": "Bar sur les toits de Bangkok"
+    },
+    "desc": {
+      "es": "Las vistas de la ciudad desde 60 pisos — Vertigo en el Banyan Tree o Sky Bar en el Lebua.",
+      "en": "City views from 60 floors — Vertigo at the Banyan Tree or Sky Bar at the Lebua.",
+      "fr": "Les vues de la ville depuis 60 étages — Vertigo au Banyan Tree ou Sky Bar au Lebua."
+    },
+    "tags": [
+      "views",
+      "nightlife",
+      "iconic",
+      "food"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 25,
+    "iconic": false
+  },
+  {
+    "id": "chao-phraya",
+    "city": "bangkok",
+    "destination": "bangkok",
+    "name": {
+      "es": "Paseo en barco por el Chao Phraya",
+      "en": "Chao Phraya river boat",
+      "fr": "Bateau sur le Chao Phraya"
+    },
+    "desc": {
+      "es": "El Expreso del Río — €0.50 por viaje en la autopista acuática de Bangkok. La forma más local de moverse.",
+      "en": "The River Express — €0.50 per ride on Bangkok's water highway. The most local way to get around.",
+      "fr": "L'Exprès du Fleuve — €0,50 par trajet sur l'autoroute aquatique de Bangkok."
+    },
+    "tags": [
+      "local",
+      "culture",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 3,
+    "iconic": false
+  },
+  {
+    "id": "schonbrunn",
+    "city": "vienna",
+    "destination": "vienna",
+    "name": {
+      "es": "Palacio de Schönbrunn",
+      "en": "Schönbrunn Palace",
+      "fr": "Palais de Schönbrunn"
+    },
+    "desc": {
+      "es": "La residencia de verano de los Habsburgo — 1441 habitaciones. Los jardines dan una vista perfecta de Viena.",
+      "en": "The Habsburg summer residence — 1441 rooms. The gardens give a perfect view of Vienna.",
+      "fr": "La résidence d'été des Habsbourg — 1441 chambres. Les jardins offrent une vue parfaite de Vienne."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 20,
+    "book_ahead": false,
+    "iconic": true
+  },
+  {
+    "id": "kunsthistorisches",
+    "city": "vienna",
+    "destination": "vienna",
+    "name": {
+      "es": "Kunsthistorisches Museum",
+      "en": "Kunsthistorisches Museum",
+      "fr": "Kunsthistorisches Museum"
+    },
+    "desc": {
+      "es": "El museo más importante de Austria. Velázquez, Vermeer, Bruegel — una colección imperial inigualable.",
+      "en": "Austria's most important museum. Velázquez, Vermeer, Bruegel — an unmatched imperial collection.",
+      "fr": "Le musée le plus important d'Autriche. Velázquez, Vermeer, Bruegel — une collection impériale inégalée."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 21,
+    "book_ahead": false,
+    "iconic": true
+  },
+  {
+    "id": "vienna-coffeehouse",
+    "city": "vienna",
+    "destination": "vienna",
+    "name": {
+      "es": "Café vienés tradicional",
+      "en": "Traditional Viennese coffeehouse",
+      "fr": "Café viennois traditionnel"
+    },
+    "desc": {
+      "es": "El café como institución cultural. Melange, Einspänner y una Sachertorte en el Café Central o Café Landtmann.",
+      "en": "Coffee as cultural institution. Melange, Einspänner and Sachertorte at Café Central or Café Landtmann.",
+      "fr": "Le café comme institution culturelle. Mélange, Einspänner et Sachertorte."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 12,
+    "iconic": true
+  },
+  {
+    "id": "stephansdom",
+    "city": "vienna",
+    "destination": "vienna",
+    "name": {
+      "es": "Catedral de San Esteban",
+      "en": "St Stephen's Cathedral",
+      "fr": "Cathédrale Saint-Étienne"
+    },
+    "desc": {
+      "es": "El símbolo de Viena. El tejado de baldosas de colores es inconfundible — sube a la torre norte para las vistas.",
+      "en": "Vienna's symbol. The coloured tile roof is unmistakable — climb the north tower for the views.",
+      "fr": "Le symbole de Vienne. Le toit en tuiles colorées est inimitable — montez la tour nord pour la vue."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 6,
+    "iconic": true
+  },
+  {
+    "id": "opera-vienna",
+    "city": "vienna",
+    "destination": "vienna",
+    "name": {
+      "es": "Ópera de Viena",
+      "en": "Vienna State Opera",
+      "fr": "Opéra d'État de Vienne"
+    },
+    "desc": {
+      "es": "La ópera más importante del mundo con un repertorio diferente cada noche. Las entradas de pie cuestan €3.",
+      "en": "The world's most important opera with a different repertoire every night. Standing tickets cost €3.",
+      "fr": "L'opéra le plus important au monde avec un répertoire différent chaque soir. Billets debout à 3€."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "music",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 3,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "naschmarkt",
+    "city": "vienna",
+    "destination": "vienna",
+    "name": {
+      "es": "Naschmarkt",
+      "en": "Naschmarkt",
+      "fr": "Naschmarkt"
+    },
+    "desc": {
+      "es": "El mercado más famoso de Viena. 120 puestos de frutas, quesos, aceitunas y cocina del mundo.",
+      "en": "Vienna's most famous market. 120 stalls of fruit, cheese, olives and world cuisine.",
+      "fr": "Le marché le plus célèbre de Vienne. 120 stands de fruits, fromages, olives et cuisine du monde."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "nyhavn",
+    "city": "copenhagen",
+    "destination": "copenhagen",
+    "name": {
+      "es": "Nyhavn",
+      "en": "Nyhavn",
+      "fr": "Nyhavn"
+    },
+    "desc": {
+      "es": "El canal con las casas de colores más fotografiadas del mundo. Bares, barcos históricos y el espíritu danés.",
+      "en": "The canal with the world's most photographed coloured houses. Bars, historic ships and Danish spirit.",
+      "fr": "Le canal avec les maisons colorées les plus photographiées. Bars, bateaux historiques et esprit danois."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "food",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "tivoli",
+    "city": "copenhagen",
+    "destination": "copenhagen",
+    "name": {
+      "es": "Tivoli Gardens",
+      "en": "Tivoli Gardens",
+      "fr": "Jardins de Tivoli"
+    },
+    "desc": {
+      "es": "El parque de atracciones más antiguo del mundo y la inspiración de Walt Disney para Disneyland.",
+      "en": "The world's oldest amusement park and Walt Disney's inspiration for Disneyland.",
+      "fr": "Le plus ancien parc d'attractions du monde et l'inspiration de Walt Disney pour Disneyland."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 20,
+    "iconic": true
+  },
+  {
+    "id": "smk-museum",
+    "city": "copenhagen",
+    "destination": "copenhagen",
+    "name": {
+      "es": "SMK — Museo Nacional de Arte",
+      "en": "SMK National Gallery",
+      "fr": "SMK Galerie Nationale"
+    },
+    "desc": {
+      "es": "La colección de arte más importante de Dinamarca. Los martes es gratis.",
+      "en": "Denmark's most important art collection. Free on Tuesdays.",
+      "fr": "La collection d'art la plus importante du Danemark. Gratuit le mardi."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 16,
+    "iconic": false
+  },
+  {
+    "id": "strøget",
+    "city": "copenhagen",
+    "destination": "copenhagen",
+    "name": {
+      "es": "Strøget — la calle peatonal",
+      "en": "Strøget pedestrian street",
+      "fr": "Strøget rue piétonne"
+    },
+    "desc": {
+      "es": "Una de las calles peatonales más largas de Europa. Diseño danés, cafés y la efervescencia de la ciudad.",
+      "en": "One of Europe's longest pedestrian streets. Danish design, cafés and the city's buzz.",
+      "fr": "L'une des plus longues rues piétonnes d'Europe. Design danois, cafés et effervescence."
+    },
+    "tags": [
+      "walk",
+      "local",
+      "culture",
+      "food"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "copenhagen-food",
+    "city": "copenhagen",
+    "destination": "copenhagen",
+    "name": {
+      "es": "New Nordic en Vesterbro",
+      "en": "New Nordic in Vesterbro",
+      "fr": "New Nordic à Vesterbro"
+    },
+    "desc": {
+      "es": "La revolución gastronómica más influyente del siglo XXI. No necesitas reservar en Noma — hay alternativas increíbles por €30.",
+      "en": "The most influential gastronomic revolution of the 21st century. You don't need Noma — there are incredible alternatives for €30.",
+      "fr": "La révolution gastronomique la plus influente du XXIe siècle."
+    },
+    "tags": [
+      "food",
+      "iconic",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 50,
+    "iconic": false
+  },
+  {
+    "id": "cycling-cph",
+    "city": "copenhagen",
+    "destination": "copenhagen",
+    "name": {
+      "es": "Ciclismo por Copenhague",
+      "en": "Cycling around Copenhagen",
+      "fr": "Vélo à Copenhague"
+    },
+    "desc": {
+      "es": "La ciudad más ciclista del mundo. Alquila una bici y únete a los 675.000 ciclistas diarios.",
+      "en": "The world's most cycling-friendly city. Rent a bike and join the 675,000 daily cyclists.",
+      "fr": "La ville la plus cyclable au monde. Louez un vélo et rejoignez les 675 000 cyclistes quotidiens."
+    },
+    "tags": [
+      "local",
+      "walk",
+      "nature",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 18,
+    "iconic": false
+  },
+  {
+    "id": "hagia-sofia",
+    "city": "istanbul",
+    "destination": "istanbul",
+    "name": {
+      "es": "Hagia Sofía",
+      "en": "Hagia Sophia",
+      "fr": "Sainte-Sophie"
+    },
+    "desc": {
+      "es": "La octava maravilla del mundo — iglesia, mezquita y museo. 1500 años de historia en una cúpula perfecta.",
+      "en": "The eighth wonder of the world — church, mosque and museum. 1500 years of history under a perfect dome.",
+      "fr": "La huitième merveille du monde — église, mosquée et musée. 1500 ans d'histoire."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "blue-mosque",
+    "city": "istanbul",
+    "destination": "istanbul",
+    "name": {
+      "es": "Mezquita Azul",
+      "en": "Blue Mosque",
+      "fr": "Mosquée Bleue"
+    },
+    "desc": {
+      "es": "La única mezquita del mundo con 6 minaretes. Los 20.000 azulejos de Iznik le dan el nombre.",
+      "en": "The world's only mosque with 6 minarets. The 20,000 Iznik tiles give it its name.",
+      "fr": "La seule mosquée au monde avec 6 minarets. Les 20 000 carreaux d'Iznik lui donnent son nom."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "grand-bazaar",
+    "city": "istanbul",
+    "destination": "istanbul",
+    "name": {
+      "es": "Gran Bazar",
+      "en": "Grand Bazaar",
+      "fr": "Grand Bazar"
+    },
+    "desc": {
+      "es": "El bazar cubierto más grande del mundo. 4000 tiendas en 61 callejones. El arte del regateo es obligatorio.",
+      "en": "The world's largest covered bazaar. 4000 shops in 61 alleys. The art of bargaining is mandatory.",
+      "fr": "Le plus grand bazar couvert au monde. 4000 boutiques dans 61 ruelles."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "local",
+      "food"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "bosphorus-cruise",
+    "city": "istanbul",
+    "destination": "istanbul",
+    "name": {
+      "es": "Crucero por el Bósforo",
+      "en": "Bosphorus cruise",
+      "fr": "Croisière sur le Bosphore"
+    },
+    "desc": {
+      "es": "El único estrecho del mundo que separa dos continentes. Los palacios y yalı de la orilla son espectaculares.",
+      "en": "The world's only strait separating two continents. The palaces and yalı on the banks are spectacular.",
+      "fr": "Le seul détroit du monde séparant deux continents. Les palais et yalı sur les rives sont spectaculaires."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "culture",
+      "walk"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "iconic": true
+  },
+  {
+    "id": "topkapi",
+    "city": "istanbul",
+    "destination": "istanbul",
+    "name": {
+      "es": "Palacio Topkapi",
+      "en": "Topkapi Palace",
+      "fr": "Palais de Topkapi"
+    },
+    "desc": {
+      "es": "El centro del Imperio Otomano durante 400 años. El Harem y el Tesoro son los más impresionantes.",
+      "en": "The centre of the Ottoman Empire for 400 years. The Harem and Treasury are the most impressive.",
+      "fr": "Le centre de l'Empire ottoman pendant 400 ans. Le Harem et le Trésor sont les plus impressionnants."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "istanbul-food",
+    "city": "istanbul",
+    "destination": "istanbul",
+    "name": {
+      "es": "Cena en Beyoğlu",
+      "en": "Dinner in Beyoğlu",
+      "fr": "Dîner à Beyoğlu"
+    },
+    "desc": {
+      "es": "El barrio moderno de Estambul. Mezze, kebab, raki y la mejor vida nocturna de la ciudad.",
+      "en": "Istanbul's modern neighbourhood. Mezze, kebab, raki and the city's best nightlife.",
+      "fr": "Le quartier moderne d'Istanbul. Mezze, kebab, raki et la meilleure vie nocturne de la ville."
+    },
+    "tags": [
+      "food",
+      "nightlife",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 25,
+    "iconic": false
+  },
+  {
+    "id": "teotihuacan",
+    "city": "mexico-city",
+    "destination": "mexico-city",
+    "name": {
+      "es": "Teotihuacán",
+      "en": "Teotihuacán",
+      "fr": "Teotihuacán"
+    },
+    "desc": {
+      "es": "Las pirámides más grandes de México a 50km de la ciudad. La Pirámide del Sol tiene 65 metros de altura.",
+      "en": "Mexico's largest pyramids 50km from the city. The Pyramid of the Sun is 65 metres high.",
+      "fr": "Les plus grandes pyramides du Mexique à 50km de la ville. La Pyramide du Soleil culmine à 65m."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "nature",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 5,
+    "price_eur": 5,
+    "iconic": true
+  },
+  {
+    "id": "frida-kahlo-museum",
+    "city": "mexico-city",
+    "destination": "mexico-city",
+    "name": {
+      "es": "Museo Frida Kahlo — La Casa Azul",
+      "en": "Frida Kahlo Museum — La Casa Azul",
+      "fr": "Musée Frida Kahlo — La Casa Azul"
+    },
+    "desc": {
+      "es": "La casa natal de Frida Kahlo en Coyoacán. La más visitada de México — reserva con una semana.",
+      "en": "Frida Kahlo's birthplace in Coyoacán. Mexico's most visited — book a week ahead.",
+      "fr": "La maison natale de Frida Kahlo à Coyoacán. La plus visitée du Mexique — réservez une semaine à l'avance."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 8,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "zocalo",
+    "city": "mexico-city",
+    "destination": "mexico-city",
+    "name": {
+      "es": "Zócalo y Centro Histórico",
+      "en": "Zócalo & Historic Centre",
+      "fr": "Zócalo et Centre Historique"
+    },
+    "desc": {
+      "es": "Una de las plazas más grandes del mundo. La Catedral Metropolitana, el Palacio Nacional y los murales de Rivera.",
+      "en": "One of the world's largest squares. The Metropolitan Cathedral, National Palace and Rivera murals.",
+      "fr": "L'une des plus grandes places du monde. Cathédrale, Palais National et fresques de Rivera."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "condesa-food",
+    "city": "mexico-city",
+    "destination": "mexico-city",
+    "name": {
+      "es": "Tacos en La Condesa",
+      "en": "Tacos in La Condesa",
+      "fr": "Tacos à La Condesa"
+    },
+    "desc": {
+      "es": "El mejor barrio gastronómico de CDMX. Tacos de canasta, tlayudas y mezcal en la terraza.",
+      "en": "CDMX's best food neighbourhood. Basket tacos, tlayudas and mezcal on the terrace.",
+      "fr": "Le meilleur quartier gastronomique de Mexico. Tacos de canasta, tlayudas et mezcal en terrasse."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "bellas-artes",
+    "city": "mexico-city",
+    "destination": "mexico-city",
+    "name": {
+      "es": "Palacio de Bellas Artes",
+      "en": "Palace of Fine Arts",
+      "fr": "Palais des Beaux-Arts"
+    },
+    "desc": {
+      "es": "El teatro más bello de América Latina. Los murales de Rivera, Orozco y Siqueiros en el interior.",
+      "en": "Latin America's most beautiful theatre. Rivera, Orozco and Siqueiros murals inside.",
+      "fr": "Le théâtre le plus beau d'Amérique latine. Fresques de Rivera, Orozco et Siqueiros à l'intérieur."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "iconic",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 5,
+    "iconic": false
+  },
+  {
+    "id": "burj-khalifa",
+    "city": "dubai",
+    "destination": "dubai",
+    "name": {
+      "es": "Burj Khalifa",
+      "en": "Burj Khalifa",
+      "fr": "Burj Khalifa"
+    },
+    "desc": {
+      "es": "El edificio más alto del mundo — 828 metros. La vista desde el piso 124 o 148 es incomparable.",
+      "en": "The world's tallest building — 828 metres. The view from floor 124 or 148 is incomparable.",
+      "fr": "Le bâtiment le plus haut du monde — 828 mètres. La vue depuis le 124e ou 148e étage est incomparable."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "architecture",
+      "photo"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 35,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "dubai-souks",
+    "city": "dubai",
+    "destination": "dubai",
+    "name": {
+      "es": "Souks de oro y especias",
+      "en": "Gold & Spice Souks",
+      "fr": "Souks de l'Or et des Épices"
+    },
+    "desc": {
+      "es": "El souk del oro más grande del mundo — 380 joyerías. El souk de especias al lado huele a azafrán y canela.",
+      "en": "The world's largest gold souk — 380 jewellery shops. The spice souk next door smells of saffron and cinnamon.",
+      "fr": "Le plus grand souk de l'or au monde — 380 bijouteries. Le souk des épices sent le safran et la cannelle."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "iconic",
+      "food"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "desert-safari",
+    "city": "dubai",
+    "destination": "dubai",
+    "name": {
+      "es": "Safari en el desierto",
+      "en": "Desert safari",
+      "fr": "Safari dans le désert"
+    },
+    "desc": {
+      "es": "Dunas de arena roja, dune bashing en 4x4 y cena bajo las estrellas en un campamento beduino.",
+      "en": "Red sand dunes, dune bashing in 4x4s and dinner under the stars at a Bedouin camp.",
+      "fr": "Dunes de sable rouge, dune bashing en 4x4 et dîner sous les étoiles dans un camp bédouin."
+    },
+    "tags": [
+      "adventure",
+      "iconic",
+      "nature",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 6,
+    "price_eur": 60,
+    "iconic": true
+  },
+  {
+    "id": "dubai-food",
+    "city": "dubai",
+    "destination": "dubai",
+    "name": {
+      "es": "Cena en el Dubai Mall",
+      "en": "Dinner at Dubai Mall",
+      "fr": "Dîner au Dubai Mall"
+    },
+    "desc": {
+      "es": "El mall más visitado del mundo — 1200 tiendas y el acuario más grande de un centro comercial.",
+      "en": "The world's most visited mall — 1200 shops and the largest aquarium in a shopping centre.",
+      "fr": "Le mall le plus visité au monde — 1200 boutiques et le plus grand aquarium d'un centre commercial."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 35,
+    "iconic": false
+  },
+  {
+    "id": "dubai-creek",
+    "city": "dubai",
+    "destination": "dubai",
+    "name": {
+      "es": "Paseo en abra por el Creek",
+      "en": "Abra boat ride on the Creek",
+      "fr": "Promenade en abra sur le Creek"
+    },
+    "desc": {
+      "es": "La forma más antigua de cruzar Dubai — barcas de madera por €0.50. El contraste entre el viejo y el nuevo Dubai.",
+      "en": "The oldest way to cross Dubai — wooden boats for €0.50. The contrast between old and new Dubai.",
+      "fr": "La façon la plus ancienne de traverser Dubaï — bateaux en bois pour 0,50€."
+    },
+    "tags": [
+      "local",
+      "culture",
+      "views",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 1,
+    "iconic": false
+  },
+  {
+    "id": "bali-tanah-lot",
+    "city": "bali",
+    "destination": "bali",
+    "name": {
+      "es": "Tanah Lot al atardecer",
+      "en": "Tanah Lot at sunset",
+      "fr": "Tanah Lot au coucher du soleil"
+    },
+    "desc": {
+      "es": "El templo más fotogénico de Bali — sobre una roca en el mar. El atardecer aquí es uno de los mejores del mundo.",
+      "en": "Bali's most photogenic temple — on a rock in the sea. The sunset here is one of the world's best.",
+      "fr": "Le temple le plus photogénique de Bali — sur un rocher en mer. Le coucher du soleil est parmi les plus beaux."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "spiritual",
+      "views",
+      "photo"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 3,
+    "iconic": true
+  },
+  {
+    "id": "ubud-monkey-forest",
+    "city": "bali",
+    "destination": "bali",
+    "name": {
+      "es": "Sacred Monkey Forest de Ubud",
+      "en": "Ubud Sacred Monkey Forest",
+      "fr": "Forêt Sacrée des Singes d'Ubud"
+    },
+    "desc": {
+      "es": "Un bosque sagrado con 1000 monos y tres templos del siglo XIV. Los monos son adorables pero roban todo.",
+      "en": "A sacred forest with 1000 monkeys and three 14th-century temples. The monkeys are adorable but steal everything.",
+      "fr": "Une forêt sacrée avec 1000 singes et trois temples du XIVe siècle."
+    },
+    "tags": [
+      "nature",
+      "culture",
+      "spiritual"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 4,
+    "iconic": false
+  },
+  {
+    "id": "tegalalang-rice",
+    "city": "bali",
+    "destination": "bali",
+    "name": {
+      "es": "Terrazas de arroz de Tegalalang",
+      "en": "Tegalalang rice terraces",
+      "fr": "Rizières en terrasses de Tegalalang"
+    },
+    "desc": {
+      "es": "Las terrazas de arroz más fotogénicas del mundo. El sistema subak de irrigación es Patrimonio UNESCO.",
+      "en": "The world's most photogenic rice terraces. The subak irrigation system is UNESCO heritage.",
+      "fr": "Les rizières en terrasses les plus photogéniques du monde. Le système subak est patrimoine UNESCO."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views",
+      "photo",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 2,
+    "iconic": true
+  },
+  {
+    "id": "bali-yoga",
+    "city": "bali",
+    "destination": "bali",
+    "name": {
+      "es": "Retiro de yoga en Ubud",
+      "en": "Yoga retreat in Ubud",
+      "fr": "Retraite de yoga à Ubud"
+    },
+    "desc": {
+      "es": "La capital mundial del yoga y el bienestar. Clases desde €5 en el Yoga Barn o Radiantly Alive.",
+      "en": "The world capital of yoga and wellness. Classes from €5 at the Yoga Barn or Radiantly Alive.",
+      "fr": "La capitale mondiale du yoga et du bien-être. Cours à partir de 5€."
+    },
+    "tags": [
+      "relax",
+      "spiritual",
+      "local",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "bali-cooking",
+    "city": "bali",
+    "destination": "bali",
+    "name": {
+      "es": "Clase de cocina balinesa",
+      "en": "Balinese cooking class",
+      "fr": "Cours de cuisine balinaise"
+    },
+    "desc": {
+      "es": "Aprende a hacer nasi goreng, mie goreng y satay. La mayoría incluyen visita al mercado local.",
+      "en": "Learn to make nasi goreng, mie goreng and satay. Most include a visit to the local market.",
+      "fr": "Apprenez à faire nasi goreng, mie goreng et satay. La plupart incluent une visite au marché local."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 4,
+    "price_eur": 30,
+    "iconic": false
+  },
+  {
+    "id": "kecak-dance",
+    "city": "bali",
+    "destination": "bali",
+    "name": {
+      "es": "Danza Kecak en Uluwatu",
+      "en": "Kecak dance at Uluwatu",
+      "fr": "Danse Kecak à Uluwatu"
+    },
+    "desc": {
+      "es": "El ritual del fuego al atardecer en el templo del acantilado. 150 hombres cantando kecak con el sol hundiéndose.",
+      "en": "The fire ritual at sunset at the cliff temple. 150 men chanting kecak as the sun sinks.",
+      "fr": "Le rituel du feu au coucher du soleil au temple de la falaise. 150 hommes chantant kecak."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "spiritual",
+      "views",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "iconic": true
   }
 ]

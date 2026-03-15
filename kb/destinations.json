@@ -910,5 +910,1284 @@
         "pricePerNight": 240
       }
     ]
+  },
+  {
+    "slug": "amsterdam",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 140,
+    "tripTypes": [
+      "cultural",
+      "nightlife",
+      "food",
+      "relaxed"
+    ],
+    "highlight": "Canals, world-class museums, cycling culture and the best pub scene in Europe.",
+    "idealDays": [
+      3,
+      7
+    ],
+    "proximityScore": 7,
+    "transport": {
+      "system": "Tram + Metro",
+      "description": "GVB tram network covers the whole city. Buy an OV-chipkaart for all public transport.",
+      "airportTransfer": "Intercity train from Schiphol to Amsterdam Centraal — 17 min, €5",
+      "options": [
+        {
+          "id": "ams-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Amsterdam (AMS)",
+          "desc": "Schiphol es uno de los hubs europeos más conectados. Vuelos desde €40 con antelación.",
+          "url": "https://www.skyscanner.es/vuelos/amsterdam",
+          "priceEst": 80
+        },
+        {
+          "id": "ams-train",
+          "icon": "🚂",
+          "label": "Tren Schiphol → Centraal",
+          "desc": "17 minutos, €5. El más rápido y frecuente — cada 10 minutos.",
+          "url": "",
+          "priceEst": 5
+        },
+        {
+          "id": "ams-tram",
+          "icon": "🚊",
+          "label": "Tranvía GVB — Pase 24h",
+          "desc": "Acceso ilimitado a toda la red de tranvías y metro. €9/día.",
+          "url": "",
+          "priceEst": 9
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "De Pijp",
+        "pricePerNight": 75
+      },
+      {
+        "type": "mid",
+        "zone": "Jordaan",
+        "pricePerNight": 150
+      },
+      {
+        "type": "luxury",
+        "zone": "Canal Ring",
+        "pricePerNight": 350
+      }
+    ]
+  },
+  {
+    "slug": "rome",
+    "name": "Rome",
+    "country": "Italy",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 130,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "history",
+      "romantic"
+    ],
+    "highlight": "2,500 years of history on every corner. The Colosseum, Vatican, and the world's best pasta.",
+    "idealDays": [
+      4,
+      8
+    ],
+    "proximityScore": 8,
+    "transport": {
+      "system": "Metro + Bus",
+      "description": "Only 3 metro lines but buses cover everywhere. Walk the historic centre — most sights are close.",
+      "airportTransfer": "Leonardo Express from Fiumicino to Termini — 32 min, €14",
+      "options": [
+        {
+          "id": "rome-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Roma (FCO/CIA)",
+          "desc": "Dos aeropuertos — Fiumicino (mejor) y Ciampino (low cost). Frecuencias muy altas.",
+          "url": "https://www.skyscanner.es/vuelos/roma",
+          "priceEst": 90
+        },
+        {
+          "id": "rome-express",
+          "icon": "🚂",
+          "label": "Leonardo Express — FCO → Termini",
+          "desc": "32 minutos directos, €14. Sale cada 30 min desde las 6:23 a las 23:23.",
+          "url": "",
+          "priceEst": 14
+        },
+        {
+          "id": "rome-metro",
+          "icon": "🚇",
+          "label": "Metro Roma — Pase 48h",
+          "desc": "€6 por 48h ilimitado en metro y autobús. Suficiente para los principales monumentos.",
+          "url": "",
+          "priceEst": 6
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Trastevere",
+        "pricePerNight": 70
+      },
+      {
+        "type": "mid",
+        "zone": "Campo de' Fiori",
+        "pricePerNight": 140
+      },
+      {
+        "type": "luxury",
+        "zone": "Spanish Steps",
+        "pricePerNight": 380
+      }
+    ]
+  },
+  {
+    "slug": "barcelona",
+    "name": "Barcelona",
+    "country": "Spain",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 120,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "beach",
+      "nightlife",
+      "architecture"
+    ],
+    "highlight": "Gaudí's masterpieces, the best food market in Europe, and Mediterranean beaches.",
+    "idealDays": [
+      4,
+      8
+    ],
+    "proximityScore": 9,
+    "transport": {
+      "system": "Metro + Bus",
+      "description": "10 metro lines cover the whole city. T-Casual 10-trip card is the best value.",
+      "airportTransfer": "Aerobus to Plaça Catalunya — 35 min, €6.75. Or Metro L9 Sud — 45 min, €5.15",
+      "options": [
+        {
+          "id": "bcn-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Barcelona (BCN)",
+          "desc": "El aeropuerto del Prat tiene conexiones directas con más de 200 destinos.",
+          "url": "https://www.skyscanner.es/vuelos/barcelona",
+          "priceEst": 70
+        },
+        {
+          "id": "bcn-aerobus",
+          "icon": "🚌",
+          "label": "Aerobus → Plaça Catalunya",
+          "desc": "35 minutos directos, €6.75. Sale cada 5 minutos de día.",
+          "url": "",
+          "priceEst": 7
+        },
+        {
+          "id": "bcn-metro",
+          "icon": "🚇",
+          "label": "Metro Barcelona — T-Casual",
+          "desc": "10 viajes por €12.15. Válido en metro, bus, FGC y tranvía.",
+          "url": "",
+          "priceEst": 12
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "El Raval",
+        "pricePerNight": 65
+      },
+      {
+        "type": "mid",
+        "zone": "Eixample",
+        "pricePerNight": 130
+      },
+      {
+        "type": "luxury",
+        "zone": "Passeig de Gràcia",
+        "pricePerNight": 320
+      }
+    ]
+  },
+  {
+    "slug": "prague",
+    "name": "Prague",
+    "country": "Czech Republic",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 90,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "nightlife",
+      "romantic"
+    ],
+    "highlight": "The most beautiful medieval city in Europe — Gothic, Baroque and Art Nouveau in one place.",
+    "idealDays": [
+      3,
+      6
+    ],
+    "proximityScore": 7,
+    "transport": {
+      "system": "Metro + Tram",
+      "description": "3 metro lines and 26 tram lines. Night trams run till 5am. Buy a 24h pass.",
+      "airportTransfer": "Bus 119 to Nádraží Veleslavín Metro — 20 min, €1.50",
+      "options": [
+        {
+          "id": "prg-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Praga (PRG)",
+          "desc": "Bien conectado con toda Europa. Ryanair y Wizz Air tienen tarifas muy bajas.",
+          "url": "https://www.skyscanner.es/vuelos/praga",
+          "priceEst": 60
+        },
+        {
+          "id": "prg-transport",
+          "icon": "🚇",
+          "label": "Transporte público 24h",
+          "desc": "€4 por 24h ilimitado en metro, tranvía y autobús. La mejor relación calidad-precio de Europa.",
+          "url": "",
+          "priceEst": 4
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Žižkov",
+        "pricePerNight": 45
+      },
+      {
+        "type": "mid",
+        "zone": "Vinohrady",
+        "pricePerNight": 90
+      },
+      {
+        "type": "luxury",
+        "zone": "Old Town",
+        "pricePerNight": 220
+      }
+    ]
+  },
+  {
+    "slug": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "region": "Asia",
+    "proximity": "far",
+    "type": "city",
+    "avgCostPerDay": 150,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "technology",
+      "nature"
+    ],
+    "highlight": "The most complex, exciting and safe megacity on earth. Infinite layers to discover.",
+    "idealDays": [
+      6,
+      12
+    ],
+    "proximityScore": 4,
+    "transport": {
+      "system": "JR + Metro",
+      "description": "The world's most efficient public transport. IC card (Suica) works on every train and bus in Japan.",
+      "airportTransfer": "Narita Express (N'EX) from NRT — 60 min, €25. Monorail from HND — 25 min, €5",
+      "options": [
+        {
+          "id": "tyo-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Tokio (NRT/HND)",
+          "desc": "12-14 horas desde Europa con escala. Haneda (HND) es más céntrico y preferible.",
+          "url": "https://www.skyscanner.es/vuelos/tokio",
+          "priceEst": 700
+        },
+        {
+          "id": "tyo-suica",
+          "icon": "🚇",
+          "label": "IC Card Suica",
+          "desc": "Tarjeta recargable para todo el transporte en Japón. €5 de depósito + carga inicial.",
+          "url": "",
+          "priceEst": 30
+        },
+        {
+          "id": "tyo-jrpass",
+          "icon": "🚂",
+          "label": "JR Pass 7 días",
+          "desc": "Paso ilimitado en todos los trenes JR de Japón. Imprescindible si vas a viajar entre ciudades.",
+          "url": "https://www.jrpass.com",
+          "priceEst": 250
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Asakusa",
+        "pricePerNight": 60
+      },
+      {
+        "type": "mid",
+        "zone": "Shinjuku",
+        "pricePerNight": 140
+      },
+      {
+        "type": "luxury",
+        "zone": "Ginza",
+        "pricePerNight": 400
+      }
+    ]
+  },
+  {
+    "slug": "marrakech",
+    "name": "Marrakech",
+    "country": "Morocco",
+    "region": "Africa",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 70,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "adventure",
+      "relaxed"
+    ],
+    "highlight": "The Red City — souks, riads, hammams and the Atlas Mountains on the horizon.",
+    "idealDays": [
+      3,
+      7
+    ],
+    "proximityScore": 8,
+    "transport": {
+      "system": "Petit taxi + Walk",
+      "description": "The medina is best explored on foot. Petit taxis for longer distances — always agree price before.",
+      "airportTransfer": "Bus 19 to Djemaa el-Fna — 30 min, €0.50. Petit taxi — 20 min, €6",
+      "options": [
+        {
+          "id": "rak-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Marrakech (RAK)",
+          "desc": "3 horas desde Europa. Ryanair, EasyJet y Royal Air Maroc tienen rutas frecuentes.",
+          "url": "https://www.skyscanner.es/vuelos/marrakech",
+          "priceEst": 80
+        },
+        {
+          "id": "rak-taxi",
+          "icon": "🚗",
+          "label": "Petit taxi — tarjeta de viajes",
+          "desc": "Negociar siempre el precio antes. €2-5 por trayecto en la medina.",
+          "url": "",
+          "priceEst": 20
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Medina",
+        "pricePerNight": 30
+      },
+      {
+        "type": "mid",
+        "zone": "Riad en Medina",
+        "pricePerNight": 80
+      },
+      {
+        "type": "luxury",
+        "zone": "Palmeraie",
+        "pricePerNight": 250
+      }
+    ]
+  },
+  {
+    "slug": "new-york",
+    "name": "New York",
+    "country": "USA",
+    "region": "North America",
+    "proximity": "far",
+    "type": "city",
+    "avgCostPerDay": 200,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "nightlife",
+      "architecture"
+    ],
+    "highlight": "The city that never sleeps. Museums, Broadway, street food and the most iconic skyline on earth.",
+    "idealDays": [
+      5,
+      10
+    ],
+    "proximityScore": 4,
+    "transport": {
+      "system": "Subway + Walk",
+      "description": "The NYC Subway runs 24/7. OMNY contactless payment works on all trains and buses.",
+      "airportTransfer": "AirTrain + Subway from JFK — 60 min, €10. Express Bus from EWR — 45 min, €18",
+      "options": [
+        {
+          "id": "nyc-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Nueva York (JFK/EWR/LGA)",
+          "desc": "7-9 horas desde Europa. JFK y Newark son los principales aeropuertos.",
+          "url": "https://www.skyscanner.es/vuelos/nueva-york",
+          "priceEst": 500
+        },
+        {
+          "id": "nyc-subway",
+          "icon": "🚇",
+          "label": "Subway — Pase semanal",
+          "desc": "€34 por 7 días ilimitados en metro y autobús. La forma más eficiente de moverse.",
+          "url": "",
+          "priceEst": 34
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Queens",
+        "pricePerNight": 100
+      },
+      {
+        "type": "mid",
+        "zone": "Brooklyn",
+        "pricePerNight": 200
+      },
+      {
+        "type": "luxury",
+        "zone": "Manhattan",
+        "pricePerNight": 500
+      }
+    ]
+  },
+  {
+    "slug": "berlin",
+    "name": "Berlin",
+    "country": "Germany",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 110,
+    "tripTypes": [
+      "cultural",
+      "nightlife",
+      "history",
+      "art"
+    ],
+    "highlight": "The most creative city in Europe. Cold War history, world-class clubs and free museum Sundays.",
+    "idealDays": [
+      4,
+      8
+    ],
+    "proximityScore": 7,
+    "transport": {
+      "system": "U-Bahn + S-Bahn",
+      "description": "Comprehensive U-Bahn and S-Bahn network. Berlin WelcomeCard includes unlimited transport.",
+      "airportTransfer": "S-Bahn S9 from BER to Ostbahnhof — 30 min, €4",
+      "options": [
+        {
+          "id": "ber-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Berlín (BER)",
+          "desc": "Bien conectado con toda Europa. El nuevo aeropuerto BER abrió en 2020.",
+          "url": "https://www.skyscanner.es/vuelos/berlin",
+          "priceEst": 70
+        },
+        {
+          "id": "ber-transport",
+          "icon": "🚇",
+          "label": "WelcomeCard 48h",
+          "desc": "€23 por 48h ilimitado en toda la red de transporte público de Berlín.",
+          "url": "",
+          "priceEst": 23
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Neukölln",
+        "pricePerNight": 55
+      },
+      {
+        "type": "mid",
+        "zone": "Prenzlauer Berg",
+        "pricePerNight": 110
+      },
+      {
+        "type": "luxury",
+        "zone": "Mitte",
+        "pricePerNight": 280
+      }
+    ]
+  },
+  {
+    "slug": "bangkok",
+    "name": "Bangkok",
+    "country": "Thailand",
+    "region": "Asia",
+    "proximity": "far",
+    "type": "city",
+    "avgCostPerDay": 80,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "adventure",
+      "nightlife"
+    ],
+    "highlight": "Temples, street food, rooftop bars and chaos in the best possible way.",
+    "idealDays": [
+      4,
+      8
+    ],
+    "proximityScore": 4,
+    "transport": {
+      "system": "BTS Skytrain + MRT + Tuk-tuk",
+      "description": "BTS Skytrain and MRT cover the modern city. Tuk-tuks and boats for the old town.",
+      "airportTransfer": "Airport Rail Link from Suvarnabhumi to Phaya Thai — 30 min, €1.50",
+      "options": [
+        {
+          "id": "bkk-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Bangkok (BKK/DMK)",
+          "desc": "11-13 horas desde Europa. Suvarnabhumi (BKK) es el principal aeropuerto.",
+          "url": "https://www.skyscanner.es/vuelos/bangkok",
+          "priceEst": 550
+        },
+        {
+          "id": "bkk-rabbit",
+          "icon": "🚇",
+          "label": "Rabbit Card — BTS Skytrain",
+          "desc": "Tarjeta recargable para el BTS Skytrain. €1 por viaje en promedio.",
+          "url": "",
+          "priceEst": 20
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Khao San Road",
+        "pricePerNight": 20
+      },
+      {
+        "type": "mid",
+        "zone": "Sukhumvit",
+        "pricePerNight": 60
+      },
+      {
+        "type": "luxury",
+        "zone": "Riverside",
+        "pricePerNight": 200
+      }
+    ]
+  },
+  {
+    "slug": "vienna",
+    "name": "Vienna",
+    "country": "Austria",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 130,
+    "tripTypes": [
+      "cultural",
+      "music",
+      "history",
+      "food",
+      "romantic"
+    ],
+    "highlight": "The Habsburg capital — imperial palaces, world-class opera, coffee houses and Sachertorte.",
+    "idealDays": [
+      3,
+      6
+    ],
+    "proximityScore": 6,
+    "transport": {
+      "system": "U-Bahn + Tram",
+      "description": "5 U-Bahn lines and extensive tram network. Vienna City Card includes unlimited transport + museum discounts.",
+      "airportTransfer": "CAT (City Airport Train) — 16 min, €13. Or S-Bahn — 25 min, €4",
+      "options": [
+        {
+          "id": "vie-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Viena (VIE)",
+          "desc": "Bien conectado con toda Europa. Austrian Airlines y Ryanair tienen buenas frecuencias.",
+          "url": "https://www.skyscanner.es/vuelos/viena",
+          "priceEst": 80
+        },
+        {
+          "id": "vie-card",
+          "icon": "🚇",
+          "label": "Vienna City Card 48h",
+          "desc": "€17 por 48h ilimitado + descuentos en museos y atracciones.",
+          "url": "",
+          "priceEst": 17
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Ottakring",
+        "pricePerNight": 65
+      },
+      {
+        "type": "mid",
+        "zone": "7th district",
+        "pricePerNight": 130
+      },
+      {
+        "type": "luxury",
+        "zone": "Innere Stadt",
+        "pricePerNight": 320
+      }
+    ]
+  },
+  {
+    "slug": "copenhagen",
+    "name": "Copenhagen",
+    "country": "Denmark",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 160,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "design",
+      "relaxed"
+    ],
+    "highlight": "The happiest city in the world. New Nordic cuisine, Noma, cycling culture and hygge.",
+    "idealDays": [
+      3,
+      6
+    ],
+    "proximityScore": 5,
+    "transport": {
+      "system": "Metro + Bike",
+      "description": "The most bike-friendly city in Europe. Metro runs 24/7. City bikes available everywhere.",
+      "airportTransfer": "Metro M2 from CPH to Kongens Nytorv — 15 min, €4",
+      "options": [
+        {
+          "id": "cph-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Copenhague (CPH)",
+          "desc": "2-3 horas desde Europa occidental. SAS y Norwegian tienen buenas rutas.",
+          "url": "https://www.skyscanner.es/vuelos/copenhague",
+          "priceEst": 100
+        },
+        {
+          "id": "cph-bike",
+          "icon": "🚲",
+          "label": "Bicicleta de ciudad",
+          "desc": "€3/hora o €9/día. La forma más local y agradable de moverse por Copenhague.",
+          "url": "",
+          "priceEst": 18
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Nørrebro",
+        "pricePerNight": 80
+      },
+      {
+        "type": "mid",
+        "zone": "Vesterbro",
+        "pricePerNight": 160
+      },
+      {
+        "type": "luxury",
+        "zone": "Indre By",
+        "pricePerNight": 380
+      }
+    ]
+  },
+  {
+    "slug": "istanbul",
+    "name": "Istanbul",
+    "country": "Turkey",
+    "region": "Europe/Asia",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 85,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "history",
+      "adventure"
+    ],
+    "highlight": "The only city in the world on two continents. Byzantine, Ottoman and modern all at once.",
+    "idealDays": [
+      4,
+      8
+    ],
+    "proximityScore": 8,
+    "transport": {
+      "system": "Metro + Tram + Ferry",
+      "description": "Istanbulkart works on all public transport. Ferries cross the Bosphorus every 20 minutes.",
+      "airportTransfer": "Metro from Istanbul Airport to Gayrettepe — 35 min, €2",
+      "options": [
+        {
+          "id": "ist-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Estambul (IST)",
+          "desc": "3 horas desde Europa. Turkish Airlines y Pegasus tienen vuelos frecuentes y baratos.",
+          "url": "https://www.skyscanner.es/vuelos/estambul",
+          "priceEst": 70
+        },
+        {
+          "id": "ist-card",
+          "icon": "🚇",
+          "label": "Istanbulkart",
+          "desc": "Tarjeta recargable para metro, tranvía, autobús y ferry. €0.50 por viaje aproximado.",
+          "url": "",
+          "priceEst": 15
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Sultanahmet",
+        "pricePerNight": 40
+      },
+      {
+        "type": "mid",
+        "zone": "Beyoğlu",
+        "pricePerNight": 90
+      },
+      {
+        "type": "luxury",
+        "zone": "Bosphorus",
+        "pricePerNight": 280
+      }
+    ]
+  },
+  {
+    "slug": "mexico-city",
+    "name": "Mexico City",
+    "country": "Mexico",
+    "region": "Latin America",
+    "proximity": "far",
+    "type": "city",
+    "avgCostPerDay": 90,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "history",
+      "art"
+    ],
+    "highlight": "One of the world's great capitals. Aztec ruins, Diego Rivera murals, and the best tacos on earth.",
+    "idealDays": [
+      5,
+      10
+    ],
+    "proximityScore": 3,
+    "transport": {
+      "system": "Metro + Metrobús",
+      "description": "The largest metro in Latin America — 12 lines, €0.25 per ride. Metrobús for longer distances.",
+      "airportTransfer": "Metro Línea 5 from AIFA — 40 min, €0.25. Taxi from NAIM — 30 min, €12",
+      "options": [
+        {
+          "id": "mex-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Ciudad de México (MEX)",
+          "desc": "11-12 horas desde Europa. Iberia tiene vuelo directo desde Madrid.",
+          "url": "https://www.skyscanner.es/vuelos/ciudad-de-mexico",
+          "priceEst": 600
+        },
+        {
+          "id": "mex-metro",
+          "icon": "🚇",
+          "label": "Metro CDMX",
+          "desc": "€0.25 por viaje en uno de los metros más extensos del mundo. 12 líneas, 195 estaciones.",
+          "url": "",
+          "priceEst": 10
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Centro Histórico",
+        "pricePerNight": 35
+      },
+      {
+        "type": "mid",
+        "zone": "Condesa",
+        "pricePerNight": 85
+      },
+      {
+        "type": "luxury",
+        "zone": "Polanco",
+        "pricePerNight": 250
+      }
+    ]
+  },
+  {
+    "slug": "dubai",
+    "name": "Dubai",
+    "country": "UAE",
+    "region": "Middle East",
+    "proximity": "far",
+    "type": "city",
+    "avgCostPerDay": 180,
+    "tripTypes": [
+      "luxury",
+      "architecture",
+      "food",
+      "adventure"
+    ],
+    "highlight": "The most ambitious city ever built. Burj Khalifa, desert safaris and tax-free shopping.",
+    "idealDays": [
+      3,
+      6
+    ],
+    "proximityScore": 5,
+    "transport": {
+      "system": "Metro + Taxi",
+      "description": "RTA Metro is clean and fast. Taxis are metered and affordable by Western standards.",
+      "airportTransfer": "Metro Red Line from DXB to Downtown — 20 min, €2",
+      "options": [
+        {
+          "id": "dxb-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Dubái (DXB)",
+          "desc": "7 horas desde Europa. Emirates y Flydubai tienen vuelos directos muy frecuentes.",
+          "url": "https://www.skyscanner.es/vuelos/dubai",
+          "priceEst": 350
+        },
+        {
+          "id": "dxb-nol",
+          "icon": "🚇",
+          "label": "Nol Card — Metro RTA",
+          "desc": "Tarjeta recargable para metro y autobús. €1-2 por viaje en promedio.",
+          "url": "",
+          "priceEst": 20
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Deira",
+        "pricePerNight": 60
+      },
+      {
+        "type": "mid",
+        "zone": "Downtown",
+        "pricePerNight": 180
+      },
+      {
+        "type": "luxury",
+        "zone": "Palm Jumeirah",
+        "pricePerNight": 500
+      }
+    ]
+  },
+  {
+    "slug": "lisbon-porto-roadtrip",
+    "name": "Lisboa & Porto Road Trip",
+    "country": "Portugal",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 100,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "relaxed",
+      "nature"
+    ],
+    "highlight": "From Lisbon to Porto along the Atlantic coast — beaches, wine, azulejos and fado.",
+    "idealDays": [
+      6,
+      10
+    ],
+    "proximityScore": 8,
+    "transport": {
+      "system": "Rental car",
+      "description": "Rent in Lisbon, return in Porto. The coastal N247 road is one of Europe's most scenic drives.",
+      "airportTransfer": "Fly into Lisbon (LIS), out of Porto (OPO)",
+      "options": [
+        {
+          "id": "pt-flight-lis",
+          "icon": "✈️",
+          "label": "Vuelo de ida a Lisboa (LIS)",
+          "desc": "2 horas desde Europa. TAP Portugal y Ryanair tienen muchas rutas.",
+          "url": "https://www.skyscanner.es/vuelos/lisboa",
+          "priceEst": 80
+        },
+        {
+          "id": "pt-flight-opo",
+          "icon": "✈️",
+          "label": "Vuelo de vuelta desde Oporto (OPO)",
+          "desc": "Termina el road trip en Oporto y vuela de vuelta.",
+          "url": "https://www.skyscanner.es/vuelos/oporto",
+          "priceEst": 80
+        },
+        {
+          "id": "pt-car",
+          "icon": "🚗",
+          "label": "Coche de alquiler Lisboa → Oporto",
+          "desc": "One-way, ~7 días. A2 y A1 son rápidas; la costa es la ruta escénica.",
+          "url": "https://www.rentalcars.com/?destinationName=Lisboa",
+          "priceEst": 200
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Centros históricos",
+        "pricePerNight": 50
+      },
+      {
+        "type": "mid",
+        "zone": "Boutique guesthouses",
+        "pricePerNight": 100
+      },
+      {
+        "type": "luxury",
+        "zone": "Quintas rurales",
+        "pricePerNight": 240
+      }
+    ]
+  },
+  {
+    "slug": "amalfi-coast-roadtrip",
+    "name": "Amalfi Coast Road Trip",
+    "country": "Italy",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 160,
+    "tripTypes": [
+      "relaxed",
+      "food",
+      "nature",
+      "romantic",
+      "beach"
+    ],
+    "highlight": "Positano, Ravello, Amalfi. Cliffs, limoncello, and the most beautiful coastal road in the world.",
+    "idealDays": [
+      5,
+      9
+    ],
+    "proximityScore": 6,
+    "transport": {
+      "system": "Rental car + Ferry",
+      "description": "Drive the SS163 — the world's most scenic coastal road. Ferries between towns are faster in summer.",
+      "airportTransfer": "Fly into Naples (NAP). Drive or take ferry to the coast — 1.5h.",
+      "options": [
+        {
+          "id": "amalfi-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Nápoles (NAP)",
+          "desc": "2 horas desde Europa. Nápoles es la puerta de entrada a la Costa Amalfitana.",
+          "url": "https://www.skyscanner.es/vuelos/napoles",
+          "priceEst": 100
+        },
+        {
+          "id": "amalfi-car",
+          "icon": "🚗",
+          "label": "Coche de alquiler en Nápoles",
+          "desc": "La SS163 es estrecha y con curvas — conducción solo para valientes. Coche pequeño recomendado.",
+          "url": "https://www.rentalcars.com/?destinationName=Napoles",
+          "priceEst": 250
+        },
+        {
+          "id": "amalfi-ferry",
+          "icon": "⛴️",
+          "label": "Ferry entre pueblos",
+          "desc": "Positano-Amalfi-Salerno. €8-15 por trayecto. La forma más relajante y scenic de moverse.",
+          "url": "",
+          "priceEst": 40
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Salerno",
+        "pricePerNight": 60
+      },
+      {
+        "type": "mid",
+        "zone": "Amalfi",
+        "pricePerNight": 160
+      },
+      {
+        "type": "luxury",
+        "zone": "Positano",
+        "pricePerNight": 420
+      }
+    ]
+  },
+  {
+    "slug": "scotland-roadtrip",
+    "name": "Scotland Road Trip",
+    "country": "UK",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 130,
+    "tripTypes": [
+      "nature",
+      "adventure",
+      "cultural",
+      "relaxed"
+    ],
+    "highlight": "The NC500 — highlands, lochs, castles and whisky distilleries on the most dramatic road in Europe.",
+    "idealDays": [
+      6,
+      12
+    ],
+    "proximityScore": 5,
+    "transport": {
+      "system": "Rental car",
+      "description": "Drive on the left. Single-track roads in the Highlands — give way at passing places.",
+      "airportTransfer": "Fly into Edinburgh (EDI) or Inverness (INV). Start the NC500 from Inverness.",
+      "options": [
+        {
+          "id": "sco-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Edimburgo (EDI) o Inverness (INV)",
+          "desc": "2 horas desde Europa continental. EasyJet y British Airways tienen buenas rutas.",
+          "url": "https://www.skyscanner.es/vuelos/edimburgo",
+          "priceEst": 80
+        },
+        {
+          "id": "sco-car",
+          "icon": "🚗",
+          "label": "Coche de alquiler — conducción a la izquierda",
+          "desc": "El NC500 es de 800km. Reserva con antelación en temporada alta (julio-agosto).",
+          "url": "https://www.rentalcars.com/?destinationName=Inverness",
+          "priceEst": 300
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "B&Bs",
+        "pricePerNight": 55
+      },
+      {
+        "type": "mid",
+        "zone": "Country hotels",
+        "pricePerNight": 130
+      },
+      {
+        "type": "luxury",
+        "zone": "Castle hotels",
+        "pricePerNight": 350
+      }
+    ]
+  },
+  {
+    "slug": "morocco-roadtrip",
+    "name": "Morocco Road Trip",
+    "country": "Morocco",
+    "region": "Africa",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 75,
+    "tripTypes": [
+      "cultural",
+      "adventure",
+      "nature",
+      "food"
+    ],
+    "highlight": "Marrakech → Sahara → Fes. Desert dunes, Berber villages and the most colourful medinas in the world.",
+    "idealDays": [
+      7,
+      12
+    ],
+    "proximityScore": 7,
+    "transport": {
+      "system": "Rental car + Grand taxi",
+      "description": "Good roads between major cities. Grand taxis for shorter hops between towns.",
+      "airportTransfer": "Fly into Marrakech (RAK) or Casablanca (CMN). Start the circuit from Marrakech.",
+      "options": [
+        {
+          "id": "mar-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Marrakech (RAK)",
+          "desc": "3 horas desde Europa. Ryanair y EasyJet tienen tarifas muy competitivas.",
+          "url": "https://www.skyscanner.es/vuelos/marrakech",
+          "priceEst": 80
+        },
+        {
+          "id": "mar-car",
+          "icon": "🚗",
+          "label": "Coche de alquiler en Marrakech",
+          "desc": "Carreteras buenas entre ciudades principales. Conducción más desafiante en zonas rurales.",
+          "url": "https://www.rentalcars.com/?destinationName=Marrakech",
+          "priceEst": 180
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Medinas",
+        "pricePerNight": 25
+      },
+      {
+        "type": "mid",
+        "zone": "Riads",
+        "pricePerNight": 70
+      },
+      {
+        "type": "luxury",
+        "zone": "Desert camps + Riads",
+        "pricePerNight": 200
+      }
+    ]
+  },
+  {
+    "slug": "bali",
+    "name": "Bali",
+    "country": "Indonesia",
+    "region": "Asia",
+    "proximity": "far",
+    "type": "city",
+    "avgCostPerDay": 70,
+    "tripTypes": [
+      "relaxed",
+      "nature",
+      "spiritual",
+      "adventure",
+      "food"
+    ],
+    "highlight": "Rice terraces, Hindu temples, surf, yoga and the most photogenic sunsets on earth.",
+    "idealDays": [
+      7,
+      14
+    ],
+    "proximityScore": 3,
+    "transport": {
+      "system": "Scooter + Driver",
+      "description": "Rent a scooter (€5/day) or hire a driver for the day (€30-40). No reliable public transport.",
+      "airportTransfer": "Taxi from Ngurah Rai (DPS) to Seminyak — 20 min, €6. To Ubud — 60 min, €20",
+      "options": [
+        {
+          "id": "bali-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Bali (DPS)",
+          "desc": "15-17 horas desde Europa con escala (Dubai, Singapur o KL). Reserva con antelación.",
+          "url": "https://www.skyscanner.es/vuelos/bali",
+          "priceEst": 600
+        },
+        {
+          "id": "bali-scooter",
+          "icon": "🛵",
+          "label": "Scooter de alquiler",
+          "desc": "€5-7 por día. La forma más flexible de explorar la isla. Requiere carnet de moto.",
+          "url": "",
+          "priceEst": 35
+        },
+        {
+          "id": "bali-driver",
+          "icon": "🚗",
+          "label": "Chófer por día",
+          "desc": "€30-40 por día completo. Ideal para zonas montañosas o visitas a múltiples templos.",
+          "url": "",
+          "priceEst": 40
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Seminyak",
+        "pricePerNight": 20
+      },
+      {
+        "type": "mid",
+        "zone": "Ubud",
+        "pricePerNight": 60
+      },
+      {
+        "type": "luxury",
+        "zone": "Nusa Dua",
+        "pricePerNight": 200
+      }
+    ]
+  },
+  {
+    "slug": "new-zealand-roadtrip",
+    "name": "New Zealand South Island",
+    "country": "New Zealand",
+    "region": "Oceania",
+    "proximity": "far",
+    "type": "roadtrip",
+    "avgCostPerDay": 160,
+    "tripTypes": [
+      "nature",
+      "adventure",
+      "relaxed"
+    ],
+    "highlight": "Fiordland, Queenstown, Milford Sound. The most dramatic natural landscapes on earth.",
+    "idealDays": [
+      10,
+      16
+    ],
+    "proximityScore": 2,
+    "transport": {
+      "system": "Rental car + Campervan",
+      "description": "Drive on the left. Roads are excellent. Campervan is the classic way — freedom camping is legal.",
+      "airportTransfer": "Fly into Christchurch (CHC). Drive or fly to Queenstown (ZQN) to start.",
+      "options": [
+        {
+          "id": "nz-flight",
+          "icon": "✈️",
+          "label": "Vuelo a Christchurch (CHC)",
+          "desc": "24-27 horas desde Europa con 1-2 escalas. Air New Zealand vía Los Ángeles o Singapur.",
+          "url": "https://www.skyscanner.es/vuelos/christchurch",
+          "priceEst": 1200
+        },
+        {
+          "id": "nz-campervan",
+          "icon": "🚗",
+          "label": "Campervan — Maui o Jucy",
+          "desc": "La forma clásica de hacer Nueva Zelanda. €90-150/día todo incluido.",
+          "url": "https://www.rentalcars.com/?destinationName=Christchurch",
+          "priceEst": 900
+        }
+      ]
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Holiday parks",
+        "pricePerNight": 30
+      },
+      {
+        "type": "mid",
+        "zone": "Lodges",
+        "pricePerNight": 130
+      },
+      {
+        "type": "luxury",
+        "zone": "Luxury lodges",
+        "pricePerNight": 500
+      }
+    ]
   }
 ]
