@@ -220,6 +220,7 @@ input::placeholder{color:var(--muted)}
   color:var(--ink);line-height:2;padding:2.2rem 2.5rem 1.8rem 3.2rem;
   background:var(--white);border-radius:var(--r-lg);border:1px solid var(--border);
   margin-bottom:2.2rem;box-shadow:var(--shadow-md);position:relative;border-left:4px solid var(--forest-mid)}
+.itin-intro:empty{display:none}
 .itin-intro::before{content:'"';font-family:var(--font-display);font-size:5rem;
   color:var(--forest-light);position:absolute;top:-.7rem;left:1rem;line-height:1;opacity:.7}
 
@@ -632,7 +633,7 @@ input::placeholder{color:var(--muted)}
 
   <div class="itin-wrap" id="itinWrap">
     <!-- EDITORIAL GUIDE -->
-    <div id="itinIntro" class="itin-intro" style="display:none"></div>
+    <div id="itinIntro" class="itin-intro"></div>
     <div id="transportBlock"></div>
     <div id="areasBlock"></div>
     <div id="experiencesBlock"></div>
@@ -992,13 +993,18 @@ function renderTrip(trip){
 
   // AI intro
   const introEl = document.getElementById('itinIntro');
-  if(trip.introduction){
-    // Convert plain text sentences to styled paragraphs
-    const html = trip.introduction
-      .split(/\n+/).filter(s => s.trim())
-      .map(s => `<p>${s.trim()}</p>`).join('');
-    introEl.innerHTML = html || trip.introduction;
+  const introText = trip.introduction || '';
+  if (introText) {
+    // Split on sentences or newlines, wrap each in <p>
+    const paras = introText
+      .split(/(?<=[.!?])\s+|\n+/)
+      .map(s => s.trim())
+      .filter(s => s.length > 10);
+    introEl.innerHTML = paras.length
+      ? paras.map(s => `<p>${s}</p>`).join('')
+      : `<p>${introText}</p>`;
     introEl.style.display = 'block';
+    introEl.style.removeProperty('display'); // clear any inline override
   } else {
     introEl.style.display = 'none';
   }
