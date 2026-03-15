@@ -417,6 +417,35 @@ input::placeholder{color:var(--muted)}
 .summary-act-remove:hover{background:var(--terracotta);color:#fff}
 .summary-empty{font-size:.82rem;color:var(--muted);font-style:italic;padding:.4rem 0}
 
+
+/* ── HOW TO GET THERE ── */
+.howto-grid{display:flex;flex-direction:column;gap:.5rem;margin-top:.8rem}
+.howto-row{display:grid;grid-template-columns:24px 80px 80px 1fr auto;align-items:center;gap:.7rem;
+  padding:.6rem .8rem;background:rgba(255,255,255,.07);border-radius:8px;
+  border:1px solid rgba(255,255,255,.1)}
+.howto-icon{font-size:1rem;text-align:center}
+.howto-label{font-size:.78rem;font-weight:700;color:#fff}
+.howto-time{font-size:.72rem;color:rgba(255,255,255,.55)}
+.howto-price{font-size:.75rem;color:#86EFAC;font-weight:600}
+.howto-link{font-size:.65rem;font-weight:700;color:#86EFAC;text-decoration:none;
+  border:1px solid rgba(134,239,172,.3);border-radius:5px;padding:.15rem .5rem;
+  white-space:nowrap;transition:all .14s}
+.howto-link:hover{background:rgba(134,239,172,.15)}
+.tc-option-price{font-size:.7rem;color:#86EFAC;font-weight:600;margin-top:.2rem}
+
+/* ── ACCOMMODATION TIERS ── */
+.accom-tier-badge{font-size:.6rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;
+  padding:.18rem .55rem;border-radius:5px;background:var(--forest-light);color:var(--forest);
+  white-space:nowrap}
+.accom-per-night{font-size:.65rem;color:var(--muted);font-weight:400}
+
+/* ── ACTIVITY PRICE TAGS ── */
+.act-price{font-size:.58rem;font-weight:700;padding:.1rem .38rem;border-radius:4px;margin-left:.25rem;vertical-align:middle}
+.act-price.free{background:#dcfce7;color:#166534}
+.act-price.low{background:#fef9c3;color:#854d0e}
+.act-price.mid{background:#fee2e2;color:#991b1b}
+.act-chip-name{vertical-align:middle}
+
 /* ── RESPONSIVE ── */
 @media(max-width:900px){
   .hero{grid-template-columns:1fr;min-height:auto}
@@ -786,6 +815,19 @@ async function doSearch(){
 // ═══════════════════════════════════
 const PROXIMITY_LABELS = { nearby:'nearbyLbl', far:'farLbl' };
 
+// Distance classification based on km
+function distanceLabel(km) {
+  if (!km) return '';
+  const L = {
+    local:  {es:'Escapada local',   en:'Local getaway',    fr:'Escapade locale'},
+    near:   {es:'Destino cercano',  en:'Nearby destination',fr:'Destination proche'},
+    medium: {es:'Destino medio',    en:'Mid-range',         fr:'Destination moyenne'},
+    far:    {es:'Destino lejano',   en:'Far destination',   fr:'Destination lointaine'},
+  };
+  const k = km < 400 ? 'local' : km < 1200 ? 'near' : km < 3000 ? 'medium' : 'far';
+  return L[k][lang] || L[k].en;
+}
+
 function renderProposals(proposals, days){
   const grid = document.getElementById('proposalsGrid');
   grid.innerHTML = proposals.map((p, i)=>{
@@ -793,7 +835,7 @@ function renderProposals(proposals, days){
     const tagsHTML = (p.tags||[]).slice(0,3).map(tag=>`<span class="pc-tag">${tag}</span>`).join('');
     return `<div class="proposal-card" id="pc-${i}" onclick="selectProposal(${i})" data-slug="${p.slug}">
       <div class="pc-top">
-        <div class="pc-badge">${t(badgeKey)}</div>
+        <div class="pc-badge">${p.distanceKm ? distanceLabel(p.distanceKm) : t(badgeKey)}</div>
         <div class="pc-name">${p.name}</div>
         <div class="pc-country">${p.country}${p.region ? ' · '+p.region : ''}</div>
       </div>
@@ -804,6 +846,10 @@ function renderProposals(proposals, days){
             <span class="pc-meta-label">${t('estCostLbl')}</span>
             <span class="pc-meta-val">~€${p.estimatedCostTotal?.toLocaleString()}</span>
           </div>
+          ${p.distanceKm ? `<div class="pc-meta-row">
+            <span class="pc-meta-label">${{es:'Distancia',en:'Distance',fr:'Distance'}[lang]}</span>
+            <span class="pc-meta-val">${p.distanceKm} km · ${distanceLabel(p.distanceKm)}</span>
+          </div>` : ''}
           <div class="pc-meta-row">
             <span class="pc-meta-label">${t('tagsLbl')}</span>
             <span class="pc-meta-val">${(p.tags||[]).join(', ')}</span>
@@ -917,26 +963,36 @@ function renderTransport(tr, dest){
   const el = document.getElementById('transportBlock');
   if(!tr){ el.innerHTML=''; return; }
 
+  const dist   = tr.distanceKm || 0;
+  const season = tr.season || 'medium';
+  const seasonL = {high:{es:'temporada alta',en:'high season',fr:'haute saison'},medium:{es:'temporada media',en:'mid season',fr:'mi-saison'},low:{es:'temporada baja',en:'low season',fr:'basse saison'}}[season]?.[lang] || season;
+
+  // Build how-to-get-there estimates from distance
+  const howTo = buildHowToGetThere(dist, dest, lang);
+
+  // Addable options from KB
   const options = tr.options || [];
   const items = options.length ? options : [
     tr.system && { id:'transport-main', icon:guessIcon(tr.system), label:tr.system, desc:tr.description||'', url:buildSearchUrl(tr.system,dest) },
-    tr.airportTransfer && { id:'transport-airport', icon:'✈️', label:{es:'Traslado aeropuerto',en:'Airport transfer',fr:'Transfert aéroport'}[lang], desc:tr.airportTransfer, url:'' },
   ].filter(Boolean);
 
-  const rows = items.map(item => {
+  const optRows = items.map(item => {
     const added = selectedActivities.some(x => x.id === item.id);
     const itemLabel = loc(item.label) || item.label || '';
     const itemDesc  = loc(item.desc)  || item.desc  || '';
-    return `<div class="tc-option" id="tco-${item.id}">
+    // Affiliate hook — data-aff attribute ready for future integration
+    const affUrl = item.url || buildSearchUrl(itemLabel, dest);
+    return `<div class="tc-option" id="tco-${item.id}" data-aff-type="transport" data-aff-dest="${dest}">
       <div class="tc-option-left">
         <span class="tc-option-icon">${item.icon||'🚌'}</span>
         <div>
           <div class="tc-option-label">${itemLabel}</div>
           ${itemDesc ? `<div class="tc-option-desc">${itemDesc}</div>` : ''}
+          ${item.priceEst ? `<div class="tc-option-price">~€${item.priceEst}</div>` : ''}
         </div>
       </div>
       <div class="tc-option-right">
-        ${item.url ? `<a class="tc-search-link" href="${item.url}" target="_blank" rel="noopener">${t('searchLink')}</a>` : ''}
+        ${affUrl ? `<a class="tc-search-link" href="${affUrl}" target="_blank" rel="noopener">${t('searchLink')}</a>` : ''}
         <button class="tc-add-btn ${added?'added':''}" onclick="toggleTransport('${item.id}','${itemLabel}','${item.icon||'🚌'}')">
           ${added ? t('addedTransport') : t('addTransport')}
         </button>
@@ -945,8 +1001,47 @@ function renderTransport(tr, dest){
   }).join('');
 
   el.innerHTML = `<div class="transport-card" style="margin-bottom:1.5rem">
-    <div class="tc-badge">🗺️ ${t('transportLbl')} · ${dest}</div>
-    <div class="tc-options">${rows}</div>
+    <div class="tc-badge">🗺️ ${t('transportLbl')} · ${dest} ${dist ? `· ${dist}km · ${distanceLabel(dist)}` : ''}</div>
+    ${howTo}
+    ${optRows ? `<div class="tc-options" style="margin-top:.8rem">${optRows}</div>` : ''}
+  </div>`;
+}
+
+function buildHowToGetThere(dist, dest, lang) {
+  if (!dist) return '';
+  const rows = [];
+  const L = { from:{es:'desde',en:'from',fr:'depuis'}, approx:{es:'aprox.',en:'approx.',fr:'environ'}, perPerson:{es:'p.p.',en:'p.p.',fr:'p.p.'} };
+  const l = k => L[k][lang] || L[k].en;
+
+  // Flight
+  if (dist > 200) {
+    const flightH  = dist < 800 ? '1h30–2h30' : dist < 3000 ? '2h30–4h' : '10–14h';
+    const flightP  = dist < 800 ? '60–150' : dist < 3000 ? '120–300' : '400–800';
+    const flightUrl = `https://www.skyscanner.es/vuelos/${encodeURIComponent(dest.toLowerCase())}`;
+    rows.push({icon:'✈️', label:{es:'Vuelo',en:'Flight',fr:'Vol'}, time:flightH, price:flightP, url:flightUrl, affType:'flight'});
+  }
+  // Train
+  if (dist < 1200) {
+    const trainH = dist < 300 ? '0h45–2h' : dist < 600 ? '2h–4h' : '4h–7h';
+    const trainP = dist < 300 ? '15–40' : dist < 600 ? '30–90' : '60–140';
+    const trainUrl = `https://www.thetrainline.com/search?destination=${encodeURIComponent(dest)}`;
+    rows.push({icon:'🚂', label:{es:'Tren',en:'Train',fr:'Train'}, time:trainH, price:trainP, url:trainUrl, affType:'train'});
+  }
+  // Car
+  if (dist < 800) {
+    const carH = Math.round(dist/85*10)/10 + 'h';
+    rows.push({icon:'🚗', label:{es:'Coche',en:'Car',fr:'Voiture'}, time:`~${carH}`, price:'combustible', url:'', affType:'car'});
+  }
+
+  return `<div class="howto-grid">
+    ${rows.map(r => `
+    <div class="howto-row" data-aff-type="${r.affType}" data-aff-dest="${dest}">
+      <span class="howto-icon">${r.icon}</span>
+      <span class="howto-label">${r.label[lang]||r.label.en}</span>
+      <span class="howto-time">${r.time}</span>
+      <span class="howto-price">~€${r.price} ${l('perPerson')}</span>
+      ${r.url ? `<a class="howto-link" href="${r.url}" target="_blank" rel="noopener">${t('searchLink')}</a>` : '<span></span>'}
+    </div>`).join('')}
   </div>`;
 }
 
@@ -955,16 +1050,24 @@ function renderAccom(accom, dest){
   if(!accom?.length){ el.innerHTML=''; return; }
   const BOOK_URL = `https://www.booking.com/search.html?ss=${encodeURIComponent(dest)}`;
 
+  const tierLabels = {
+    budget:  {es:'Económico',    en:'Budget',      fr:'Économique'},
+    mid:     {es:'Estándar',     en:'Mid-range',   fr:'Standard'},
+    luxury:  {es:'Premium',      en:'Nice stay',   fr:'Confort +'},
+  };
   const rows = accom.map(a => {
     const id    = `hotel-${a.type}`;
-    const label = `🏨 ${a.zone} (~€${a.pricePerNight}/noche)`;
+    const tLabel = (tierLabels[a.type] || tierLabels.mid)[lang] || a.type;
+    const label = `🏨 ${tLabel} · ${a.zone} (~€${a.pricePerNight}/noche)`;
     const added = selectedActivities.some(x => x.id === id);
-    return `<div class="accom-row" id="acr-${id}">
-      <span class="accom-type">${a.type}</span>
+    // Affiliate hook — data-aff ready for Booking.com / Hotels.com partner links
+    const affUrl = `https://www.booking.com/search.html?ss=${encodeURIComponent(dest)}&price_min=${Math.round(a.pricePerNight*0.8)}&price_max=${Math.round(a.pricePerNight*1.2)}`;
+    return `<div class="accom-row" id="acr-${id}" data-aff-type="hotel" data-aff-dest="${dest}">
+      <div class="accom-tier-badge">${tLabel}</div>
       <span class="accom-zone">${a.zone}</span>
-      <span class="accom-price">~€${a.pricePerNight}/noche</span>
+      <span class="accom-price">~€${a.pricePerNight}<span class="accom-per-night">/${{es:'noche',en:'night',fr:'nuit'}[lang]}</span></span>
       <div style="display:flex;gap:.4rem;align-items:center">
-        <a class="accom-link" href="${BOOK_URL}" target="_blank" rel="noopener">Ver →</a>
+        <a class="accom-link" href="${affUrl}" target="_blank" rel="noopener">{{"es":"Ver →","en":"View →","fr":"Voir →"}[lang] || 'View →'}</a>
         <button class="accom-add-btn ${added?'added':''}" onclick="toggleAccom('${id}','${label}')">
           ${added ? t('addedTransport') : t('addTransport')}
         </button>
@@ -1088,8 +1191,19 @@ function renderDays(days, dest){
       <div class="act-chips">${day.activities.map(a=>{
         const id = `day${n}-${a}`;
         const added = selectedActivities.some(x=>x.id===id);
-        return `<span class="act-chip ${added?'added':''}" id="chip-${id}">
-          ${a}
+        // Look up activity data for price display
+        const actData = (currentTrip?._activities||[]).find(x=>x.id===a);
+        const priceTag = actData
+          ? (actData.price_eur === 0
+              ? `<span class="act-price free">${{es:'Gratis',en:'Free',fr:'Gratuit'}[lang]}</span>`
+              : actData.price_eur <= 15
+                ? `<span class="act-price low">€${actData.price_eur}</span>`
+                : `<span class="act-price mid">€${actData.price_eur}</span>`)
+          : '';
+        // Affiliate hook for activities (GetYourGuide/Viator style)
+        const affUrl = `https://www.getyourguide.com/s/?q=${encodeURIComponent(a+' '+dest)}`;
+        return `<span class="act-chip ${added?'added':''}" id="chip-${id}" data-aff-type="activity" data-aff-id="${a}">
+          <span class="act-chip-name">${a}</span>${priceTag}
           <button class="act-add-btn ${added?'added':''}" onclick="toggleActivity('${id}','${a}',${n})">${added ? t('addedActBtn') : t('addActBtn')}</button>
         </span>`;
       }).join('')}</div>
