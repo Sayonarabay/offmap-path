@@ -13,13 +13,5 @@
   "routes": [
     { "src": "/api/(.*)", "dest": "/server.js" },
     { "src": "/(.*)",     "dest": "/public/$1" }
-  ],
-  "env": {
-    "ANTHROPIC_API_KEY": "@anthropic_api_key",
-    "EMAIL_HOST":        "@email_host",
-    "EMAIL_PORT":        "@email_port",
-    "EMAIL_USER":        "@email_user",
-    "EMAIL_PASS":        "@email_pass",
-    "EMAIL_FROM":        "@email_from"
-  }
+  ]
 }
