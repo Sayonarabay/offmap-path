@@ -925,17 +925,19 @@ function renderTransport(tr, dest){
 
   const rows = items.map(item => {
     const added = selectedActivities.some(x => x.id === item.id);
+    const itemLabel = loc(item.label) || item.label || '';
+    const itemDesc  = loc(item.desc)  || item.desc  || '';
     return `<div class="tc-option" id="tco-${item.id}">
       <div class="tc-option-left">
         <span class="tc-option-icon">${item.icon||'🚌'}</span>
         <div>
-          <div class="tc-option-label">${item.label}</div>
-          ${item.desc ? `<div class="tc-option-desc">${item.desc}</div>` : ''}
+          <div class="tc-option-label">${itemLabel}</div>
+          ${itemDesc ? `<div class="tc-option-desc">${itemDesc}</div>` : ''}
         </div>
       </div>
       <div class="tc-option-right">
         ${item.url ? `<a class="tc-search-link" href="${item.url}" target="_blank" rel="noopener">${t('searchLink')}</a>` : ''}
-        <button class="tc-add-btn ${added?'added':''}" onclick="toggleTransport('${item.id}','${item.label}','${item.icon||'🚌'}')">
+        <button class="tc-add-btn ${added?'added':''}" onclick="toggleTransport('${item.id}','${itemLabel}','${item.icon||'🚌'}')">
           ${added ? t('addedTransport') : t('addTransport')}
         </button>
       </div>
@@ -995,7 +997,7 @@ function autoSelectAll(trip) {
   // Transport → all pre-selected
   const trOptions = trip.transport?.options || [];
   trOptions.forEach(item => {
-    selectedActivities.push({ id: item.id, label: item.label, day: 0, icon: item.icon||'🚌', price: item.priceEst||0 });
+    selectedActivities.push({ id: item.id, label: loc(item.label)||item.id, day: 0, icon: item.icon||'🚌', price: item.priceEst||0 });
   });
   if (!trOptions.length && trip.transport?.system) {
     selectedActivities.push({ id:'transport-main', label:trip.transport.system, day:0, icon:guessIcon(trip.transport.system), price:0 });
