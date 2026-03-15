@@ -1,6 +1,7 @@
 const { buildTrip, mergeAI }    = require('./services/tripBuilder');
 const { personalize }           = require('./services/aiPersonalization');
 const { buildTransportOptions } = require('./services/transportBuilder');
+const { getActivities }         = require('./services/knowledgeBase');
 
 module.exports = async (req, res) => {
   if (req.method !== 'POST') return res.status(405).end();
@@ -26,6 +27,9 @@ module.exports = async (req, res) => {
     });
     trip.transport = { ...(trip.transport || {}), options, season, distanceKm };
   }
+
+  // Attach activity data for frontend price display (stripped in mergeAI)
+  trip._activities = getActivities(destination);
 
   try {
     const ai = await personalize({ trip, lang });
