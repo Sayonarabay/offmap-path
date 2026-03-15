@@ -60,7 +60,12 @@
         "zone": "Saint-Germain",
         "pricePerNight": 380
       }
-    ]
+    ],
+    "idealDays": [
+      4,
+      10
+    ],
+    "proximityScore": 5
   },
   {
     "slug": "lisbon",
@@ -124,7 +129,12 @@
         "zone": "Chiado",
         "pricePerNight": 260
       }
-    ]
+    ],
+    "idealDays": [
+      4,
+      8
+    ],
+    "proximityScore": 8
   },
   {
     "slug": "kyoto",
@@ -187,7 +197,12 @@
         "zone": "Higashiyama",
         "pricePerNight": 420
       }
-    ]
+    ],
+    "idealDays": [
+      5,
+      10
+    ],
+    "proximityScore": 3
   },
   {
     "slug": "andalucia-roadtrip",
@@ -251,6 +266,11 @@
         "zone": "Paradores",
         "pricePerNight": 280
       }
-    ]
+    ],
+    "idealDays": [
+      6,
+      12
+    ],
+    "proximityScore": 6
   }
 ]
