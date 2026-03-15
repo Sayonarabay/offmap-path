@@ -20,23 +20,35 @@ module.exports = async (req, res) => {
   // Build transport dynamically from origin
   if (origin && trip._destData) {
     const { options, season, distanceKm } = buildTransportOptions({
-      origin,
-      dest: trip._destData,
-      departureDate,
-      days,
+      origin, dest: trip._destData, departureDate, days,
     });
     trip.transport = { ...(trip.transport || {}), options, season, distanceKm };
   }
 
-  // Attach activity data for frontend price display (stripped in mergeAI)
+  // Attach activity data for frontend price display
   trip._activities = getActivities(destination);
 
+  let ai = null;
   try {
-    const ai = await personalize({ trip, lang });
-    return res.json(mergeAI(trip, ai));
+    ai = await personalize({ trip, lang });
+    console.log('[AI] introduction length:', ai?.introduction?.length || 0);
+    console.log('[AI] areas:', ai?.areas?.length || 0, 'experiences:', ai?.experiences?.length || 0);
   } catch(e) {
-    console.warn('AI failed:', e.message);
-    const { _destData, ...clean } = trip;
-    return res.json({ ...clean, title: trip.destination, introduction: '', tips: [] });
+    console.warn('[AI] personalize failed:', e.message);
   }
+
+  // If AI failed or returned empty intro, build a fallback from KB data
+  if (!ai?.introduction) {
+    const dest = trip._destData;
+    ai = ai || {};
+    ai.introduction = dest?.highlight || `${trip.destination} — ${days} días de ${tripType}.`;
+    ai.areas        = ai.areas        || [];
+    ai.experiences  = ai.experiences  || [];
+    ai.local_tips   = ai.local_tips   || [];
+    ai.restaurants  = ai.restaurants  || [];
+    ai.local_transport = ai.local_transport || (dest?.transport?.description || '');
+    ai.title        = ai.title        || trip.destination;
+  }
+
+  return res.json(mergeAI(trip, ai));
 };
