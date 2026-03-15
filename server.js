@@ -27,8 +27,11 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-app.listen(PORT, () => {
-  console.log(`Offsite running on http://localhost:${PORT}`);
-});
+// Local dev only — Vercel manages its own listener
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Offsite running on http://localhost:${PORT}`);
+  });
+}
 
 module.exports = app;
