@@ -1,59 +1,48 @@
 const { getDestinations } = require('../services/knowledgeBase');
 
-/**
- * POST /api/search-trips
- * Body: { budget, days, travelers, tripType, origin, lang }
- * Returns: { proposals: [nearby, far, roadtrip] }
- */
-async function searchTrips(req, res) {
-  const { budget = 0, days = 7, travelers = 2, tripType = 'cultural', origin = '', lang = 'es' } = req.body;
+module.exports = async function handler(req, res) {
+  if (req.method !== 'POST') return res.status(405).end();
+
+  const { budget = 0, budgetPer = 'total', days = 7, travelers = 2, tripType = 'cultural', lang = 'es' } = req.body;
 
   const destinations = getDestinations();
-  if (!destinations.length) {
-    return res.status(500).json({ error: 'Knowledge base not found' });
+  if (!destinations.length) return res.status(500).json({ error: 'Knowledge base not found' });
+
+  const budgetPerPersonPerDay = budgetPer === 'total'
+    ? budget / Math.max(travelers, 1) / Math.max(days, 1)
+    : budget / Math.max(days, 1);
+
+  const affordable = destinations.filter(d =>
+    !budget || (d.avgCostPerDay || 120) <= budgetPerPersonPerDay * 1.4
+  );
+
+  function score(dest) {
+    return (dest.tripTypes || []).includes(tripType) ? 2 : 1;
   }
 
-  const budgetPerPersonPerDay = budget / Math.max(travelers, 1) / Math.max(days, 1);
-
-  // Filter destinations that fit budget (rough check)
-  const affordable = destinations.filter(d => {
-    if (!budget) return true;
-    return (d.avgCostPerDay || 120) <= budgetPerPersonPerDay * 1.3;
-  });
-
-  // Score destinations by trip type match
-  function score(dest, type) {
-    const tags = dest.tripTypes || [];
-    return tags.includes(type) ? 2 : tags.length ? 1 : 0;
-  }
-
-  // Separate by proximity
-  const nearby   = affordable.filter(d => d.proximity === 'nearby');
-  const far      = affordable.filter(d => d.proximity === 'far');
-  const roadtrip = affordable.filter(d => d.type === 'roadtrip');
+  const nearby    = affordable.filter(d => d.proximity === 'nearby' && d.type !== 'roadtrip');
+  const far       = affordable.filter(d => d.proximity === 'far');
+  const roadtrips = affordable.filter(d => d.type === 'roadtrip');
 
   function pick(list, fallback) {
-    const sorted = (list.length ? list : fallback)
-      .sort((a, b) => score(b, tripType) - score(a, tripType));
-    return sorted[0] || null;
+    const pool = list.length ? list : fallback;
+    return pool.sort((a, b) => score(b) - score(a))[0] || null;
   }
 
   const proposals = [
-    pick(nearby,   affordable),
-    pick(far,      affordable),
-    pick(roadtrip, affordable),
+    pick(nearby,    affordable),
+    pick(far,       affordable),
+    pick(roadtrips, affordable),
   ].filter(Boolean).map(d => ({
-    slug:        d.slug,
-    name:        d.name,
-    country:     d.country,
-    region:      d.region,
-    proximity:   d.type === 'roadtrip' ? 'roadtrip' : d.proximity,
+    slug:               d.slug,
+    name:               d.name,
+    country:            d.country,
+    region:             d.region,
+    proximity:          d.type === 'roadtrip' ? 'roadtrip' : d.proximity,
     estimatedCostTotal: Math.round((d.avgCostPerDay || 120) * days * travelers),
-    tags:        d.tripTypes || [],
-    highlight:   d.highlight || '',
+    tags:               d.tripTypes || [],
+    highlight:          d.highlight || '',
   }));
 
   return res.json({ proposals });
-}
-
-module.exports = { searchTrips };
+};
