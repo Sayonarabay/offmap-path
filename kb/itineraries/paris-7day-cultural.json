@@ -7,72 +7,184 @@
   "days": [
     {
       "day": 1,
-      "title": "Arrival & the Marais",
-      "theme": "settling in",
-      "morning": "Check in and walk the Marais neighbourhood. Visit Place des Vosges, the oldest square in Paris.",
-      "afternoon": "Explore the Pompidou Centre exterior and nearby galleries. Coffee at Café de Flore.",
-      "evening": "Dinner in the Marais — try L'As du Fallafel or a classic French bistro on Rue de Bretagne.",
-      "gem": "The hidden courtyards (cours) of the Marais — most are open and completely tourist-free.",
+      "title": { "es": "Llegada y el Marais", "en": "Arrival & the Marais", "fr": "Arrivée et le Marais" },
+      "theme": { "es": "instalándose", "en": "settling in", "fr": "s'installer" },
+      "morning": {
+        "es": "Check-in y paseo por el barrio del Marais. Visita la **Place des Vosges**, la plaza más antigua de París.",
+        "en": "Check in and walk the Marais neighbourhood. Visit **Place des Vosges**, the oldest square in Paris.",
+        "fr": "Check-in et promenade dans le Marais. Visitez la **Place des Vosges**, la plus ancienne place de Paris."
+      },
+      "afternoon": {
+        "es": "Explora el exterior del **Centro Pompidou** y las galerías cercanas. Café en el Café de Flore.",
+        "en": "Explore the **Pompidou Centre** exterior and nearby galleries. Coffee at Café de Flore.",
+        "fr": "Explorez l'extérieur du **Centre Pompidou** et les galeries voisines. Café au Café de Flore."
+      },
+      "evening": {
+        "es": "Cena en el Marais — prueba L'As du Fallafel o un bistró francés clásico en la Rue de Bretagne.",
+        "en": "Dinner in the Marais — try L'As du Fallafel or a classic French bistro on Rue de Bretagne.",
+        "fr": "Dîner dans le Marais — essayez L'As du Fallafel ou un bistrot classique rue de Bretagne."
+      },
+      "gem": {
+        "es": "Los patios escondidos del Marais — la mayoría están abiertos y sin turistas.",
+        "en": "The hidden courtyards of the Marais — most are open and completely tourist-free.",
+        "fr": "Les cours cachées du Marais — la plupart sont ouvertes et sans touristes."
+      },
       "activities": ["place-des-vosges", "pompidou-exterior", "marais-walk"]
     },
     {
       "day": 2,
-      "title": "Louvre & Tuileries",
-      "theme": "world-class art",
-      "morning": "Louvre Museum — book timed entry online. Focus on one wing (Richelieu or Denon) to avoid overwhelm.",
-      "afternoon": "Walk through Tuileries Garden to Place de la Concorde. Up the Champs-Élysées to the Arc de Triomphe.",
-      "evening": "Drinks in the 8th arrondissement. Dinner near Saint-Lazare.",
-      "gem": "The Louvre's medieval moat — visible from the basement level, almost no one goes.",
+      "title": { "es": "El Louvre y las Tullerías", "en": "Louvre & Tuileries", "fr": "Louvre & Tuileries" },
+      "theme": { "es": "arte de clase mundial", "en": "world-class art", "fr": "art de classe mondiale" },
+      "morning": {
+        "es": "Museo del **Louvre** — reserva entrada con hora. Céntrate en un ala para no agotarte.",
+        "en": "**Louvre** Museum — book timed entry online. Focus on one wing to avoid overwhelm.",
+        "fr": "Musée du **Louvre** — réservez une entrée horaire. Concentrez-vous sur une aile."
+      },
+      "afternoon": {
+        "es": "Paseo por el **Jardín de las Tullerías** hasta la Place de la Concorde y el Arco del Triunfo.",
+        "en": "Walk through **Tuileries Garden** to Place de la Concorde. Up the Champs-Élysées to the Arc de Triomphe.",
+        "fr": "Promenade dans le **Jardin des Tuileries** jusqu'à la Place de la Concorde et l'Arc de Triomphe."
+      },
+      "evening": {
+        "es": "Copas en el 8º arrondissement. Cena cerca de Saint-Lazare.",
+        "en": "Drinks in the 8th arrondissement. Dinner near Saint-Lazare.",
+        "fr": "Apéritif dans le 8e arrondissement. Dîner près de Saint-Lazare."
+      },
+      "gem": {
+        "es": "El foso medieval del Louvre — visible desde el sótano, casi nadie baja.",
+        "en": "The Louvre's medieval moat — visible from the basement level, almost no one goes.",
+        "fr": "Les douves médiévales du Louvre — visibles du sous-sol, presque personne n'y va."
+      },
       "activities": ["louvre", "tuileries-garden", "arc-de-triomphe"]
     },
     {
       "day": 3,
-      "title": "Montmartre & Sacré-Cœur",
-      "theme": "bohemian Paris",
-      "morning": "Walk up to Sacré-Cœur early (before 9am) to avoid crowds. Explore the hilltop streets.",
-      "afternoon": "Place du Tertre for artists, then down through Abbesses. Visit the Musée de Montmartre.",
-      "evening": "Dinner in Pigalle — great natural wine bars on Rue des Martyrs.",
-      "gem": "Vineyard of Montmartre — a real working vineyard inside Paris, hidden behind a stone wall.",
+      "title": { "es": "Montmartre y el Sacré-Cœur", "en": "Montmartre & Sacré-Cœur", "fr": "Montmartre & Sacré-Cœur" },
+      "theme": { "es": "el París bohemio", "en": "bohemian Paris", "fr": "Paris bohème" },
+      "morning": {
+        "es": "Sube al **Sacré-Cœur** temprano (antes de las 9h) para evitar las masas. Explora las calles de la colina.",
+        "en": "Walk up to **Sacré-Cœur** early (before 9am) to avoid crowds. Explore the hilltop streets.",
+        "fr": "Montez au **Sacré-Cœur** tôt (avant 9h) pour éviter la foule. Explorez les rues du sommet."
+      },
+      "afternoon": {
+        "es": "Place du Tertre con los artistas, luego baja por Abbesses. Visita el **Musée de Montmartre**.",
+        "en": "Place du Tertre for artists, then down through Abbesses. Visit the **Musée de Montmartre**.",
+        "fr": "Place du Tertre pour les artistes, puis descente par Abbesses. Visitez le **Musée de Montmartre**."
+      },
+      "evening": {
+        "es": "Cena en Pigalle — excelentes bares de vinos naturales en la Rue des Martyrs.",
+        "en": "Dinner in Pigalle — great natural wine bars on Rue des Martyrs.",
+        "fr": "Dîner à Pigalle — excellents bars à vins naturels rue des Martyrs."
+      },
+      "gem": {
+        "es": "El viñedo de Montmartre — una viña real dentro de París, escondida tras un muro de piedra.",
+        "en": "Vineyard of Montmartre — a real working vineyard inside Paris, hidden behind a stone wall.",
+        "fr": "Le vignoble de Montmartre — une vraie vigne dans Paris, cachée derrière un mur de pierre."
+      },
       "activities": ["sacre-coeur", "montmartre-walk", "musee-de-montmartre"]
     },
     {
       "day": 4,
-      "title": "Seine & Île de la Cité",
-      "theme": "historic core",
-      "morning": "Notre-Dame exterior (reconstruction ongoing). Walk across Île Saint-Louis for the best ice cream in Paris (Berthillon).",
-      "afternoon": "Sainte-Chapelle — stunning Gothic stained glass, worth every minute in the queue. Latin Quarter stroll.",
-      "evening": "Dinner in Saint-Germain-des-Prés. Theatre or jazz if available.",
-      "gem": "Square du Vert-Galant — a hidden garden at the tip of the island, locals come to read and picnic.",
+      "title": { "es": "El Sena y la Île de la Cité", "en": "Seine & Île de la Cité", "fr": "La Seine & l'Île de la Cité" },
+      "theme": { "es": "el corazón histórico", "en": "historic core", "fr": "cœur historique" },
+      "morning": {
+        "es": "Exterior de **Notre-Dame** (en reconstrucción). Paseo por la Île Saint-Louis para el mejor helado de París (Berthillon).",
+        "en": "**Notre-Dame** exterior (reconstruction ongoing). Walk across Île Saint-Louis for the best ice cream in Paris (Berthillon).",
+        "fr": "Extérieur de **Notre-Dame** (reconstruction en cours). Promenade sur l'Île Saint-Louis pour la meilleure glace de Paris (Berthillon)."
+      },
+      "afternoon": {
+        "es": "**Sainte-Chapelle** — vidrieras góticas impresionantes, merece cada minuto de cola. Paseo por el Barrio Latino.",
+        "en": "**Sainte-Chapelle** — stunning Gothic stained glass, worth every minute in the queue. Latin Quarter stroll.",
+        "fr": "**Sainte-Chapelle** — vitraux gothiques époustouflants, cela vaut chaque minute de queue. Promenade dans le Quartier Latin."
+      },
+      "evening": {
+        "es": "Cena en Saint-Germain-des-Prés. Teatro o jazz si hay disponibilidad.",
+        "en": "Dinner in Saint-Germain-des-Prés. Theatre or jazz if available.",
+        "fr": "Dîner à Saint-Germain-des-Prés. Théâtre ou jazz si disponible."
+      },
+      "gem": {
+        "es": "Square du Vert-Galant — un jardín escondido en la punta de la isla, los locales vienen a leer y hacer picnic.",
+        "en": "Square du Vert-Galant — a hidden garden at the tip of the island, locals come to read and picnic.",
+        "fr": "Square du Vert-Galant — un jardin caché à la pointe de l'île, les Parisiens y viennent lire et pique-niquer."
+      },
       "activities": ["notre-dame-exterior", "sainte-chapelle", "ile-saint-louis"]
     },
     {
       "day": 5,
-      "title": "Musée d'Orsay & Saint-Germain",
-      "theme": "impressionism & culture",
-      "morning": "Musée d'Orsay — Impressionist and Post-Impressionist masterpieces. Pre-book entry.",
-      "afternoon": "Walk Saint-Germain: browse Librairie La Hune, visit the Luxembourg Gardens.",
-      "evening": "Apéro at a café-terrasse. Dinner in the 6th.",
-      "gem": "Top floor of Musée d'Orsay has a giant clock window overlooking the city — most visitors miss it.",
+      "title": { "es": "Musée d'Orsay y Saint-Germain", "en": "Musée d'Orsay & Saint-Germain", "fr": "Musée d'Orsay & Saint-Germain" },
+      "theme": { "es": "impresionismo y cultura", "en": "impressionism & culture", "fr": "impressionnisme & culture" },
+      "morning": {
+        "es": "**Musée d'Orsay** — obras maestras impresionistas y postimpresionistas. Reserva entrada con antelación.",
+        "en": "**Musée d'Orsay** — Impressionist and Post-Impressionist masterpieces. Pre-book entry.",
+        "fr": "**Musée d'Orsay** — chefs-d'œuvre impressionnistes et post-impressionnistes. Réservez à l'avance."
+      },
+      "afternoon": {
+        "es": "Paseo por Saint-Germain: visita los **Jardines de Luxemburgo**.",
+        "en": "Walk Saint-Germain: browse bookshops, visit the **Luxembourg Gardens**.",
+        "fr": "Promenade à Saint-Germain : librairies, **Jardin du Luxembourg**."
+      },
+      "evening": {
+        "es": "Aperitivo en una terraza de café. Cena en el 6º arrondissement.",
+        "en": "Apéro at a café-terrasse. Dinner in the 6th.",
+        "fr": "Apéritif en terrasse. Dîner dans le 6e arrondissement."
+      },
+      "gem": {
+        "es": "El último piso del Musée d'Orsay tiene una ventana-reloj gigante con vistas a la ciudad — casi nadie sube.",
+        "en": "Top floor of Musée d'Orsay has a giant clock window overlooking the city — most visitors miss it.",
+        "fr": "Le dernier étage du Musée d'Orsay a une grande fenêtre-horloge dominant la ville — la plupart des visiteurs la ratent."
+      },
       "activities": ["musee-dorsay", "luxembourg-gardens", "saint-germain-walk"]
     },
     {
       "day": 6,
-      "title": "Versailles Day Trip",
-      "theme": "royal grandeur",
-      "morning": "Take RER C to Versailles (40 min). Arrive early — Palace opens at 9am.",
-      "afternoon": "Walk the Grand Canal and gardens. Return to Paris by 5pm.",
-      "evening": "Easy dinner near your hotel — you'll be tired!",
-      "gem": "The Trianon Palaces (Petit and Grand Trianon) — included in the ticket, much less crowded than the main palace.",
+      "title": { "es": "Excursión a Versalles", "en": "Versailles Day Trip", "fr": "Excursion à Versailles" },
+      "theme": { "es": "grandeza real", "en": "royal grandeur", "fr": "grandeur royale" },
+      "morning": {
+        "es": "Toma el RER C hasta Versalles (40 min). Llega temprano — el Palacio abre a las 9h.",
+        "en": "Take RER C to Versailles (40 min). Arrive early — Palace opens at 9am.",
+        "fr": "Prenez le RER C jusqu'à Versailles (40 min). Arrivez tôt — le Château ouvre à 9h."
+      },
+      "afternoon": {
+        "es": "Paseo por el Gran Canal y los jardines. Regresa a París antes de las 17h.",
+        "en": "Walk the Grand Canal and gardens. Return to Paris by 5pm.",
+        "fr": "Promenade sur le Grand Canal et les jardins. Retour à Paris avant 17h."
+      },
+      "evening": {
+        "es": "Cena tranquila cerca del hotel — estarás cansado.",
+        "en": "Easy dinner near your hotel — you'll be tired!",
+        "fr": "Dîner tranquille près de l'hôtel — vous serez fatigué !"
+      },
+      "gem": {
+        "es": "Los Palacios Trianon (Petit y Grand) están incluidos en la entrada y tienen muchos menos visitantes que el palacio principal.",
+        "en": "The Trianon Palaces (Petit and Grand Trianon) are included in the ticket, much less crowded than the main palace.",
+        "fr": "Les Palaces Trianon (Petit et Grand) sont inclus dans le billet, bien moins fréquentés que le château principal."
+      },
       "activities": ["versailles-palace", "versailles-gardens", "trianon-palaces"]
     },
     {
       "day": 7,
-      "title": "Eiffel Tower & Farewell",
-      "theme": "iconic goodbye",
-      "morning": "Eiffel Tower — summit ticket, book 2 weeks ahead. Visit in the morning for clear skies.",
-      "afternoon": "Trocadéro for photos, then Palais de Tokyo if time allows. Last shopping on Rue de Rivoli.",
-      "evening": "Farewell dinner — splurge on a brasserie classic: steak-frites and a carafe of Bordeaux.",
-      "gem": "The view from Champ de Mars grass at dusk — free, relaxed, and somehow still magical.",
+      "title": { "es": "Torre Eiffel y despedida", "en": "Eiffel Tower & Farewell", "fr": "Tour Eiffel & Au Revoir" },
+      "theme": { "es": "el adiós icónico", "en": "iconic goodbye", "fr": "adieu iconique" },
+      "morning": {
+        "es": "**Torre Eiffel** — entrada al summit, reserva con 2 semanas de antelación. Por la mañana para cielos despejados.",
+        "en": "**Eiffel Tower** — summit ticket, book 2 weeks ahead. Visit in the morning for clear skies.",
+        "fr": "**Tour Eiffel** — billet sommet, réservez 2 semaines à l'avance. Le matin pour un ciel dégagé."
+      },
+      "afternoon": {
+        "es": "**Trocadéro** para fotos. Últimas compras en la Rue de Rivoli.",
+        "en": "**Trocadéro** for photos, then last shopping on Rue de Rivoli.",
+        "fr": "**Trocadéro** pour les photos, puis derniers achats rue de Rivoli."
+      },
+      "evening": {
+        "es": "Cena de despedida — un clásico de brasserie: steak-frites y una jarra de Burdeos.",
+        "en": "Farewell dinner — splurge on a brasserie classic: steak-frites and a carafe of Bordeaux.",
+        "fr": "Dîner d'adieu — offrez-vous un classique de brasserie : steak-frites et une carafe de Bordeaux."
+      },
+      "gem": {
+        "es": "La vista desde el césped del Champ de Mars al atardecer — gratis, relajado, y aún así mágico.",
+        "en": "The view from Champ de Mars grass at dusk — free, relaxed, and somehow still magical.",
+        "fr": "La vue depuis la pelouse du Champ de Mars au crépuscule — gratuit, détendu, et toujours magique."
+      },
       "activities": ["eiffel-tower", "trocadero", "champ-de-mars"]
     }
   ]
