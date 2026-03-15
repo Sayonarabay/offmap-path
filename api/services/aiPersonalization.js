@@ -11,7 +11,7 @@ Write in ${langLabel} for a ${trip.days}-day ${trip.tripType} trip to ${trip.des
 Generate a JSON response with ALL of these fields:
 
 "title": 5-7 evocative words, not generic
-"introduction": 3 sentences. First must hook immediately with a specific detail/sensation/paradox unique to this place. No clichés.
+"introduction": 4-5 sentences, magazine feature style. (1) Hook with a specific sensory detail, paradox or fact unique to this place — no clichés, name a real street/smell/ritual. (2) What kind of place this really is beyond the postcard. (3-4) Mention 2-3 specific experiences the traveller will encounter — name them: a market, a monument, a local ritual, a dish. (5) The feeling this trip will leave them with.
 "areas": array of 3-5 neighbourhood/zone objects: [{name, desc}] — where to base yourself and why
 "experiences": array of 5-8 must-do experiences: [{name, type (paid|free), desc, approx_price_eur (null if free)}] — mix iconic with local
 "local_tips": array of 4 hyper-specific tips: real names, prices, timings. Not "book ahead" but "Book Alhambra Nasrid slot 3 weeks ahead on alhambra-patronato.es — the €19 ticket sells out 3 weeks in advance"
@@ -29,7 +29,7 @@ Respond ONLY with valid JSON, no markdown, no extra text.`;
 
   const message = await client.messages.create({
     model:      'claude-haiku-4-5-20251001',
-    max_tokens: 1200,
+    max_tokens: 1600,
     messages:   [{ role:'user', content: prompt }],
   });
 
