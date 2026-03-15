@@ -1,8 +1,16 @@
-const fs   = require('fs');
-const path = require('path');
+const express = require('express');
+const path    = require('path');
+const app     = express();
 
-module.exports = (req, res) => {
-  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
-  res.setHeader('Content-Type', 'text/html');
-  res.end(html);
-};
+app.use(express.json());
+
+app.use('/api/search-trips',  require('./api/search-trips'));
+app.use('/api/generate-trip', require('./api/generate-trip'));
+app.use('/api/email',         require('./api/email'));
+app.use('/api/trip',          require('./api/trip'));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+module.exports = app;
