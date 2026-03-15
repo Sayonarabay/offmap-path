@@ -6,11 +6,15 @@ const { getDestinations, getActivities, getCities, getTripTypes } = require('./k
 function buildTrip({ destination, days, tripType, travelers, budget, lang }) {
   const destinations = getDestinations();
   const dest = destinations.find(d => d.slug === destination);
-  if (!dest) return null;
+  if (!dest) { console.error('[KB] destination not found:', destination); return null; }
 
-  const activities = getActivities(destination);   // all activities for this destination
-  const cities     = getCities(destination);        // ordered city list (roadtrip)
+  const activities = getActivities(destination);
+  const cities     = getCities(destination);
   const tripRules  = getTripTypes()[tripType] || getTripTypes()['cultural'];
+
+  console.log(`[KB] ${destination}: ${activities.length} activities, ${cities.length} cities, tripType=${tripType}`);
+
+  if (!activities.length) { console.error('[KB] No activities found for:', destination); return null; }
 
   const isRoadtrip = dest.type === 'roadtrip';
 
@@ -86,7 +90,7 @@ function buildRoadtripItinerary({ cities, activities, days, tripRules, lang }) {
         afternoon: formatActivity(dayActs[1], lang),
         evening:   formatActivity(dayActs[2], lang),
         gem:       pickGem(pool, used, lang),
-        activities: dayActs.map(a => a.id),
+        activities: dayActs.filter(Boolean).map(a => a.id),
       });
     }
   });
@@ -115,7 +119,7 @@ function buildCityItinerary({ activities, days, tripRules, lang, destName }) {
       afternoon: formatActivity(dayActs[1], lang),
       evening:   formatActivity(dayActs[2], lang),
       gem:       pickGem(pool, used, lang),
-      activities: dayActs.map(a => a.id),
+      activities: dayActs.filter(Boolean).map(a => a.id),
     });
   }
 
@@ -129,7 +133,7 @@ function scoreAndSort(activities, tripRules) {
   return activities
     .map(a => ({
       ...a,
-      _score: scoreFit(a, tripRules) + (a.iconic ? 5 : 0) + Math.random() * 0.5, // small randomness
+      _score: scoreFit(a, tripRules) + (a.iconic ? 5 : 0) + Math.random() * 2,
     }))
     .sort((a, b) => b._score - a._score);
 }
@@ -148,22 +152,28 @@ function scoreFit(activity, tripRules) {
 function pickActivities({ pool, used, isFirst, isLast, lang }) {
   const slots  = ['morning', 'afternoon', 'evening'];
   const result = [];
-
-  // Ensure at least 1 iconic if available
-  const needIconic = !isFirst; // day 1 is arrival, iconic from day 2
+  const needIconic = !isFirst;
   let iconicAdded  = false;
 
   for (const slot of slots) {
-    // Filter: not used, fits this time slot (or flexible)
-    const candidates = pool.filter(a =>
+    // First try: activities that specifically list this time slot
+    let candidates = pool.filter(a =>
       !used.has(a.id) &&
       !result.includes(a) &&
-      (a.time_of_day?.includes(slot) || !a.time_of_day?.length)
+      (a.time_of_day?.includes(slot))
     );
 
-    let pick = null;
+    // Fallback: any unused activity with no time constraint, or any slot
+    if (!candidates.length) {
+      candidates = pool.filter(a =>
+        !used.has(a.id) &&
+        !result.includes(a)
+      );
+    }
 
-    // Try to add iconic in afternoon if not yet added
+    if (!candidates.length) { result.push(null); continue; }
+
+    let pick = null;
     if (slot === 'afternoon' && needIconic && !iconicAdded) {
       pick = candidates.find(a => a.iconic) || candidates[0];
       if (pick?.iconic) iconicAdded = true;
@@ -171,14 +181,10 @@ function pickActivities({ pool, used, isFirst, isLast, lang }) {
       pick = candidates[0];
     }
 
-    if (pick) {
-      result.push(pick);
-      used.add(pick.id);
-    }
+    if (pick) { result.push(pick); used.add(pick.id); }
+    else result.push(null);
   }
 
-  // Pad if fewer than 3 (unlikely but safe)
-  while (result.length < 3) result.push(null);
   return result;
 }
 
