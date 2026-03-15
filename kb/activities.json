@@ -7728,5 +7728,1735 @@
     "duration_hours": 2,
     "price_eur": 10,
     "iconic": true
+  },
+  {
+    "id": "msl-abbey",
+    "city": "mont-saint-michel",
+    "destination": "mont-saint-michel",
+    "name": {
+      "es": "Abadía de Mont Saint-Michel",
+      "en": "Mont Saint-Michel Abbey",
+      "fr": "Abbaye du Mont Saint-Michel"
+    },
+    "desc": {
+      "es": "La abadía benedictina en la cima de la isla. Vista más impresionante con marea alta rodeando la isla.",
+      "en": "The Benedictine abbey at the top of the island. Most impressive view at high tide surrounding the island.",
+      "fr": "L'abbaye bénédictine au sommet de l'île. Vue la plus impressionnante à marée haute."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 12,
+    "iconic": true
+  },
+  {
+    "id": "msl-ramparts",
+    "city": "mont-saint-michel",
+    "destination": "mont-saint-michel",
+    "name": {
+      "es": "Paseo por las murallas",
+      "en": "Rampart walk",
+      "fr": "Promenade sur les remparts"
+    },
+    "desc": {
+      "es": "Las murallas medievales con vistas a la bahía. El reflejo de la isla en la marea es uno de los espectáculos más bonitos de Europa.",
+      "en": "The medieval ramparts with views over the bay. The island's reflection in the tide is one of Europe's most beautiful sights.",
+      "fr": "Les remparts médiévaux avec vue sur la baie. Le reflet de l'île dans la marée est un spectacle magnifique."
+    },
+    "tags": [
+      "walk",
+      "views",
+      "iconic",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "msl-bay",
+    "city": "mont-saint-michel",
+    "destination": "mont-saint-michel",
+    "name": {
+      "es": "Caminata por la bahía",
+      "en": "Bay walk",
+      "fr": "Marche dans la baie"
+    },
+    "desc": {
+      "es": "Caminata guiada por los bancos de arena de la bahía — con marea baja. Una experiencia única y ligeramente peligrosa.",
+      "en": "Guided walk across the bay's sandbanks at low tide. A unique and slightly dangerous experience.",
+      "fr": "Randonnée guidée sur les bancs de sable de la baie à marée basse. Une expérience unique et légèrement dangereuse."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 18,
+    "iconic": false
+  },
+  {
+    "id": "msl-omelet",
+    "city": "mont-saint-michel",
+    "destination": "mont-saint-michel",
+    "name": {
+      "es": "Tortilla de La Mère Poulard",
+      "en": "La Mère Poulard omelette",
+      "fr": "Omelette de La Mère Poulard"
+    },
+    "desc": {
+      "es": "La tortilla más famosa de Francia — batida en cobre sobre fuego de leña desde 1888. Un ritual que no es solo comida.",
+      "en": "France's most famous omelette — beaten in copper over a wood fire since 1888. A ritual that is more than food.",
+      "fr": "L'omelette la plus célèbre de France — battue dans du cuivre sur feu de bois depuis 1888."
+    },
+    "tags": [
+      "food",
+      "iconic",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 35,
+    "iconic": false
+  },
+  {
+    "id": "loire-chenonceau",
+    "city": "loire-valley",
+    "destination": "loire-valley",
+    "name": {
+      "es": "Château de Chenonceau",
+      "en": "Château de Chenonceau",
+      "fr": "Château de Chenonceau"
+    },
+    "desc": {
+      "es": "El castillo más visitado de Francia después de Versalles. Se extiende sobre el río Cher — construido por y para mujeres.",
+      "en": "France's most visited château after Versailles. Spans the Cher river — built by and for women.",
+      "fr": "Le château le plus visité de France après Versailles. Enjambe le Cher — construit par et pour des femmes."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 16,
+    "iconic": true
+  },
+  {
+    "id": "loire-chambord",
+    "city": "loire-valley",
+    "destination": "loire-valley",
+    "name": {
+      "es": "Château de Chambord",
+      "en": "Château de Chambord",
+      "fr": "Château de Chambord"
+    },
+    "desc": {
+      "es": "El castillo de caza más grande de Francia — 440 habitaciones. La escalera de doble hélice atribuida a Leonardo da Vinci.",
+      "en": "France's largest hunting lodge — 440 rooms. The double-helix staircase attributed to Leonardo da Vinci.",
+      "fr": "Le plus grand pavillon de chasse de France — 440 chambres. L'escalier à double révolution attribué à Léonard de Vinci."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 15,
+    "iconic": true
+  },
+  {
+    "id": "loire-wine",
+    "city": "loire-valley",
+    "destination": "loire-valley",
+    "name": {
+      "es": "Cata de vinos del Loira",
+      "en": "Loire wine tasting",
+      "fr": "Dégustation des vins de Loire"
+    },
+    "desc": {
+      "es": "Vouvray, Sancerre, Muscadet — los vinos más elegantes de Francia. Las cuevas trogloditas son el mejor lugar para degustarlos.",
+      "en": "Vouvray, Sancerre, Muscadet — France's most elegant wines. Cave cellars are the best place to taste them.",
+      "fr": "Vouvray, Sancerre, Muscadet — les vins les plus élégants de France. Les caves troglodytes sont le meilleur endroit."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture",
+      "relax"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "loire-amboise",
+    "city": "loire-valley",
+    "destination": "loire-valley",
+    "name": {
+      "es": "Amboise y la tumba de Da Vinci",
+      "en": "Amboise & Da Vinci's tomb",
+      "fr": "Amboise et la tombe de Da Vinci"
+    },
+    "desc": {
+      "es": "El pueblo más bonito del Loira. El Château Royal y el Clos Lucé, donde Leonardo pasó sus últimos años.",
+      "en": "The Loire's most beautiful town. The Royal Château and Clos Lucé, where Leonardo spent his last years.",
+      "fr": "La plus belle ville du Loira. Le Château Royal et le Clos Lucé, où Léonard passa ses dernières années."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "art",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 18,
+    "iconic": false
+  },
+  {
+    "id": "nrm-dday",
+    "city": "normandy",
+    "destination": "normandy",
+    "name": {
+      "es": "Playas del Desembarco",
+      "en": "D-Day Beaches",
+      "fr": "Plages du Débarquement"
+    },
+    "desc": {
+      "es": "Omaha Beach, Utah Beach, el Cementerio Americano. La historia más conmovedora del siglo XX, en el paisaje donde ocurrió.",
+      "en": "Omaha Beach, Utah Beach, the American Cemetery. The most moving history of the 20th century, in the landscape where it happened.",
+      "fr": "Omaha Beach, Utah Beach, le cimetière américain. L'histoire la plus émouvante du XXe siècle."
+    },
+    "tags": [
+      "history",
+      "iconic",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "nrm-bayeux",
+    "city": "normandy",
+    "destination": "normandy",
+    "name": {
+      "es": "Tapiz de Bayeux",
+      "en": "Bayeux Tapestry",
+      "fr": "Tapisserie de Bayeux"
+    },
+    "desc": {
+      "es": "El cómic más antiguo del mundo — 70 metros bordados en el siglo XI que narran la conquista de Inglaterra.",
+      "en": "The world's oldest comic strip — 70 metres embroidered in the 11th century narrating the conquest of England.",
+      "fr": "La plus ancienne bande dessinée du monde — 70 mètres brodés au XIe siècle."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "art"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "iconic": true
+  },
+  {
+    "id": "nrm-giverny",
+    "city": "normandy",
+    "destination": "normandy",
+    "name": {
+      "es": "Jardines de Giverny (Monet)",
+      "en": "Giverny Gardens (Monet)",
+      "fr": "Jardins de Giverny (Monet)"
+    },
+    "desc": {
+      "es": "El jardín que pintó Monet 250 veces. El estanque de los nenúfares es exactamente como en los cuadros.",
+      "en": "The garden Monet painted 250 times. The water lily pond is exactly like in the paintings.",
+      "fr": "Le jardin que Monet a peint 250 fois. Le bassin aux nénuphars est exactement comme dans les tableaux."
+    },
+    "tags": [
+      "nature",
+      "art",
+      "iconic",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 11,
+    "iconic": true
+  },
+  {
+    "id": "nrm-fromage",
+    "city": "normandy",
+    "destination": "normandy",
+    "name": {
+      "es": "Ruta del queso normando",
+      "en": "Normandy cheese route",
+      "fr": "Route des fromages normands"
+    },
+    "desc": {
+      "es": "Camembert, Livarot, Pont-l'Évêque — los tres grandes quesos de Normandía. La granja Président en Camembert abre al público.",
+      "en": "Camembert, Livarot, Pont-l'Évêque — Normandy's three great cheeses. The Président farm in Camembert is open to visitors.",
+      "fr": "Camembert, Livarot, Pont-l'Évêque — les trois grands fromages normands."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "rei-cathedral",
+    "city": "reims",
+    "destination": "reims",
+    "name": {
+      "es": "Catedral de Notre-Dame de Reims",
+      "en": "Reims Cathedral",
+      "fr": "Cathédrale Notre-Dame de Reims"
+    },
+    "desc": {
+      "es": "La catedral gótica más bella de Francia, donde se coronaron 33 reyes. Las vidrieras de Chagall son las más modernas del mundo.",
+      "en": "France's most beautiful Gothic cathedral, where 33 kings were crowned. Chagall's stained glass is the most modern in the world.",
+      "fr": "La plus belle cathédrale gothique de France, où 33 rois furent sacrés."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "rei-champagne",
+    "city": "reims",
+    "destination": "reims",
+    "name": {
+      "es": "Cata en las bodegas de Champagne",
+      "en": "Champagne cellar tasting",
+      "fr": "Dégustation dans les caves de Champagne"
+    },
+    "desc": {
+      "es": "Moët, Taittinger, Mumm — las grandes casas abren sus cuevas de tiza. El método champenoise explicado en su origen.",
+      "en": "Moët, Taittinger, Mumm — the great houses open their chalk cellars. The champagne method explained at its source.",
+      "fr": "Moët, Taittinger, Mumm — les grandes maisons ouvrent leurs caves. La méthode champenoise expliquée à sa source."
+    },
+    "tags": [
+      "food",
+      "iconic",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 25,
+    "iconic": true
+  },
+  {
+    "id": "rei-palais-tau",
+    "city": "reims",
+    "destination": "reims",
+    "name": {
+      "es": "Palacio de Tau",
+      "en": "Palais du Tau",
+      "fr": "Palais du Tau"
+    },
+    "desc": {
+      "es": "El palacio arzobispal donde se celebraban los banquetes de coronación. Los tesoros reales originales, incluyendo el talisman de Carlomagno.",
+      "en": "The archbishop's palace where coronation banquets were held. The original royal treasures, including Charlemagne's talisman.",
+      "fr": "Le palais archiépiscopal où se tenaient les banquets de sacre."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 11,
+    "iconic": false
+  },
+  {
+    "id": "bru-markt",
+    "city": "bruges",
+    "destination": "bruges",
+    "name": {
+      "es": "Grote Markt y el Belfry",
+      "en": "Grote Markt & Belfry",
+      "fr": "Grote Markt et Beffroi"
+    },
+    "desc": {
+      "es": "La plaza central medieval con el campanario de 83 metros. Sube para ver Brujas desde arriba y el paisaje flamenco.",
+      "en": "The medieval central square with the 83-metre belfry. Climb for views over Bruges and the Flemish landscape.",
+      "fr": "La place centrale médiévale avec le beffroi de 83 mètres. Montez pour voir Bruges depuis les hauteurs."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 14,
+    "iconic": true
+  },
+  {
+    "id": "bru-canals",
+    "city": "bruges",
+    "destination": "bruges",
+    "name": {
+      "es": "Crucero por los canales",
+      "en": "Canal boat tour",
+      "fr": "Balade en bateau sur les canaux"
+    },
+    "desc": {
+      "es": "Los canales de Brujas en barco — la mejor forma de ver la arquitectura medieval al nivel del agua.",
+      "en": "Bruges canals by boat — the best way to see the medieval architecture at water level.",
+      "fr": "Les canaux de Bruges en bateau — la meilleure façon de voir l'architecture médiévale au niveau de l'eau."
+    },
+    "tags": [
+      "walk",
+      "iconic",
+      "views",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 10,
+    "iconic": true
+  },
+  {
+    "id": "bru-chocolate",
+    "city": "bruges",
+    "destination": "bruges",
+    "name": {
+      "es": "Chocolaterías y cervezas belgas",
+      "en": "Chocolate shops & Belgian beer",
+      "fr": "Chocolateries et bière belge"
+    },
+    "desc": {
+      "es": "Bruges tiene más chocolaterías por metro cuadrado que cualquier ciudad del mundo. La cerveza local Brugse Zot merece un sitio propio.",
+      "en": "Bruges has more chocolate shops per square metre than any city in the world. The local Brugse Zot beer deserves its own visit.",
+      "fr": "Bruges a plus de chocolateries par mètre carré que toute autre ville au monde."
+    },
+    "tags": [
+      "food",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "als-route-vins",
+    "city": "alsace",
+    "destination": "alsace",
+    "name": {
+      "es": "Route des Vins d'Alsace",
+      "en": "Alsace Wine Route",
+      "fr": "Route des Vins d'Alsace"
+    },
+    "desc": {
+      "es": "La ruta enológica más bella de Francia — 170km de viñedos, pueblos medievales y bodegas familiares.",
+      "en": "France's most beautiful wine route — 170km of vineyards, medieval villages and family wineries.",
+      "fr": "La plus belle route des vins de France — 170km de vignobles, villages médiévaux et caves familiales."
+    },
+    "tags": [
+      "food",
+      "nature",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 25,
+    "iconic": false
+  },
+  {
+    "id": "als-strasbourg",
+    "city": "alsace",
+    "destination": "alsace",
+    "name": {
+      "es": "Catedral de Estrasburgo",
+      "en": "Strasbourg Cathedral",
+      "fr": "Cathédrale de Strasbourg"
+    },
+    "desc": {
+      "es": "Durante mucho tiempo el edificio más alto del mundo. La nave gótica y el reloj astronómico del siglo XVI son extraordinarios.",
+      "en": "For a long time the tallest building in the world. The Gothic nave and 16th-century astronomical clock are extraordinary.",
+      "fr": "Pendant longtemps le bâtiment le plus haut du monde. La nef gothique et l'horloge astronomique du XVIe siècle sont extraordinaires."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "bxl-grand-place",
+    "city": "brussels",
+    "destination": "brussels",
+    "name": {
+      "es": "Grand Place",
+      "en": "Grand Place",
+      "fr": "Grand Place"
+    },
+    "desc": {
+      "es": "La plaza más bella del mundo según Victor Hugo. Los gremios medievales dorados iluminados de noche.",
+      "en": "The world's most beautiful square according to Victor Hugo. The gilded medieval guildhalls lit up at night.",
+      "fr": "La plus belle place du monde selon Victor Hugo. Les guildes médiévales dorées illuminées la nuit."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "bxl-atomium",
+    "city": "brussels",
+    "destination": "brussels",
+    "name": {
+      "es": "Atomium",
+      "en": "Atomium",
+      "fr": "Atomium"
+    },
+    "desc": {
+      "es": "El símbolo de Bruselas — una molécula de hierro ampliada 165 millones de veces. Las vistas de la ciudad desde la esfera superior.",
+      "en": "Brussels' symbol — an iron molecule enlarged 165 billion times. Views of the city from the top sphere.",
+      "fr": "Le symbole de Bruxelles — une molécule de fer agrandie 165 milliards de fois."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "culture",
+      "architecture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 16,
+    "iconic": true
+  },
+  {
+    "id": "bxl-moules",
+    "city": "brussels",
+    "destination": "brussels",
+    "name": {
+      "es": "Moules-frites en el centro",
+      "en": "Moules-frites in the centre",
+      "fr": "Moules-frites dans le centre"
+    },
+    "desc": {
+      "es": "El plato nacional de Bélgica — mejillones a la marinière con patatas fritas perfectas. Chez Léon lo hace desde 1893.",
+      "en": "Belgium's national dish — mussels marinière with perfect fries. Chez Léon has done it since 1893.",
+      "fr": "Le plat national belge — moules marinière avec des frites parfaites. Chez Léon le fait depuis 1893."
+    },
+    "tags": [
+      "food",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 25,
+    "iconic": false
+  },
+  {
+    "id": "bxl-comics",
+    "city": "brussels",
+    "destination": "brussels",
+    "name": {
+      "es": "Museo del Cómic Belga",
+      "en": "Belgian Comic Strip Museum",
+      "fr": "Centre Belge de la Bande Dessinée"
+    },
+    "desc": {
+      "es": "Bélgica inventó el cómic moderno — Tintin, Los Pitufos, Lucky Luke. El museo está en un edificio Art Nouveau de Victor Horta.",
+      "en": "Belgium invented the modern comic strip — Tintin, The Smurfs, Lucky Luke. The museum is in a Victor Horta Art Nouveau building.",
+      "fr": "La Belgique a inventé la BD moderne — Tintin, Les Schtroumpfs, Lucky Luke."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "tol-alcazar",
+    "city": "toledo",
+    "destination": "toledo",
+    "name": {
+      "es": "Alcázar de Toledo",
+      "en": "Toledo Alcázar",
+      "fr": "Alcazar de Tolède"
+    },
+    "desc": {
+      "es": "La fortaleza en lo más alto de Toledo. El Museo del Ejército dentro es fascinante. Vistas de 360 grados sobre la ciudad.",
+      "en": "The fortress at the very top of Toledo. The Army Museum inside is fascinating. 360-degree views over the city.",
+      "fr": "La forteresse au sommet de Tolède. Le musée de l'Armée est fascinant. Vues à 360 degrés sur la ville."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "views",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 5,
+    "iconic": true
+  },
+  {
+    "id": "tol-catedral",
+    "city": "toledo",
+    "destination": "toledo",
+    "name": {
+      "es": "Catedral Primada",
+      "en": "Toledo Cathedral",
+      "fr": "Cathédrale de Tolède"
+    },
+    "desc": {
+      "es": "La catedral gótica más importante de España. El Transparente barroco y las pinturas del Greco en la sacristía.",
+      "en": "Spain's most important Gothic cathedral. The Baroque Transparente and El Greco paintings in the sacristy.",
+      "fr": "La cathédrale gothique la plus importante d'Espagne. Le Transparente baroque et les tableaux du Greco."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "art",
+      "architecture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "iconic": true
+  },
+  {
+    "id": "tol-casco",
+    "city": "toledo",
+    "destination": "toledo",
+    "name": {
+      "es": "Casco histórico medieval",
+      "en": "Medieval old town",
+      "fr": "Vieille ville médiévale"
+    },
+    "desc": {
+      "es": "Tres culturas en un laberinto de callejones — mezquitas, sinagogas e iglesias en la misma manzana. Mejor de noche cuando los turistas se van.",
+      "en": "Three cultures in a maze of alleys — mosques, synagogues and churches on the same block. Best at night when tourists leave.",
+      "fr": "Trois cultures dans un labyrinthe de ruelles — mosquées, synagogues et églises dans le même pâté de maisons."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "tol-mazapan",
+    "city": "toledo",
+    "destination": "toledo",
+    "name": {
+      "es": "Mazapán toledano",
+      "en": "Toledo marzipan",
+      "fr": "Massepain de Tolède"
+    },
+    "desc": {
+      "es": "El mazapán más auténtico del mundo, fabricado en los conventos desde el siglo XIII. Santo Tomé es la confitería de referencia.",
+      "en": "The world's most authentic marzipan, made in convents since the 13th century. Santo Tomé is the reference confectionery.",
+      "fr": "Le massepain le plus authentique du monde, fabriqué dans les couvents depuis le XIIIe siècle."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 0.5,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "seg-acueducto",
+    "city": "segovia",
+    "destination": "segovia",
+    "name": {
+      "es": "Acueducto Romano",
+      "en": "Roman Aqueduct",
+      "fr": "Aqueduc Romain"
+    },
+    "desc": {
+      "es": "El acueducto romano mejor conservado del mundo — 728 metros de granito sin una sola gota de argamasa. 2000 años en pie.",
+      "en": "The world's best-preserved Roman aqueduct — 728 metres of granite with no mortar at all. 2000 years standing.",
+      "fr": "L'aqueduc romain le mieux conservé au monde — 728 mètres de granit sans un seul joint de mortier."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "seg-alcazar",
+    "city": "segovia",
+    "destination": "segovia",
+    "name": {
+      "es": "Alcázar de Segovia",
+      "en": "Segovia Alcázar",
+      "fr": "Alcazar de Ségovie"
+    },
+    "desc": {
+      "es": "El castillo que inspiró el de Cenicienta de Disney. En la confluencia de dos ríos, con vistas a Sierra Nevada.",
+      "en": "The castle that inspired Disney's Cinderella Castle. At the confluence of two rivers, with Sierra Nevada views.",
+      "fr": "Le château qui a inspiré le château de Cendrillon de Disney. Au confluent de deux rivières."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "architecture",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 8,
+    "iconic": true
+  },
+  {
+    "id": "seg-cochinillo",
+    "city": "segovia",
+    "destination": "segovia",
+    "name": {
+      "es": "Cochinillo asado en Mesón de Cándido",
+      "en": "Roast suckling pig at Mesón de Cándido",
+      "fr": "Cochon de lait rôti au Mesón de Cándido"
+    },
+    "desc": {
+      "es": "El cochinillo más famoso del mundo. Mesón de Cándido lo sirve desde 1786 — se corta con el filo de un plato.",
+      "en": "The world's most famous suckling pig. Mesón de Cándido has served it since 1786 — carved with the edge of a plate.",
+      "fr": "Le cochon de lait le plus célèbre du monde. Mesón de Cándido le sert depuis 1786."
+    },
+    "tags": [
+      "food",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 35,
+    "iconic": true
+  },
+  {
+    "id": "cue-casas-colgadas",
+    "city": "cuenca",
+    "destination": "cuenca",
+    "name": {
+      "es": "Casas Colgadas",
+      "en": "Hanging Houses",
+      "fr": "Maisons Suspendues"
+    },
+    "desc": {
+      "es": "Las casas medievales que cuelgan sobre el desfiladero de 100 metros. El Museo de Arte Abstracto Español dentro — Chillida, Tàpies.",
+      "en": "The medieval houses hanging over the 100-metre gorge. The Spanish Abstract Art Museum inside — Chillida, Tàpies.",
+      "fr": "Les maisons médiévales suspendues au-dessus des gorges de 100 mètres."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "art",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 3,
+    "iconic": true
+  },
+  {
+    "id": "cue-hoz-huecar",
+    "city": "cuenca",
+    "destination": "cuenca",
+    "name": {
+      "es": "Hoz del Huécar",
+      "en": "Huécar gorge walk",
+      "fr": "Gorges du Huécar"
+    },
+    "desc": {
+      "es": "El paseo por el desfiladero con vistas hacia las casas colgadas desde abajo. El ángulo más impresionante de Cuenca.",
+      "en": "The walk through the gorge with views up to the hanging houses. The most impressive angle of Cuenca.",
+      "fr": "La promenade dans les gorges avec vue sur les maisons suspendues. L'angle le plus impressionnant de Cuenca."
+    },
+    "tags": [
+      "nature",
+      "views",
+      "walk",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "cue-catedral",
+    "city": "cuenca",
+    "destination": "cuenca",
+    "name": {
+      "es": "Catedral de Cuenca",
+      "en": "Cuenca Cathedral",
+      "fr": "Cathédrale de Cuenca"
+    },
+    "desc": {
+      "es": "La primera catedral gótica de España, con vitrales del siglo XX de artistas contemporáneos. Mezcla inusual de medievalismo y modernidad.",
+      "en": "Spain's first Gothic cathedral, with 20th-century stained glass by contemporary artists. An unusual mix of medievalism and modernity.",
+      "fr": "La première cathédrale gothique d'Espagne, avec des vitraux du XXe siècle par des artistes contemporains."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "art"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 4,
+    "iconic": false
+  },
+  {
+    "id": "sal-plaza-mayor",
+    "city": "salamanca",
+    "destination": "salamanca",
+    "name": {
+      "es": "Plaza Mayor de Salamanca",
+      "en": "Salamanca Plaza Mayor",
+      "fr": "Plaza Mayor de Salamanque"
+    },
+    "desc": {
+      "es": "La plaza más bella de España — medallones de reyes españoles en los arcos barrocos. Punto de encuentro social desde 1755.",
+      "en": "Spain's most beautiful square — medallions of Spanish kings on the Baroque arches. Social meeting point since 1755.",
+      "fr": "La plus belle place d'Espagne — médaillons de rois espagnols sur les arches baroques."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "sal-universidad",
+    "city": "salamanca",
+    "destination": "salamanca",
+    "name": {
+      "es": "Universidad de Salamanca",
+      "en": "University of Salamanca",
+      "fr": "Université de Salamanque"
+    },
+    "desc": {
+      "es": "La universidad más antigua de España, fundada en 1218. Busca el lagarto escondido en la fachada plateresca — trae buena suerte en los exámenes.",
+      "en": "Spain's oldest university, founded in 1218. Find the hidden frog on the Plateresque facade — it brings good luck in exams.",
+      "fr": "La plus ancienne université d'Espagne, fondée en 1218. Trouvez la grenouille cachée sur la façade."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 10,
+    "iconic": true
+  },
+  {
+    "id": "sal-catedral-vieja",
+    "city": "salamanca",
+    "destination": "salamanca",
+    "name": {
+      "es": "Catedral Vieja y Nueva",
+      "en": "Old & New Cathedral",
+      "fr": "Ancienne et Nouvelle Cathédrale"
+    },
+    "desc": {
+      "es": "Dos catedrales adosadas de estilos distintos. La torre Gallo y las vistas desde los tejados son lo mejor de Salamanca.",
+      "en": "Two cathedrals side by side in different styles. The Gallo tower and rooftop views are the best of Salamanca.",
+      "fr": "Deux cathédrales adossées de styles différents. La tour Gallo et les vues depuis les toits sont le meilleur de Salamanque."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 7,
+    "iconic": false
+  },
+  {
+    "id": "sal-nightlife",
+    "city": "salamanca",
+    "destination": "salamanca",
+    "name": {
+      "es": "Noche universitaria en Salamanca",
+      "en": "University nightlife in Salamanca",
+      "fr": "Nuit universitaire à Salamanque"
+    },
+    "desc": {
+      "es": "La mejor noche de Castilla. El Gran Café Moderno y la zona de bares de la calle Van Dyck son el corazón de la vida estudiantil.",
+      "en": "The best night out in Castile. Gran Café Moderno and the Van Dyck bar street are the heart of student life.",
+      "fr": "La meilleure nuit de Castille. Le Gran Café Moderno et la rue Van Dyck sont le cœur de la vie étudiante."
+    },
+    "tags": [
+      "nightlife",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "cac-monumental",
+    "city": "caceres",
+    "destination": "caceres",
+    "name": {
+      "es": "Ciudad Monumental de Cáceres",
+      "en": "Cáceres Monumental City",
+      "fr": "Ville Monumentale de Cáceres"
+    },
+    "desc": {
+      "es": "La ciudad medieval más completa de Europa — torres señoriales del siglo XV intactas. Localización de Juego de Tronos (Desembarco del Rey).",
+      "en": "The most complete medieval city in Europe — 15th-century noble towers intact. Game of Thrones filming location (King's Landing).",
+      "fr": "La ville médiévale la plus complète d'Europe — tours seigneuriales du XVe siècle intactes."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "cac-palacio-toledo-moctezuma",
+    "city": "caceres",
+    "destination": "caceres",
+    "name": {
+      "es": "Palacio de Toledo-Moctezuma",
+      "en": "Toledo-Moctezuma Palace",
+      "fr": "Palais Toledo-Moctezuma"
+    },
+    "desc": {
+      "es": "El palacio del conquistador que se casó con la hija de Moctezuma II. La historia más increíble de la América colonial en un edificio de Extremadura.",
+      "en": "The palace of the conquistador who married Moctezuma II's daughter. The most incredible story of colonial America in an Extremadura building.",
+      "fr": "Le palais du conquistador qui épousa la fille de Moctezuma II."
+    },
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "cac-extremadura-food",
+    "city": "caceres",
+    "destination": "caceres",
+    "name": {
+      "es": "Gastronomía extremeña",
+      "en": "Extremadura cuisine",
+      "fr": "Cuisine d'Estrémadure"
+    },
+    "desc": {
+      "es": "El jamón ibérico más caro del mundo (Dehesa de Extremadura) y el queso Torta del Casar que se come con cuchara.",
+      "en": "The world's most expensive Ibérico ham (Dehesa de Extremadura) and Torta del Casar cheese eaten with a spoon.",
+      "fr": "Le jambon ibérique le plus cher au monde et le fromage Torta del Casar qu'on mange à la cuillère."
+    },
+    "tags": [
+      "food",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 30,
+    "iconic": false
+  },
+  {
+    "id": "avi-murallas",
+    "city": "avila",
+    "destination": "avila",
+    "name": {
+      "es": "Murallas medievales",
+      "en": "Medieval walls",
+      "fr": "Remparts médiévaux"
+    },
+    "desc": {
+      "es": "Las murallas más completas de Europa — 2,5km con 88 torres y 9 puertas. Se puede caminar encima de toda la muralla.",
+      "en": "The most complete walls in Europe — 2.5km with 88 towers and 9 gates. You can walk along the entire top.",
+      "fr": "Les remparts les plus complets d'Europe — 2,5km avec 88 tours et 9 portes."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "iconic",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 5,
+    "iconic": true
+  },
+  {
+    "id": "avi-catedral",
+    "city": "avila",
+    "destination": "avila",
+    "name": {
+      "es": "Catedral de Ávila",
+      "en": "Ávila Cathedral",
+      "fr": "Cathédrale d'Ávila"
+    },
+    "desc": {
+      "es": "La primera catedral gótica de España, integrada en las murallas. El ábside es una torre defensiva.",
+      "en": "Spain's first Gothic cathedral, integrated into the walls. The apse is a defensive tower.",
+      "fr": "La première cathédrale gothique d'Espagne, intégrée dans les remparts."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "avi-yemas",
+    "city": "avila",
+    "destination": "avila",
+    "name": {
+      "es": "Yemas de Santa Teresa",
+      "en": "Yemas de Santa Teresa",
+      "fr": "Yemas de Santa Teresa"
+    },
+    "desc": {
+      "es": "El dulce más famoso de Castilla — bolas de yema de huevo y azúcar inventadas en el convento de Santa Teresa en el siglo XVI.",
+      "en": "Castile's most famous sweet — egg yolk and sugar balls invented in Santa Teresa's convent in the 16th century.",
+      "fr": "Le bonbon le plus célèbre de Castille — boules de jaune d'œuf et sucre inventées au couvent de Sainte Thérèse."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 0.5,
+    "price_eur": 5,
+    "iconic": false
+  },
+  {
+    "id": "con-molinos",
+    "city": "consuegra",
+    "destination": "consuegra",
+    "name": {
+      "es": "Molinos de viento de Consuegra",
+      "en": "Consuegra windmills",
+      "fr": "Moulins à vent de Consuegra"
+    },
+    "desc": {
+      "es": "Los 12 molinos blancos del Cerro Calderico — el paisaje exacto que describió Cervantes. El Castillo de la Muela al lado data del siglo X.",
+      "en": "The 12 white windmills on Cerro Calderico — the exact landscape Cervantes described. The 10th-century Muela Castle alongside.",
+      "fr": "Les 12 moulins blancs du Cerro Calderico — le paysage exact décrit par Cervantes."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "views",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 3,
+    "iconic": true
+  },
+  {
+    "id": "con-azafran",
+    "city": "consuegra",
+    "destination": "consuegra",
+    "name": {
+      "es": "La capital mundial del azafrán",
+      "en": "World saffron capital",
+      "fr": "Capitale mondiale du safran"
+    },
+    "desc": {
+      "es": "La Mancha produce el 70% del azafrán del mundo. La rosa del azafrán — la flor de la que viene — florece en octubre.",
+      "en": "La Mancha produces 70% of the world's saffron. The saffron rose — the flower it comes from — blooms in October.",
+      "fr": "La Mancha produit 70% du safran mondial. La rose du safran fleurit en octobre."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "iconic": false
+  },
+  {
+    "id": "con-campo-criptana",
+    "city": "consuegra",
+    "destination": "consuegra",
+    "name": {
+      "es": "Campo de Criptana",
+      "en": "Campo de Criptana windmills",
+      "fr": "Moulins de Campo de Criptana"
+    },
+    "desc": {
+      "es": "Los molinos más fotografiados de La Mancha — algunos datan del siglo XVI. Alonso Quijano los tomó por gigantes.",
+      "en": "La Mancha's most photographed windmills — some date from the 16th century. Alonso Quijano mistook them for giants.",
+      "fr": "Les moulins les plus photographiés de La Mancha — certains datent du XVIe siècle."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "photo"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "snm-buitrago",
+    "city": "madrid-sierra-norte",
+    "destination": "madrid-sierra-norte",
+    "name": {
+      "es": "Buitrago del Lozoya",
+      "en": "Buitrago del Lozoya",
+      "fr": "Buitrago del Lozoya"
+    },
+    "desc": {
+      "es": "Un pueblo medieval amurallado en el embalse del Lozoya. Las murallas son de origen árabe y se conservan completas.",
+      "en": "A medieval walled town on the Lozoya reservoir. The walls are of Arab origin and survive complete.",
+      "fr": "Un village médiéval fortifié sur le réservoir de Lozoya. Les remparts sont d'origine arabe."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "nature",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "snm-patones",
+    "city": "madrid-sierra-norte",
+    "destination": "madrid-sierra-norte",
+    "name": {
+      "es": "Patones de Arriba",
+      "en": "Patones de Arriba",
+      "fr": "Patones de Arriba"
+    },
+    "desc": {
+      "es": "El único pueblo que nunca fue conquistado por los franceses — oculto en el desfiladero de Torrelaguna. Casas de pizarra negra únicas.",
+      "en": "The only village never conquered by the French — hidden in the Torrelaguna gorge. Unique black slate houses.",
+      "fr": "Le seul village jamais conquis par les Français — caché dans la gorge de Torrelaguna. Maisons en ardoise noire uniques."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "nature",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "snm-hayedo-montejo",
+    "city": "madrid-sierra-norte",
+    "destination": "madrid-sierra-norte",
+    "name": {
+      "es": "Hayedo de Montejo",
+      "en": "Montejo Beech Forest",
+      "fr": "Hêtraie de Montejo"
+    },
+    "desc": {
+      "es": "El hayedo más austral de Europa — una reliquia del bosque del Terciario que sobrevivió a la última glaciación. Visita con reserva.",
+      "en": "Europe's southernmost beech forest — a relic of Tertiary forest that survived the last ice age. Visit with booking.",
+      "fr": "La hêtraie la plus méridionale d'Europe — une relique de la forêt tertiaire qui a survécu à la dernière glaciation."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 5,
+    "iconic": false
+  },
+  {
+    "id": "sor-canon-rio-lobos",
+    "city": "soria",
+    "destination": "soria",
+    "name": {
+      "es": "Cañón del Río Lobos",
+      "en": "Río Lobos Canyon",
+      "fr": "Canyon du Río Lobos"
+    },
+    "desc": {
+      "es": "El cañón más espectacular de Castilla. Las buitres leonados anidan en los cortados y la ermita templaria del siglo XII en el fondo.",
+      "en": "Castile's most spectacular canyon. Griffon vultures nest on the cliffs and a 12th-century Templar hermitage at the bottom.",
+      "fr": "Le canyon le plus spectaculaire de Castille. Des vautours fauves nichent sur les falaises."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "culture",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "sor-numancia",
+    "city": "soria",
+    "destination": "soria",
+    "name": {
+      "es": "Numancia — la ciudad invencible",
+      "en": "Numancia — the unconquered city",
+      "fr": "Numance — la cité invincible"
+    },
+    "desc": {
+      "es": "Las ruinas de la ciudad que resistió a Roma durante 20 años. El símbolo de la resistencia española.",
+      "en": "The ruins of the city that resisted Rome for 20 years. The symbol of Spanish resistance.",
+      "fr": "Les ruines de la ville qui résista à Rome pendant 20 ans. Le symbole de la résistance espagnole."
+    },
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 3,
+    "iconic": false
+  },
+  {
+    "id": "sor-tierras-altas",
+    "city": "soria",
+    "destination": "soria",
+    "name": {
+      "es": "Tierras Altas — pueblos despoblados",
+      "en": "Tierras Altas — abandoned villages",
+      "fr": "Tierras Altas — villages abandonnés"
+    },
+    "desc": {
+      "es": "Los pueblos fantasma de la España vaciada. La experiencia más auténtica de la Castilla profunda — paisajes infinitos sin turistas.",
+      "en": "The ghost villages of emptied Spain. The most authentic experience of deep Castile — infinite landscapes with no tourists.",
+      "fr": "Les villages fantômes de l'Espagne vidée. L'expérience la plus authentique de la Castille profonde."
+    },
+    "tags": [
+      "nature",
+      "local",
+      "culture",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gua-pedriza",
+    "city": "sierra-guadarrama",
+    "destination": "sierra-guadarrama",
+    "name": {
+      "es": "La Pedriza — parque nacional",
+      "en": "La Pedriza — national park",
+      "fr": "La Pedriza — parc national"
+    },
+    "desc": {
+      "es": "El laberinto de granito más grande de Europa. Rutas de senderismo para todos los niveles con buitres y cabras montesas.",
+      "en": "Europe's largest granite labyrinth. Hiking trails for all levels with vultures and mountain goats.",
+      "fr": "Le plus grand labyrinthe de granit d'Europe. Randonnées pour tous les niveaux avec vautours et bouquetins."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "gua-navacerrada",
+    "city": "sierra-guadarrama",
+    "destination": "sierra-guadarrama",
+    "name": {
+      "es": "Puerto de Navacerrada",
+      "en": "Navacerrada Mountain Pass",
+      "fr": "Col de Navacerrada"
+    },
+    "desc": {
+      "es": "El puerto de montaña a 1.860m con nieve en invierno y senderismo en verano. El tren de cremallera histórico llega hasta aquí.",
+      "en": "The mountain pass at 1,860m with snow in winter and hiking in summer. The historic rack railway reaches here.",
+      "fr": "Le col de montagne à 1 860m avec neige en hiver et randonnée en été."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gua-escorial",
+    "city": "sierra-guadarrama",
+    "destination": "sierra-guadarrama",
+    "name": {
+      "es": "El Escorial",
+      "en": "El Escorial Monastery",
+      "fr": "Monastère de l'Escurial"
+    },
+    "desc": {
+      "es": "El octavo monumento del mundo en tamaño. La necrópolis de los reyes de España — 26 reyes enterrados en la cripta.",
+      "en": "The world's eighth largest monument. The necropolis of Spain's kings — 26 kings buried in the crypt.",
+      "fr": "Le huitième monument au monde par sa taille. La nécropole des rois d'Espagne — 26 rois enterrés dans la crypte."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "iconic",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 12,
+    "iconic": true
+  },
+  {
+    "id": "dor-lascaux",
+    "city": "dordogne",
+    "destination": "dordogne",
+    "name": {
+      "es": "Cuevas de Lascaux IV",
+      "en": "Lascaux IV Caves",
+      "fr": "Grottes de Lascaux IV"
+    },
+    "desc": {
+      "es": "La reproducción exacta de las pinturas rupestres de 17.000 años — los originales están cerrados para preservarlos. La capilla Sixtina del arte prehistórico.",
+      "en": "The exact reproduction of 17,000-year-old cave paintings — the originals are closed to preserve them. The Sistine Chapel of prehistoric art.",
+      "fr": "La reproduction exacte des peintures rupestres de 17 000 ans. La Chapelle Sixtine de l'art préhistorique."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "art"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 22,
+    "iconic": true
+  },
+  {
+    "id": "dor-sarlat",
+    "city": "dordogne",
+    "destination": "dordogne",
+    "name": {
+      "es": "Sarlat-la-Canéda",
+      "en": "Sarlat-la-Canéda",
+      "fr": "Sarlat-la-Canéda"
+    },
+    "desc": {
+      "es": "El pueblo medieval más bonito de Francia. El mercado del sábado con foie gras, trufa negra y noix desborda las calles del casco histórico.",
+      "en": "France's most beautiful medieval town. The Saturday market with foie gras, black truffle and walnuts fills the old town streets.",
+      "fr": "La plus belle ville médiévale de France. Le marché du samedi avec foie gras, truffe noire et noix envahit les rues."
+    },
+    "tags": [
+      "culture",
+      "food",
+      "history",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "dor-foie-gras",
+    "city": "dordogne",
+    "destination": "dordogne",
+    "name": {
+      "es": "Cata de foie gras y trufa",
+      "en": "Foie gras & truffle tasting",
+      "fr": "Dégustation foie gras et truffe"
+    },
+    "desc": {
+      "es": "La Périgord es la capital mundial del foie gras y la trufa negra. Las granjas locales ofrecen catas directas — más auténtico y más barato que en restaurante.",
+      "en": "The Périgord is the world capital of foie gras and black truffle. Local farms offer direct tastings — more authentic and cheaper than restaurants.",
+      "fr": "Le Périgord est la capitale mondiale du foie gras et de la truffe noire."
+    },
+    "tags": [
+      "food",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 25,
+    "iconic": false
+  },
+  {
+    "id": "nan-machines-ile",
+    "city": "loire-atlantique",
+    "destination": "loire-atlantique",
+    "name": {
+      "es": "Les Machines de l'Île",
+      "en": "Les Machines de l'Île",
+      "fr": "Les Machines de l'Île"
+    },
+    "desc": {
+      "es": "El elefante mecánico más grande del mundo — 12 metros de altura y 45 toneladas que pasea por el muelle. Nantes tiene el arte urbano más creativo de Europa.",
+      "en": "The world's largest mechanical elephant — 12 metres tall and 45 tonnes that walks along the quay. Nantes has Europe's most creative urban art.",
+      "fr": "Le plus grand éléphant mécanique du monde — 12 mètres de haut et 45 tonnes qui se promène sur le quai."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "iconic": true
+  },
+  {
+    "id": "nan-chateau-ducs",
+    "city": "loire-atlantique",
+    "destination": "loire-atlantique",
+    "name": {
+      "es": "Château des Ducs de Bretagne",
+      "en": "Château des Ducs de Bretagne",
+      "fr": "Château des Ducs de Bretagne"
+    },
+    "desc": {
+      "es": "El castillo donde Enrique IV firmó el Edicto de Nantes en 1598. El museo de la historia de Nantes dentro es el mejor de la ciudad.",
+      "en": "The castle where Henry IV signed the Edict of Nantes in 1598. The museum of Nantes history inside is the city's best.",
+      "fr": "Le château où Henri IV signa l'Édit de Nantes en 1598."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "nan-muscadet",
+    "city": "loire-atlantique",
+    "destination": "loire-atlantique",
+    "name": {
+      "es": "Cata de Muscadet",
+      "en": "Muscadet wine tasting",
+      "fr": "Dégustation de Muscadet"
+    },
+    "desc": {
+      "es": "El vino de Nantes — el Muscadet sur lie es el mejor mariaje con los mariscos del Atlántico. Las bodegas de la región ofrecen catas directas.",
+      "en": "Nantes' wine — Muscadet sur lie is the perfect match for Atlantic seafood. Local wineries offer direct tastings.",
+      "fr": "Le vin de Nantes — le Muscadet sur lie est l'accord parfait avec les fruits de mer atlantiques."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 15,
+    "iconic": false
   }
 ]

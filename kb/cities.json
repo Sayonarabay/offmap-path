@@ -1076,5 +1076,225 @@
     },
     "nights": 9,
     "order": 1
+  },
+  {
+    "id": "mont-saint-michel-c",
+    "destination": "mont-saint-michel",
+    "name": {
+      "es": "Mont Saint-Michel",
+      "en": "Mont Saint-Michel",
+      "fr": "Mont Saint-Michel"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "loire-valley-c",
+    "destination": "loire-valley",
+    "name": {
+      "es": "Valle del Loira",
+      "en": "Loire Valley",
+      "fr": "Vallée de la Loire"
+    },
+    "nights": 5,
+    "order": 1
+  },
+  {
+    "id": "normandy-c",
+    "destination": "normandy",
+    "name": {
+      "es": "Normandía",
+      "en": "Normandy",
+      "fr": "Normandie"
+    },
+    "nights": 5,
+    "order": 1
+  },
+  {
+    "id": "reims-c",
+    "destination": "reims",
+    "name": {
+      "es": "Reims",
+      "en": "Reims",
+      "fr": "Reims"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "bruges-c",
+    "destination": "bruges",
+    "name": {
+      "es": "Brujas",
+      "en": "Bruges",
+      "fr": "Bruges"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "alsace-c",
+    "destination": "alsace",
+    "name": {
+      "es": "Alsacia",
+      "en": "Alsace",
+      "fr": "Alsace"
+    },
+    "nights": 4,
+    "order": 1
+  },
+  {
+    "id": "brussels-c",
+    "destination": "brussels",
+    "name": {
+      "es": "Bruselas",
+      "en": "Brussels",
+      "fr": "Bruxelles"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "chartres-c",
+    "destination": "chartres",
+    "name": {
+      "es": "Chartres",
+      "en": "Chartres",
+      "fr": "Chartres"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "nantes-c",
+    "destination": "loire-atlantique",
+    "name": {
+      "es": "Nantes",
+      "en": "Nantes",
+      "fr": "Nantes"
+    },
+    "nights": 4,
+    "order": 1
+  },
+  {
+    "id": "dordogne-c",
+    "destination": "dordogne",
+    "name": {
+      "es": "Dordoña",
+      "en": "Dordogne",
+      "fr": "Dordogne"
+    },
+    "nights": 5,
+    "order": 1
+  },
+  {
+    "id": "toledo-c",
+    "destination": "toledo",
+    "name": {
+      "es": "Toledo",
+      "en": "Toledo",
+      "fr": "Tolède"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "segovia-c",
+    "destination": "segovia",
+    "name": {
+      "es": "Segovia",
+      "en": "Segovia",
+      "fr": "Ségovie"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "cuenca-c",
+    "destination": "cuenca",
+    "name": {
+      "es": "Cuenca",
+      "en": "Cuenca",
+      "fr": "Cuenca"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "sierra-guadarrama-c",
+    "destination": "sierra-guadarrama",
+    "name": {
+      "es": "Sierra de Guadarrama",
+      "en": "Sierra de Guadarrama",
+      "fr": "Sierra de Guadarrama"
+    },
+    "nights": 4,
+    "order": 1
+  },
+  {
+    "id": "avila-c",
+    "destination": "avila",
+    "name": {
+      "es": "Ávila",
+      "en": "Ávila",
+      "fr": "Ávila"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "salamanca-c",
+    "destination": "salamanca",
+    "name": {
+      "es": "Salamanca",
+      "en": "Salamanca",
+      "fr": "Salamanque"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "caceres-c",
+    "destination": "caceres",
+    "name": {
+      "es": "Cáceres",
+      "en": "Cáceres",
+      "fr": "Cáceres"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "consuegra-c",
+    "destination": "consuegra",
+    "name": {
+      "es": "La Mancha",
+      "en": "La Mancha",
+      "fr": "La Mancha"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "soria-c",
+    "destination": "soria",
+    "name": {
+      "es": "Soria",
+      "en": "Soria",
+      "fr": "Soria"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "sierra-norte-c",
+    "destination": "madrid-sierra-norte",
+    "name": {
+      "es": "Sierra Norte de Madrid",
+      "en": "Sierra Norte de Madrid",
+      "fr": "Sierra Norte de Madrid"
+    },
+    "nights": 3,
+    "order": 1
   }
 ]

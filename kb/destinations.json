@@ -1500,5 +1500,1005 @@
         "pricePerNight": 200
       }
     ]
+  },
+  {
+    "slug": "mont-saint-michel",
+    "name": "Mont Saint-Michel",
+    "country": "France",
+    "region": "Normandy",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 110,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "nature",
+      "relaxed"
+    ],
+    "highlight": "The most visited site in France outside Paris — a medieval abbey on a tidal island.",
+    "idealDays": [
+      2,
+      4
+    ],
+    "proximityScore": 9,
+    "needs_car": true,
+    "carPricePerDay": 40,
+    "hasTrain": false,
+    "distanceKm": {
+      "paris": 320,
+      "madrid": 1450,
+      "default": 400
+    },
+    "flightUrl": "",
+    "transport": {
+      "system": "Car",
+      "description": "Best by car from Paris (3.5h). No direct train."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Pontorson",
+        "pricePerNight": 60
+      },
+      {
+        "type": "mid",
+        "zone": "Mont Saint-Michel village",
+        "pricePerNight": 130
+      },
+      {
+        "type": "luxury",
+        "zone": "Within the walls",
+        "pricePerNight": 320
+      }
+    ]
+  },
+  {
+    "slug": "loire-valley",
+    "name": "Loire Valley",
+    "country": "France",
+    "region": "Centre-Val de Loire",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 120,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "relaxed",
+      "food",
+      "romantic"
+    ],
+    "highlight": "The garden of France — Renaissance châteaux, Loire wine and the most elegant river valley in Europe.",
+    "idealDays": [
+      3,
+      6
+    ],
+    "proximityScore": 9,
+    "needs_car": true,
+    "carPricePerDay": 42,
+    "hasTrain": true,
+    "distanceKm": {
+      "paris": 200,
+      "madrid": 1200,
+      "default": 250
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Tours",
+    "transport": {
+      "system": "Car + Train",
+      "description": "Train to Tours (1h, €25), then rent a car to visit the châteaux."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Tours",
+        "pricePerNight": 65
+      },
+      {
+        "type": "mid",
+        "zone": "Amboise",
+        "pricePerNight": 120
+      },
+      {
+        "type": "luxury",
+        "zone": "Château hotel",
+        "pricePerNight": 300
+      }
+    ]
+  },
+  {
+    "slug": "normandy",
+    "name": "Normandy",
+    "country": "France",
+    "region": "Normandy",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 110,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "nature",
+      "food"
+    ],
+    "highlight": "D-Day beaches, Bayeux Tapestry, Monet's garden in Giverny and the best cheese and cider in France.",
+    "idealDays": [
+      3,
+      6
+    ],
+    "proximityScore": 8,
+    "needs_car": true,
+    "carPricePerDay": 42,
+    "hasTrain": true,
+    "distanceKm": {
+      "paris": 200,
+      "madrid": 1400,
+      "default": 280
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Caen",
+    "transport": {
+      "system": "Car + Train",
+      "description": "Train to Caen (2h, €35), then car essential for D-Day sites."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Caen",
+        "pricePerNight": 60
+      },
+      {
+        "type": "mid",
+        "zone": "Bayeux",
+        "pricePerNight": 110
+      },
+      {
+        "type": "luxury",
+        "zone": "Deauville",
+        "pricePerNight": 280
+      }
+    ]
+  },
+  {
+    "slug": "reims",
+    "name": "Reims",
+    "country": "France",
+    "region": "Champagne",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 105,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "history",
+      "romantic"
+    ],
+    "highlight": "The coronation city of French kings, with the most beautiful Gothic cathedral and the world's best Champagne houses.",
+    "idealDays": [
+      2,
+      4
+    ],
+    "proximityScore": 9,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "paris": 145,
+      "madrid": 1250,
+      "default": 200
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Reims",
+    "transport": {
+      "system": "TGV",
+      "description": "TGV from Paris-Est to Reims — 45 minutes, ~€25. The fastest day trip from Paris."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Centre-ville",
+        "pricePerNight": 65
+      },
+      {
+        "type": "mid",
+        "zone": "Near cathedral",
+        "pricePerNight": 115
+      },
+      {
+        "type": "luxury",
+        "zone": "Champagne estate",
+        "pricePerNight": 280
+      }
+    ]
+  },
+  {
+    "slug": "bruges",
+    "name": "Bruges",
+    "country": "Belgium",
+    "region": "Flanders",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 120,
+    "tripTypes": [
+      "cultural",
+      "romantic",
+      "food",
+      "history"
+    ],
+    "highlight": "The best-preserved medieval city in Northern Europe — canals, chocolate, beer and lace.",
+    "idealDays": [
+      2,
+      4
+    ],
+    "proximityScore": 8,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "paris": 300,
+      "madrid": 1600,
+      "default": 350
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Bruges",
+    "transport": {
+      "system": "Thalys + IC",
+      "description": "Thalys Paris → Brussels (1h20), then IC to Bruges (1h). Total ~2.5h, ~€70."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Station area",
+        "pricePerNight": 70
+      },
+      {
+        "type": "mid",
+        "zone": "City centre",
+        "pricePerNight": 140
+      },
+      {
+        "type": "luxury",
+        "zone": "Canal-side hotel",
+        "pricePerNight": 320
+      }
+    ]
+  },
+  {
+    "slug": "alsace",
+    "name": "Alsace",
+    "country": "France",
+    "region": "Grand Est",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 115,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "nature",
+      "romantic"
+    ],
+    "highlight": "Half-timbered villages, the Route des Vins and the most Germanic corner of France.",
+    "idealDays": [
+      3,
+      5
+    ],
+    "proximityScore": 8,
+    "needs_car": true,
+    "carPricePerDay": 42,
+    "hasTrain": true,
+    "distanceKm": {
+      "paris": 490,
+      "madrid": 1500,
+      "default": 500
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Strasbourg",
+    "transport": {
+      "system": "TGV + Car",
+      "description": "TGV Paris → Strasbourg (2h, ~€50), then rent car for the wine route."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Strasbourg",
+        "pricePerNight": 70
+      },
+      {
+        "type": "mid",
+        "zone": "Colmar",
+        "pricePerNight": 120
+      },
+      {
+        "type": "luxury",
+        "zone": "Wine village inn",
+        "pricePerNight": 250
+      }
+    ]
+  },
+  {
+    "slug": "brussels",
+    "name": "Brussels",
+    "country": "Belgium",
+    "region": "Brussels",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 125,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "nightlife",
+      "history"
+    ],
+    "highlight": "Art Nouveau, the best beer in the world, moules-frites and the most underrated capital in Europe.",
+    "idealDays": [
+      2,
+      4
+    ],
+    "proximityScore": 9,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "paris": 265,
+      "madrid": 1600,
+      "default": 300
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Brussels",
+    "transport": {
+      "system": "Thalys",
+      "description": "Thalys Paris-Nord → Brussels-Midi — 1h22, from €35. Most frequent international train from Paris."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Ixelles",
+        "pricePerNight": 70
+      },
+      {
+        "type": "mid",
+        "zone": "Sablon",
+        "pricePerNight": 140
+      },
+      {
+        "type": "luxury",
+        "zone": "Grand Place area",
+        "pricePerNight": 310
+      }
+    ]
+  },
+  {
+    "slug": "chartres",
+    "name": "Chartres",
+    "country": "France",
+    "region": "Centre-Val de Loire",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 90,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "relaxed"
+    ],
+    "highlight": "The most perfect Gothic cathedral in the world, still with its original medieval stained glass.",
+    "idealDays": [
+      1,
+      3
+    ],
+    "proximityScore": 7,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "paris": 88,
+      "madrid": 1200,
+      "default": 120
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Chartres",
+    "transport": {
+      "system": "Train SNCF",
+      "description": "Direct train from Paris Montparnasse — 1h, €15. The easiest day trip from Paris."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Centre",
+        "pricePerNight": 55
+      },
+      {
+        "type": "mid",
+        "zone": "Cathedral view",
+        "pricePerNight": 100
+      },
+      {
+        "type": "luxury",
+        "zone": "Château de Beauvois",
+        "pricePerNight": 240
+      }
+    ]
+  },
+  {
+    "slug": "loire-atlantique",
+    "name": "Nantes",
+    "country": "France",
+    "region": "Pays de la Loire",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 100,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "local",
+      "art"
+    ],
+    "highlight": "The coolest city in France — Les Machines de l'île, the most creative cultural scene and Atlantic oysters.",
+    "idealDays": [
+      2,
+      5
+    ],
+    "proximityScore": 8,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "paris": 385,
+      "madrid": 1100,
+      "default": 400
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Nantes",
+    "transport": {
+      "system": "TGV",
+      "description": "TGV Paris Montparnasse → Nantes — 2h10, from €35."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Île de Nantes",
+        "pricePerNight": 60
+      },
+      {
+        "type": "mid",
+        "zone": "Centre historique",
+        "pricePerNight": 110
+      },
+      {
+        "type": "luxury",
+        "zone": "Graslin quarter",
+        "pricePerNight": 240
+      }
+    ]
+  },
+  {
+    "slug": "dordogne",
+    "name": "Dordogne",
+    "country": "France",
+    "region": "Nouvelle-Aquitaine",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 110,
+    "tripTypes": [
+      "nature",
+      "food",
+      "history",
+      "relaxed"
+    ],
+    "highlight": "Prehistoric caves, medieval bastide villages, foie gras and the most authentic rural France.",
+    "idealDays": [
+      4,
+      7
+    ],
+    "proximityScore": 7,
+    "needs_car": true,
+    "carPricePerDay": 45,
+    "hasTrain": true,
+    "distanceKm": {
+      "paris": 530,
+      "madrid": 800,
+      "default": 550
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Perigueux",
+    "transport": {
+      "system": "Train + Car",
+      "description": "Train Paris → Périgueux (4h, ~€60), then car essential to explore the valley."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Périgueux",
+        "pricePerNight": 55
+      },
+      {
+        "type": "mid",
+        "zone": "Sarlat",
+        "pricePerNight": 100
+      },
+      {
+        "type": "luxury",
+        "zone": "Château hotel",
+        "pricePerNight": 270
+      }
+    ]
+  },
+  {
+    "slug": "toledo",
+    "name": "Toledo",
+    "country": "Spain",
+    "region": "Castilla-La Mancha",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 85,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "architecture"
+    ],
+    "highlight": "The city of three cultures — Christian, Muslim and Jewish — perfectly preserved on a hilltop above the Tagus.",
+    "idealDays": [
+      1,
+      3
+    ],
+    "proximityScore": 10,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "madrid": 70,
+      "paris": 1200,
+      "default": 120
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Toledo",
+    "transport": {
+      "system": "AVE",
+      "description": "AVE Madrid → Toledo — 33 minutes, €14. The best value high-speed train in Spain."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Old town",
+        "pricePerNight": 50
+      },
+      {
+        "type": "mid",
+        "zone": "Casco histórico",
+        "pricePerNight": 95
+      },
+      {
+        "type": "luxury",
+        "zone": "Parador de Toledo",
+        "pricePerNight": 220
+      }
+    ]
+  },
+  {
+    "slug": "segovia",
+    "name": "Segovia",
+    "country": "Spain",
+    "region": "Castilla y León",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 85,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "food"
+    ],
+    "highlight": "A Roman aqueduct, a fairy-tale Alcázar and the best cochinillo (suckling pig) in the world.",
+    "idealDays": [
+      1,
+      3
+    ],
+    "proximityScore": 10,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "madrid": 90,
+      "paris": 1250,
+      "default": 130
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Segovia",
+    "transport": {
+      "system": "AVE + Bus",
+      "description": "AVE Madrid → Segovia — 30 minutes, €14. Or comfortable bus from Moncloa (1h20, €9)."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Near aqueduct",
+        "pricePerNight": 50
+      },
+      {
+        "type": "mid",
+        "zone": "Old town",
+        "pricePerNight": 90
+      },
+      {
+        "type": "luxury",
+        "zone": "Parador de Segovia",
+        "pricePerNight": 210
+      }
+    ]
+  },
+  {
+    "slug": "cuenca",
+    "name": "Cuenca",
+    "country": "Spain",
+    "region": "Castilla-La Mancha",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 80,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "nature",
+      "art"
+    ],
+    "highlight": "The hanging houses on the gorge cliff, the abstract art museum and one of Spain's most dramatic old towns. UNESCO.",
+    "idealDays": [
+      2,
+      4
+    ],
+    "proximityScore": 8,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "madrid": 165,
+      "paris": 1350,
+      "default": 200
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Cuenca",
+    "transport": {
+      "system": "AVE",
+      "description": "AVE Madrid → Cuenca — 55 minutes, €20. Perfect weekend destination."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "New town",
+        "pricePerNight": 45
+      },
+      {
+        "type": "mid",
+        "zone": "Casas colgadas area",
+        "pricePerNight": 85
+      },
+      {
+        "type": "luxury",
+        "zone": "Parador de Cuenca",
+        "pricePerNight": 200
+      }
+    ]
+  },
+  {
+    "slug": "sierra-guadarrama",
+    "name": "Sierra de Guadarrama",
+    "country": "Spain",
+    "region": "Comunidad de Madrid",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 90,
+    "tripTypes": [
+      "nature",
+      "adventure",
+      "relaxed"
+    ],
+    "highlight": "The lung of Madrid — granite peaks, ski resorts, pine forests and medieval villages 1h from the city.",
+    "idealDays": [
+      2,
+      5
+    ],
+    "proximityScore": 9,
+    "needs_car": true,
+    "carPricePerDay": 38,
+    "hasTrain": true,
+    "distanceKm": {
+      "madrid": 60,
+      "paris": 1250,
+      "default": 100
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=El+Escorial",
+    "transport": {
+      "system": "Cercanías + Car",
+      "description": "Cercanías to El Escorial (1h, €5). Car recommended to explore the full sierra."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Cercedilla",
+        "pricePerNight": 45
+      },
+      {
+        "type": "mid",
+        "zone": "El Escorial",
+        "pricePerNight": 90
+      },
+      {
+        "type": "luxury",
+        "zone": "Rural hotel Rascafría",
+        "pricePerNight": 200
+      }
+    ]
+  },
+  {
+    "slug": "avila",
+    "name": "Ávila",
+    "country": "Spain",
+    "region": "Castilla y León",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 80,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "relaxed"
+    ],
+    "highlight": "The best-preserved medieval walls in Europe, perfectly intact after 900 years. UNESCO World Heritage.",
+    "idealDays": [
+      1,
+      3
+    ],
+    "proximityScore": 8,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "madrid": 110,
+      "paris": 1350,
+      "default": 150
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Avila",
+    "transport": {
+      "system": "AVE",
+      "description": "AVE or regional train Madrid → Ávila — 1h30, from €10."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Outside walls",
+        "pricePerNight": 45
+      },
+      {
+        "type": "mid",
+        "zone": "Inside walls",
+        "pricePerNight": 85
+      },
+      {
+        "type": "luxury",
+        "zone": "Parador de Ávila",
+        "pricePerNight": 195
+      }
+    ]
+  },
+  {
+    "slug": "salamanca",
+    "name": "Salamanca",
+    "country": "Spain",
+    "region": "Castilla y León",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 85,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "nightlife",
+      "food"
+    ],
+    "highlight": "The Golden City — the most beautiful Plaza Mayor in Spain, the oldest university and the best student nightlife.",
+    "idealDays": [
+      2,
+      4
+    ],
+    "proximityScore": 9,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "madrid": 210,
+      "paris": 1350,
+      "default": 250
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Salamanca",
+    "transport": {
+      "system": "Bus + Train",
+      "description": "ALSA bus Madrid → Salamanca — 2.5h, €15. Comfortable and frequent."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "University area",
+        "pricePerNight": 45
+      },
+      {
+        "type": "mid",
+        "zone": "Plaza Mayor area",
+        "pricePerNight": 85
+      },
+      {
+        "type": "luxury",
+        "zone": "Gran Hotel",
+        "pricePerNight": 190
+      }
+    ]
+  },
+  {
+    "slug": "caceres",
+    "name": "Cáceres",
+    "country": "Spain",
+    "region": "Extremadura",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 75,
+    "tripTypes": [
+      "cultural",
+      "history",
+      "food"
+    ],
+    "highlight": "The most intact medieval city in Spain, filming location for Game of Thrones. Completely uncrowded. UNESCO.",
+    "idealDays": [
+      2,
+      4
+    ],
+    "proximityScore": 7,
+    "needs_car": false,
+    "hasTrain": true,
+    "distanceKm": {
+      "madrid": 295,
+      "paris": 1600,
+      "default": 350
+    },
+    "trainUrl": "https://www.thetrainline.com/search?destination=Caceres",
+    "transport": {
+      "system": "AVE",
+      "description": "AVE Madrid → Cáceres — 2h, from €20. New high-speed line opened 2022."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "New town",
+        "pricePerNight": 40
+      },
+      {
+        "type": "mid",
+        "zone": "Old city",
+        "pricePerNight": 75
+      },
+      {
+        "type": "luxury",
+        "zone": "Parador de Cáceres",
+        "pricePerNight": 180
+      }
+    ]
+  },
+  {
+    "slug": "consuegra",
+    "name": "La Mancha — Don Quijote",
+    "country": "Spain",
+    "region": "Castilla-La Mancha",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 75,
+    "tripTypes": [
+      "cultural",
+      "nature",
+      "relaxed"
+    ],
+    "highlight": "The windmills of Consuegra and the La Mancha plateau — the landscape of Don Quijote, unchanged for 400 years.",
+    "idealDays": [
+      2,
+      4
+    ],
+    "proximityScore": 7,
+    "needs_car": true,
+    "carPricePerDay": 38,
+    "hasTrain": false,
+    "distanceKm": {
+      "madrid": 130,
+      "paris": 1300,
+      "default": 180
+    },
+    "transport": {
+      "system": "Car",
+      "description": "Car essential — no direct train. Madrid to Consuegra ~1.5h on A-4."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Consuegra",
+        "pricePerNight": 40
+      },
+      {
+        "type": "mid",
+        "zone": "Almagro",
+        "pricePerNight": 75
+      },
+      {
+        "type": "luxury",
+        "zone": "Parador de Almagro",
+        "pricePerNight": 175
+      }
+    ]
+  },
+  {
+    "slug": "soria",
+    "name": "Soria",
+    "country": "Spain",
+    "region": "Castilla y León",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 70,
+    "tripTypes": [
+      "nature",
+      "cultural",
+      "relaxed",
+      "local"
+    ],
+    "highlight": "The least-visited provincial capital in Spain — untouched Romanesque churches, canyon landscapes and total authenticity.",
+    "idealDays": [
+      2,
+      4
+    ],
+    "proximityScore": 6,
+    "needs_car": true,
+    "carPricePerDay": 38,
+    "hasTrain": false,
+    "distanceKm": {
+      "madrid": 230,
+      "paris": 1300,
+      "default": 280
+    },
+    "transport": {
+      "system": "Car + Bus",
+      "description": "Car recommended (2.5h). Or bus from Méndez Álvaro (2.5h, €16)."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Centre",
+        "pricePerNight": 40
+      },
+      {
+        "type": "mid",
+        "zone": "Old town",
+        "pricePerNight": 70
+      },
+      {
+        "type": "luxury",
+        "zone": "Parador de Soria",
+        "pricePerNight": 170
+      }
+    ]
+  },
+  {
+    "slug": "madrid-sierra-norte",
+    "name": "Sierra Norte de Madrid",
+    "country": "Spain",
+    "region": "Comunidad de Madrid",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 80,
+    "tripTypes": [
+      "nature",
+      "relaxed",
+      "local",
+      "adventure"
+    ],
+    "highlight": "Medieval villages, castles and hiking trails 1 hour from Madrid — Buitrago, Patones and the Atazar reservoir.",
+    "idealDays": [
+      2,
+      4
+    ],
+    "proximityScore": 8,
+    "needs_car": true,
+    "carPricePerDay": 38,
+    "hasTrain": false,
+    "distanceKm": {
+      "madrid": 80,
+      "paris": 1250,
+      "default": 120
+    },
+    "transport": {
+      "system": "Car",
+      "description": "Car essential — 1h from Madrid on A-1. Villages are spread out and not served by train."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Buitrago",
+        "pricePerNight": 45
+      },
+      {
+        "type": "mid",
+        "zone": "Rural house",
+        "pricePerNight": 80
+      },
+      {
+        "type": "luxury",
+        "zone": "Boutique rural hotel",
+        "pricePerNight": 180
+      }
+    ]
   }
 ]
