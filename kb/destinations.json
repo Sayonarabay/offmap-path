@@ -1,1 +1,86 @@
-
+[
+  {
+    "slug": "paris",
+    "name": "Paris",
+    "country": "France",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 150,
+    "tripTypes": ["cultural", "romantic", "food"],
+    "highlight": "The city of light — art, gastronomy and architecture in every corner.",
+    "transport": {
+      "system": "Metro + RER",
+      "description": "14 metro lines cover the whole city. Buy a Navigo weekly pass (€30) for unlimited travel.",
+      "airportTransfer": "RER B from CDG — 35 min, €12"
+    },
+    "accommodation": [
+      { "type": "budget",  "zone": "11th arr.",     "pricePerNight": 80  },
+      { "type": "mid",     "zone": "Marais",         "pricePerNight": 160 },
+      { "type": "luxury",  "zone": "Saint-Germain",  "pricePerNight": 380 }
+    ]
+  },
+  {
+    "slug": "lisbon",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 100,
+    "tripTypes": ["cultural", "relaxed", "food", "nightlife"],
+    "highlight": "Pastel-coloured trams, fado music, and the best pastéis de nata in the world.",
+    "transport": {
+      "system": "Tram + Metro",
+      "description": "Historic tram 28 for sightseeing. Metro for longer distances. Tap card works on both.",
+      "airportTransfer": "Metro red line — 20 min, €1.65"
+    },
+    "accommodation": [
+      { "type": "budget",  "zone": "Intendente",    "pricePerNight": 55  },
+      { "type": "mid",     "zone": "Alfama",         "pricePerNight": 110 },
+      { "type": "luxury",  "zone": "Chiado",         "pricePerNight": 260 }
+    ]
+  },
+  {
+    "slug": "kyoto",
+    "name": "Kyoto",
+    "country": "Japan",
+    "region": "Asia",
+    "proximity": "far",
+    "type": "city",
+    "avgCostPerDay": 130,
+    "tripTypes": ["cultural", "spiritual", "nature"],
+    "highlight": "Thousands of temples, traditional tea ceremonies, and bamboo forests.",
+    "transport": {
+      "system": "Bus + Subway",
+      "description": "City bus covers all main temples. IC card (Suica) works on every bus and train.",
+      "airportTransfer": "Haruka Express from Kansai — 75 min, €15"
+    },
+    "accommodation": [
+      { "type": "budget",  "zone": "Kyoto Station",  "pricePerNight": 50  },
+      { "type": "mid",     "zone": "Gion",            "pricePerNight": 140 },
+      { "type": "luxury",  "zone": "Higashiyama",     "pricePerNight": 420 }
+    ]
+  },
+  {
+    "slug": "andalucia-roadtrip",
+    "name": "Andalucía Road Trip",
+    "country": "Spain",
+    "region": "Europe",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 110,
+    "tripTypes": ["cultural", "food", "adventure", "nature"],
+    "highlight": "Seville → Granada → Ronda → Málaga. Flamenco, Moorish palaces, and mountain villages.",
+    "transport": {
+      "system": "Rental car",
+      "description": "Rent in Seville, return in Málaga. Motorways are fast and toll-free between main cities.",
+      "airportTransfer": "Fly into Seville SVQ, out of Málaga AGP"
+    },
+    "accommodation": [
+      { "type": "budget",  "zone": "City centres",   "pricePerNight": 60  },
+      { "type": "mid",     "zone": "Boutique hotels", "pricePerNight": 120 },
+      { "type": "luxury",  "zone": "Paradores",       "pricePerNight": 280 }
+    ]
+  }
+]
