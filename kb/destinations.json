@@ -65,7 +65,8 @@
       4,
       10
     ],
-    "proximityScore": 5
+    "proximityScore": 5,
+    "needs_car": false
   },
   {
     "slug": "lisbon",
@@ -134,7 +135,8 @@
       4,
       8
     ],
-    "proximityScore": 8
+    "proximityScore": 8,
+    "needs_car": false
   },
   {
     "slug": "kyoto",
@@ -202,7 +204,8 @@
       5,
       10
     ],
-    "proximityScore": 3
+    "proximityScore": 3,
+    "needs_car": false
   },
   {
     "slug": "dolomitas",
@@ -245,7 +248,9 @@
         "zone": "Cortina d'Ampezzo",
         "pricePerNight": 320
       }
-    ]
+    ],
+    "needs_car": true,
+    "carPricePerDay": 45
   },
   {
     "slug": "azores",
@@ -287,7 +292,9 @@
         "zone": "Ribeira Grande",
         "pricePerNight": 220
       }
-    ]
+    ],
+    "needs_car": true,
+    "carPricePerDay": 45
   },
   {
     "slug": "islandia",
@@ -328,7 +335,9 @@
         "zone": "Lodges del sur glacial",
         "pricePerNight": 380
       }
-    ]
+    ],
+    "needs_car": true,
+    "carPricePerDay": 45
   },
   {
     "slug": "lanzarote",
@@ -370,7 +379,9 @@
         "zone": "Playa Blanca",
         "pricePerNight": 220
       }
-    ]
+    ],
+    "needs_car": true,
+    "carPricePerDay": 45
   },
   {
     "slug": "gran-canaria",
@@ -413,7 +424,9 @@
         "zone": "Agaete / noroeste",
         "pricePerNight": 200
       }
-    ]
+    ],
+    "needs_car": true,
+    "carPricePerDay": 45
   },
   {
     "slug": "baleares",
@@ -456,7 +469,9 @@
         "zone": "Binibeca / Menorca",
         "pricePerNight": 280
       }
-    ]
+    ],
+    "needs_car": true,
+    "carPricePerDay": 45
   },
   {
     "slug": "madrid-naturaleza",
@@ -498,7 +513,9 @@
         "zone": "Salamanca / Retiro",
         "pricePerNight": 260
       }
-    ]
+    ],
+    "needs_car": true,
+    "carPricePerDay": 45
   },
   {
     "slug": "san-sebastian",
@@ -541,7 +558,8 @@
         "zone": "La Concha frente al mar",
         "pricePerNight": 290
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "amsterdam",
@@ -610,7 +628,8 @@
         "zone": "Canal Ring",
         "pricePerNight": 350
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "rome",
@@ -679,7 +698,8 @@
         "zone": "Spanish Steps",
         "pricePerNight": 380
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "barcelona",
@@ -749,7 +769,8 @@
         "zone": "Passeig de Gràcia",
         "pricePerNight": 320
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "prague",
@@ -810,7 +831,8 @@
         "zone": "Old Town",
         "pricePerNight": 220
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "tokyo",
@@ -879,7 +901,8 @@
         "zone": "Ginza",
         "pricePerNight": 400
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "marrakech",
@@ -940,7 +963,8 @@
         "zone": "Palmeraie",
         "pricePerNight": 250
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "new-york",
@@ -1001,7 +1025,8 @@
         "zone": "Manhattan",
         "pricePerNight": 500
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "berlin",
@@ -1062,7 +1087,8 @@
         "zone": "Mitte",
         "pricePerNight": 280
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "bangkok",
@@ -1123,7 +1149,8 @@
         "zone": "Riverside",
         "pricePerNight": 200
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "vienna",
@@ -1185,7 +1212,8 @@
         "zone": "Innere Stadt",
         "pricePerNight": 320
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "copenhagen",
@@ -1246,7 +1274,8 @@
         "zone": "Indre By",
         "pricePerNight": 380
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "istanbul",
@@ -1307,7 +1336,8 @@
         "zone": "Bosphorus",
         "pricePerNight": 280
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "mexico-city",
@@ -1368,7 +1398,8 @@
         "zone": "Polanco",
         "pricePerNight": 250
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "dubai",
@@ -1429,7 +1460,8 @@
         "zone": "Palm Jumeirah",
         "pricePerNight": 500
       }
-    ]
+    ],
+    "needs_car": false
   },
   {
     "slug": "bali",
@@ -1499,7 +1531,9 @@
         "zone": "Nusa Dua",
         "pricePerNight": 200
       }
-    ]
+    ],
+    "needs_car": true,
+    "carPricePerDay": 45
   },
   {
     "slug": "mont-saint-michel",

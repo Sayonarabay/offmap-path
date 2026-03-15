@@ -9458,5 +9458,1894 @@
     "duration_hours": 2,
     "price_eur": 15,
     "iconic": false
+  },
+  {
+    "id": "prg-petrin",
+    "city": "prague",
+    "destination": "prague",
+    "name": {
+      "es": "Torre y jardines de Petřín",
+      "en": "Petřín Tower & Gardens",
+      "fr": "Tour et jardins de Petřín"
+    },
+    "desc": {
+      "es": "La mini Torre Eiffel de Praga con vistas de 360°. Los jardines en flor de cerezo en abril son extraordinarios.",
+      "en": "Prague's mini Eiffel Tower with 360° views. The cherry blossom gardens in April are extraordinary.",
+      "fr": "La mini Tour Eiffel de Prague avec des vues à 360°. Les jardins en fleurs de cerisier en avril sont extraordinaires."
+    },
+    "tags": [
+      "views",
+      "walk",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 5,
+    "iconic": false
+  },
+  {
+    "id": "prg-kafka",
+    "city": "prague",
+    "destination": "prague",
+    "name": {
+      "es": "Barrio Judío y Kafka",
+      "en": "Jewish Quarter & Kafka",
+      "fr": "Quartier Juif et Kafka"
+    },
+    "desc": {
+      "es": "El barrio donde nació Kafka, con la mayor concentración de arquitectura Art Nouveau de Europa. Seis sinagogas y el cementerio más antiguo.",
+      "en": "The neighbourhood where Kafka was born, with the highest concentration of Art Nouveau architecture in Europe.",
+      "fr": "Le quartier natal de Kafka, avec la plus grande concentration d'architecture Art Nouveau d'Europe."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "art",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 16,
+    "iconic": false
+  },
+  {
+    "id": "prg-river-cruise",
+    "city": "prague",
+    "destination": "prague",
+    "name": {
+      "es": "Crucero por el Moldava",
+      "en": "Vltava river cruise",
+      "fr": "Croisière sur la Vltava"
+    },
+    "desc": {
+      "es": "Praga desde el agua — los puentes medievales, el castillo y los tejados rojizos desde el río.",
+      "en": "Prague from the water — medieval bridges, the castle and red rooftops from the river.",
+      "fr": "Prague depuis l'eau — ponts médiévaux, le château et les toits rouges depuis le fleuve."
+    },
+    "tags": [
+      "views",
+      "relax",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 18,
+    "iconic": false
+  },
+  {
+    "id": "prg-local-food",
+    "city": "prague",
+    "destination": "prague",
+    "name": {
+      "es": "Cena checa tradicional",
+      "en": "Traditional Czech dinner",
+      "fr": "Dîner tchèque traditionnel"
+    },
+    "desc": {
+      "es": "Svíčková, vepřo knedlo zelo y un litro de Pilsner Urquell. La cocina bohemia en una pivnice (cervecería) de barrio.",
+      "en": "Svíčková, vepřo knedlo zelo and a litre of Pilsner Urquell. Bohemian cuisine in a neighbourhood pivnice (beer hall).",
+      "fr": "Svíčková, vepřo knedlo zelo et un litre de Pilsner Urquell dans une pivnice de quartier."
+    },
+    "tags": [
+      "food",
+      "local",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 18,
+    "iconic": false
+  },
+  {
+    "id": "mar-tanneries",
+    "city": "marrakech",
+    "destination": "marrakech",
+    "name": {
+      "es": "Tenerías de Marrakech",
+      "en": "Marrakech tanneries",
+      "fr": "Tanneries de Marrakech"
+    },
+    "desc": {
+      "es": "Las curtidurías medievales donde se tiñe el cuero con métodos del siglo XII. La vista desde las terrazas superiores es un espectáculo de color.",
+      "en": "The medieval tanneries where leather is dyed using 12th-century methods. The view from the upper terraces is a spectacle of colour.",
+      "fr": "Les tanneries médiévales où le cuir est teint selon des méthodes du XIIe siècle."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "history",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "mar-night-market",
+    "city": "marrakech",
+    "destination": "marrakech",
+    "name": {
+      "es": "Mercado nocturno de Djemaa el-Fna",
+      "en": "Djemaa el-Fna night market",
+      "fr": "Marché nocturne de Djemaa el-Fna"
+    },
+    "desc": {
+      "es": "Cuando cae el sol, la plaza se transforma en el mayor restaurante al aire libre del mundo. 100 puestos de harira, brochetas y cuscús.",
+      "en": "When the sun sets, the square transforms into the world's largest open-air restaurant. 100 stalls of harira, brochettes and couscous.",
+      "fr": "Quand le soleil se couche, la place se transforme en le plus grand restaurant en plein air du monde."
+    },
+    "tags": [
+      "food",
+      "nightlife",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "mar-riad-life",
+    "city": "marrakech",
+    "destination": "marrakech",
+    "name": {
+      "es": "Vida en un riad",
+      "en": "Riad life",
+      "fr": "Vie dans un riad"
+    },
+    "desc": {
+      "es": "El secreto de Marrakech — los riads son palacios ocultos detrás de puertas sin adornos. El patio interior con fuente es el corazón de la ciudad.",
+      "en": "Marrakech's secret — riads are palaces hidden behind plain doors. The inner courtyard with fountain is the heart of the city.",
+      "fr": "Le secret de Marrakech — les riads sont des palais cachés derrière des portes sans ornements."
+    },
+    "tags": [
+      "relax",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "ber-reichstag",
+    "city": "berlin",
+    "destination": "berlin",
+    "name": {
+      "es": "Cúpula del Reichstag",
+      "en": "Reichstag Dome",
+      "fr": "Coupole du Reichstag"
+    },
+    "desc": {
+      "es": "La cúpula de cristal de Norman Foster sobre el parlamento alemán. Gratis con reserva online — las vistas nocturnas sobre Berlín son extraordinarias.",
+      "en": "Norman Foster's glass dome over the German parliament. Free with online booking — night views over Berlin are extraordinary.",
+      "fr": "La coupole de verre de Norman Foster sur le parlement allemand. Gratuit avec réservation — vues nocturnes extraordinaires."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "architecture",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "ber-kreuzberg",
+    "city": "berlin",
+    "destination": "berlin",
+    "name": {
+      "es": "Kreuzberg — el barrio más cool",
+      "en": "Kreuzberg — coolest neighbourhood",
+      "fr": "Kreuzberg — le quartier le plus cool"
+    },
+    "desc": {
+      "es": "El corazón multicultural de Berlín. Mercado turco del martes y viernes, döner auténtico y la escena de arte alternativo más vibrante de Europa.",
+      "en": "Berlin's multicultural heart. Turkish market Tuesday and Friday, authentic döner and the most vibrant alternative art scene in Europe.",
+      "fr": "Le cœur multiculturel de Berlin. Marché turc mardi et vendredi, döner authentique et scène d'art alternatif."
+    },
+    "tags": [
+      "local",
+      "food",
+      "culture",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "ber-holocaust-memorial",
+    "city": "berlin",
+    "destination": "berlin",
+    "name": {
+      "es": "Memorial del Holocausto",
+      "en": "Holocaust Memorial",
+      "fr": "Mémorial de l'Holocauste"
+    },
+    "desc": {
+      "es": "2.711 estelas de hormigón de distintas alturas. Un laberinto que te absorbe y desorienta — la experiencia es el mensaje.",
+      "en": "2,711 concrete stelae of different heights. A labyrinth that absorbs and disorients you — the experience is the message.",
+      "fr": "2 711 stèles de béton de hauteurs différentes. Un labyrinthe qui vous absorbe et désoriente."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "bkk-floating-market",
+    "city": "bangkok",
+    "destination": "bangkok",
+    "name": {
+      "es": "Mercado flotante de Amphawa",
+      "en": "Amphawa floating market",
+      "fr": "Marché flottant d'Amphawa"
+    },
+    "desc": {
+      "es": "El mercado flotante más auténtico de Tailandia — no Damnoen Saduak. Los vendedores cocinan desde sus barcas al atardecer.",
+      "en": "Thailand's most authentic floating market — not Damnoen Saduak. Vendors cook from their boats at sunset.",
+      "fr": "Le marché flottant le plus authentique de Thaïlande. Les vendeurs cuisinent depuis leurs barques au coucher du soleil."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 4,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "bkk-thai-massage",
+    "city": "bangkok",
+    "destination": "bangkok",
+    "name": {
+      "es": "Masaje thai tradicional",
+      "en": "Traditional Thai massage",
+      "fr": "Massage traditionnel thaï"
+    },
+    "desc": {
+      "es": "El masaje thai original en Wat Pho, donde se enseña desde el siglo XVIII. 1 hora de yoga asistido que te deja nuevo.",
+      "en": "The original Thai massage at Wat Pho, taught since the 18th century. 1 hour of assisted yoga that leaves you renewed.",
+      "fr": "Le massage thaï original à Wat Pho, enseigné depuis le XVIIIe siècle."
+    },
+    "tags": [
+      "relax",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "bkk-tuk-tuk",
+    "city": "bangkok",
+    "destination": "bangkok",
+    "name": {
+      "es": "Tour en tuk-tuk por el casco histórico",
+      "en": "Historic centre tuk-tuk tour",
+      "fr": "Tour en tuk-tuk dans le centre historique"
+    },
+    "desc": {
+      "es": "El medio de transporte más icónico de Bangkok — ruidoso, contaminante y completamente esencial. Los templos del casco histórico en un recorrido.",
+      "en": "Bangkok's most iconic transport — noisy, polluting and completely essential. The old city temples in one circuit.",
+      "fr": "Le moyen de transport le plus iconique de Bangkok — bruyant, polluant et absolument indispensable."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "iconic",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "vie-prater",
+    "city": "vienna",
+    "destination": "vienna",
+    "name": {
+      "es": "Prater y noria histórica",
+      "en": "Prater & historic Ferris wheel",
+      "fr": "Prater et grande roue historique"
+    },
+    "desc": {
+      "es": "El parque de atracciones más antiguo del mundo (1766). La noria Riesenrad del siglo XIX da las mejores vistas de Viena.",
+      "en": "The world's oldest amusement park (1766). The 19th-century Riesenrad Ferris wheel gives the best views of Vienna.",
+      "fr": "Le plus ancien parc d'attractions du monde (1766). La grande roue Riesenrad du XIXe siècle offre les meilleures vues."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "views",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "vie-belvedere",
+    "city": "vienna",
+    "destination": "vienna",
+    "name": {
+      "es": "Palacio Belvedere y El Beso",
+      "en": "Belvedere Palace & The Kiss",
+      "fr": "Palais du Belvédère et Le Baiser"
+    },
+    "desc": {
+      "es": "El palacio barroco con los jardines más bellos de Viena. El cuadro El Beso de Klimt está aquí — más emotivo en persona que en reproducción.",
+      "en": "The Baroque palace with Vienna's most beautiful gardens. Klimt's The Kiss is here — more moving in person than in reproduction.",
+      "fr": "Le palais baroque avec les plus beaux jardins de Vienne. Le tableau Le Baiser de Klimt est ici."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "iconic",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 16,
+    "iconic": true
+  },
+  {
+    "id": "vie-heurigen",
+    "city": "vienna",
+    "destination": "vienna",
+    "name": {
+      "es": "Heuriger — taberna de vino nuevo",
+      "en": "Heuriger wine tavern",
+      "fr": "Heuriger — taverne de vin nouveau"
+    },
+    "desc": {
+      "es": "La tradición vienesa más auténtica — tabernas en los viñedos de Grinzing donde los productores sirven su propio vino con música.",
+      "en": "Vienna's most authentic tradition — taverns in the Grinzing vineyards where producers serve their own wine with music.",
+      "fr": "La tradition viennoise la plus authentique — tavernes dans les vignobles de Grinzing."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "cph-louisiana",
+    "city": "copenhagen",
+    "destination": "copenhagen",
+    "name": {
+      "es": "Museo Louisiana de Arte Moderno",
+      "en": "Louisiana Museum of Modern Art",
+      "fr": "Musée Louisiana d'Art Moderne"
+    },
+    "desc": {
+      "es": "El mejor museo de arte moderno de Escandinavia — en el mar a 35km de Copenhague. Calder, Giacometti y vistas al Øresund.",
+      "en": "Scandinavia's best modern art museum — by the sea 35km from Copenhagen. Calder, Giacometti and views of Øresund.",
+      "fr": "Le meilleur musée d'art moderne de Scandinavie — au bord de la mer à 35km de Copenhague."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "nature",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 22,
+    "iconic": false
+  },
+  {
+    "id": "cph-freetown",
+    "city": "copenhagen",
+    "destination": "copenhagen",
+    "name": {
+      "es": "Christiania — ciudad libre",
+      "en": "Christiania — free town",
+      "fr": "Christiania — ville libre"
+    },
+    "desc": {
+      "es": "La comunidad autogestionada más famosa del mundo, fundada en 1971. El distrito más alternativo y fotogénico de Copenhague.",
+      "en": "The world's most famous self-governing community, founded in 1971. Copenhagen's most alternative and photogenic district.",
+      "fr": "La communauté autogérée la plus célèbre au monde, fondée en 1971."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "art",
+      "walk"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "cph-canal-tour",
+    "city": "copenhagen",
+    "destination": "copenhagen",
+    "name": {
+      "es": "Tour en barco por los canales",
+      "en": "Canal boat tour",
+      "fr": "Tour en bateau sur les canaux"
+    },
+    "desc": {
+      "es": "Copenhague desde el agua — la Sirenita, la Ópera y los palacios. El tour de 1h cubre los principales canales.",
+      "en": "Copenhagen from the water — The Little Mermaid, the Opera and the palaces. The 1h tour covers the main canals.",
+      "fr": "Copenhague depuis l'eau — La Petite Sirène, l'Opéra et les palais."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "walk",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 14,
+    "iconic": true
+  },
+  {
+    "id": "ist-bosphorus-fish",
+    "city": "istanbul",
+    "destination": "istanbul",
+    "name": {
+      "es": "Desayuno turco y pescado en el Bósforo",
+      "en": "Turkish breakfast & Bosphorus fish",
+      "fr": "Petit-déjeuner turc et poisson sur le Bosphore"
+    },
+    "desc": {
+      "es": "El desayuno turco es el más abundante del mundo — 20 platos, 2 horas. Después, pescado frito bajo el Puente de Gálata.",
+      "en": "Turkish breakfast is the world's most abundant — 20 dishes, 2 hours. Then, fried fish under the Galata Bridge.",
+      "fr": "Le petit-déjeuner turc est le plus copieux du monde — 20 plats, 2 heures."
+    },
+    "tags": [
+      "food",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "ist-galata",
+    "city": "istanbul",
+    "destination": "istanbul",
+    "name": {
+      "es": "Torre de Gálata y Beyoğlu",
+      "en": "Galata Tower & Beyoğlu",
+      "fr": "Tour de Galata et Beyoğlu"
+    },
+    "desc": {
+      "es": "La torre genovesa del siglo XIV con vistas de 360° sobre Estambul. Bajando, el barrio de Beyoğlu con la Calle İstiklal.",
+      "en": "The 14th-century Genoese tower with 360° views over Istanbul. Below, the Beyoğlu district with İstiklal Street.",
+      "fr": "La tour génoise du XIVe siècle avec des vues à 360° sur Istanbul."
+    },
+    "tags": [
+      "views",
+      "culture",
+      "walk",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "ist-hamam",
+    "city": "istanbul",
+    "destination": "istanbul",
+    "name": {
+      "es": "Hamam otomano",
+      "en": "Ottoman hamam",
+      "fr": "Hammam ottoman"
+    },
+    "desc": {
+      "es": "El baño otomano en el Cemberlitas o Çağaloğlu Hamamı — en uso desde el siglo XVI. El ritual del kese (exfoliación) es obligatorio.",
+      "en": "The Ottoman bath at Cemberlitas or Çağaloğlu Hamamı — in use since the 16th century. The kese (scrub) ritual is mandatory.",
+      "fr": "Le bain ottoman au Cemberlitas ou Çağaloğlu Hamamı — en usage depuis le XVIe siècle."
+    },
+    "tags": [
+      "relax",
+      "local",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 45,
+    "iconic": false
+  },
+  {
+    "id": "mex-xochimilco",
+    "city": "mexico-city",
+    "destination": "mexico-city",
+    "name": {
+      "es": "Xochimilco — las chinampas aztecas",
+      "en": "Xochimilco — Aztec chinampas",
+      "fr": "Xochimilco — les chinampas aztèques"
+    },
+    "desc": {
+      "es": "Los canales de jardines flotantes aztecas, UNESCO. Los domingos, las trajineras con música en vivo son la experiencia más mexicana posible.",
+      "en": "The Aztec floating garden canals, UNESCO. On Sundays, the trajineras with live music are the most Mexican experience possible.",
+      "fr": "Les canaux des jardins flottants aztèques, UNESCO. Le dimanche, les trajineras avec musique live sont l'expérience mexicaine par excellence."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "iconic",
+      "nature",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 15,
+    "iconic": true
+  },
+  {
+    "id": "mex-lucha-libre",
+    "city": "mexico-city",
+    "destination": "mexico-city",
+    "name": {
+      "es": "Lucha Libre en Arena México",
+      "en": "Lucha Libre at Arena México",
+      "fr": "Lucha Libre à l'Arena México"
+    },
+    "desc": {
+      "es": "El deporte-espectáculo más mexicano del mundo. Los enmascarados del CMLL luchan en la arena más icónica desde 1956.",
+      "en": "The most Mexican sport-spectacle in the world. CMLL's masked wrestlers fight in the most iconic arena since 1956.",
+      "fr": "Le sport-spectacle le plus mexicain du monde. Les lutteurs masqués du CMLL se battent depuis 1956."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "iconic",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "mex-museo-antropologia",
+    "city": "mexico-city",
+    "destination": "mexico-city",
+    "name": {
+      "es": "Museo Nacional de Antropología",
+      "en": "National Museum of Anthropology",
+      "fr": "Musée National d'Anthropologie"
+    },
+    "desc": {
+      "es": "El mejor museo de América Latina. La piedra del sol (Calendario Azteca) y las salas maya y azteca son imprescindibles.",
+      "en": "Latin America's best museum. The sun stone (Aztec Calendar) and the Maya and Aztec halls are unmissable.",
+      "fr": "Le meilleur musée d'Amérique latine. La pierre du soleil (Calendrier aztèque) et les salles maya et aztèque."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "art"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3.5,
+    "price_eur": 5,
+    "iconic": true
+  },
+  {
+    "id": "dxb-mall-of-emirates",
+    "city": "dubai",
+    "destination": "dubai",
+    "name": {
+      "es": "Ski Dubai y Mall of Emirates",
+      "en": "Ski Dubai & Mall of Emirates",
+      "fr": "Ski Dubai et Mall of Emirates"
+    },
+    "desc": {
+      "es": "Esquiar en Dubai — una pista de esquí real dentro de un centro comercial a 40°C en el exterior. El absurdo más fascinante del mundo.",
+      "en": "Skiing in Dubai — a real ski slope inside a shopping mall at 40°C outside. The world's most fascinating absurdity.",
+      "fr": "Skier à Dubaï — une vraie piste de ski dans un centre commercial à 40°C dehors."
+    },
+    "tags": [
+      "adventure",
+      "local",
+      "iconic",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 60,
+    "iconic": false
+  },
+  {
+    "id": "dxb-old-dubai",
+    "city": "dubai",
+    "destination": "dubai",
+    "name": {
+      "es": "Dubai histórico — Al Fahidi",
+      "en": "Historic Dubai — Al Fahidi",
+      "fr": "Dubaï historique — Al Fahidi"
+    },
+    "desc": {
+      "es": "El único barrio auténtico de Dubái — torres de viento del siglo XIX, el Museo de Dubái y el barrio donde todo empezó.",
+      "en": "Dubai's only authentic neighbourhood — 19th-century wind towers, the Dubai Museum and the district where it all began.",
+      "fr": "Le seul quartier authentique de Dubaï — tours à vent du XIXe siècle et le Musée de Dubaï."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 3,
+    "iconic": false
+  },
+  {
+    "id": "dxb-miracle-garden",
+    "city": "dubai",
+    "destination": "dubai",
+    "name": {
+      "es": "Miracle Garden",
+      "en": "Miracle Garden",
+      "fr": "Miracle Garden"
+    },
+    "desc": {
+      "es": "El jardín de flores más grande del mundo — 150 millones de flores en el desierto. Abre de octubre a abril.",
+      "en": "The world's largest flower garden — 150 million flowers in the desert. Open October to April.",
+      "fr": "Le plus grand jardin de fleurs au monde — 150 millions de fleurs dans le désert."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views",
+      "photo"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "bali-temple-walk",
+    "city": "bali",
+    "destination": "bali",
+    "name": {
+      "es": "Ruta de templos de Ubud",
+      "en": "Ubud temple walk",
+      "fr": "Circuit des temples d'Ubud"
+    },
+    "desc": {
+      "es": "Los templos hindúes de los arrozales — Pura Taman Saraswati, Goa Gajah y Tirta Empul. La espiritualidad balinesa en su forma más auténtica.",
+      "en": "The Hindu temples of the rice paddies — Pura Taman Saraswati, Goa Gajah and Tirta Empul. Balinese spirituality at its most authentic.",
+      "fr": "Les temples hindous des rizières — Pura Taman Saraswati, Goa Gajah et Tirta Empul."
+    },
+    "tags": [
+      "culture",
+      "spiritual",
+      "walk",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 4,
+    "price_eur": 10,
+    "iconic": false
+  },
+  {
+    "id": "bali-volcano",
+    "city": "bali",
+    "destination": "bali",
+    "name": {
+      "es": "Amanecer en el volcán Batur",
+      "en": "Mount Batur sunrise hike",
+      "fr": "Lever du soleil sur le volcan Batur"
+    },
+    "desc": {
+      "es": "La ascensión más popular de Bali — 2h de caminata nocturna para ver el amanecer sobre el cráter activo y el lago. Guía obligatorio.",
+      "en": "Bali's most popular hike — 2h night walk to see sunrise over the active crater and lake. Guide mandatory.",
+      "fr": "La randonnée la plus populaire de Bali — 2h de marche nocturne pour voir le lever du soleil sur le cratère actif."
+    },
+    "tags": [
+      "adventure",
+      "nature",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 6,
+    "price_eur": 35,
+    "iconic": true
+  },
+  {
+    "id": "bali-rice-walk",
+    "city": "bali",
+    "destination": "bali",
+    "name": {
+      "es": "Caminata por los arrozales de Jatiluwih",
+      "en": "Jatiluwih rice terrace walk",
+      "fr": "Randonnée dans les rizières de Jatiluwih"
+    },
+    "desc": {
+      "es": "Los arrozales más extensos de Bali — 600 hectáreas de terrazas escalonadas, UNESCO. Menos turistas que Tegalalang.",
+      "en": "Bali's most extensive rice terraces — 600 hectares of stepped terraces, UNESCO. Fewer tourists than Tegalalang.",
+      "fr": "Les rizières les plus étendues de Bali — 600 hectares de terrasses en gradins, UNESCO."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "UNESCO",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 5,
+    "iconic": false
+  },
+  {
+    "id": "msl-villages",
+    "city": "mont-saint-michel",
+    "destination": "mont-saint-michel",
+    "name": {
+      "es": "Pueblos medievales de la bahía",
+      "en": "Bay medieval villages",
+      "fr": "Villages médiévaux de la baie"
+    },
+    "desc": {
+      "es": "Avranches y Pontorson — los pueblos normandos que rodean la bahía con mercados y arquitectura medieval intacta.",
+      "en": "Avranches and Pontorson — the Norman towns surrounding the bay with markets and intact medieval architecture.",
+      "fr": "Avranches et Pontorson — les villes normandes entourant la baie avec marchés et architecture médiévale intacte."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "walk",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "msl-tides",
+    "city": "mont-saint-michel",
+    "destination": "mont-saint-michel",
+    "name": {
+      "es": "El espectáculo de las mareas",
+      "en": "The tide spectacle",
+      "fr": "Le spectacle des marées"
+    },
+    "desc": {
+      "es": "Las mareas más altas de Europa — 14 metros de diferencia. La isla queda completamente rodeada de agua dos veces al día.",
+      "en": "Europe's highest tides — 14 metres difference. The island is completely surrounded by water twice a day.",
+      "fr": "Les marées les plus hautes d'Europe — 14 mètres de différence. L'île est complètement entourée d'eau deux fois par jour."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "lv-villandry",
+    "city": "loire-valley",
+    "destination": "loire-valley",
+    "name": {
+      "es": "Château de Villandry — jardines renacentistas",
+      "en": "Château de Villandry — Renaissance gardens",
+      "fr": "Château de Villandry — jardins Renaissance"
+    },
+    "desc": {
+      "es": "Los jardines renacentistas más hermosos de Francia. Tres niveles de jardines geométricos — ornamental, musical y de verduras.",
+      "en": "France's most beautiful Renaissance gardens. Three levels of geometric gardens — ornamental, musical and vegetable.",
+      "fr": "Les plus beaux jardins de la Renaissance en France. Trois niveaux de jardins géométriques."
+    },
+    "tags": [
+      "nature",
+      "culture",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 13,
+    "iconic": false
+  },
+  {
+    "id": "lv-chinon",
+    "city": "loire-valley",
+    "destination": "loire-valley",
+    "name": {
+      "es": "Chinon y los vinos de Touraine",
+      "en": "Chinon & Touraine wines",
+      "fr": "Chinon et les vins de Touraine"
+    },
+    "desc": {
+      "es": "El castillo donde Juana de Arco convenció a Carlos VII y las mejores bodegas del Loira central.",
+      "en": "The castle where Joan of Arc convinced Charles VII and the best wineries of the central Loire.",
+      "fr": "Le château où Jeanne d'Arc convainquit Charles VII et les meilleures caves du Loira central."
+    },
+    "tags": [
+      "food",
+      "culture",
+      "history",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "nrm-etretat",
+    "city": "normandy",
+    "destination": "normandy",
+    "name": {
+      "es": "Acantilados de Étretat",
+      "en": "Étretat cliffs",
+      "fr": "Falaises d'Étretat"
+    },
+    "desc": {
+      "es": "Los acantilados blancos que pintó Monet y que inspiraron a Maupassant. El Arco Natural y la Aguja son icónicos.",
+      "en": "The white cliffs painted by Monet and that inspired Maupassant. The Natural Arch and the Needle are iconic.",
+      "fr": "Les falaises blanches peintes par Monet et qui ont inspiré Maupassant."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "nrm-rouen",
+    "city": "normandy",
+    "destination": "normandy",
+    "name": {
+      "es": "Rouen — la ciudad de Juana de Arco",
+      "en": "Rouen — Joan of Arc's city",
+      "fr": "Rouen — la ville de Jeanne d'Arc"
+    },
+    "desc": {
+      "es": "La catedral gótica más alta de Francia y la plaza donde quemaron a Juana de Arco en 1431. La ciudad medieval mejor conservada del norte.",
+      "en": "France's tallest Gothic cathedral and the square where Joan of Arc was burned in 1431. The best-preserved medieval city in the north.",
+      "fr": "La cathédrale gothique la plus haute de France et la place où Jeanne d'Arc fut brûlée en 1431."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "rei-musee-beaux-arts",
+    "city": "reims",
+    "destination": "reims",
+    "name": {
+      "es": "Museo de Bellas Artes de Reims",
+      "en": "Reims Museum of Fine Arts",
+      "fr": "Musée des Beaux-Arts de Reims"
+    },
+    "desc": {
+      "es": "Una de las mejores colecciones de Francia fuera de París — Cranach, Corot y la mayor colección de bocetos de David.",
+      "en": "One of France's best collections outside Paris — Cranach, Corot and the largest collection of David sketches.",
+      "fr": "L'une des meilleures collections de France hors Paris — Cranach, Corot et la plus grande collection d'esquisses de David."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "rei-foret-montagne-reims",
+    "city": "reims",
+    "destination": "reims",
+    "name": {
+      "es": "Montaña de Reims — bosque y viñedos",
+      "en": "Montagne de Reims — forest & vineyards",
+      "fr": "Montagne de Reims — forêt et vignobles"
+    },
+    "desc": {
+      "es": "El parque natural que rodea Reims, con los viñedos de Champagne en las laderas y los faux-de-Verzy — hayas retorcidas únicas en el mundo.",
+      "en": "The natural park surrounding Reims, with Champagne vineyards on the slopes and faux-de-Verzy — unique twisted beeches.",
+      "fr": "Le parc naturel entourant Reims, avec les vignobles de Champagne et les faux de Verzy — hêtres tordus uniques au monde."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "food",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "bru-beer-museum",
+    "city": "bruges",
+    "destination": "bruges",
+    "name": {
+      "es": "Museo de la Cerveza Belga",
+      "en": "Belgian Beer Museum",
+      "fr": "Musée de la Bière Belge"
+    },
+    "desc": {
+      "es": "Bélgica tiene más de 1500 cervezas distintas — el museo explica por qué. La cata final incluye 3 cervezas de tu elección.",
+      "en": "Belgium has over 1500 different beers — the museum explains why. The final tasting includes 3 beers of your choice.",
+      "fr": "La Belgique a plus de 1500 bières différentes — le musée explique pourquoi."
+    },
+    "tags": [
+      "food",
+      "culture",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 16,
+    "iconic": false
+  },
+  {
+    "id": "bru-begijnhof",
+    "city": "bruges",
+    "destination": "bruges",
+    "name": {
+      "es": "Beguinage de Brujas",
+      "en": "Bruges Beguinage",
+      "fr": "Béguinage de Bruges"
+    },
+    "desc": {
+      "es": "El convento más tranquilo de Bélgica — cisnes blancos en el lago y monjas benedictinas en las casas blancas. UNESCO.",
+      "en": "Belgium's most peaceful convent — white swans on the lake and Benedictine nuns in the white houses. UNESCO.",
+      "fr": "Le couvent le plus paisible de Belgique — cygnes blancs sur le lac et religieuses bénédictines. UNESCO."
+    },
+    "tags": [
+      "culture",
+      "relax",
+      "history",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 2,
+    "iconic": false
+  },
+  {
+    "id": "bru-groeningemuseum",
+    "city": "bruges",
+    "destination": "bruges",
+    "name": {
+      "es": "Groeningemuseum — Primitivos Flamencos",
+      "en": "Groeninge — Flemish Primitives",
+      "fr": "Groeninge — Primitifs flamands"
+    },
+    "desc": {
+      "es": "La mejor colección de pintura flamenca medieval del mundo — Jan van Eyck, Hans Memling. Los originales del estilo que cambió el arte europeo.",
+      "en": "The world's best collection of medieval Flemish painting — Jan van Eyck, Hans Memling. The originals of the style that changed European art.",
+      "fr": "La meilleure collection de peinture flamande médiévale au monde — Jan van Eyck, Hans Memling."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "history",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 14,
+    "iconic": false
+  },
+  {
+    "id": "als-ribeauville",
+    "city": "alsace",
+    "destination": "alsace",
+    "name": {
+      "es": "Ribeauvillé y Riquewihr",
+      "en": "Ribeauvillé & Riquewihr",
+      "fr": "Ribeauvillé et Riquewihr"
+    },
+    "desc": {
+      "es": "Los dos pueblos más bonitos de Alsacia — casas de entramado perfectas, geranios en cada balcón y vino en cada esquina.",
+      "en": "Alsace's two most beautiful villages — perfect half-timbered houses, geraniums on every balcony and wine on every corner.",
+      "fr": "Les deux plus beaux villages d'Alsace — maisons à colombages parfaites, géraniums à chaque balcon."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "walk",
+      "food"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "bxl-waffles",
+    "city": "brussels",
+    "destination": "brussels",
+    "name": {
+      "es": "Gaufres, chocolate y friteries",
+      "en": "Waffles, chocolate & frites",
+      "fr": "Gaufres, chocolat et friteries"
+    },
+    "desc": {
+      "es": "Las tres razones gastronómicas para visitar Bruselas. La friterie Maison Antoine en Ixelles es la mejor freiduría de Europa.",
+      "en": "The three gastronomic reasons to visit Brussels. Maison Antoine in Ixelles is Europe's best chip shop.",
+      "fr": "Les trois raisons gastronomiques de visiter Bruxelles. La friterie Maison Antoine est la meilleure d'Europe."
+    },
+    "tags": [
+      "food",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "cha-cathedrale",
+    "city": "chartres",
+    "destination": "chartres",
+    "name": {
+      "es": "Catedral de Chartres",
+      "en": "Chartres Cathedral",
+      "fr": "Cathédrale de Chartres"
+    },
+    "desc": {
+      "es": "La catedral gótica más perfecta del mundo — los únicos vitrales medievales originales que han sobrevivido intactos. La luz azul es única.",
+      "en": "The world's most perfect Gothic cathedral — the only original medieval stained glass to survive intact. The blue light is unique.",
+      "fr": "La cathédrale gothique la plus parfaite au monde — les seuls vitraux médiévaux originaux à avoir survécu intacts."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "cha-vieux-quartier",
+    "city": "chartres",
+    "destination": "chartres",
+    "name": {
+      "es": "Ciudad Baja histórica",
+      "en": "Historic lower town",
+      "fr": "Ville basse historique"
+    },
+    "desc": {
+      "es": "El barrio medieval a los pies de la catedral — lavaderos del siglo XV, la Collégiale Saint-André y el río Eure con sus molinos.",
+      "en": "The medieval neighbourhood at the foot of the cathedral — 15th-century washhouses, the Collégiale Saint-André and the Eure river.",
+      "fr": "Le quartier médiéval au pied de la cathédrale — lavoirs du XVe siècle et la rivière Eure avec ses moulins."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "cha-musee",
+    "city": "chartres",
+    "destination": "chartres",
+    "name": {
+      "es": "Museo de Bellas Artes de Chartres",
+      "en": "Chartres Fine Arts Museum",
+      "fr": "Musée des Beaux-Arts de Chartres"
+    },
+    "desc": {
+      "es": "En el antiguo palacio episcopal junto a la catedral. Tapices del siglo XVII, esmaltes del XII y una colección de pintura francesa sorprendente.",
+      "en": "In the former bishop's palace next to the cathedral. 17th-century tapestries, 12th-century enamels and a surprising French painting collection.",
+      "fr": "Dans l'ancien palais épiscopal. Tapisseries du XVIIe, émaux du XIIe et une surprenante collection de peinture française."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 4,
+    "iconic": false
+  },
+  {
+    "id": "nan-jardin-plantes",
+    "city": "loire-atlantique",
+    "destination": "loire-atlantique",
+    "name": {
+      "es": "Jardín de Plantas de Nantes",
+      "en": "Nantes Botanical Garden",
+      "fr": "Jardin des Plantes de Nantes"
+    },
+    "desc": {
+      "es": "Uno de los jardines botánicos más ricos de Francia — 10.000 especies y los camellias más antiguos de Europa.",
+      "en": "One of France's richest botanical gardens — 10,000 species and the oldest camellias in Europe.",
+      "fr": "L'un des jardins botaniques les plus riches de France — 10 000 espèces et les plus vieux camélias d'Europe."
+    },
+    "tags": [
+      "nature",
+      "relax",
+      "walk",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "nan-quartier-bouffay",
+    "city": "loire-atlantique",
+    "destination": "loire-atlantique",
+    "name": {
+      "es": "Barrio Bouffay y noche en Nantes",
+      "en": "Bouffay quarter & Nantes nightlife",
+      "fr": "Quartier Bouffay et nuit à Nantes"
+    },
+    "desc": {
+      "es": "El corazón medieval de Nantes con la mayor concentración de bares y restaurantes de la ciudad. Noches largas y buena cerveza artesana.",
+      "en": "Nantes' medieval heart with the highest concentration of bars and restaurants. Long nights and good craft beer.",
+      "fr": "Le cœur médiéval de Nantes avec la plus grande concentration de bars et restaurants."
+    },
+    "tags": [
+      "nightlife",
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "dor-vezere",
+    "city": "dordogne",
+    "destination": "dordogne",
+    "name": {
+      "es": "Valle del Vézère — Valle de los Hombres",
+      "en": "Vézère Valley — Valley of Man",
+      "fr": "Vallée de la Vézère — Vallée de l'Homme"
+    },
+    "desc": {
+      "es": "El valle con la mayor concentración de sitios prehistóricos del mundo — 147 sitios en 40km. Cro-Magnon fue descubierto aquí. UNESCO.",
+      "en": "The valley with the world's highest concentration of prehistoric sites — 147 sites in 40km. Cro-Magnon was discovered here. UNESCO.",
+      "fr": "La vallée avec la plus grande concentration de sites préhistoriques au monde — 147 sites en 40km."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "nature",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "dor-chateau-castelnaud",
+    "city": "dordogne",
+    "destination": "dordogne",
+    "name": {
+      "es": "Château de Castelnaud",
+      "en": "Château de Castelnaud",
+      "fr": "Château de Castelnaud"
+    },
+    "desc": {
+      "es": "El castillo de la Guerra de los Cien Años con el mejor museo de armas medievales de Francia. Vistas sobre el Dordoña.",
+      "en": "The Hundred Years' War castle with the best medieval weapons museum in France. Views over the Dordogne river.",
+      "fr": "Le château de la Guerre de Cent Ans avec le meilleur musée d'armes médiévales de France."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 11,
+    "iconic": false
+  },
+  {
+    "id": "tol-sinagoga",
+    "city": "toledo",
+    "destination": "toledo",
+    "name": {
+      "es": "Sinagoga del Tránsito y Barrio Judío",
+      "en": "Sinagoga del Tránsito & Jewish Quarter",
+      "fr": "Synagogue du Tránsito et Quartier Juif"
+    },
+    "desc": {
+      "es": "La sinagoga más importante de la España medieval y el barrio donde coexistieron durante 300 años las tres culturas.",
+      "en": "The most important synagogue of medieval Spain and the neighbourhood where three cultures coexisted for 300 years.",
+      "fr": "La synagogue la plus importante de l'Espagne médiévale et le quartier où trois cultures coexistèrent pendant 300 ans."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 3,
+    "iconic": false
+  },
+  {
+    "id": "seg-iglesia-vera-cruz",
+    "city": "segovia",
+    "destination": "segovia",
+    "name": {
+      "es": "Iglesia de la Vera Cruz",
+      "en": "Vera Cruz Church",
+      "fr": "Église de la Vera Cruz"
+    },
+    "desc": {
+      "es": "La iglesia templaria más perfecta de España — dodecagonal, construida por los Caballeros Templarios en 1208. Casi desconocida.",
+      "en": "Spain's most perfect Templar church — dodecagonal, built by the Knights Templar in 1208. Almost unknown.",
+      "fr": "L'église templière la plus parfaite d'Espagne — dodécagonale, construite par les Templiers en 1208."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 2,
+    "iconic": false
+  },
+  {
+    "id": "seg-vinos-ribera",
+    "city": "segovia",
+    "destination": "segovia",
+    "name": {
+      "es": "Vinos de Ribera del Duero",
+      "en": "Ribera del Duero wines",
+      "fr": "Vins de Ribera del Duero"
+    },
+    "desc": {
+      "es": "A 1h de Segovia, la segunda denominación más importante de España. Las bodegas de Peñafiel y Protos abren al público.",
+      "en": "1h from Segovia, Spain's second most important denomination. Peñafiel and Protos wineries are open to visitors.",
+      "fr": "À 1h de Ségovie, la deuxième dénomination la plus importante d'Espagne."
+    },
+    "tags": [
+      "food",
+      "local",
+      "nature"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "cue-serranias",
+    "city": "cuenca",
+    "destination": "cuenca",
+    "name": {
+      "es": "Serranías de Cuenca — naturaleza",
+      "en": "Cuenca highlands — nature",
+      "fr": "Serranías de Cuenca — nature"
+    },
+    "desc": {
+      "es": "La Ciudad Encantada — formaciones de caliza en formas fantásticas a 30km de Cuenca. El bosque de los Callejones de las Majadas.",
+      "en": "La Ciudad Encantada — limestone formations in fantastic shapes 30km from Cuenca. The Callejones de las Majadas forest.",
+      "fr": "La Ciudad Encantada — formations de calcaire aux formes fantastiques à 30km de Cuenca."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 5,
+    "iconic": false
+  },
+  {
+    "id": "avi-sierra-gredos",
+    "city": "avila",
+    "destination": "avila",
+    "name": {
+      "es": "Sierra de Gredos desde Ávila",
+      "en": "Sierra de Gredos from Ávila",
+      "fr": "Sierra de Gredos depuis Ávila"
+    },
+    "desc": {
+      "es": "La sierra más salvaje de la Meseta — cabras montesas, lagunas glaciares y picos de 2.600m. A 1h de Ávila.",
+      "en": "The wildest sierra of the Meseta — mountain goats, glacial lakes and 2,600m peaks. 1h from Ávila.",
+      "fr": "La sierra la plus sauvage du plateau — bouquetins, lacs glaciaires et sommets à 2 600m."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "sal-fonseca",
+    "city": "salamanca",
+    "destination": "salamanca",
+    "name": {
+      "es": "Colegio de Fonseca y patio universitario",
+      "en": "Fonseca College & university courtyard",
+      "fr": "Collège Fonseca et cour universitaire"
+    },
+    "desc": {
+      "es": "El patio renacentista más hermoso de Salamanca — naranjos, piedra dorada de Villamayor y silencio absoluto a 50m de la Plaza Mayor.",
+      "en": "Salamanca's most beautiful Renaissance courtyard — orange trees, golden Villamayor stone and absolute silence 50m from Plaza Mayor.",
+      "fr": "La plus belle cour Renaissance de Salamanque — orangers, pierre dorée et silence absolu à 50m de la Plaza Mayor."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "cac-yuste",
+    "city": "caceres",
+    "destination": "caceres",
+    "name": {
+      "es": "Monasterio de Yuste — el retiro de Carlos V",
+      "en": "Yuste Monastery — Charles V's retreat",
+      "fr": "Monastère de Yuste — la retraite de Charles V"
+    },
+    "desc": {
+      "es": "El monasterio donde el emperador más poderoso del mundo eligió morir solo. Una de las historias más extraordinarias de la historia europea.",
+      "en": "The monastery where the world's most powerful emperor chose to die alone. One of the most extraordinary stories in European history.",
+      "fr": "Le monastère où l'empereur le plus puissant du monde choisit de mourir seul."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 7,
+    "iconic": false
+  },
+  {
+    "id": "con-almagro",
+    "city": "consuegra",
+    "destination": "consuegra",
+    "name": {
+      "es": "Almagro — capital del teatro clásico",
+      "en": "Almagro — classical theatre capital",
+      "fr": "Almagro — capitale du théâtre classique"
+    },
+    "desc": {
+      "es": "El Corral de Comedias del siglo XVII más completo de España — en uso desde 1628. El Festival Internacional de Teatro Clásico en julio.",
+      "en": "Spain's most complete 17th-century Corral de Comedias — in use since 1628. International Classical Theatre Festival in July.",
+      "fr": "Le Corral de Comedias du XVIIe siècle le plus complet d'Espagne — en usage depuis 1628."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 4,
+    "iconic": false
+  },
+  {
+    "id": "sor-laguna-negra",
+    "city": "soria",
+    "destination": "soria",
+    "name": {
+      "es": "Laguna Negra de Urbión",
+      "en": "Laguna Negra de Urbión",
+      "fr": "Laguna Negra de Urbión"
+    },
+    "desc": {
+      "es": "El lago glaciar más misterioso de España — rodeado de abetos centenarios y acantilados verticales. Machado escribió sobre él.",
+      "en": "Spain's most mysterious glacial lake — surrounded by ancient firs and vertical cliffs. Machado wrote about it.",
+      "fr": "Le lac glaciaire le plus mystérieux d'Espagne — entouré de sapins centenaires et de falaises verticales."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "views",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "snm-rascafria",
+    "city": "madrid-sierra-norte",
+    "destination": "madrid-sierra-norte",
+    "name": {
+      "es": "Rascafría y Valle del Lozoya",
+      "en": "Rascafría & Lozoya Valley",
+      "fr": "Rascafría et Vallée du Lozoya"
+    },
+    "desc": {
+      "es": "El valle más verde de la Comunidad de Madrid — el Monasterio de El Paular, el río Lozoya y los prados de montaña.",
+      "en": "Madrid's greenest valley — El Paular Monastery, the Lozoya river and mountain meadows.",
+      "fr": "La vallée la plus verte de la Communauté de Madrid — le Monastère El Paular, la rivière Lozoya."
+    },
+    "tags": [
+      "nature",
+      "relax",
+      "walk",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gua-cercedilla",
+    "city": "sierra-guadarrama",
+    "destination": "sierra-guadarrama",
+    "name": {
+      "es": "Cercedilla — senderismo en el Guadarrama",
+      "en": "Cercedilla — Guadarrama hiking",
+      "fr": "Cercedilla — randonnée dans le Guadarrama"
+    },
+    "desc": {
+      "es": "El punto de entrada más fácil a la sierra desde Madrid. El Camino Schmidt y la Fuenfría llevan hasta los picos en 3h.",
+      "en": "The easiest entry point to the sierra from Madrid. The Schmidt Path and Fuenfría lead to the peaks in 3h.",
+      "fr": "Le point d'entrée le plus facile dans la sierra depuis Madrid."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "als-mulhouse",
+    "city": "alsace",
+    "destination": "alsace",
+    "name": {
+      "es": "Mulhouse — museos industriales",
+      "en": "Mulhouse — industrial museums",
+      "fr": "Mulhouse — musées industriels"
+    },
+    "desc": {
+      "es": "La ciudad de los museos — el Musée National de l'Automobile con 400 coches históricos y el Musée du Train.",
+      "en": "The city of museums — the National Automobile Museum with 400 historic cars and the Train Museum.",
+      "fr": "La ville des musées — le Musée National de l'Automobile et le Musée du Train."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 18,
+    "iconic": false
+  },
+  {
+    "id": "als-evening-winstub",
+    "city": "alsace",
+    "destination": "alsace",
+    "name": {
+      "es": "Noche en un Winstub",
+      "en": "Evening in a Winstub",
+      "fr": "Soirée dans un Winstub"
+    },
+    "desc": {
+      "es": "Las tabernas alsacianas de vino — paneles de madera, flammekueche (tarte flambée) y Pinot Gris local. El alma de la región.",
+      "en": "Alsatian wine taverns — wood panels, flammekueche (tarte flambée) and local Pinot Gris. The soul of the region.",
+      "fr": "Les tavernes de vin alsaciennes — flammekueche et Pinot Gris local. L'âme de la région."
+    },
+    "tags": [
+      "food",
+      "local",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 22,
+    "iconic": false
+  },
+  {
+    "id": "als-oberlin-walk",
+    "city": "alsace",
+    "destination": "alsace",
+    "name": {
+      "es": "Senderismo por el Vosgos",
+      "en": "Hiking in the Vosges",
+      "fr": "Randonnée dans les Vosges"
+    },
+    "desc": {
+      "es": "Las montañas que bordean la Route des Vins — bosques de abetos, chalet-restaurants y vistas sobre la llanura renana.",
+      "en": "The mountains bordering the wine route — fir forests, chalet-restaurants and views over the Rhine plain.",
+      "fr": "Les montagnes bordant la route des vins — forêts de sapins et vues sur la plaine du Rhin."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "cha-crypte",
+    "city": "chartres",
+    "destination": "chartres",
+    "name": {
+      "es": "Cripta de Chartres",
+      "en": "Chartres Crypt",
+      "fr": "Crypte de Chartres"
+    },
+    "desc": {
+      "es": "La cripta más larga de Francia — 220 metros bajo la catedral. Los primeros siglos del culto a la Virgen de Chartres.",
+      "en": "France's longest crypt — 220 metres under the cathedral. The first centuries of the cult of Our Lady of Chartres.",
+      "fr": "La crypte la plus longue de France — 220 mètres sous la cathédrale."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "spiritual"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 4,
+    "iconic": false
+  },
+  {
+    "id": "cha-illuminations",
+    "city": "chartres",
+    "destination": "chartres",
+    "name": {
+      "es": "Chartres en Lumières",
+      "en": "Chartres en Lumières",
+      "fr": "Chartres en Lumières"
+    },
+    "desc": {
+      "es": "De mayo a octubre, los monumentos de Chartres se iluminan con proyecciones artísticas. La catedral de noche es mágica.",
+      "en": "From May to October, Chartres monuments are illuminated with artistic projections. The cathedral at night is magical.",
+      "fr": "De mai à octobre, les monuments de Chartres s'illuminent avec des projections artistiques."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "iconic",
+      "views"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "cha-patisseries",
+    "city": "chartres",
+    "destination": "chartres",
+    "name": {
+      "es": "Pastelerías y mercado de Chartres",
+      "en": "Chartres patisseries & market",
+      "fr": "Pâtisseries et marché de Chartres"
+    },
+    "desc": {
+      "es": "El mercado medieval del sábado en la Place Billard y las mejores pastelerías de la Beauce — macarons y tartes aux fraises.",
+      "en": "The Saturday medieval market at Place Billard and the best patisseries of the Beauce.",
+      "fr": "Le marché médiéval du samedi et les meilleures pâtisseries de la Beauce."
+    },
+    "tags": [
+      "food",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "iconic": false
+  },
+  {
+    "id": "cha-maison-picassiette",
+    "city": "chartres",
+    "destination": "chartres",
+    "name": {
+      "es": "Maison Picassiette",
+      "en": "Maison Picassiette",
+      "fr": "Maison Picassiette"
+    },
+    "desc": {
+      "es": "La casa completamente recubierta de mosaicos de cerámica rota — 30 años de trabajo de un barrendero municipal. Arte outsider en estado puro.",
+      "en": "The house completely covered in broken ceramic mosaics — 30 years of work by a municipal street sweeper. Pure outsider art.",
+      "fr": "La maison entièrement couverte de mosaïques de céramique cassée — 30 ans de travail d'un balayeur municipal."
+    },
+    "tags": [
+      "art",
+      "culture",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 7,
+    "iconic": false
   }
 ]
