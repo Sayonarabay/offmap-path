@@ -2,36 +2,969 @@
   {
     "id": "seville",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Sevilla", "en": "Seville", "fr": "Séville" },
+    "name": {
+      "es": "Sevilla",
+      "en": "Seville",
+      "fr": "Séville"
+    },
     "nights": 2,
     "order": 1
   },
   {
     "id": "cordoba",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Córdoba", "en": "Córdoba", "fr": "Cordoue" },
+    "name": {
+      "es": "Córdoba",
+      "en": "Córdoba",
+      "fr": "Cordoue"
+    },
     "nights": 1,
     "order": 2
   },
   {
     "id": "granada",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Granada", "en": "Granada", "fr": "Grenade" },
+    "name": {
+      "es": "Granada",
+      "en": "Granada",
+      "fr": "Grenade"
+    },
     "nights": 2,
     "order": 3
   },
   {
     "id": "ronda",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Ronda", "en": "Ronda", "fr": "Ronda" },
+    "name": {
+      "es": "Ronda",
+      "en": "Ronda",
+      "fr": "Ronda"
+    },
     "nights": 1,
     "order": 4
   },
   {
     "id": "malaga",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Málaga", "en": "Málaga", "fr": "Malaga" },
+    "name": {
+      "es": "Málaga",
+      "en": "Málaga",
+      "fr": "Malaga"
+    },
     "nights": 1,
     "order": 5
+  },
+  {
+    "id": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "París",
+      "en": "Paris",
+      "fr": "Paris"
+    },
+    "nights": 7,
+    "order": 1
+  },
+  {
+    "id": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Lisboa",
+      "en": "Lisbon",
+      "fr": "Lisbonne"
+    },
+    "nights": 7,
+    "order": 1
+  },
+  {
+    "id": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Kioto",
+      "en": "Kyoto",
+      "fr": "Kyoto"
+    },
+    "nights": 7,
+    "order": 1
+  },
+  {
+    "id": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Dolomitas",
+      "en": "Dolomites",
+      "fr": "Dolomites"
+    },
+    "nights": 7,
+    "order": 1
+  },
+  {
+    "id": "sao-miguel",
+    "destination": "azores",
+    "name": {
+      "es": "São Miguel",
+      "en": "São Miguel",
+      "fr": "São Miguel"
+    },
+    "nights": 4,
+    "order": 1
+  },
+  {
+    "id": "pico",
+    "destination": "azores",
+    "name": {
+      "es": "Isla Pico",
+      "en": "Pico Island",
+      "fr": "Île de Pico"
+    },
+    "nights": 2,
+    "order": 2
+  },
+  {
+    "id": "faial",
+    "destination": "azores",
+    "name": {
+      "es": "Faial",
+      "en": "Faial",
+      "fr": "Faial"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "sao-jorge",
+    "destination": "azores",
+    "name": {
+      "es": "São Jorge",
+      "en": "São Jorge",
+      "fr": "São Jorge"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "reikiavik",
+    "destination": "islandia",
+    "name": {
+      "es": "Reikiavik",
+      "en": "Reykjavik",
+      "fr": "Reykjavik"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "sur",
+    "destination": "islandia",
+    "name": {
+      "es": "Costa sur",
+      "en": "South Coast",
+      "fr": "Côte sud"
+    },
+    "nights": 3,
+    "order": 2
+  },
+  {
+    "id": "interior",
+    "destination": "islandia",
+    "name": {
+      "es": "Interior",
+      "en": "Highlands",
+      "fr": "Hautes Terres"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "vestfjordur",
+    "destination": "islandia",
+    "name": {
+      "es": "Fiordos del Oeste",
+      "en": "Westfjords",
+      "fr": "Fjords de l'Ouest"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "lanzarote",
+    "destination": "lanzarote",
+    "name": {
+      "es": "Lanzarote",
+      "en": "Lanzarote",
+      "fr": "Lanzarote"
+    },
+    "nights": 7,
+    "order": 1
+  },
+  {
+    "id": "gran-canaria",
+    "destination": "gran-canaria",
+    "name": {
+      "es": "Gran Canaria",
+      "en": "Gran Canaria",
+      "fr": "Grande Canarie"
+    },
+    "nights": 7,
+    "order": 1
+  },
+  {
+    "id": "girona",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Girona",
+      "en": "Girona",
+      "fr": "Gérone"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "begur",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Begur",
+      "en": "Begur",
+      "fr": "Begur"
+    },
+    "nights": 2,
+    "order": 2
+  },
+  {
+    "id": "cadaques",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Cadaqués",
+      "en": "Cadaqués",
+      "fr": "Cadaqués"
+    },
+    "nights": 2,
+    "order": 3
+  },
+  {
+    "id": "figueres",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Figueres",
+      "en": "Figueres",
+      "fr": "Figuères"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "palafrugell",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Palafrugell",
+      "en": "Palafrugell",
+      "fr": "Palafrugell"
+    },
+    "nights": 1,
+    "order": 5
+  },
+  {
+    "id": "empuries",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Empúries",
+      "en": "Empúries",
+      "fr": "Empúries"
+    },
+    "nights": 1,
+    "order": 6
+  },
+  {
+    "id": "tossa",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Tossa de Mar",
+      "en": "Tossa de Mar",
+      "fr": "Tossa de Mar"
+    },
+    "nights": 1,
+    "order": 7
+  },
+  {
+    "id": "santiago",
+    "destination": "galicia",
+    "name": {
+      "es": "Santiago de Compostela",
+      "en": "Santiago",
+      "fr": "Saint-Jacques"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "cambados",
+    "destination": "galicia",
+    "name": {
+      "es": "Cambados",
+      "en": "Cambados",
+      "fr": "Cambados"
+    },
+    "nights": 1,
+    "order": 2
+  },
+  {
+    "id": "muxia",
+    "destination": "galicia",
+    "name": {
+      "es": "Muxía",
+      "en": "Muxía",
+      "fr": "Muxía"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "fisterra",
+    "destination": "galicia",
+    "name": {
+      "es": "Fisterra",
+      "en": "Fisterra",
+      "fr": "Fisterra"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "viveiro",
+    "destination": "galicia",
+    "name": {
+      "es": "Viveiro",
+      "en": "Viveiro",
+      "fr": "Viveiro"
+    },
+    "nights": 1,
+    "order": 5
+  },
+  {
+    "id": "allariz",
+    "destination": "galicia",
+    "name": {
+      "es": "Allariz",
+      "en": "Allariz",
+      "fr": "Allariz"
+    },
+    "nights": 1,
+    "order": 6
+  },
+  {
+    "id": "combarro",
+    "destination": "galicia",
+    "name": {
+      "es": "Combarro",
+      "en": "Combarro",
+      "fr": "Combarro"
+    },
+    "nights": 1,
+    "order": 7
+  },
+  {
+    "id": "carballino",
+    "destination": "galicia",
+    "name": {
+      "es": "O Carballiño",
+      "en": "O Carballiño",
+      "fr": "O Carballiño"
+    },
+    "nights": 1,
+    "order": 8
+  },
+  {
+    "id": "pontedeume",
+    "destination": "galicia",
+    "name": {
+      "es": "Pontedeume",
+      "en": "Pontedeume",
+      "fr": "Pontedeume"
+    },
+    "nights": 1,
+    "order": 9
+  },
+  {
+    "id": "tours",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Tours",
+      "en": "Tours",
+      "fr": "Tours"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "amboise",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Amboise",
+      "en": "Amboise",
+      "fr": "Amboise"
+    },
+    "nights": 2,
+    "order": 2
+  },
+  {
+    "id": "chambord",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Chambord",
+      "en": "Chambord",
+      "fr": "Chambord"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "chenonceaux",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Chenonceau",
+      "en": "Chenonceau",
+      "fr": "Chenonceau"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "sancerre",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Sancerre",
+      "en": "Sancerre",
+      "fr": "Sancerre"
+    },
+    "nights": 1,
+    "order": 5
+  },
+  {
+    "id": "villandry",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Villandry",
+      "en": "Villandry",
+      "fr": "Villandry"
+    },
+    "nights": 1,
+    "order": 6
+  },
+  {
+    "id": "chinon",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Chinon",
+      "en": "Chinon",
+      "fr": "Chinon"
+    },
+    "nights": 1,
+    "order": 7
+  },
+  {
+    "id": "saint-malo",
+    "destination": "bretana",
+    "name": {
+      "es": "Saint-Malo",
+      "en": "Saint-Malo",
+      "fr": "Saint-Malo"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "mont-saint-michel",
+    "destination": "bretana",
+    "name": {
+      "es": "Mont Saint-Michel",
+      "en": "Mont Saint-Michel",
+      "fr": "Mont Saint-Michel"
+    },
+    "nights": 1,
+    "order": 2
+  },
+  {
+    "id": "perros-guirec",
+    "destination": "bretana",
+    "name": {
+      "es": "Perros-Guirec",
+      "en": "Perros-Guirec",
+      "fr": "Perros-Guirec"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "cancale",
+    "destination": "bretana",
+    "name": {
+      "es": "Cancale",
+      "en": "Cancale",
+      "fr": "Cancale"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "dinan",
+    "destination": "bretana",
+    "name": {
+      "es": "Dinan",
+      "en": "Dinan",
+      "fr": "Dinan"
+    },
+    "nights": 1,
+    "order": 5
+  },
+  {
+    "id": "cap-frehel",
+    "destination": "bretana",
+    "name": {
+      "es": "Cap Fréhel",
+      "en": "Cap Fréhel",
+      "fr": "Cap Fréhel"
+    },
+    "nights": 1,
+    "order": 6
+  },
+  {
+    "id": "rennes",
+    "destination": "bretana",
+    "name": {
+      "es": "Rennes",
+      "en": "Rennes",
+      "fr": "Rennes"
+    },
+    "nights": 1,
+    "order": 7
+  },
+  {
+    "id": "ouessant",
+    "destination": "bretana",
+    "name": {
+      "es": "Ouessant",
+      "en": "Ouessant",
+      "fr": "Ouessant"
+    },
+    "nights": 1,
+    "order": 8
+  },
+  {
+    "id": "carnac",
+    "destination": "bretana",
+    "name": {
+      "es": "Carnac",
+      "en": "Carnac",
+      "fr": "Carnac"
+    },
+    "nights": 1,
+    "order": 9
+  },
+  {
+    "id": "torla",
+    "destination": "pirineo",
+    "name": {
+      "es": "Torla/Ordesa",
+      "en": "Torla/Ordesa",
+      "fr": "Torla/Ordesa"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "ainsa",
+    "destination": "pirineo",
+    "name": {
+      "es": "Aínsa",
+      "en": "Aínsa",
+      "fr": "Aínsa"
+    },
+    "nights": 2,
+    "order": 2
+  },
+  {
+    "id": "hecho",
+    "destination": "pirineo",
+    "name": {
+      "es": "Hecho",
+      "en": "Hecho",
+      "fr": "Hecho"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "jaca",
+    "destination": "pirineo",
+    "name": {
+      "es": "Jaca",
+      "en": "Jaca",
+      "fr": "Jaca"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "benasque",
+    "destination": "pirineo",
+    "name": {
+      "es": "Benasque",
+      "en": "Benasque",
+      "fr": "Benasque"
+    },
+    "nights": 2,
+    "order": 5
+  },
+  {
+    "id": "boi",
+    "destination": "pirineo",
+    "name": {
+      "es": "Valle de Boí",
+      "en": "Boí Valley",
+      "fr": "Vallée de Boí"
+    },
+    "nights": 1,
+    "order": 6
+  },
+  {
+    "id": "gavarnie",
+    "destination": "pirineo",
+    "name": {
+      "es": "Gavarnie",
+      "en": "Gavarnie",
+      "fr": "Gavarnie"
+    },
+    "nights": 1,
+    "order": 7
+  },
+  {
+    "id": "valle-de-tena",
+    "destination": "pirineo",
+    "name": {
+      "es": "Valle de Tena",
+      "en": "Tena Valley",
+      "fr": "Vallée de Tena"
+    },
+    "nights": 1,
+    "order": 8
+  },
+  {
+    "id": "palma",
+    "destination": "baleares",
+    "name": {
+      "es": "Palma de Mallorca",
+      "en": "Palma",
+      "fr": "Palma"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "soller",
+    "destination": "baleares",
+    "name": {
+      "es": "Sóller",
+      "en": "Sóller",
+      "fr": "Sóller"
+    },
+    "nights": 2,
+    "order": 2
+  },
+  {
+    "id": "deia",
+    "destination": "baleares",
+    "name": {
+      "es": "Deià",
+      "en": "Deià",
+      "fr": "Deià"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "valldemossa",
+    "destination": "baleares",
+    "name": {
+      "es": "Valldemossa",
+      "en": "Valldemossa",
+      "fr": "Valldemossa"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "menorca",
+    "destination": "baleares",
+    "name": {
+      "es": "Menorca",
+      "en": "Menorca",
+      "fr": "Minorque"
+    },
+    "nights": 3,
+    "order": 5
+  },
+  {
+    "id": "ciutadella",
+    "destination": "baleares",
+    "name": {
+      "es": "Ciutadella",
+      "en": "Ciutadella",
+      "fr": "Ciutadella"
+    },
+    "nights": 1,
+    "order": 6
+  },
+  {
+    "id": "fornells",
+    "destination": "baleares",
+    "name": {
+      "es": "Fornells",
+      "en": "Fornells",
+      "fr": "Fornells"
+    },
+    "nights": 1,
+    "order": 7
+  },
+  {
+    "id": "campos",
+    "destination": "baleares",
+    "name": {
+      "es": "Campos",
+      "en": "Campos",
+      "fr": "Campos"
+    },
+    "nights": 1,
+    "order": 8
+  },
+  {
+    "id": "madrid",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "Madrid",
+      "en": "Madrid",
+      "fr": "Madrid"
+    },
+    "nights": 4,
+    "order": 1
+  },
+  {
+    "id": "segovia",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "Segovia",
+      "en": "Segovia",
+      "fr": "Ségovie"
+    },
+    "nights": 1,
+    "order": 2
+  },
+  {
+    "id": "toledo",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "Toledo",
+      "en": "Toledo",
+      "fr": "Tolède"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "el-escorial",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "El Escorial",
+      "en": "El Escorial",
+      "fr": "L'Escorial"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "navacerrada",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "Navacerrada",
+      "en": "Navacerrada",
+      "fr": "Navacerrada"
+    },
+    "nights": 1,
+    "order": 5
+  },
+  {
+    "id": "san-sebastian",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "San Sebastián",
+      "en": "San Sebastián",
+      "fr": "Saint-Sébastien"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "bilbao",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Bilbao",
+      "en": "Bilbao",
+      "fr": "Bilbao"
+    },
+    "nights": 2,
+    "order": 2
+  },
+  {
+    "id": "getaria",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Getaria",
+      "en": "Getaria",
+      "fr": "Getaria"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "hondarribia",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Hondarribia",
+      "en": "Hondarribia",
+      "fr": "Hondarribia"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "estrasburgo",
+    "destination": "alsacia",
+    "name": {
+      "es": "Estrasburgo",
+      "en": "Strasbourg",
+      "fr": "Strasbourg"
+    },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "colmar",
+    "destination": "alsacia",
+    "name": {
+      "es": "Colmar",
+      "en": "Colmar",
+      "fr": "Colmar"
+    },
+    "nights": 2,
+    "order": 2
+  },
+  {
+    "id": "riquewihr",
+    "destination": "alsacia",
+    "name": {
+      "es": "Riquewihr",
+      "en": "Riquewihr",
+      "fr": "Riquewihr"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "eguisheim",
+    "destination": "alsacia",
+    "name": {
+      "es": "Eguisheim",
+      "en": "Eguisheim",
+      "fr": "Eguisheim"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "kaysersberg",
+    "destination": "alsacia",
+    "name": {
+      "es": "Kaysersberg",
+      "en": "Kaysersberg",
+      "fr": "Kaysersberg"
+    },
+    "nights": 1,
+    "order": 5
+  },
+  {
+    "id": "mont-sainte-odile",
+    "destination": "alsacia",
+    "name": {
+      "es": "Mont Sainte-Odile",
+      "en": "Mont Sainte-Odile",
+      "fr": "Mont Sainte-Odile"
+    },
+    "nights": 1,
+    "order": 6
+  },
+  {
+    "id": "sarlat",
+    "destination": "perigord",
+    "name": {
+      "es": "Sarlat",
+      "en": "Sarlat",
+      "fr": "Sarlat"
+    },
+    "nights": 3,
+    "order": 1
+  },
+  {
+    "id": "les-eyzies",
+    "destination": "perigord",
+    "name": {
+      "es": "Les Eyzies",
+      "en": "Les Eyzies",
+      "fr": "Les Eyzies"
+    },
+    "nights": 2,
+    "order": 2
+  },
+  {
+    "id": "beynac",
+    "destination": "perigord",
+    "name": {
+      "es": "Beynac",
+      "en": "Beynac",
+      "fr": "Beynac"
+    },
+    "nights": 1,
+    "order": 3
+  },
+  {
+    "id": "rocamadour",
+    "destination": "perigord",
+    "name": {
+      "es": "Rocamadour",
+      "en": "Rocamadour",
+      "fr": "Rocamadour"
+    },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "la-roque-gageac",
+    "destination": "perigord",
+    "name": {
+      "es": "La Roque-Gageac",
+      "en": "La Roque-Gageac",
+      "fr": "La Roque-Gageac"
+    },
+    "nights": 1,
+    "order": 5
+  },
+  {
+    "id": "perigueux",
+    "destination": "perigord",
+    "name": {
+      "es": "Périgueux",
+      "en": "Périgueux",
+      "fr": "Périgueux"
+    },
+    "nights": 1,
+    "order": 6
   }
 ]

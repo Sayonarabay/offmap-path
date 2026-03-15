@@ -10,11 +10,20 @@
     },
     "desc": {
       "es": "El palacio nazarí más espectacular del mundo. Reserva con semanas de antelación.",
-      "en": "The world's most spectacular Nasrid palace. Book weeks ahead.",
+      "en": "The world's most spectacular Nasrid palace. Book weeks ahead — tickets sell out.",
       "fr": "Le palais nasride le plus spectaculaire du monde. Réservez des semaines à l'avance."
     },
-    "tags": ["culture", "iconic", "history", "architecture", "UNESCO"],
-    "time_of_day": ["morning", "afternoon"],
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
     "duration_hours": 4,
     "price_eur": 19,
     "book_ahead": true,
@@ -24,10 +33,25 @@
     "id": "sacromonte-flamenco",
     "city": "granada",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Flamenco en Sacromonte", "en": "Sacromonte Flamenco", "fr": "Flamenco à Sacromonte" },
-    "desc": { "es": "Tablao en cueva, el flamenco gitano más auténtico de Andalucía.", "en": "Cave tablao — the most authentic Roma flamenco in Andalucía.", "fr": "Tablao en grotte — le flamenco gitan le plus authentique d'Andalousie." },
-    "tags": ["culture", "nightlife", "iconic", "local"],
-    "time_of_day": ["evening"],
+    "name": {
+      "es": "Flamenco en Sacromonte",
+      "en": "Sacromonte Flamenco",
+      "fr": "Flamenco à Sacromonte"
+    },
+    "desc": {
+      "es": "Tablao en cueva, el flamenco gitano más auténtico de Andalucía.",
+      "en": "Cave tablao — the most authentic Roma flamenco in Andalucía.",
+      "fr": "Tablao en grotte — le flamenco gitan le plus authentique d'Andalousie."
+    },
+    "tags": [
+      "culture",
+      "nightlife",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
     "duration_hours": 2,
     "price_eur": 35,
     "book_ahead": true,
@@ -37,10 +61,27 @@
     "id": "albaicin-walk",
     "city": "granada",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Paseo por el Albaicín", "en": "Albaicín walk", "fr": "Promenade dans l'Albaicín" },
-    "desc": { "es": "El barrio morisco medieval con las mejores vistas de la Alhambra.", "en": "The medieval Moorish quarter with the best views of the Alhambra.", "fr": "Le quartier mauresque médiéval avec les meilleures vues de l'Alhambra." },
-    "tags": ["culture", "history", "walk", "views"],
-    "time_of_day": ["morning", "afternoon", "evening"],
+    "name": {
+      "es": "Paseo por el Albaicín",
+      "en": "Albaicín walk",
+      "fr": "Promenade dans l'Albaicín"
+    },
+    "desc": {
+      "es": "El barrio morisco medieval con las mejores vistas de la Alhambra al atardecer.",
+      "en": "The medieval Moorish quarter with the best sunset views of the Alhambra.",
+      "fr": "Le quartier mauresque médiéval avec les meilleures vues de l'Alhambra."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
     "duration_hours": 2,
     "price_eur": 0,
     "iconic": false
@@ -49,10 +90,26 @@
     "id": "mirador-san-nicolas",
     "city": "granada",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Mirador de San Nicolás", "en": "San Nicolás viewpoint", "fr": "Mirador de San Nicolás" },
-    "desc": { "es": "La mejor vista de la Alhambra con Sierra Nevada al fondo.", "en": "The best view of the Alhambra with Sierra Nevada behind.", "fr": "La meilleure vue de l'Alhambra avec la Sierra Nevada en arrière-plan." },
-    "tags": ["views", "walk", "iconic", "photo"],
-    "time_of_day": ["afternoon", "evening"],
+    "name": {
+      "es": "Mirador de San Nicolás",
+      "en": "San Nicolás viewpoint",
+      "fr": "Mirador de San Nicolás"
+    },
+    "desc": {
+      "es": "La mejor vista de la Alhambra con Sierra Nevada al fondo.",
+      "en": "The best view of the Alhambra with Sierra Nevada behind.",
+      "fr": "La meilleure vue de l'Alhambra avec la Sierra Nevada en arrière-plan."
+    },
+    "tags": [
+      "views",
+      "walk",
+      "iconic",
+      "photo"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
     "duration_hours": 1,
     "price_eur": 0,
     "iconic": false
@@ -61,22 +118,82 @@
     "id": "granada-tapas",
     "city": "granada",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Ruta de tapas gratis", "en": "Free tapas crawl", "fr": "Tour des tapas gratuits" },
-    "desc": { "es": "En Granada cada bebida incluye una tapa. La última ciudad de España donde esto sigue siendo ley.", "en": "Every drink comes with a free tapa — the last city in Spain where this still happens.", "fr": "Chaque boisson est accompagnée d'une tapa — la dernière ville d'Espagne où c'est encore la règle." },
-    "tags": ["foodie", "local", "nightlife"],
-    "time_of_day": ["afternoon", "evening"],
+    "name": {
+      "es": "Ruta de tapas gratis",
+      "en": "Free tapas crawl",
+      "fr": "Tour des tapas gratuits"
+    },
+    "desc": {
+      "es": "En Granada cada bebida incluye una tapa. La última ciudad de España donde esto sigue siendo ley.",
+      "en": "Every drink comes with a free tapa — the last city in Spain where this still happens.",
+      "fr": "Chaque boisson est accompagnée d'une tapa."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
     "duration_hours": 2,
     "price_eur": 10,
+    "iconic": false
+  },
+  {
+    "id": "generalife",
+    "city": "granada",
+    "destination": "andalucia-roadtrip",
+    "name": {
+      "es": "Jardines del Generalife",
+      "en": "Generalife Gardens",
+      "fr": "Jardins du Generalife"
+    },
+    "desc": {
+      "es": "Los jardines del palacio de verano nazarí. Incluidos en la entrada de la Alhambra.",
+      "en": "The Nasrid summer palace gardens. Included in the Alhambra ticket, much less crowded.",
+      "fr": "Les jardins du palais d'été nasride. Inclus dans le billet de l'Alhambra."
+    },
+    "tags": [
+      "nature",
+      "culture",
+      "walk",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
     "iconic": false
   },
   {
     "id": "real-alcazar",
     "city": "seville",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Real Alcázar", "en": "Royal Alcázar", "fr": "Alcazar Royal" },
-    "desc": { "es": "Palacio real en uso con jardines mudéjares impresionantes. Reserva online.", "en": "A living royal palace with stunning Mudéjar gardens. Book online.", "fr": "Un palais royal encore en activité avec des jardins mudéjars époustouflants." },
-    "tags": ["culture", "iconic", "history", "architecture", "UNESCO"],
-    "time_of_day": ["morning", "afternoon"],
+    "name": {
+      "es": "Real Alcázar",
+      "en": "Royal Alcázar",
+      "fr": "Alcazar Royal"
+    },
+    "desc": {
+      "es": "Palacio real en uso con jardines mudéjares impresionantes. Reserva online.",
+      "en": "A living royal palace with stunning Mudéjar gardens. Book online.",
+      "fr": "Un palais royal avec des jardins mudéjars époustouflants."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
     "duration_hours": 3,
     "price_eur": 14,
     "book_ahead": true,
@@ -86,10 +203,27 @@
     "id": "seville-cathedral",
     "city": "seville",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Catedral y Giralda", "en": "Cathedral & Giralda", "fr": "Cathédrale et Giralda" },
-    "desc": { "es": "La catedral gótica más grande del mundo. Sube a la Giralda para las vistas.", "en": "The world's largest Gothic cathedral. Climb the Giralda for the views.", "fr": "La plus grande cathédrale gothique du monde." },
-    "tags": ["culture", "iconic", "history", "architecture", "UNESCO"],
-    "time_of_day": ["morning", "afternoon"],
+    "name": {
+      "es": "Catedral y Giralda",
+      "en": "Cathedral & Giralda",
+      "fr": "Cathédrale et Giralda"
+    },
+    "desc": {
+      "es": "La catedral gótica más grande del mundo. Sube a la Giralda para las vistas.",
+      "en": "The world's largest Gothic cathedral. Climb the Giralda for the views.",
+      "fr": "La plus grande cathédrale gothique du monde."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
     "duration_hours": 2,
     "price_eur": 12,
     "iconic": true
@@ -98,10 +232,27 @@
     "id": "barrio-santa-cruz",
     "city": "seville",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Barrio de Santa Cruz", "en": "Santa Cruz quarter", "fr": "Quartier de Santa Cruz" },
-    "desc": { "es": "El laberinto de callejones blancos y naranjos del antiguo barrio judío.", "en": "The maze of white alleys and orange trees of the old Jewish quarter.", "fr": "Le labyrinthe de ruelles blanches et d'orangers de l'ancien quartier juif." },
-    "tags": ["culture", "history", "walk", "local"],
-    "time_of_day": ["morning", "afternoon", "evening"],
+    "name": {
+      "es": "Barrio de Santa Cruz",
+      "en": "Santa Cruz quarter",
+      "fr": "Quartier de Santa Cruz"
+    },
+    "desc": {
+      "es": "El laberinto de callejones blancos del antiguo barrio judío.",
+      "en": "The maze of white alleys of the old Jewish quarter.",
+      "fr": "Le labyrinthe de ruelles blanches de l'ancien quartier juif."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
     "duration_hours": 2,
     "price_eur": 0,
     "iconic": false
@@ -110,10 +261,24 @@
     "id": "seville-flamenco",
     "city": "seville",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Tablao flamenco en Sevilla", "en": "Seville flamenco show", "fr": "Spectacle flamenco à Séville" },
-    "desc": { "es": "El flamenco sevillano — más elegante que el granadino, igual de intenso.", "en": "Sevillian flamenco — more elegant than Granada's, equally intense.", "fr": "Le flamenco sévillan — plus élégant que celui de Grenade." },
-    "tags": ["culture", "nightlife", "iconic"],
-    "time_of_day": ["evening"],
+    "name": {
+      "es": "Tablao flamenco en Sevilla",
+      "en": "Seville flamenco show",
+      "fr": "Spectacle flamenco à Séville"
+    },
+    "desc": {
+      "es": "El flamenco sevillano — elegante e intenso.",
+      "en": "Sevillian flamenco — elegant and intense.",
+      "fr": "Le flamenco sévillan — élégant et intense."
+    },
+    "tags": [
+      "culture",
+      "nightlife",
+      "iconic"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
     "duration_hours": 2,
     "price_eur": 40,
     "iconic": false
@@ -122,35 +287,110 @@
     "id": "triana-market",
     "city": "seville",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Mercado de Triana", "en": "Triana Market", "fr": "Marché de Triana" },
-    "desc": { "es": "El mercado más auténtico de Sevilla, en el barrio de los ceramistas y toreros.", "en": "Seville's most authentic market, in the neighbourhood of ceramicists and bullfighters.", "fr": "Le marché le plus authentique de Séville." },
-    "tags": ["foodie", "local", "culture"],
-    "time_of_day": ["morning"],
+    "name": {
+      "es": "Mercado de Triana",
+      "en": "Triana Market",
+      "fr": "Marché de Triana"
+    },
+    "desc": {
+      "es": "El mercado más auténtico de Sevilla. Desayuno con los locales.",
+      "en": "Seville's most authentic market. Breakfast with the locals.",
+      "fr": "Le marché le plus authentique de Séville."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
     "duration_hours": 1.5,
     "price_eur": 0,
     "iconic": false
   },
   {
+    "id": "plaza-espana",
+    "city": "seville",
+    "destination": "andalucia-roadtrip",
+    "name": {
+      "es": "Plaza de España",
+      "en": "Plaza de España",
+      "fr": "Plaza de España"
+    },
+    "desc": {
+      "es": "La plaza más espectacular de España. Cerámica, canales y arquitectura de película.",
+      "en": "Spain's most spectacular square. Ceramics, canals and cinematic architecture.",
+      "fr": "La place la plus spectaculaire d'Espagne."
+    },
+    "tags": [
+      "architecture",
+      "iconic",
+      "photo",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
     "id": "mezquita-cordoba",
     "city": "cordoba",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Mezquita-Catedral", "en": "Mosque-Cathedral", "fr": "Mosquée-Cathédrale" },
-    "desc": { "es": "Una catedral cristiana construida dentro de una mezquita árabe construida sobre un templo romano. Único en el mundo.", "en": "A Christian cathedral built inside an Arab mosque built over a Roman temple. One of a kind.", "fr": "Une cathédrale chrétienne construite dans une mosquée arabe sur un temple romain." },
-    "tags": ["culture", "iconic", "history", "architecture", "UNESCO"],
-    "time_of_day": ["morning", "afternoon"],
+    "name": {
+      "es": "Mezquita-Catedral",
+      "en": "Mosque-Cathedral",
+      "fr": "Mosquée-Cathédrale"
+    },
+    "desc": {
+      "es": "Una catedral cristiana dentro de una mezquita árabe sobre un templo romano. Único en el mundo.",
+      "en": "A Christian cathedral inside an Arab mosque over a Roman temple. One of a kind.",
+      "fr": "Une cathédrale chrétienne dans une mosquée arabe sur un temple romain."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
     "duration_hours": 2,
     "price_eur": 13,
-    "book_ahead": false,
     "iconic": true
   },
   {
     "id": "juderia-cordoba",
     "city": "cordoba",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Judería de Córdoba", "en": "Córdoba Jewish Quarter", "fr": "Judería de Cordoue" },
-    "desc": { "es": "El barrio judío medieval, con la sinagoga y la Calleja de las Flores.", "en": "The medieval Jewish quarter, with the synagogue and Calleja de las Flores.", "fr": "Le quartier juif médiéval, avec la synagogue et la Calleja de las Flores." },
-    "tags": ["culture", "history", "walk"],
-    "time_of_day": ["morning", "afternoon"],
+    "name": {
+      "es": "Judería de Córdoba",
+      "en": "Córdoba Jewish Quarter",
+      "fr": "Judería de Cordoue"
+    },
+    "desc": {
+      "es": "El barrio judío con la Calleja de las Flores y la sinagoga medieval.",
+      "en": "The Jewish quarter with the Calleja de las Flores and medieval synagogue.",
+      "fr": "Le quartier juif avec la Calleja de las Flores."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "photo"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
     "duration_hours": 1.5,
     "price_eur": 0,
     "iconic": false
@@ -159,22 +399,81 @@
     "id": "puente-nuevo-ronda",
     "city": "ronda",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Puente Nuevo y El Tajo", "en": "Puente Nuevo & El Tajo gorge", "fr": "Puente Nuevo et les gorges d'El Tajo" },
-    "desc": { "es": "El puente sobre el desfiladero de 100 metros. La imagen más icónica de Andalucía.", "en": "The bridge over the 100-metre gorge. The most iconic image of Andalucía.", "fr": "Le pont sur les gorges de 100 mètres." },
-    "tags": ["views", "iconic", "architecture", "nature"],
-    "time_of_day": ["morning", "afternoon"],
+    "name": {
+      "es": "Puente Nuevo y El Tajo",
+      "en": "Puente Nuevo & El Tajo gorge",
+      "fr": "Puente Nuevo et les gorges d'El Tajo"
+    },
+    "desc": {
+      "es": "El puente sobre el desfiladero de 100m. La imagen más icónica de Andalucía.",
+      "en": "The bridge over the 100m gorge. The most iconic image of Andalucía.",
+      "fr": "Le pont sur les gorges de 100m."
+    },
+    "tags": [
+      "views",
+      "iconic",
+      "architecture",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
     "duration_hours": 2,
     "price_eur": 0,
     "iconic": true
   },
   {
+    "id": "ronda-old-town",
+    "city": "ronda",
+    "destination": "andalucia-roadtrip",
+    "name": {
+      "es": "Casco antiguo de Ronda",
+      "en": "Ronda old town",
+      "fr": "Vieille ville de Ronda"
+    },
+    "desc": {
+      "es": "Calles empedradas sin turistas por la tarde. La ciudad más dramáticamente situada de España.",
+      "en": "Cobbled streets with no tourists in the afternoon. Spain's most dramatically situated town.",
+      "fr": "Rues pavées sans touristes l'après-midi."
+    },
+    "tags": [
+      "culture",
+      "walk",
+      "history",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
     "id": "malaga-picasso",
     "city": "malaga",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Museo Picasso Málaga", "en": "Picasso Museum Málaga", "fr": "Musée Picasso Málaga" },
-    "desc": { "es": "La ciudad natal de Picasso, con el museo en su palacio renacentista.", "en": "Picasso's birthplace, with the museum in a Renaissance palace.", "fr": "La ville natale de Picasso, avec le musée dans un palais de la Renaissance." },
-    "tags": ["culture", "art", "iconic"],
-    "time_of_day": ["morning", "afternoon"],
+    "name": {
+      "es": "Museo Picasso Málaga",
+      "en": "Picasso Museum Málaga",
+      "fr": "Musée Picasso Málaga"
+    },
+    "desc": {
+      "es": "La ciudad natal de Picasso, con el museo en un palacio renacentista.",
+      "en": "Picasso's birthplace, with the museum in a Renaissance palace.",
+      "fr": "La ville natale de Picasso, avec le musée dans un palais de la Renaissance."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
     "duration_hours": 2,
     "price_eur": 12,
     "iconic": false
@@ -183,12 +482,5041 @@
     "id": "malaga-alcazaba",
     "city": "malaga",
     "destination": "andalucia-roadtrip",
-    "name": { "es": "Alcazaba de Málaga", "en": "Málaga Alcazaba", "fr": "Alcazaba de Malaga" },
-    "desc": { "es": "La fortaleza árabe sobre el puerto. Menos turistas que la Alhambra, igual de hermosa.", "en": "The Arab fortress overlooking the port. Fewer tourists than the Alhambra, just as beautiful.", "fr": "La forteresse arabe surplombant le port." },
-    "tags": ["culture", "history", "architecture", "views"],
-    "time_of_day": ["morning", "afternoon"],
+    "name": {
+      "es": "Alcazaba de Málaga",
+      "en": "Málaga Alcazaba",
+      "fr": "Alcazaba de Malaga"
+    },
+    "desc": {
+      "es": "La fortaleza árabe sobre el puerto. Menos turistas que la Alhambra, igual de hermosa.",
+      "en": "The Arab fortress overlooking the port. Fewer tourists than the Alhambra, just as beautiful.",
+      "fr": "La forteresse arabe surplombant le port."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
     "duration_hours": 1.5,
     "price_eur": 3,
+    "iconic": false
+  },
+  {
+    "id": "malaga-soho",
+    "city": "malaga",
+    "destination": "andalucia-roadtrip",
+    "name": {
+      "es": "Barrio Soho y street art",
+      "en": "Soho district & street art",
+      "fr": "Quartier Soho et street art"
+    },
+    "desc": {
+      "es": "El barrio del arte urbano de Málaga. Murales de artistas internacionales en cada esquina.",
+      "en": "Málaga's urban art district. Murals by international artists on every corner.",
+      "fr": "Le quartier d'art urbain de Málaga."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "walk",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "louvre",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Museo del Louvre",
+      "en": "Louvre Museum",
+      "fr": "Musée du Louvre"
+    },
+    "desc": {
+      "es": "El museo más visitado del mundo. Céntrate en un ala para no agotarte.",
+      "en": "The world's most visited museum. Focus on one wing to avoid fatigue.",
+      "fr": "Le musée le plus visité au monde. Concentrez-vous sur une aile."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art",
+      "history",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 22,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "eiffel-tower",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Torre Eiffel",
+      "en": "Eiffel Tower",
+      "fr": "Tour Eiffel"
+    },
+    "desc": {
+      "es": "Reserva la entrada al summit con 2 semanas de antelación. Por la mañana para cielos despejados.",
+      "en": "Book the summit ticket 2 weeks ahead. Morning for clear skies.",
+      "fr": "Réservez le billet sommet 2 semaines à l'avance. Le matin pour un ciel dégagé."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "architecture",
+      "photo"
+    ],
+    "time_of_day": [
+      "morning",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 29,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "musee-dorsay",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Musée d'Orsay",
+      "en": "Musée d'Orsay",
+      "fr": "Musée d'Orsay"
+    },
+    "desc": {
+      "es": "La mayor colección impresionista del mundo en una antigua estación de tren.",
+      "en": "The world's greatest Impressionist collection in a former train station.",
+      "fr": "La plus grande collection impressionniste au monde dans une ancienne gare."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 16,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "notre-dame",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Notre-Dame de París",
+      "en": "Notre-Dame Cathedral",
+      "fr": "Notre-Dame de Paris"
+    },
+    "desc": {
+      "es": "Reabierta en 2024 tras la reconstrucción. Más impresionante que nunca.",
+      "en": "Reopened in 2024 after reconstruction. More impressive than ever.",
+      "fr": "Rouverte en 2024 après reconstruction. Plus impressionnante que jamais."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "marais-walk",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Paseo por el Marais",
+      "en": "Marais neighbourhood walk",
+      "fr": "Promenade dans le Marais"
+    },
+    "desc": {
+      "es": "Place des Vosges, galerías de arte, falafel y arquitectura del siglo XVII.",
+      "en": "Place des Vosges, art galleries, falafel and 17th-century architecture.",
+      "fr": "Place des Vosges, galeries d'art et architecture du XVIIe siècle."
+    },
+    "tags": [
+      "culture",
+      "walk",
+      "local",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "sainte-chapelle",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Sainte-Chapelle",
+      "en": "Sainte-Chapelle",
+      "fr": "Sainte-Chapelle"
+    },
+    "desc": {
+      "es": "Las vidrieras góticas más extraordinarias del mundo. Un día nublado las hace brillar más.",
+      "en": "The world's most extraordinary Gothic stained glass. A cloudy day makes them glow more.",
+      "fr": "Les vitraux gothiques les plus extraordinaires du monde."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "art"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 13,
+    "book_ahead": true,
+    "iconic": false
+  },
+  {
+    "id": "montmartre-walk",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Montmartre y Sacré-Cœur",
+      "en": "Montmartre & Sacré-Cœur",
+      "fr": "Montmartre & Sacré-Cœur"
+    },
+    "desc": {
+      "es": "Llega antes de las 9h para tener el Sacré-Cœur para ti solo.",
+      "en": "Arrive before 9am to have Sacré-Cœur to yourself.",
+      "fr": "Arrivez avant 9h pour profiter du Sacré-Cœur sans foule."
+    },
+    "tags": [
+      "culture",
+      "walk",
+      "views",
+      "history"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "versailles",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Palacio de Versalles",
+      "en": "Palace of Versailles",
+      "fr": "Château de Versailles"
+    },
+    "desc": {
+      "es": "Toma el RER C (40 min) y llega a las 9h en punto. Los jardines son libres.",
+      "en": "Take the RER C (40 min) and arrive at 9am. The gardens are free.",
+      "fr": "Prenez le RER C (40 min) et arrivez à 9h. Les jardins sont gratuits."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 20,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "pompidou",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Centro Pompidou",
+      "en": "Centre Pompidou",
+      "fr": "Centre Pompidou"
+    },
+    "desc": {
+      "es": "El museo de arte moderno más importante de Europa. La arquitectura outside-in es un shock visual.",
+      "en": "Europe's most important modern art museum. The outside-in architecture is a visual shock.",
+      "fr": "Le musée d'art moderne le plus important d'Europe."
+    },
+    "tags": [
+      "culture",
+      "art",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "luxembourg-gardens",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Jardines de Luxemburgo",
+      "en": "Luxembourg Gardens",
+      "fr": "Jardin du Luxembourg"
+    },
+    "desc": {
+      "es": "El jardín más elegante de París. Perfecto para un descanso entre museos.",
+      "en": "Paris's most elegant garden. Perfect for a break between museums.",
+      "fr": "Le jardin le plus élégant de Paris."
+    },
+    "tags": [
+      "relax",
+      "nature",
+      "walk",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "paris-bistro",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Cena en bistró parisino",
+      "en": "Parisian bistro dinner",
+      "fr": "Dîner dans un bistrot parisien"
+    },
+    "desc": {
+      "es": "Steak-frites, escargots, vin rouge. Un bistró de barrio sin turistas.",
+      "en": "Steak-frites, escargots, vin rouge. A neighbourhood bistro with no tourists.",
+      "fr": "Steak-frites, escargots, vin rouge. Un bistrot de quartier sans touristes."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 35,
+    "iconic": false
+  },
+  {
+    "id": "seine-walk",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Orillas del Sena",
+      "en": "Seine riverside walk",
+      "fr": "Bords de Seine"
+    },
+    "desc": {
+      "es": "Los quais con libreros de viejo, terrazas y el skyline de París. UNESCO.",
+      "en": "The quais with second-hand booksellers, terraces and the Paris skyline. UNESCO.",
+      "fr": "Les quais avec bouquinistes, terrasses et le skyline de Paris."
+    },
+    "tags": [
+      "walk",
+      "relax",
+      "views",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "arc-triomphe",
+    "city": "paris",
+    "destination": "paris",
+    "name": {
+      "es": "Arco del Triunfo",
+      "en": "Arc de Triomphe",
+      "fr": "Arc de Triomphe"
+    },
+    "desc": {
+      "es": "Sube al tejado para ver las 12 avenidas convergiendo. Impresionante al atardecer.",
+      "en": "Go up to the roof to see 12 avenues converging. Impressive at sunset.",
+      "fr": "Montez sur le toit pour voir 12 avenues converger. Impressionnant au coucher du soleil."
+    },
+    "tags": [
+      "iconic",
+      "views",
+      "history",
+      "architecture"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 13,
+    "iconic": false
+  },
+  {
+    "id": "belem-tower",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Torre de Belém",
+      "en": "Belém Tower",
+      "fr": "Tour de Belém"
+    },
+    "desc": {
+      "es": "El símbolo de Lisboa y del Imperio portugués. Perfecta al amanecer.",
+      "en": "The symbol of Lisbon and the Portuguese Empire. Perfect at sunrise.",
+      "fr": "Le symbole de Lisbonne et de l'Empire portugais."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 8,
+    "iconic": true
+  },
+  {
+    "id": "jeronimos",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Monasterio de los Jerónimos",
+      "en": "Jerónimos Monastery",
+      "fr": "Monastère des Hiéronymites"
+    },
+    "desc": {
+      "es": "La obra maestra del estilo manuelino. El claustro es uno de los más hermosos de Europa.",
+      "en": "The masterpiece of Manueline style. The cloister is one of Europe's most beautiful.",
+      "fr": "Le chef-d'œuvre du style manuélin. Le cloître est l'un des plus beaux d'Europe."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "iconic": true
+  },
+  {
+    "id": "alfama-walk",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Paseo por Alfama",
+      "en": "Alfama walk",
+      "fr": "Promenade dans Alfama"
+    },
+    "desc": {
+      "es": "Callejones empinados, gatos y fado saliendo de las tabernas del barrio morisco.",
+      "en": "Steep alleys, cats and fado drifting from taverns in the Moorish neighbourhood.",
+      "fr": "Ruelles escarpées, chats et fado des tavernes du quartier mauresque."
+    },
+    "tags": [
+      "culture",
+      "walk",
+      "local",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "sao-jorge-castle",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Castillo de São Jorge",
+      "en": "São Jorge Castle",
+      "fr": "Château Saint-Georges"
+    },
+    "desc": {
+      "es": "La fortaleza morisca con las mejores vistas de Lisboa y el río Tajo.",
+      "en": "The Moorish fortress with the best views of Lisbon and the Tagus.",
+      "fr": "La forteresse mauresque avec les meilleures vues de Lisbonne."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "views",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "tram-28",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Tranvía 28",
+      "en": "Tram 28",
+      "fr": "Tramway 28"
+    },
+    "desc": {
+      "es": "El tranvía histórico que atraviesa los barrios más auténticos. Usa la tarjeta — no pagues en efectivo.",
+      "en": "The historic tram through the most authentic neighbourhoods. Use the card — don't pay cash.",
+      "fr": "Le tramway historique à travers les quartiers les plus authentiques."
+    },
+    "tags": [
+      "local",
+      "iconic",
+      "culture",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1,
+    "price_eur": 3,
+    "iconic": true
+  },
+  {
+    "id": "pasteis-belem",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Pastéis de Belém",
+      "en": "Pastéis de Belém",
+      "fr": "Pastéis de Belém"
+    },
+    "desc": {
+      "es": "El pastel de nata original desde 1837. La cola siempre merece la pena.",
+      "en": "The original pastel de nata since 1837. The queue is always worth it.",
+      "fr": "Le pastel de nata original depuis 1837. La queue en vaut toujours la peine."
+    },
+    "tags": [
+      "foodie",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 0.5,
+    "price_eur": 5,
+    "iconic": true
+  },
+  {
+    "id": "fado-show",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Espectáculo de fado en Alfama",
+      "en": "Fado show in Alfama",
+      "fr": "Spectacle de fado à Alfama"
+    },
+    "desc": {
+      "es": "El fado en una tasca pequeña — la música del alma portuguesa que no se olvida.",
+      "en": "Fado in a small tasca — the music of the Portuguese soul you won't forget.",
+      "fr": "Le fado dans une petite tasca — la musique de l'âme portugaise inoubliable."
+    },
+    "tags": [
+      "culture",
+      "nightlife",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 30,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "lx-factory",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "LX Factory",
+      "en": "LX Factory",
+      "fr": "LX Factory"
+    },
+    "desc": {
+      "es": "Fábrica del XIX reconvertida en espacio creativo. Mercado dominical — el mejor de Lisboa.",
+      "en": "19th-century factory turned creative hub. Sunday market — the best in Lisbon.",
+      "fr": "Usine du XIXe reconvertie en espace créatif. Marché dominical — le meilleur de Lisbonne."
+    },
+    "tags": [
+      "local",
+      "culture",
+      "foodie",
+      "art"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "sintra",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Excursión a Sintra",
+      "en": "Sintra day trip",
+      "fr": "Excursion à Sintra"
+    },
+    "desc": {
+      "es": "Palacios de cuento de hadas a 40 minutos. Pena, Quinta da Regaleira y el Palácio Nacional.",
+      "en": "Fairytale palaces 40 minutes away. Pena, Quinta da Regaleira and the National Palace.",
+      "fr": "Palais de conte de fées à 40 minutes. Pena, Quinta da Regaleira et le Palácio Nacional."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "nature",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 6,
+    "price_eur": 25,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "timeout-market",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Time Out Market Lisboa",
+      "en": "Time Out Market Lisbon",
+      "fr": "Time Out Market Lisbonne"
+    },
+    "desc": {
+      "es": "El mejor mercado gastronómico de Europa. Los mejores chefs de Lisboa bajo un mismo techo.",
+      "en": "Europe's best food market. Lisbon's best chefs all under one roof.",
+      "fr": "Le meilleur marché gastronomique d'Europe."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "miradouro-graca",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Miradouro da Graça",
+      "en": "Graça viewpoint",
+      "fr": "Miradouro da Graça"
+    },
+    "desc": {
+      "es": "El mirador más auténtico de Lisboa — sin turistas, vistas perfectas al castillo y el Tajo.",
+      "en": "Lisbon's most authentic viewpoint — no tourists, perfect views of the castle and the Tagus.",
+      "fr": "Le mirador le plus authentique de Lisbonne — sans touristes."
+    },
+    "tags": [
+      "views",
+      "local",
+      "walk",
+      "relax"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "chiado",
+    "city": "lisbon",
+    "destination": "lisbon",
+    "name": {
+      "es": "Barrio de Chiado",
+      "en": "Chiado neighbourhood",
+      "fr": "Quartier du Chiado"
+    },
+    "desc": {
+      "es": "Librerías centenarias, cafés históricos y tiendas de diseño portugués.",
+      "en": "Centuries-old bookshops, historic cafés and Portuguese design shops.",
+      "fr": "Librairies centenaires, cafés historiques et boutiques de design portugais."
+    },
+    "tags": [
+      "local",
+      "culture",
+      "walk",
+      "foodie"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "fushimi-inari",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Fushimi Inari",
+      "en": "Fushimi Inari Shrine",
+      "fr": "Sanctuaire Fushimi Inari"
+    },
+    "desc": {
+      "es": "Miles de torii naranjas en la montaña. Llega antes de las 8h — el bosque de arriba está siempre vacío.",
+      "en": "Thousands of orange torii gates on the mountain. Arrive before 8am — the upper forest is always empty.",
+      "fr": "Des milliers de torii oranges. Arrivez avant 8h — la forêt du haut est toujours vide."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "nature",
+      "spiritual",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "kinkakuji",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Kinkaku-ji (Pabellón Dorado)",
+      "en": "Kinkaku-ji (Golden Pavilion)",
+      "fr": "Kinkaku-ji (Pavillon d'Or)"
+    },
+    "desc": {
+      "es": "El pabellón más fotografiado de Japón. Llega a las 9h — la reflexión en el estanque es perfecta.",
+      "en": "Japan's most photographed pavilion. Arrive at 9am — the pond reflection is perfect.",
+      "fr": "Le pavillon le plus photographié du Japon. Arrivez à 9h — le reflet dans l'étang est parfait."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "architecture",
+      "photo",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 5,
+    "iconic": true
+  },
+  {
+    "id": "arashiyama-bamboo",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Bosque de bambú de Arashiyama",
+      "en": "Arashiyama Bamboo Grove",
+      "fr": "Bambouseraie d'Arashiyama"
+    },
+    "desc": {
+      "es": "El bambú más alto del mundo en un túnel natural. Llega a las 7h para tenerlo solo.",
+      "en": "The world's tallest bamboo in a natural tunnel. Arrive at 7am to have it to yourself.",
+      "fr": "Le bambou le plus haut du monde en tunnel naturel. Arrivez à 7h pour en profiter seul."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "walk",
+      "photo"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "ryoanji",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Ryōan-ji — Jardín de piedras",
+      "en": "Ryōan-ji Rock Garden",
+      "fr": "Jardin de pierres de Ryōan-ji"
+    },
+    "desc": {
+      "es": "15 piedras dispuestas de modo que nunca puedes ver las 15 a la vez. Siéntate y observa.",
+      "en": "15 stones arranged so you can never see all 15 at once. Sit and observe.",
+      "fr": "15 pierres arrangées de sorte qu'on ne peut jamais toutes les voir."
+    },
+    "tags": [
+      "culture",
+      "spiritual",
+      "iconic",
+      "relax",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 6,
+    "iconic": true
+  },
+  {
+    "id": "gion-walk",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Barrio de Gion",
+      "en": "Gion district",
+      "fr": "Quartier de Gion"
+    },
+    "desc": {
+      "es": "El barrio de las geishas. Las casas de madera al anochecer son perfectas.",
+      "en": "The geisha district. The wooden houses at dusk are perfect.",
+      "fr": "Le quartier des geishas. Les maisons en bois au crépuscule sont parfaites."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "nishiki-market",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Mercado Nishiki",
+      "en": "Nishiki Market",
+      "fr": "Marché Nishiki"
+    },
+    "desc": {
+      "es": "La cocina de Kioto — 400 años en un pasillo de 400m. Tamagoyaki, tofu fresco y encurtidos.",
+      "en": "Kyoto's kitchen — 400 years in a 400m corridor. Tamagoyaki, fresh tofu and pickles.",
+      "fr": "La cuisine de Kyoto — 400 ans dans un couloir de 400m."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 10,
+    "iconic": false
+  },
+  {
+    "id": "tenryuji",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Tenryū-ji y jardín Zen",
+      "en": "Tenryū-ji Zen Garden",
+      "fr": "Jardin Zen de Tenryū-ji"
+    },
+    "desc": {
+      "es": "El jardín Zen más antiguo de Kioto con las montañas como paisaje prestado. UNESCO.",
+      "en": "Kyoto's oldest Zen garden with mountains as borrowed landscape. UNESCO.",
+      "fr": "Le plus ancien jardin zen de Kyoto avec les montagnes en toile de fond."
+    },
+    "tags": [
+      "culture",
+      "nature",
+      "spiritual",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 9,
+    "iconic": false
+  },
+  {
+    "id": "philosophers-path",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Sendero del Filósofo",
+      "en": "Philosopher's Path",
+      "fr": "Chemin du Philosophe"
+    },
+    "desc": {
+      "es": "Un canal de 2km flanqueado por cerezos que conecta los templos del norte. Mejor 8-10h.",
+      "en": "A 2km canal flanked by cherry trees connecting the northern temples. Best 8-10am.",
+      "fr": "Un canal de 2km bordé de cerisiers reliant les temples du nord."
+    },
+    "tags": [
+      "walk",
+      "nature",
+      "relax",
+      "views"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "kaiseki-dinner",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Cena kaiseki",
+      "en": "Kaiseki dinner",
+      "fr": "Dîner kaiseki"
+    },
+    "desc": {
+      "es": "La haute cuisine japonesa — 8 a 12 platos de temporada. La experiencia gastronómica más refinada del mundo.",
+      "en": "Japanese haute cuisine — 8 to 12 seasonal courses. The world's most refined gastronomic experience.",
+      "fr": "La haute cuisine japonaise — 8 à 12 plats saisonniers."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2.5,
+    "price_eur": 80,
+    "book_ahead": true,
+    "iconic": false
+  },
+  {
+    "id": "pontocho-alley",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Callejón Pontocho",
+      "en": "Pontocho alley",
+      "fr": "Ruelle Pontocho"
+    },
+    "desc": {
+      "es": "500m de restaurantes sobre el río Kamo. La mejor cena de Kioto en verano.",
+      "en": "500m of restaurants above the Kamo River. Kyoto's best dinner in summer.",
+      "fr": "500m de restaurants au-dessus de la rivière Kamo."
+    },
+    "tags": [
+      "foodie",
+      "nightlife",
+      "local"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 40,
+    "iconic": false
+  },
+  {
+    "id": "nijo-castle",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Castillo Nijō",
+      "en": "Nijō Castle",
+      "fr": "Château Nijō"
+    },
+    "desc": {
+      "es": "Los suelos nightingale del shōgun chirriaban como alarma. Camina despacio para escucharlos.",
+      "en": "The shogun's nightingale floors squeaked as an alarm. Walk slowly to hear them.",
+      "fr": "Les sols rossignol du shōgun grinçaient comme une alarme."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "sake-district",
+    "city": "kyoto",
+    "destination": "kyoto",
+    "name": {
+      "es": "Barrio del sake de Fushimi",
+      "en": "Fushimi sake district",
+      "fr": "Quartier du saké de Fushimi"
+    },
+    "desc": {
+      "es": "Museos del sake, canales y bodegas de 300 años casi sin turistas.",
+      "en": "Sake museums, canals and 300-year-old breweries with almost no tourists.",
+      "fr": "Musées du saké, canaux et brasseries de 300 ans presque sans touristes."
+    },
+    "tags": [
+      "local",
+      "foodie",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "dol-tre-cime",
+    "city": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Tre Cime di Lavaredo",
+      "en": "Tre Cime di Lavaredo",
+      "fr": "Tre Cime di Lavaredo"
+    },
+    "desc": {
+      "es": "Las tres torres de dolomía más fotografiadas del mundo. El circuito completo son 10km — impresionante desde cualquier ángulo.",
+      "en": "The three most photographed dolomite towers in the world. The full circuit is 10km — impressive from every angle.",
+      "fr": "Les trois tours de dolomite les plus photographiées au monde. Le circuit complet fait 10km."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "adventure",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "dol-val-gardena",
+    "city": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Val Gardena al amanecer",
+      "en": "Val Gardena at dawn",
+      "fr": "Val Gardena à l'aube"
+    },
+    "desc": {
+      "es": "El valle ladino más hermoso de los Dolomitas. Los prados verdes con las agujas rosas al fondo al amanecer son únicos en Europa.",
+      "en": "The most beautiful Ladin valley in the Dolomites. Green meadows with pink spires at dawn — unique in Europe.",
+      "fr": "La plus belle vallée ladine des Dolomites. Prairies vertes avec des aiguilles roses à l'aube."
+    },
+    "tags": [
+      "nature",
+      "views",
+      "walk",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "dol-alta-via",
+    "city": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Alta Via 1 — etapa del Lago di Braies",
+      "en": "Alta Via 1 — Lago di Braies stage",
+      "fr": "Alta Via 1 — étape du Lac de Braies"
+    },
+    "desc": {
+      "es": "El lago esmeralda más famoso de los Alpes. Llega antes de las 8h para verlo sin nadie. La Alta Via sube directamente desde aquí.",
+      "en": "The Alps' most famous emerald lake. Arrive before 8am to see it alone. The Alta Via climbs directly from here.",
+      "fr": "Le lac émeraude le plus célèbre des Alpes. Arrivez avant 8h. L'Alta Via monte directement d'ici."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "adventure",
+      "views",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "dol-passo-sella",
+    "city": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Passo Sella — ruta de los Passes",
+      "en": "Passo Sella — the Passes route",
+      "fr": "Passo Sella — route des cols"
+    },
+    "desc": {
+      "es": "El paso de montaña más espectacular de los Dolomitas. Cuatro valles se unen aquí — el Sellaronda en bicicleta lo recorre todos.",
+      "en": "The most spectacular mountain pass in the Dolomites. Four valleys meet here — the Sellaronda by bike covers them all.",
+      "fr": "Le col le plus spectaculaire des Dolomites. Quatre vallées s'y rejoignent."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "views",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "dol-ortisei",
+    "city": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Ortisei — capital ladina",
+      "en": "Ortisei — Ladin capital",
+      "fr": "Ortisei — capitale ladine"
+    },
+    "desc": {
+      "es": "El pueblo más auténtico del Val Gardena. Artesanos de madera ladinos, iglesia barroca y sin el turismo masificado de Cortina.",
+      "en": "The most authentic village in Val Gardena. Ladin woodcarvers, Baroque church and without Cortina's mass tourism.",
+      "fr": "Le village le plus authentique du Val Gardena. Artisans du bois ladins, église baroque."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "walk",
+      "history"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "dol-rifugio-dinner",
+    "city": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Cena en rifugio de montaña",
+      "en": "Mountain rifugio dinner",
+      "fr": "Dîner en rifugio de montagne"
+    },
+    "desc": {
+      "es": "Los rifugi son refugios de montaña con cocina propia. Knödel, Schlutzkrapfen y vino Lagrein a 2.400m de altitud. Reserva siempre.",
+      "en": "Rifugi are mountain shelters with their own kitchen. Knödel, Schlutzkrapfen and Lagrein wine at 2,400m. Always book ahead.",
+      "fr": "Les rifugi sont des refuges de montagne avec cuisine propre. Knödel et vin Lagrein à 2.400m."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 30,
+    "iconic": false
+  },
+  {
+    "id": "dol-cortina",
+    "city": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Cortina d'Ampezzo",
+      "en": "Cortina d'Ampezzo",
+      "fr": "Cortina d'Ampezzo"
+    },
+    "desc": {
+      "es": "La reina de los Dolomitas — elegante, cara y espectacular. El centro peatonal con las agujas de roca al fondo es un fotograma de película.",
+      "en": "The queen of the Dolomites — elegant, expensive and spectacular. The pedestrian centre with rock spires behind is a film frame.",
+      "fr": "La reine des Dolomites — élégante, chère et spectaculaire."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "views",
+      "walk"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "dol-cinque-torri",
+    "city": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Cinque Torri — trincheras de la WWI",
+      "en": "Cinque Torri — WWI trenches",
+      "fr": "Cinque Torri — tranchées de la Première Guerre mondiale"
+    },
+    "desc": {
+      "es": "Cinco torres de roca donde los frentes de la Primera Guerra Mundial siguen visibles. Historia y naturaleza mezcladas de forma única.",
+      "en": "Five rock towers where WWI frontlines are still visible. History and nature uniquely combined.",
+      "fr": "Cinq tours de roche où les lignes de front de la Première Guerre mondiale sont encore visibles."
+    },
+    "tags": [
+      "history",
+      "nature",
+      "walk",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "dol-seceda",
+    "city": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Seceda — el balcón del Val Gardena",
+      "en": "Seceda — Val Gardena's balcony",
+      "fr": "Seceda — le balcon du Val Gardena"
+    },
+    "desc": {
+      "es": "El teleférico sube a 2.519m con vistas de 360° sobre los Dolomitas. Los prados de la cumbre son de los más fotografiados de Instagram — con razón.",
+      "en": "The cable car rises to 2,519m with 360° views over the Dolomites. The summit meadows are among Instagram's most photographed — deservedly.",
+      "fr": "Le téléphérique monte à 2.519m avec des vues à 360° sur les Dolomites."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views",
+      "photo"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 22,
+    "iconic": true
+  },
+  {
+    "id": "dol-alpe-siusi",
+    "city": "dolomitas",
+    "destination": "dolomitas",
+    "name": {
+      "es": "Alpe di Siusi — la mayor altiplanicie alpina",
+      "en": "Alpe di Siusi — the largest alpine plateau",
+      "fr": "Alpe di Siusi — le plus grand plateau alpin"
+    },
+    "desc": {
+      "es": "30km² de prados alpinos sobre los 1.800m. Prohibido el coche en verano — solo bicicleta, a pie o autobús. La paz más absoluta de los Alpes.",
+      "en": "30km² of alpine meadows above 1,800m. Cars banned in summer — only bike, walking or bus. The most absolute peace in the Alps.",
+      "fr": "30km² de prairies alpines au-dessus de 1.800m. Voitures interdites en été."
+    },
+    "tags": [
+      "nature",
+      "relax",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "azo-lagoa-sete-cidades",
+    "city": "sao-miguel",
+    "destination": "azores",
+    "name": {
+      "es": "Lagoa das Sete Cidades",
+      "en": "Lagoa das Sete Cidades",
+      "fr": "Lagoa das Sete Cidades"
+    },
+    "desc": {
+      "es": "Dos lagos en el cráter de un volcán — uno verde, uno azul. La vista desde el Miradouro da Boca do Inferno es de otro planeta.",
+      "en": "Two lakes in a volcanic crater — one green, one blue. The view from Miradouro da Boca do Inferno is from another planet.",
+      "fr": "Deux lacs dans un cratère volcanique — un vert, un bleu."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "azo-furnas",
+    "city": "sao-miguel",
+    "destination": "azores",
+    "name": {
+      "es": "Furnas — volcán activo habitable",
+      "en": "Furnas — livable active volcano",
+      "fr": "Furnas — volcan actif habitable"
+    },
+    "desc": {
+      "es": "Un pueblo construido sobre fumarolas. Las calderas humeantes en el lago, las termas naturales y la cozido das Furnas cocida bajo tierra durante 6 horas.",
+      "en": "A village built on fumaroles. Steaming calderas in the lake, natural hot springs and cozido das Furnas cooked underground for 6 hours.",
+      "fr": "Un village construit sur des fumerolles. Caldeiras fumantes, thermes naturels."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "foodie",
+      "culture",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "azo-whale-watching",
+    "city": "sao-miguel",
+    "destination": "azores",
+    "name": {
+      "es": "Avistamiento de ballenas",
+      "en": "Whale watching",
+      "fr": "Observation des baleines"
+    },
+    "desc": {
+      "es": "Las Azores tienen el mejor avistamiento de cetáceos de Europa. Cachalotes, ballenas de aleta y delfines todo el año. Sal da pedra es el punto más fiable.",
+      "en": "The Azores have Europe's best cetacean watching. Sperm whales, fin whales and dolphins year-round.",
+      "fr": "Les Açores ont le meilleur avistamiento de cétacés d'Europe."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 55,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "azo-pico-vulcao",
+    "city": "pico",
+    "destination": "azores",
+    "name": {
+      "es": "Volcán del Pico — el techo de Portugal",
+      "en": "Pico Volcano — Portugal's rooftop",
+      "fr": "Volcan du Pico — le toit du Portugal"
+    },
+    "desc": {
+      "es": "El punto más alto de Portugal (2.351m). La subida es dura — 4h ida — pero el cráter humeante en la cumbre no tiene igual en Europa.",
+      "en": "Portugal's highest point (2,351m). The climb is tough — 4h up — but the steaming summit crater has no equal in Europe.",
+      "fr": "Le point culminant du Portugal (2.351m). La montée est difficile — 4h aller."
+    },
+    "tags": [
+      "adventure",
+      "nature",
+      "iconic",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 8,
+    "price_eur": 15,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "azo-faja-caldeira",
+    "city": "sao-jorge",
+    "destination": "azores",
+    "name": {
+      "es": "Fajã da Caldeira de Santo Cristo",
+      "en": "Fajã da Caldeira de Santo Cristo",
+      "fr": "Fajã da Caldeira de Santo Cristo"
+    },
+    "desc": {
+      "es": "Una faja es una plataforma costera creada por coladas de lava. Esta, en São Jorge, solo es accesible a pie o en barco — y tiene las mejores lapas del archipiélago.",
+      "en": "A faja is a coastal platform created by lava flows. This one in São Jorge is only accessible by foot or boat — and has the best limpets in the archipelago.",
+      "fr": "Une faja est une plateforme côtière créée par des coulées de lave."
+    },
+    "tags": [
+      "nature",
+      "local",
+      "adventure",
+      "foodie"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "azo-termas-naturais",
+    "city": "sao-miguel",
+    "destination": "azores",
+    "name": {
+      "es": "Piscinas naturales de Ferraria",
+      "en": "Ferraria natural pools",
+      "fr": "Piscines naturelles de Ferraria"
+    },
+    "desc": {
+      "es": "El mar volcánico calienta las pozas naturales a temperatura de terma. Mejor al amanecer — el contraste con el Atlántico negro de lava es brutal.",
+      "en": "Volcanic sea heats the natural pools to spa temperature. Best at dawn — the contrast with the black lava Atlantic is stunning.",
+      "fr": "La mer volcanique chauffe les piscines naturelles à température de spa."
+    },
+    "tags": [
+      "nature",
+      "relax",
+      "local"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 5,
+    "iconic": false
+  },
+  {
+    "id": "azo-faial-caldeira",
+    "city": "faial",
+    "destination": "azores",
+    "name": {
+      "es": "Caldeira do Faial",
+      "en": "Faial Caldeira",
+      "fr": "Caldeira du Faial"
+    },
+    "desc": {
+      "es": "El cráter del volcán Faial — 400m de profundidad y 2km de diámetro. El sendero del borde dura 3h y tiene vistas a tres islas a la vez.",
+      "en": "Faial's volcanic crater — 400m deep and 2km wide. The rim trail takes 3h with views of three islands at once.",
+      "fr": "Le cratère du volcan Faial — 400m de profondeur et 2km de diamètre."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "views",
+      "adventure"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "azo-vinho-pico",
+    "city": "pico",
+    "destination": "azores",
+    "name": {
+      "es": "Viñedos de UNESCO de Pico",
+      "en": "Pico UNESCO vineyards",
+      "fr": "Vignobles UNESCO de Pico"
+    },
+    "desc": {
+      "es": "Los viñedos de lava negra de Pico son Patrimonio UNESCO. Los currais — muros de piedra volcánica que protegen cada vid del viento — son el paisaje más insólito del archipiélago.",
+      "en": "Pico's black lava vineyards are UNESCO Heritage. The currais — volcanic stone walls protecting each vine from wind — are the archipelago's most unusual landscape.",
+      "fr": "Les vignobles de lave noire de Pico sont Patrimoine UNESCO."
+    },
+    "tags": [
+      "culture",
+      "nature",
+      "foodie",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "azo-nordeste-walk",
+    "city": "sao-miguel",
+    "destination": "azores",
+    "name": {
+      "es": "Costa de Nordeste — el otro São Miguel",
+      "en": "Nordeste coast — the other São Miguel",
+      "fr": "Côte de Nordeste — l'autre São Miguel"
+    },
+    "desc": {
+      "es": "El extremo noreste de São Miguel — acantilados sin turistas, pueblos de pescadores y una calma total. La PR9 es una de las mejores rutas de senderismo del archipiélago.",
+      "en": "The northeast tip of São Miguel — cliffs with no tourists, fishing villages and total calm. The PR9 is one of the archipelago's best hiking trails.",
+      "fr": "L'extrémité nord-est de São Miguel — falaises sans touristes et tranquillité totale."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "local",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "azo-cozido-furnas",
+    "city": "sao-miguel",
+    "destination": "azores",
+    "name": {
+      "es": "Cozido das Furnas — cocido volcánico",
+      "en": "Cozido das Furnas — volcanic stew",
+      "fr": "Cozido das Furnas — ragoût volcanique"
+    },
+    "desc": {
+      "es": "El plato más singular de Portugal: un cocido de carne y verduras cocinado 6 horas bajo tierra por calor volcánico. Solo en Furnas, solo en almuerzo.",
+      "en": "Portugal's most singular dish: a meat and vegetable stew cooked 6 hours underground by volcanic heat. Only in Furnas, only at lunch.",
+      "fr": "Le plat le plus singulier du Portugal: un ragoût cuit 6 heures sous terre par chaleur volcanique."
+    },
+    "tags": [
+      "foodie",
+      "iconic",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 18,
+    "iconic": true
+  },
+  {
+    "id": "isl-golden-circle",
+    "city": "reikiavik",
+    "destination": "islandia",
+    "name": {
+      "es": "Círculo Dorado",
+      "en": "Golden Circle",
+      "fr": "Cercle d'Or"
+    },
+    "desc": {
+      "es": "Geysir (el géiser original), las cataratas Gullfoss y el parque nacional de Þingvellir en un día. El circuito más completo de Islandia.",
+      "en": "Geysir (the original geyser), Gullfoss falls and Þingvellir national park in one day. Iceland's most complete circuit.",
+      "fr": "Geysir, les chutes Gullfoss et le parc national de Þingvellir en une journée."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 8,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "isl-jokulsarlon",
+    "city": "sur",
+    "destination": "islandia",
+    "name": {
+      "es": "Laguna Glaciar Jökulsárlón",
+      "en": "Jökulsárlón Glacier Lagoon",
+      "fr": "Lagon glaciaire de Jökulsárlón"
+    },
+    "desc": {
+      "es": "Icebergs azules flotando en una laguna negra junto al océano. Una de las imágenes más extraordinarias del planeta. Al amanecer es completamente irreal.",
+      "en": "Blue icebergs floating in a black lagoon next to the ocean. One of the planet's most extraordinary images. At dawn it's completely unreal.",
+      "fr": "Des icebergs bleus flottant dans un lagon noir près de l'océan."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views",
+      "photo"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "isl-aurora-boreal",
+    "city": "reikiavik",
+    "destination": "islandia",
+    "name": {
+      "es": "Aurora boreal",
+      "en": "Northern Lights",
+      "fr": "Aurores boréales"
+    },
+    "desc": {
+      "es": "Las auroras son visibles de septiembre a marzo con cielo despejado. Aleja de las ciudades para cero contaminación lumínica — los fiordos del oeste son perfectos.",
+      "en": "Northern lights visible from September to March with clear skies. Leave cities for zero light pollution — the Westfjords are perfect.",
+      "fr": "Les aurores sont visibles de septembre à mars par ciel dégagé."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "isl-landmannalaugar",
+    "city": "interior",
+    "destination": "islandia",
+    "name": {
+      "es": "Landmannalaugar — montañas de colores",
+      "en": "Landmannalaugar — coloured mountains",
+      "fr": "Landmannalaugar — montagnes colorées"
+    },
+    "desc": {
+      "es": "Las montañas de riolita multicolor del interior de Islandia. El contraste entre el verde musgo, el azul del hielo y el naranja del azufre no existe en ningún otro lugar.",
+      "en": "Multicoloured rhyolite mountains in Iceland's interior. The contrast between green moss, blue ice and orange sulphur exists nowhere else.",
+      "fr": "Les montagnes de rhyolite multicolore dans l'intérieur de l'Islande."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "views",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 6,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "isl-seljalandsfoss",
+    "city": "sur",
+    "destination": "islandia",
+    "name": {
+      "es": "Seljalandsfoss — detrás de la cascada",
+      "en": "Seljalandsfoss — behind the waterfall",
+      "fr": "Seljalandsfoss — derrière la cascade"
+    },
+    "desc": {
+      "es": "La única cascada del mundo que se puede rodear completamente — incluido caminar detrás de la cortina de agua. A 2 horas de Reikiavik.",
+      "en": "The world's only waterfall you can walk completely around — including behind the water curtain. 2 hours from Reykjavik.",
+      "fr": "La seule cascade au monde qu'on peut contourner complètement — y compris derrière le rideau d'eau."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "isl-reikiavik",
+    "city": "reikiavik",
+    "destination": "islandia",
+    "name": {
+      "es": "Reikiavik — la capital más pequeña del mundo",
+      "en": "Reykjavik — the world's smallest capital",
+      "fr": "Reykjavik — la plus petite capitale du monde"
+    },
+    "desc": {
+      "es": "350.000 habitantes, 400 bares y la escena cultural más viva del Atlántico Norte. La Harpa, la Hallgrímskirkja y el puerto antiguo se recorren en medio día.",
+      "en": "350,000 inhabitants, 400 bars and the most vibrant cultural scene in the North Atlantic. Harpa, Hallgrímskirkja and the old harbour take half a day.",
+      "fr": "350.000 habitants, 400 bars et la scène culturelle la plus vivante de l'Atlantique Nord."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "walk",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "isl-vatnajokull",
+    "city": "sur",
+    "destination": "islandia",
+    "name": {
+      "es": "Vatnajökull — el glaciar de Europa",
+      "en": "Vatnajökull — Europe's glacier",
+      "fr": "Vatnajökull — le glacier de l'Europe"
+    },
+    "desc": {
+      "es": "El mayor glaciar de Europa — 8.100km². Las excursiones de crampones sobre el hielo azul son accesibles para cualquiera. Las cuevas de hielo en invierno son extraordinarias.",
+      "en": "Europe's largest glacier — 8,100km². Crampon hikes on blue ice are accessible to everyone. Ice caves in winter are extraordinary.",
+      "fr": "Le plus grand glacier d'Europe — 8.100km². Les randonnées sur glace bleue sont accessibles à tous."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 65,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "isl-westfjords",
+    "city": "vestfjordur",
+    "destination": "islandia",
+    "name": {
+      "es": "Fiordos del Oeste — la Islandia sin turistas",
+      "en": "Westfjords — Iceland without tourists",
+      "fr": "Fjords de l'Ouest — l'Islande sans touristes"
+    },
+    "desc": {
+      "es": "La región más remota de Islandia. Fiordos cortados a pico, colonias de frailecillos y carreteras de tierra que no llevan a ningún sitio conocido.",
+      "en": "Iceland's most remote region. Sheer fjords, puffin colonies and dirt roads that lead nowhere familiar.",
+      "fr": "La région la plus reculée de l'Islande. Fjords à pic, colonies de macareux."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "local",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 6,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "isl-geothermal-pool",
+    "city": "reikiavik",
+    "destination": "islandia",
+    "name": {
+      "es": "Piscina geotérmica local",
+      "en": "Local geothermal pool",
+      "fr": "Piscine géothermique locale"
+    },
+    "desc": {
+      "es": "Evita la Blue Lagoon (cara, masificada) y ve a una sundhöll local. Los islandeses van cada día — es cultura, no turismo. Vesturbæjarlaug o Laugardalslaug en Reikiavik.",
+      "en": "Skip the Blue Lagoon (expensive, crowded) and go to a local sundhöll. Icelanders go daily — it's culture, not tourism.",
+      "fr": "Évitez le Blue Lagoon et allez dans une sundhöll locale. Les Islandais y vont chaque jour."
+    },
+    "tags": [
+      "local",
+      "relax",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "isl-skaftafell",
+    "city": "sur",
+    "destination": "islandia",
+    "name": {
+      "es": "Skaftafell — bosque de abedules y glaciar",
+      "en": "Skaftafell — birch forest and glacier",
+      "fr": "Skaftafell — forêt de bouleaux et glacier"
+    },
+    "desc": {
+      "es": "El oasis verde entre dos glaciares del sur. El sendero a Svartifoss — la cascada de columnas de basalto negro — es de los más bellos de Islandia.",
+      "en": "The green oasis between two southern glaciers. The trail to Svartifoss — the waterfall of black basalt columns — is one of Iceland's most beautiful.",
+      "fr": "L'oasis verte entre deux glaciers du sud. Le sentier vers Svartifoss est l'un des plus beaux d'Islande."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "views",
+      "adventure"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "lanz-timanfaya",
+    "city": "lanzarote",
+    "destination": "lanzarote",
+    "name": {
+      "es": "Parque Nacional de Timanfaya",
+      "en": "Timanfaya National Park",
+      "fr": "Parc National de Timanfaya"
+    },
+    "desc": {
+      "es": "Un paisaje marciano de lava negra donde el suelo todavía arde bajo los pies. Las demostraciones geotérmicas en el centro de visitantes son impresionantes.",
+      "en": "A Martian landscape of black lava where the ground still burns underfoot. The geothermal demonstrations at the visitor centre are impressive.",
+      "fr": "Un paysage martien de lave noire où le sol brûle encore sous les pieds."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 12,
+    "iconic": true
+  },
+  {
+    "id": "lanz-jameos-agua",
+    "city": "lanzarote",
+    "destination": "lanzarote",
+    "name": {
+      "es": "Jameos del Agua — Manrique",
+      "en": "Jameos del Agua — Manrique",
+      "fr": "Jameos del Agua — Manrique"
+    },
+    "desc": {
+      "es": "Un tubo volcánico que llega al mar, convertido por César Manrique en un espacio cultural único. El cangrejo ciego endémico que vive en el lago interior es una rareza biológica.",
+      "en": "A volcanic tube reaching the sea, transformed by César Manrique into a unique cultural space. The endemic blind crab living in the interior lake is a biological rarity.",
+      "fr": "Un tube volcanique atteignant la mer, transformé par César Manrique en espace culturel unique."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "nature",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 10,
+    "iconic": true
+  },
+  {
+    "id": "lanz-fundacion-manrique",
+    "city": "lanzarote",
+    "destination": "lanzarote",
+    "name": {
+      "es": "Fundación César Manrique",
+      "en": "César Manrique Foundation",
+      "fr": "Fondation César Manrique"
+    },
+    "desc": {
+      "es": "La casa-estudio de Manrique construida sobre cinco burbujas de lava volcánica. La más perfecta integración de arquitectura y naturaleza que existe en España.",
+      "en": "Manrique's studio-house built over five volcanic lava bubbles. The most perfect integration of architecture and nature in Spain.",
+      "fr": "La maison-atelier de Manrique construite sur cinq bulles de lave volcanique."
+    },
+    "tags": [
+      "culture",
+      "architecture",
+      "iconic",
+      "art"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 12,
+    "iconic": true
+  },
+  {
+    "id": "lanz-vinos-la-geria",
+    "city": "lanzarote",
+    "destination": "lanzarote",
+    "name": {
+      "es": "La Geria — viñedos volcánicos",
+      "en": "La Geria — volcanic vineyards",
+      "fr": "La Geria — vignobles volcaniques"
+    },
+    "desc": {
+      "es": "Cada vid crece en un hoyo de lava con un muro de piedra en semicírculo para protegerla del viento. El paisaje es completamente irreal — y el Malvasia volcánico es extraordinario.",
+      "en": "Each vine grows in a lava pit with a semicircular stone wall to protect it from wind. The landscape is completely surreal — and the volcanic Malvasia is extraordinary.",
+      "fr": "Chaque vigne pousse dans un trou de lave avec un mur de pierre en demi-cercle."
+    },
+    "tags": [
+      "foodie",
+      "nature",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "lanz-playa-papagayo",
+    "city": "lanzarote",
+    "destination": "lanzarote",
+    "name": {
+      "es": "Playas de Papagayo",
+      "en": "Papagayo beaches",
+      "fr": "Plages de Papagayo"
+    },
+    "desc": {
+      "es": "Las cinco calas de arena blanca y agua turquesa al sur de la isla. Solo accesibles por pista de tierra — sin chiringuitos ni hamacas de alquiler.",
+      "en": "Five white sand coves with turquoise water in the south. Only accessible by dirt track — no beach bars or sun lounger rentals.",
+      "fr": "Cinq criques de sable blanc et d'eau turquoise au sud de l'île."
+    },
+    "tags": [
+      "nature",
+      "relax",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 3,
+    "iconic": false
+  },
+  {
+    "id": "lanz-haria",
+    "city": "lanzarote",
+    "destination": "lanzarote",
+    "name": {
+      "es": "Haría — el valle de las mil palmeras",
+      "en": "Haría — the valley of a thousand palms",
+      "fr": "Haría — la vallée aux mille palmiers"
+    },
+    "desc": {
+      "es": "El pueblo más verde de Lanzarote, escondido en un valle del norte. Mercado de artesanía los sábados. Sin turismo masificado.",
+      "en": "Lanzarote's greenest village, hidden in a northern valley. Saturday craft market. No mass tourism.",
+      "fr": "Le village le plus vert de Lanzarote, caché dans une vallée du nord."
+    },
+    "tags": [
+      "local",
+      "culture",
+      "walk",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "lanz-charco-verde",
+    "city": "lanzarote",
+    "destination": "lanzarote",
+    "name": {
+      "es": "Charco del Palo — costa norte",
+      "en": "Northern coast — Charco del Palo",
+      "fr": "Côte nord — Charco del Palo"
+    },
+    "desc": {
+      "es": "La costa norte volcánica sin desarrollo turístico. Pozas naturales en la lava negra, rutas costeras y pueblos de pescadores que no han cambiado en 40 años.",
+      "en": "The volcanic northern coast without tourist development. Natural rock pools, coastal trails and fishing villages unchanged in 40 years.",
+      "fr": "La côte nord volcanique sans développement touristique."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "local"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "lanz-cocina-canaria",
+    "city": "lanzarote",
+    "destination": "lanzarote",
+    "name": {
+      "es": "Cocina canaria — papas arrugadas",
+      "en": "Canarian cuisine — papas arrugadas",
+      "fr": "Cuisine canarienne — papas arrugadas"
+    },
+    "desc": {
+      "es": "Las papas arrugadas con mojo rojo y mojo verde son el plato más simple y perfecto de España. En cualquier tasca local de Teguise o Haría cuestan menos de €5.",
+      "en": "Papas arrugadas with mojo rojo and mojo verde are Spain's simplest and most perfect dish. In any local tasca in Teguise or Haría for under €5.",
+      "fr": "Les papas arrugadas avec mojo rojo et mojo verde sont le plat le plus simple et parfait d'Espagne."
+    },
+    "tags": [
+      "foodie",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "lanz-teguise",
+    "city": "lanzarote",
+    "destination": "lanzarote",
+    "name": {
+      "es": "Teguise — antigua capital",
+      "en": "Teguise — old capital",
+      "fr": "Teguise — ancienne capitale"
+    },
+    "desc": {
+      "es": "La antigua capital de Lanzarote — casas blancas, iglesias del siglo XV y el mercado dominical más auténtico de las Canarias.",
+      "en": "Lanzarote's old capital — white houses, 15th-century churches and the most authentic Sunday market in the Canaries.",
+      "fr": "L'ancienne capitale de Lanzarote — maisons blanches, églises du XVe et marché dominical authentique."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "local",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gc-roque-nublo",
+    "city": "gran-canaria",
+    "destination": "gran-canaria",
+    "name": {
+      "es": "Roque Nublo — monolito sagrado",
+      "en": "Roque Nublo — sacred monolith",
+      "fr": "Roque Nublo — monolithe sacré"
+    },
+    "desc": {
+      "es": "Un monolito de basalto de 80m en el centro de la isla a 1.800m de altitud. Los guanches lo consideraban sagrado. La vista de las cumbres es incomparable.",
+      "en": "An 80m basalt monolith in the island's centre at 1,800m altitude. The Guanches considered it sacred. The view of the summits is incomparable.",
+      "fr": "Un monolithe de basalte de 80m au centre de l'île à 1.800m d'altitude."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "walk",
+      "views",
+      "history"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "gc-caldera-tejeda",
+    "city": "gran-canaria",
+    "destination": "gran-canaria",
+    "name": {
+      "es": "Caldera de Tejeda — el corazón de la isla",
+      "en": "Caldera de Tejeda — the heart of the island",
+      "fr": "Caldera de Tejeda — le cœur de l'île"
+    },
+    "desc": {
+      "es": "El valle central de Gran Canaria — almendros en flor en enero, pueblos blancos colgados en los barrancos y la mejor cocina de interior de la isla.",
+      "en": "Gran Canaria's central valley — almond trees in bloom in January, white villages hanging in ravines and the island's best inland cooking.",
+      "fr": "La vallée centrale de Gran Canaria — amandiers en fleur en janvier, villages blancs dans les ravins."
+    },
+    "tags": [
+      "nature",
+      "culture",
+      "foodie",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gc-las-palmas-vegueta",
+    "city": "gran-canaria",
+    "destination": "gran-canaria",
+    "name": {
+      "es": "Vegueta — barrio colonial de Las Palmas",
+      "en": "Vegueta — Las Palmas colonial quarter",
+      "fr": "Vegueta — quartier colonial de Las Palmas"
+    },
+    "desc": {
+      "es": "El barrio histórico de Las Palmas — donde Colón paró de camino a América. La Catedral, la Casa de Colón y el mercado cubierto de Vegueta son imprescindibles.",
+      "en": "Las Palmas' historic quarter — where Columbus stopped on his way to America. The Cathedral, Casa de Colón and covered market are essential.",
+      "fr": "Le quartier historique de Las Palmas — où Colomb s'est arrêté en route vers l'Amérique."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gc-dunas-maspalomas",
+    "city": "gran-canaria",
+    "destination": "gran-canaria",
+    "name": {
+      "es": "Dunas de Maspalomas",
+      "en": "Maspalomas Dunes",
+      "fr": "Dunes de Maspalomas"
+    },
+    "desc": {
+      "es": "Un mini-Sahara en el extremo sur de la isla. Reserva natural de 400 hectáreas — sin acceso a vehículos. El amanecer entre las dunas es una de las experiencias más silenciosas de España.",
+      "en": "A mini-Sahara at the island's southern tip. 400-hectare nature reserve — no vehicle access. Sunrise among the dunes is one of Spain's quietest experiences.",
+      "fr": "Un mini-Sahara à la pointe sud de l'île. Réserve naturelle de 400 hectares."
+    },
+    "tags": [
+      "nature",
+      "views",
+      "relax",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gc-barranco-guayadeque",
+    "city": "gran-canaria",
+    "destination": "gran-canaria",
+    "name": {
+      "es": "Barranco de Guayadeque",
+      "en": "Guayadeque Ravine",
+      "fr": "Ravin de Guayadeque"
+    },
+    "desc": {
+      "es": "El barranco más verde de la isla — cuevas habitadas, restaurantes trogloditas excavados en la roca y senderos entre huertas. Uno de los secretos mejor guardados de Canarias.",
+      "en": "The island's greenest ravine — inhabited caves, troglodyte restaurants carved from rock and trails through orchards. One of the Canaries' best-kept secrets.",
+      "fr": "Le ravin le plus vert de l'île — grottes habitées, restaurants troglodytes et sentiers entre vergers."
+    },
+    "tags": [
+      "nature",
+      "local",
+      "culture",
+      "foodie"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gc-gastronomia-interior",
+    "city": "gran-canaria",
+    "destination": "gran-canaria",
+    "name": {
+      "es": "Rancho de Agando — cocina de cumbre",
+      "en": "Rancho de Agando — summit cooking",
+      "fr": "Rancho de Agando — cuisine de sommet"
+    },
+    "desc": {
+      "es": "La cocina de cumbre canaria — caldo de papas, potaje de berros, cabrito al salmorejo. En los ranchos del interior de Tejeda, Artenara o Valsequillo.",
+      "en": "Canarian summit cooking — caldo de papas, watercress potaje, cabrito al salmorejo. At the ranchos of Tejeda, Artenara or Valsequillo.",
+      "fr": "La cuisine de sommet canarienne — caldo de papas, potaje de berros, cabrito al salmorejo."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "gc-agaete-valles",
+    "city": "gran-canaria",
+    "destination": "gran-canaria",
+    "name": {
+      "es": "Valle de Agaete — el café de Europa",
+      "en": "Agaete Valley — Europe's coffee",
+      "fr": "Vallée d'Agaete — le café de l'Europe"
+    },
+    "desc": {
+      "es": "El único lugar de Europa donde se cultiva café. El Valle de Agaete produce también mangos y chirimoyas — todo se vende en la cooperativa local.",
+      "en": "The only place in Europe where coffee is grown. The Agaete Valley also produces mangoes and cherimoyas — all sold at the local cooperative.",
+      "fr": "Le seul endroit en Europe où l'on cultive du café."
+    },
+    "tags": [
+      "nature",
+      "foodie",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gc-arucas-ron",
+    "city": "gran-canaria",
+    "destination": "gran-canaria",
+    "name": {
+      "es": "Arucas — ron y arquitectura neogótica",
+      "en": "Arucas — rum and neo-Gothic architecture",
+      "fr": "Arucas — rhum et architecture néogothique"
+    },
+    "desc": {
+      "es": "Un pueblo de basalto negro con una catedral neogótica desproporcionadamente grande y la Destilería Arehucas — el ron canario más famoso. Visita gratuita.",
+      "en": "A black basalt town with a disproportionately large neo-Gothic cathedral and Destilería Arehucas — the most famous Canarian rum. Free visit.",
+      "fr": "Une ville de basalte noir avec une cathédrale néogothique et la Destilería Arehucas."
+    },
+    "tags": [
+      "culture",
+      "foodie",
+      "local",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gc-playa-guguy",
+    "city": "gran-canaria",
+    "destination": "gran-canaria",
+    "name": {
+      "es": "Playa del Guguy — solo a pie",
+      "en": "Guguy beach — only on foot",
+      "fr": "Plage de Guguy — uniquement à pied"
+    },
+    "desc": {
+      "es": "La playa más inaccesible de Gran Canaria — solo a pie tras 2h de caminata por la costa de acantilados. Sin tiendas, sin chiringuitos, sin cobertura. Solo el Atlántico.",
+      "en": "Gran Canaria's most inaccessible beach — only on foot after a 2h cliff coastal walk. No shops, no bars, no signal. Just the Atlantic.",
+      "fr": "La plage la plus inaccessible de Gran Canaria — uniquement à pied après 2h de marche."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "views"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "cbr-cadaques",
+    "city": "cadaques",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Cadaqués — el pueblo más hermoso del Mediterráneo",
+      "en": "Cadaqués — the most beautiful village on the Mediterranean",
+      "fr": "Cadaqués — le plus beau village de la Méditerranée"
+    },
+    "desc": {
+      "es": "El pueblo blanco en el Cap de Creus que Salvador Dalí eligió para vivir. Solo accesible por una carretera sinuosa de 20km — lo que lo ha mantenido intacto.",
+      "en": "The white village at Cap de Creus that Salvador Dalí chose to live in. Only accessible by a winding 20km road — which has kept it intact.",
+      "fr": "Le village blanc au Cap de Creus que Salvador Dalí a choisi pour vivre."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "views",
+      "walk",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "cbr-cap-creus",
+    "city": "cadaques",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Cap de Creus — el extremo de Europa",
+      "en": "Cap de Creus — the edge of Europe",
+      "fr": "Cap de Creus — le bout de l'Europe"
+    },
+    "desc": {
+      "es": "El punto más oriental de la Península Ibérica. Parque natural con formaciones de roca metamórfica únicas, senderos costeros y el faro al final del mundo.",
+      "en": "The Iberian Peninsula's easternmost point. Natural park with unique metamorphic rock formations, coastal trails and a lighthouse at the end of the world.",
+      "fr": "Le point le plus à l'est de la péninsule Ibérique."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "walk",
+      "views",
+      "adventure"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "cbr-begur",
+    "city": "begur",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Begur — pueblo medieval sobre las calas",
+      "en": "Begur — medieval village above the coves",
+      "fr": "Begur — village médiéval au-dessus des criques"
+    },
+    "desc": {
+      "es": "El pueblo más elegante de la Costa Brava, con castillo medieval y vista a cuatro calas. Las calas de Aiguablava y Fornells son de las más hermosas del Mediterráneo.",
+      "en": "The most elegant village on the Costa Brava, with a medieval castle overlooking four coves. Aiguablava and Fornells are among the Mediterranean's most beautiful.",
+      "fr": "Le village le plus élégant de la Costa Brava, avec château médiéval et vue sur quatre criques."
+    },
+    "tags": [
+      "culture",
+      "nature",
+      "views",
+      "walk",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "cbr-girona",
+    "city": "girona",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Girona — ciudad medieval sobre el río",
+      "en": "Girona — medieval city on the river",
+      "fr": "Girona — ville médiévale sur la rivière"
+    },
+    "desc": {
+      "es": "La catedral con la nave gótica más ancha del mundo, el barrio judío más preservado de Europa y el río Onyar con las casas de colores que reflejan en el agua.",
+      "en": "The cathedral with the widest Gothic nave in the world, the best-preserved Jewish quarter in Europe and the Onyar river with coloured houses reflected in the water.",
+      "fr": "La cathédrale à la nef gothique la plus large du monde et le quartier juif le mieux préservé d'Europe."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "walk",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "cbr-gastronomia",
+    "city": "palafrugell",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Gastronomía costera — suquet de peix",
+      "en": "Coastal gastronomy — suquet de peix",
+      "fr": "Gastronomie côtière — suquet de peix"
+    },
+    "desc": {
+      "es": "El suquet de peix es el plato emblema de la Costa Brava — un guiso de pescado de roca con patatas y picada de almendras. En los restaurantes de Calella o Llafranc, junto al mar.",
+      "en": "Suquet de peix is the Costa Brava's emblematic dish — a rockfish stew with potatoes and almond picada. At restaurants in Calella or Llafranc, by the sea.",
+      "fr": "Le suquet de peix est le plat emblématique de la Costa Brava."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 30,
+    "iconic": false
+  },
+  {
+    "id": "cbr-empuries",
+    "city": "empuries",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Empúries — ciudad greco-romana junto al mar",
+      "en": "Empúries — Greek-Roman city by the sea",
+      "fr": "Empúries — ville gréco-romaine au bord de la mer"
+    },
+    "desc": {
+      "es": "La única ciudad del mundo donde hay una colonia griega y una romana superpuestas, junto al Mediterráneo. El yacimiento más sorprendente de la Península.",
+      "en": "The world's only site with a Greek and Roman colony superimposed, next to the Mediterranean. The most surprising archaeological site on the Peninsula.",
+      "fr": "Le seul endroit au monde avec une colonie grecque et romaine superposées, au bord de la Méditerranée."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 6,
+    "iconic": false
+  },
+  {
+    "id": "cbr-dali-figueres",
+    "city": "figueres",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Teatro-Museo Dalí — Figueres",
+      "en": "Dalí Theatre-Museum — Figueres",
+      "fr": "Théâtre-Musée Dalí — Figueres"
+    },
+    "desc": {
+      "es": "El museo más visitado de España después del Prado. Dalí lo diseñó como su obra maestra total — una experiencia surrealista que no se parece a ningún otro museo del mundo.",
+      "en": "Spain's most visited museum after the Prado. Dalí designed it as his total masterpiece — a surrealist experience unlike any other museum in the world.",
+      "fr": "Le musée le plus visité d'Espagne après le Prado. Dalí l'a conçu comme son œuvre maîtresse totale."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 16,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "cbr-tossa-de-mar",
+    "city": "tossa",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Tossa de Mar — la muralla sobre el mar",
+      "en": "Tossa de Mar — the wall above the sea",
+      "fr": "Tossa de Mar — les remparts au-dessus de la mer"
+    },
+    "desc": {
+      "es": "La única ciudad medieval amurallada de Cataluña, con el castillo cayendo directamente al mar. Marc Chagall la llamó 'el paraíso azul' y pintó aquí sus mejores obras.",
+      "en": "Catalonia's only walled medieval town, with the castle dropping directly to the sea. Marc Chagall called it 'blue paradise' and painted his best works here.",
+      "fr": "La seule ville médiévale fortifiée de Catalogne, avec le château plongeant directement dans la mer."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "views",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "cbr-cami-ronda",
+    "city": "palafrugell",
+    "destination": "costa-brava",
+    "name": {
+      "es": "Camí de Ronda — sendero costero",
+      "en": "Camí de Ronda — coastal trail",
+      "fr": "Camí de Ronda — sentier côtier"
+    },
+    "desc": {
+      "es": "El sendero costero que recorre toda la Costa Brava — creado originalmente para que los carabineros vigilaran el contrabando. El tramo Calella-Llafranc-Tamariu es el más hermoso.",
+      "en": "The coastal trail running the full length of the Costa Brava — originally created for customs officers to watch for smuggling. The Calella-Llafranc-Tamariu section is the most beautiful.",
+      "fr": "Le sentier côtier longeant toute la Costa Brava — créé pour les douaniers surveillant la contrebande."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "views",
+      "local"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gal-fisterra",
+    "city": "fisterra",
+    "destination": "galicia",
+    "name": {
+      "es": "Fisterra — el fin del mundo",
+      "en": "Fisterra — the end of the world",
+      "fr": "Fisterra — le bout du monde"
+    },
+    "desc": {
+      "es": "El punto más occidental de la España continental — y el que los romanos llamaban Finis Terrae, el fin de la tierra conocida. El faro sobre los acantilados al atardecer es emocionalmente abrumador.",
+      "en": "The westernmost point of mainland Spain — and what the Romans called Finis Terrae, the end of the known world. The lighthouse on the cliffs at sunset is emotionally overwhelming.",
+      "fr": "Le point le plus à l'ouest de l'Espagne continentale — ce que les Romains appelaient Finis Terrae."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views",
+      "culture",
+      "walk"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "gal-santiago-catedral",
+    "city": "santiago",
+    "destination": "galicia",
+    "name": {
+      "es": "Catedral de Santiago de Compostela",
+      "en": "Santiago de Compostela Cathedral",
+      "fr": "Cathédrale de Saint-Jacques-de-Compostelle"
+    },
+    "desc": {
+      "es": "El destino final del Camino más famoso del mundo. La Misa del Peregrino a las 12h, el interior barroco y la Praza do Obradoiro desde la escalinata son experiencias únicas.",
+      "en": "The final destination of the world's most famous pilgrimage. The Pilgrim Mass at noon, the Baroque interior and Praza do Obradoiro from the steps are unique experiences.",
+      "fr": "La destination finale du pèlerinage le plus célèbre au monde."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "spiritual"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "gal-rias-baixas",
+    "city": "cambados",
+    "destination": "galicia",
+    "name": {
+      "es": "Rías Baixas — vinos y mariscos",
+      "en": "Rías Baixas — wines and seafood",
+      "fr": "Rías Baixas — vins et fruits de mer"
+    },
+    "desc": {
+      "es": "Las rías más ricas de Europa en mariscos — mejillones, navajas, percebes, vieiras. El Albariño de Cambados es el mejor vino blanco de España. Una mariscada en Cambados es una experiencia total.",
+      "en": "Europe's richest estuaries for shellfish — mussels, razor clams, barnacles, scallops. Cambados Albariño is Spain's best white wine. A mariscada in Cambados is a total experience.",
+      "fr": "Les rias les plus riches d'Europe en crustacés. L'Albariño de Cambados est le meilleur vin blanc d'Espagne."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture",
+      "nature"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 40,
+    "iconic": true
+  },
+  {
+    "id": "gal-costa-morte",
+    "city": "muxia",
+    "destination": "galicia",
+    "name": {
+      "es": "Costa da Morte — el litoral más bravo",
+      "en": "Costa da Morte — the wildest shore",
+      "fr": "Costa da Morte — le littoral le plus sauvage"
+    },
+    "desc": {
+      "es": "La costa más salvaje de la Península Ibérica. Playas desiertas, aldeas de pescadores, faros sobre acantilados y un silencio total que no existe en ningún otro lugar de Europa occidental.",
+      "en": "The wildest coast on the Iberian Peninsula. Deserted beaches, fishing villages, lighthouses on cliffs and a total silence that exists nowhere else in Western Europe.",
+      "fr": "Le littoral le plus sauvage de la péninsule Ibérique."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views",
+      "local",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "gal-rias-altas",
+    "city": "viveiro",
+    "destination": "galicia",
+    "name": {
+      "es": "Rías Altas — la Galicia sin turistas",
+      "en": "Rías Altas — Galicia without tourists",
+      "fr": "Rías Altas — la Galice sans touristes"
+    },
+    "desc": {
+      "es": "Las rías del norte — Viveiro, Ortigueira, Cedeira — son completamente desconocidas para el turismo. Las playas de arena blanca entre acantilados de las Fragas do Eume están vacías en pleno agosto.",
+      "en": "The northern rias — Viveiro, Ortigueira, Cedeira — are completely unknown to tourism. The white sand beaches between the Fragas do Eume cliffs are empty in mid-August.",
+      "fr": "Les rias du nord — Viveiro, Ortigueira, Cedeira — sont totalement inconnues du tourisme."
+    },
+    "tags": [
+      "nature",
+      "local",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gal-pulpo-carballino",
+    "city": "carballino",
+    "destination": "galicia",
+    "name": {
+      "es": "Pulpo a la gallega — O Carballiño",
+      "en": "Pulpo a la gallega — O Carballiño",
+      "fr": "Poulpe à la galicienne — O Carballiño"
+    },
+    "desc": {
+      "es": "O Carballiño es la capital mundial del pulpo. Las pulperías de mercado sirven pulpo sobre tabla de madera con aceite, pimentón y sal gruesa — la receta más simple y perfecta del mundo.",
+      "en": "O Carballiño is the world capital of octopus. Market pulperías serve octopus on wooden boards with oil, paprika and sea salt — the world's simplest and most perfect recipe.",
+      "fr": "O Carballiño est la capitale mondiale du poulpe."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "iconic",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "gal-allariz",
+    "city": "allariz",
+    "destination": "galicia",
+    "name": {
+      "es": "Allariz — el pueblo más bonito de Galicia",
+      "en": "Allariz — Galicia's most beautiful village",
+      "fr": "Allariz — le plus beau village de Galice"
+    },
+    "desc": {
+      "es": "Un pueblo medieval de granito recuperado sin especulación turística. El río Arnoia atraviesa el casco histórico entre molinos y puentes medievales. El único pueblo de España que recuperó su aspecto original sin kitsch.",
+      "en": "A granite medieval village recovered without tourist speculation. The Arnoia river crosses the historic centre between mills and medieval bridges.",
+      "fr": "Un village médiéval en granit récupéré sans spéculation touristique."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "local",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gal-semana-santa-viveiro",
+    "city": "viveiro",
+    "destination": "galicia",
+    "name": {
+      "es": "Viveiro — ciudad amurallada del norte",
+      "en": "Viveiro — northern walled city",
+      "fr": "Viveiro — ville fortifiée du nord"
+    },
+    "desc": {
+      "es": "La ciudad amurallada más desconocida de España. Las murallas medievales, la ría al atardecer y la gastronomía de nécoras y centollos hacen de Viveiro una de las mejores sorpresas del norte.",
+      "en": "Spain's most unknown walled city. Medieval walls, the ría at sunset and the gastronomy of shore crabs make Viveiro one of the north's best surprises.",
+      "fr": "La ville fortifiée la plus méconnue d'Espagne."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "local",
+      "foodie",
+      "walk"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gal-fragas-eume",
+    "city": "pontedeume",
+    "destination": "galicia",
+    "name": {
+      "es": "Fragas do Eume — el bosque atlántico primigenio",
+      "en": "Fragas do Eume — the primeval Atlantic forest",
+      "fr": "Fragas do Eume — la forêt atlantique primordiale"
+    },
+    "desc": {
+      "es": "El bosque ribereño atlántico mejor conservado de Europa. Robles, laureles y helechos gigantes en un río que no ha visto la mano del hombre. El sonido del Eume en otoño es hipnótico.",
+      "en": "Europe's best-preserved Atlantic riverside forest. Oaks, laurels and giant ferns along a river untouched by human hands. The sound of the Eume in autumn is hypnotic.",
+      "fr": "La forêt riveraine atlantique la mieux préservée d'Europe."
+    },
+    "tags": [
+      "nature",
+      "walk",
+      "local",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "gal-combarro",
+    "city": "combarro",
+    "destination": "galicia",
+    "name": {
+      "es": "Combarro — los hórreos sobre el mar",
+      "en": "Combarro — granaries above the sea",
+      "fr": "Combarro — greniers au-dessus de la mer"
+    },
+    "desc": {
+      "es": "El pueblo más fotografiado de Galicia — los hórreos de piedra construidos sobre el agua de la ría. El mayor conjunto de hórreos de Europa, en un pueblo que no llega a 800 habitantes.",
+      "en": "Galicia's most photographed village — stone granaries built over the ría water. Europe's largest collection of hórreos, in a village of fewer than 800 inhabitants.",
+      "fr": "Le village le plus photographié de Galice — des greniers en pierre construits sur l'eau de la ria."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "walk",
+      "photo",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "loi-chambord",
+    "city": "chambord",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Château de Chambord",
+      "en": "Château de Chambord",
+      "fr": "Château de Chambord"
+    },
+    "desc": {
+      "es": "El mayor castillo del Loira — 440 habitaciones, 365 chimeneas y la escalera de doble hélice atribuida a Leonardo da Vinci. El bosque de 54km² que lo rodea es reserva de caza real.",
+      "en": "The Loire's largest castle — 440 rooms, 365 chimneys and the double-helix staircase attributed to Leonardo da Vinci. The 54km² surrounding forest is a royal game reserve.",
+      "fr": "Le plus grand château de la Loire — 440 pièces, 365 cheminées et l'escalier à double hélice attribué à Léonard de Vinci."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 15,
+    "iconic": true
+  },
+  {
+    "id": "loi-amboise",
+    "city": "amboise",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Château d'Amboise y Clos Lucé",
+      "en": "Château d'Amboise and Clos Lucé",
+      "fr": "Château d'Amboise et Clos Lucé"
+    },
+    "desc": {
+      "es": "El castillo donde Leonardo da Vinci pasó los últimos años de su vida. El Clos Lucé — su casa — muestra sus máquinas inventadas a tamaño real. Vistas desde el castillo al río son incomparables.",
+      "en": "The castle where Leonardo da Vinci spent his last years. The Clos Lucé — his house — shows his invented machines at full scale. Castle views over the river are incomparable.",
+      "fr": "Le château où Léonard de Vinci a passé ses dernières années."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 18,
+    "iconic": true
+  },
+  {
+    "id": "loi-chenonceau",
+    "city": "chenonceaux",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Château de Chenonceau — el castillo sobre el río",
+      "en": "Château de Chenonceau — the castle over the river",
+      "fr": "Château de Chenonceau — le château sur la rivière"
+    },
+    "desc": {
+      "es": "El castillo más visitado de Francia después del Louvre — construido sobre el río Cher. La galería sobre el agua y los jardines rivales de Catalina de Médicis y Diana de Poitiers son únicos.",
+      "en": "France's most visited castle after the Louvre — built over the Cher river. The gallery over water and the rival gardens of Catherine de Medici and Diane de Poitiers are unique.",
+      "fr": "Le château le plus visité de France après le Louvre — construit sur le Cher."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 16,
+    "iconic": true
+  },
+  {
+    "id": "loi-vinos-sancerre",
+    "city": "sancerre",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Sancerre — los vinos del Loira",
+      "en": "Sancerre — Loire wines",
+      "fr": "Sancerre — les vins de la Loire"
+    },
+    "desc": {
+      "es": "Sancerre y Pouilly-Fumé son los mejores Sauvignon Blanc del mundo. El pueblo medieval en la colina, las bodegas familiares y las vistas sobre el Loira hacen de esta ruta vinícola una experiencia completa.",
+      "en": "Sancerre and Pouilly-Fumé are the world's best Sauvignon Blancs. The medieval hilltop village, family wineries and Loire views make this wine route a complete experience.",
+      "fr": "Sancerre et Pouilly-Fumé sont les meilleurs Sauvignon Blancs du monde."
+    },
+    "tags": [
+      "foodie",
+      "culture",
+      "local",
+      "views",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "loi-cyclotourisme",
+    "city": "tours",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Loire à Vélo — ciclismo entre castillos",
+      "en": "Loire à Vélo — cycling between castles",
+      "fr": "Loire à Vélo — cyclisme entre châteaux"
+    },
+    "desc": {
+      "es": "900km de rutas ciclistas perfectamente señalizadas a lo largo del Loira. El tramo Tours-Blois (65km) es el más completo — pasa por Amboise, Chaumont y Chambord.",
+      "en": "900km of perfectly signposted cycling routes along the Loire. The Tours-Blois section (65km) is the most complete — passing Amboise, Chaumont and Chambord.",
+      "fr": "900km de pistes cyclables parfaitement balisées le long de la Loire."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "culture",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 6,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "loi-troglodytes",
+    "city": "amboise",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Casas trogloditas — los tufa del Loira",
+      "en": "Troglodyte houses — Loire tufa",
+      "fr": "Maisons troglodytes — le tuffeau de la Loire"
+    },
+    "desc": {
+      "es": "La piedra calcárea del Loira (tufa) es tan blanda que se excava fácilmente. Miles de cuevas habitadas — bodegas, casas, capillas e incluso restaurantes excavados en la roca a lo largo del río.",
+      "en": "The Loire's limestone (tufa) is so soft it's easily carved. Thousands of inhabited caves — wineries, houses, chapels and restaurants carved from rock along the river.",
+      "fr": "La pierre calcaire de la Loire (tuffeau) est si douce qu'elle se creuse facilement."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "history",
+      "walk"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "loi-gastronomia-touraine",
+    "city": "tours",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Gastronomía de Touraine",
+      "en": "Touraine gastronomy",
+      "fr": "Gastronomie de Touraine"
+    },
+    "desc": {
+      "es": "La región más gastronómica de Francia fuera de Lyon — rillettes de Tours, tarte Tatin, Vouvray, Montlouis. El mercado cubierto de Tours (Les Halles) es el mejor del Centro-Oeste.",
+      "en": "France's most gastronomic region outside Lyon — rillettes de Tours, tarte Tatin, Vouvray, Montlouis. Tours' covered market (Les Halles) is the best in Central-West France.",
+      "fr": "La région la plus gastronomique de France hors Lyon."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 25,
+    "iconic": false
+  },
+  {
+    "id": "loi-villandry",
+    "city": "villandry",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Château de Villandry — jardines renacentistas",
+      "en": "Château de Villandry — Renaissance gardens",
+      "fr": "Château de Villandry — jardins de la Renaissance"
+    },
+    "desc": {
+      "es": "Los jardines más elaborados de la Francia renacentista — laberintos de boj, parterres de flores y huertos ornamentales. Menos visitado que Chambord pero igualmente extraordinario.",
+      "en": "The most elaborate gardens in Renaissance France — box labyrinths, flower parterres and ornamental kitchen gardens. Less visited than Chambord but equally extraordinary.",
+      "fr": "Les jardins les plus élaborés de la France de la Renaissance."
+    },
+    "tags": [
+      "culture",
+      "nature",
+      "architecture",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 14,
+    "iconic": false
+  },
+  {
+    "id": "loi-chinon",
+    "city": "chinon",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Chinon — Juana de Arco y Rabelais",
+      "en": "Chinon — Joan of Arc and Rabelais",
+      "fr": "Chinon — Jeanne d'Arc et Rabelais"
+    },
+    "desc": {
+      "es": "El pueblo medieval donde Juana de Arco reconoció al Delfín de Francia entre su corte. Nació aquí también Rabelais. El castillo sobre el Vienne y los vinos de Chinon AOC son razones suficientes.",
+      "en": "The medieval town where Joan of Arc recognised the French Dauphin among his court. Rabelais was also born here. The castle over the Vienne and Chinon AOC wines are reason enough.",
+      "fr": "La ville médiévale où Jeanne d'Arc a reconnu le Dauphin de France."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "foodie",
+      "local",
+      "walk"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "loi-lever-soleil",
+    "city": "amboise",
+    "destination": "valle-del-loira",
+    "name": {
+      "es": "Amanecer en el Loira — bruma y castillos",
+      "en": "Loire sunrise — mist and castles",
+      "fr": "Lever de soleil sur la Loire — brume et châteaux"
+    },
+    "desc": {
+      "es": "El Loira al amanecer en otoño — la bruma del río, los castillos emergiendo de la niebla y la luz dorada sobre los viñedos. Una imagen que no existe en ningún otro lugar de Europa.",
+      "en": "The Loire at dawn in autumn — river mist, castles emerging from fog and golden light over vineyards. An image that exists nowhere else in Europe.",
+      "fr": "La Loire à l'aube en automne — brume, châteaux émergeant du brouillard et lumière dorée."
+    },
+    "tags": [
+      "nature",
+      "views",
+      "photo",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "bre-saint-malo",
+    "city": "saint-malo",
+    "destination": "bretana",
+    "name": {
+      "es": "Saint-Malo — la ciudad corsaria",
+      "en": "Saint-Malo — the corsair city",
+      "fr": "Saint-Malo — la cité corsaire"
+    },
+    "desc": {
+      "es": "La ciudad amurallada de los corsarios bretones. Las murallas del siglo XVII se recorren enteras a pie con vistas al mar. La arquitectura de granito gris bajo la luz atlántica es como ninguna otra.",
+      "en": "The walled city of the Breton corsairs. The 17th-century walls can be walked entirely with sea views. The grey granite architecture in Atlantic light is like no other.",
+      "fr": "La cité fortifiée des corsaires bretons. Les remparts du XVIIe siècle se parcourent entièrement à pied."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "bre-mont-saint-michel",
+    "city": "mont-saint-michel",
+    "destination": "bretana",
+    "name": {
+      "es": "Mont Saint-Michel",
+      "en": "Mont Saint-Michel",
+      "fr": "Mont Saint-Michel"
+    },
+    "desc": {
+      "es": "La imagen más reconocible de Francia — una abadía benedictina en un monte rodeado por la segunda marea más alta del mundo. Llega al amanecer antes de los autobuses.",
+      "en": "France's most recognisable image — a Benedictine abbey on a mount surrounded by the world's second highest tides. Arrive at dawn before the tour buses.",
+      "fr": "L'image la plus reconnaissable de France — une abbaye bénédictine entourée par la deuxième plus haute marée du monde."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 5,
+    "price_eur": 13,
+    "book_ahead": false,
+    "iconic": true
+  },
+  {
+    "id": "bre-carnac",
+    "city": "carnac",
+    "destination": "bretana",
+    "name": {
+      "es": "Carnac — los megalitos más grandes del mundo",
+      "en": "Carnac — the world's largest megaliths",
+      "fr": "Carnac — les plus grands mégalithes du monde"
+    },
+    "desc": {
+      "es": "3.000 menhires alineados durante 4km en el sur de Bretaña — el mayor conjunto megalítico del mundo, 2.500 años anterior a Stonehenge. De origen completamente desconocido.",
+      "en": "3,000 menhirs aligned over 4km in southern Brittany — the world's largest megalithic complex, 2,500 years older than Stonehenge. Of completely unknown origin.",
+      "fr": "3.000 menhirs alignés sur 4km — le plus grand complexe mégalithique du monde, 2.500 ans plus ancien que Stonehenge."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "nature"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 8,
+    "iconic": true
+  },
+  {
+    "id": "bre-cap-frehel",
+    "city": "cap-frehel",
+    "destination": "bretana",
+    "name": {
+      "es": "Cap Fréhel — acantilados de pórfido rosa",
+      "en": "Cap Fréhel — pink porphyry cliffs",
+      "fr": "Cap Fréhel — falaises de porphyre rose"
+    },
+    "desc": {
+      "es": "Los acantilados más espectaculares de la costa norte de Bretaña. La roca de pórfido rosado, el faro del siglo XVII y las colonias de gaviotas tridáctilas crean un paisaje de otro mundo.",
+      "en": "The most spectacular cliffs on Brittany's north coast. The pink porphyry rock, the 17th-century lighthouse and the kittiwake colonies create an otherworldly landscape.",
+      "fr": "Les falaises les plus spectaculaires de la côte nord bretonne."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "bre-crepes-galettes",
+    "city": "rennes",
+    "destination": "bretana",
+    "name": {
+      "es": "Crêpes y galettes — la cocina bretona",
+      "en": "Crêpes and galettes — Breton cooking",
+      "fr": "Crêpes et galettes — la cuisine bretonne"
+    },
+    "desc": {
+      "es": "La galette de sarrasin (trigo negro) es el plato nacional bretón. Con jamón, queso comté y huevo, acompañada de cidre brut en bolée — la experiencia gastronómica más auténtica de Bretaña.",
+      "en": "The buckwheat galette is Brittany's national dish. With ham, comté cheese and egg, accompanied by brut cider in a bolée — Brittany's most authentic gastronomic experience.",
+      "fr": "La galette de sarrasin est le plat national breton. Avec jambon, comté et œuf, accompagnée de cidre brut."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 15,
+    "iconic": false
+  },
+  {
+    "id": "bre-perros-guirec",
+    "city": "perros-guirec",
+    "destination": "bretana",
+    "name": {
+      "es": "Perros-Guirec — la Costa de Granito Rosa",
+      "en": "Perros-Guirec — the Pink Granite Coast",
+      "fr": "Perros-Guirec — la Côte de Granit Rose"
+    },
+    "desc": {
+      "es": "Las formaciones de granito rosa de la Costa de Granit Rose son únicas en el mundo — solo existen en Bretaña y en China. El sendero entre las rocas esculpidas por el mar dura 3h.",
+      "en": "The pink granite formations of the Côte de Granit Rose are unique in the world — they only exist in Brittany and China. The trail between sea-sculpted rocks takes 3h.",
+      "fr": "Les formations de granit rose de la Côte de Granit Rose sont uniques au monde."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "walk",
+      "views",
+      "photo"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "bre-cancale",
+    "city": "cancale",
+    "destination": "bretana",
+    "name": {
+      "es": "Cancale — ostras al borde del mar",
+      "en": "Cancale — oysters at the sea's edge",
+      "fr": "Cancale — huîtres au bord de la mer"
+    },
+    "desc": {
+      "es": "El mayor productor de ostras de Francia — y la única ciudad donde las comes directamente en el mercado frente al mar, con vistas al Mont Saint-Michel. €8 la docena.",
+      "en": "France's largest oyster producer — and the only town where you eat them directly at the seafront market, with Mont Saint-Michel views. €8 a dozen.",
+      "fr": "Le plus grand producteur d'huîtres de France. La seule ville où on les mange directement au marché face à la mer."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "iconic",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "bre-dinan",
+    "city": "dinan",
+    "destination": "bretana",
+    "name": {
+      "es": "Dinan — la ciudad medieval más preservada de Bretaña",
+      "en": "Dinan — Brittany's best-preserved medieval town",
+      "fr": "Dinan — la ville médiévale la mieux préservée de Bretagne"
+    },
+    "desc": {
+      "es": "El casco histórico de madera y granito más intacto de Bretaña. Las calles en empedrado, el castillo del siglo XIV y el puerto fluvial del Rance al pie de los acantilados son excepcionales.",
+      "en": "Brittany's most intact timber and granite historic centre. The cobbled streets, 14th-century castle and Rance river port at the foot of the cliffs are exceptional.",
+      "fr": "Le centre historique en bois et granit le plus intact de Bretagne."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "bre-ouessant",
+    "city": "ouessant",
+    "destination": "bretana",
+    "name": {
+      "es": "Isla de Ouessant — el faro del Atlántico",
+      "en": "Ouessant Island — the Atlantic lighthouse",
+      "fr": "Île d'Ouessant — le phare de l'Atlantique"
+    },
+    "desc": {
+      "es": "La isla más occidental de Francia continental — los vientos del Atlántico la golpean con una fuerza inusitada. El Phare du Créac'h es el más potente de Europa. Sin coches en la isla.",
+      "en": "The westernmost island of mainland France — Atlantic winds hit it with unusual force. The Créac'h lighthouse is the most powerful in Europe. No cars on the island.",
+      "fr": "L'île la plus à l'ouest de la France continentale. Le Phare du Créac'h est le plus puissant d'Europe."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "local",
+      "views",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 6,
+    "price_eur": 30,
+    "iconic": false
+  },
+  {
+    "id": "pir-ordesa",
+    "city": "torla",
+    "destination": "pirineo",
+    "name": {
+      "es": "Parque Nacional de Ordesa — el Yellowstone español",
+      "en": "Ordesa National Park — the Spanish Yellowstone",
+      "fr": "Parc National d'Ordesa — le Yellowstone espagnol"
+    },
+    "desc": {
+      "es": "El cañón más espectacular de los Pirineos — 1.000m de paredes verticales de caliza con el río Arazas abajo. El camino del Soaso y la Cola de Caballo son imprescindibles.",
+      "en": "The Pyrenees' most spectacular canyon — 1,000m vertical limestone walls with the Arazas river below. The Camino del Soaso and Cola de Caballo waterfall are essential.",
+      "fr": "Le canyon le plus spectaculaire des Pyrénées — 1.000m de parois calcaires verticales."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "adventure",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 6,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "pir-ainsa",
+    "city": "ainsa",
+    "destination": "pirineo",
+    "name": {
+      "es": "Aínsa — la plaza medieval más hermosa del Pirineo",
+      "en": "Aínsa — the most beautiful medieval square in the Pyrenees",
+      "fr": "Aínsa — la plus belle place médiévale des Pyrénées"
+    },
+    "desc": {
+      "es": "El pueblo medieval mejor preservado del Pirineo aragonés. La Plaza Mayor de piedra caliza, la iglesia románica del siglo XI y las vistas a los picos de las Tres Sorores son únicas.",
+      "en": "The best-preserved medieval village in the Aragonese Pyrenees. The limestone Plaza Mayor, 11th-century Romanesque church and views of the Tres Sorores peaks are unique.",
+      "fr": "Le village médiéval le mieux préservé des Pyrénées aragonaises."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "views",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "pir-hecho-anso",
+    "city": "hecho",
+    "destination": "pirineo",
+    "name": {
+      "es": "Valles de Hecho y Ansó — el Pirineo sin turistas",
+      "en": "Hecho and Ansó valleys — the Pyrenees without tourists",
+      "fr": "Vallées de Hecho et Ansó — les Pyrénées sans touristes"
+    },
+    "desc": {
+      "es": "Los valles pirenaicos más aislados de España. Pueblos de piedra donde el cheso (dialecto aragonés medieval) sigue vivo. La ruta entre los dos valles por la montaña tarda 6h a pie.",
+      "en": "Spain's most isolated Pyrenean valleys. Stone villages where cheso (medieval Aragonese dialect) is still spoken. The mountain route between the two valleys takes 6h on foot.",
+      "fr": "Les vallées pyrénéennes les plus isolées d'Espagne."
+    },
+    "tags": [
+      "nature",
+      "local",
+      "culture",
+      "adventure",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 6,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "pir-gavarnie",
+    "city": "gavarnie",
+    "destination": "pirineo",
+    "name": {
+      "es": "Circo de Gavarnie — la catedral de la naturaleza",
+      "en": "Circo de Gavarnie — nature's cathedral",
+      "fr": "Cirque de Gavarnie — la cathédrale de la nature"
+    },
+    "desc": {
+      "es": "El anfiteatro glacial más grande de Europa — 14km de diámetro y paredes de 1.500m. Victor Hugo lo llamó la catedral de la naturaleza. La caminata hasta el pie del circo dura 2h y es de las más impresionantes del mundo.",
+      "en": "Europe's largest glacial amphitheatre — 14km in diameter and 1,500m walls. Victor Hugo called it nature's cathedral. The walk to the cirque floor takes 2h and is among the world's most impressive.",
+      "fr": "Le plus grand amphithéâtre glaciaire d'Europe — 14km de diamètre et parois de 1.500m."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "adventure",
+      "walk",
+      "views",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "pir-lago-estanes",
+    "city": "valle-de-tena",
+    "destination": "pirineo",
+    "name": {
+      "es": "Lagos de alta montaña — Ibones",
+      "en": "High mountain lakes — Ibones",
+      "fr": "Lacs de haute montagne — Ibones"
+    },
+    "desc": {
+      "es": "Los ibones son los lagos glaciales del Pirineo aragonés — agua de color esmeralda a más de 2.000m. El Ibón de Piedrafita, el de Sabocos o el de Acherito son accesibles en 2-3h desde el valle.",
+      "en": "Ibones are the Aragonese Pyrenees' glacial lakes — emerald water above 2,000m. The Piedrafita, Sabocos or Acherito ibones are accessible in 2-3h from the valley.",
+      "fr": "Les ibones sont les lacs glaciaires des Pyrénées aragonaises — eau émeraude au-dessus de 2.000m."
+    },
+    "tags": [
+      "nature",
+      "adventure",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "pir-romanico",
+    "city": "boi",
+    "destination": "pirineo",
+    "name": {
+      "es": "Arte románico del Pallars — las iglesias del siglo XI",
+      "en": "Pallars Romanesque art — 11th-century churches",
+      "fr": "Art roman du Pallars — les églises du XIe siècle"
+    },
+    "desc": {
+      "es": "El Valle de Boí concentra el mayor conjunto de arte románico rural de Europa — nueve iglesias del siglo XI en un valle sin asfalto. Patrimonio UNESCO desde 2000.",
+      "en": "The Boí Valley concentrates Europe's greatest rural Romanesque art — nine 11th-century churches in an unpaved valley. UNESCO heritage since 2000.",
+      "fr": "La Vallée de Boí concentre le plus grand ensemble d'art roman rural d'Europe."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "UNESCO",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "pir-benasque",
+    "city": "benasque",
+    "destination": "pirineo",
+    "name": {
+      "es": "Valle de Benasque — el techo del Pirineo",
+      "en": "Benasque Valley — the roof of the Pyrenees",
+      "fr": "Vallée de Benasque — le toit des Pyrénées"
+    },
+    "desc": {
+      "es": "El valle con mayor concentración de picos de más de 3.000m de la Península. El Aneto (3.404m) es el techo de los Pirineos. Para montañeros con experiencia. El pueblo de Benasque tiene la gastronomía aragonesa más auténtica.",
+      "en": "The valley with the highest concentration of 3,000m+ peaks on the Peninsula. The Aneto (3,404m) is the Pyrenees' roof. For experienced mountaineers. Benasque village has the most authentic Aragonese gastronomy.",
+      "fr": "La vallée avec la plus grande concentration de pics de 3.000m+ de la péninsule."
+    },
+    "tags": [
+      "adventure",
+      "nature",
+      "iconic",
+      "foodie",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 6,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "pir-jaca",
+    "city": "jaca",
+    "destination": "pirineo",
+    "name": {
+      "es": "Jaca — la primera capital del reino de Aragón",
+      "en": "Jaca — the first capital of the Kingdom of Aragon",
+      "fr": "Jaca — la première capitale du royaume d'Aragon"
+    },
+    "desc": {
+      "es": "La ciudad más antigua del Pirineo aragonés — la catedral románica del siglo XI es la primera del Camino de Santiago francés. La ciudadela estrellada del siglo XVI es una de las mejor preservadas de Europa.",
+      "en": "The Aragonese Pyrenees' oldest city — the 11th-century Romanesque cathedral is the first on the French Camino de Santiago. The 16th-century star citadel is one of Europe's best-preserved.",
+      "fr": "La plus ancienne ville des Pyrénées aragonaises."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "local",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "pir-cocina-pirenaica",
+    "city": "ainsa",
+    "destination": "pirineo",
+    "name": {
+      "es": "Cocina pirenaica — ternasco y trufa negra",
+      "en": "Pyrenean cooking — ternasco and black truffle",
+      "fr": "Cuisine pyrénéenne — ternasco et truffe noire"
+    },
+    "desc": {
+      "es": "El ternasco de Aragón (cordero lechal IGP), la trufa negra de Sarrión, el queso del Roncal y el vino de Somontano son los cuatro pilares de la gastronomía pirenaica. En Aínsa, el restaurante Callizo tiene el mejor menú degustación del Pirineo.",
+      "en": "Aragonese ternasco (suckling lamb IGP), Sarrión black truffle, Roncal cheese and Somontano wine are the four pillars of Pyrenean gastronomy.",
+      "fr": "Le ternasco d'Aragon, la truffe noire de Sarrión, le fromage du Roncal et le vin de Somontano."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 35,
+    "iconic": false
+  },
+  {
+    "id": "bal-tramuntana",
+    "city": "soller",
+    "destination": "baleares",
+    "name": {
+      "es": "Serra de Tramuntana — la columna de Mallorca",
+      "en": "Serra de Tramuntana — Mallorca's backbone",
+      "fr": "Serra de Tramuntana — l'épine dorsale de Majorque"
+    },
+    "desc": {
+      "es": "La cadena montañosa que recorre el noroeste de Mallorca de Norte a Sur — 90km de picos, pueblos de piedra y la carretera de cornisa Ma-10 entre Pollença y Banyalbufar, una de las más espectaculares de Europa.",
+      "en": "The mountain range running northwest Mallorca North to South — 90km of peaks, stone villages and the corniche road Ma-10 between Pollença and Banyalbufar, one of Europe's most spectacular.",
+      "fr": "La chaîne de montagnes parcourant le nord-ouest de Majorque — 90km de pics, villages en pierre et route en corniche."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "walk",
+      "views",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "bal-deia",
+    "city": "deia",
+    "destination": "baleares",
+    "name": {
+      "es": "Deià — el pueblo de los artistas",
+      "en": "Deià — the artists' village",
+      "fr": "Deià — le village des artistes"
+    },
+    "desc": {
+      "es": "El pueblo más hermoso de Mallorca — Robert Graves, Miró y docenas de artistas eligieron este pueblo de piedra ocre sobre el mar. La cala de Deià es la más serena de la isla.",
+      "en": "Mallorca's most beautiful village — Robert Graves, Miró and dozens of artists chose this ochre stone village above the sea. Deià cove is the island's most serene.",
+      "fr": "Le plus beau village de Majorque — Robert Graves, Miró et des dizaines d'artistes ont choisi ce village de pierre ocre."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "iconic",
+      "views",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "bal-palma-catedral",
+    "city": "palma",
+    "destination": "baleares",
+    "name": {
+      "es": "Palma — la catedral sobre el mar",
+      "en": "Palma — the cathedral over the sea",
+      "fr": "Palma — la cathédrale sur la mer"
+    },
+    "desc": {
+      "es": "La Seu de Palma es una de las catedrales góticas más grandes del mundo — y la única con el rosetón más grande del gótico mediterráneo. El casco antiguo de La Lonja y el barrio de Canamunt son de los mejores de España.",
+      "en": "Palma's Seu is one of the world's largest Gothic cathedrals — and the only one with the largest rosette in Mediterranean Gothic. The La Lonja old town and Canamunt neighbourhood are among Spain's best.",
+      "fr": "La Seu de Palma est l'une des plus grandes cathédrales gothiques du monde."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "bal-menorca-cami",
+    "city": "menorca",
+    "destination": "baleares",
+    "name": {
+      "es": "Camí de Cavalls — la vuelta a Menorca a pie",
+      "en": "Camí de Cavalls — walking around Menorca",
+      "fr": "Camí de Cavalls — le tour de Minorque à pied"
+    },
+    "desc": {
+      "es": "El sendero que recorre toda la costa de Menorca — 185km de calas vírgenes, acantilados y playas sin chiringuitos. Se puede hacer en 8-10 etapas o en tramos sueltos.",
+      "en": "The trail circling Menorca's entire coast — 185km of virgin coves, cliffs and beaches without bars. Can be done in 8-10 stages or individual sections.",
+      "fr": "Le sentier parcourant toute la côte de Minorque — 185km de criques vierges, falaises et plages sans bars."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "adventure",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 6,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "bal-soller-tren",
+    "city": "soller",
+    "destination": "baleares",
+    "name": {
+      "es": "Tren de Sóller — el ferrocarril vintage",
+      "en": "Sóller train — the vintage railway",
+      "fr": "Train de Sóller — le chemin de fer vintage"
+    },
+    "desc": {
+      "es": "El tren de madera de 1912 que cruza la Serra de Tramuntana de Palma a Sóller a través de 13 túneles. 27km, 1h de viaje, paisaje de naranjos y picos de piedra.",
+      "en": "The 1912 wooden train crossing the Serra de Tramuntana from Palma to Sóller through 13 tunnels. 27km, 1h journey, orange groves and stone peaks.",
+      "fr": "Le train en bois de 1912 traversant la Serra de Tramuntana à travers 13 tunnels."
+    },
+    "tags": [
+      "culture",
+      "local",
+      "iconic",
+      "views"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 3,
+    "price_eur": 22,
+    "iconic": false
+  },
+  {
+    "id": "bal-fornells",
+    "city": "fornells",
+    "destination": "baleares",
+    "name": {
+      "es": "Fornells — caldereta de langosta",
+      "en": "Fornells — lobster caldereta",
+      "fr": "Fornells — caldereta de langouste"
+    },
+    "desc": {
+      "es": "El pueblo pesquero más auténtico de Menorca. La caldereta de langosta menorquina es el plato más caro y más extraordinario de las Baleares — solo se come en Fornells.",
+      "en": "Menorca's most authentic fishing village. The Menorcan lobster caldereta is the most expensive and extraordinary dish in the Balearics — only eaten in Fornells.",
+      "fr": "Le village de pêcheurs le plus authentique de Minorque. La caldereta de langouste est le plat le plus extraordinaire des Baléares."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "iconic",
+      "culture"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 65,
+    "book_ahead": true,
+    "iconic": false
+  },
+  {
+    "id": "bal-valldemossa",
+    "city": "valldemossa",
+    "destination": "baleares",
+    "name": {
+      "es": "Valldemossa — Chopin y George Sand",
+      "en": "Valldemossa — Chopin and George Sand",
+      "fr": "Valldemossa — Chopin et George Sand"
+    },
+    "desc": {
+      "es": "El pueblo donde Frédéric Chopin y George Sand pasaron el invierno de 1838. La Real Cartuja, las calles de piedra y las cocas de Valldemossa (pasta de hojaldre con almendra) son razones suficientes.",
+      "en": "The village where Frédéric Chopin and George Sand spent the winter of 1838. The Royal Carthusian Monastery, stone streets and Valldemossa cocas (almond pastry) are reason enough.",
+      "fr": "Le village où Frédéric Chopin et George Sand ont passé l'hiver 1838."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "local",
+      "walk",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 10,
+    "iconic": false
+  },
+  {
+    "id": "bal-ciutadella",
+    "city": "ciutadella",
+    "destination": "baleares",
+    "name": {
+      "es": "Ciutadella — la capital antigua de Menorca",
+      "en": "Ciutadella — Menorca's old capital",
+      "fr": "Ciutadella — l'ancienne capitale de Minorque"
+    },
+    "desc": {
+      "es": "La ciudad más hermosa de Menorca — calles estrechas de piedra caliza, la catedral del siglo XIV, el puerto natural más espectacular de las Baleares y la ensaimada más auténtica de la isla.",
+      "en": "Menorca's most beautiful city — narrow limestone streets, the 14th-century cathedral, the most spectacular natural harbour in the Balearics and the island's most authentic ensaimada.",
+      "fr": "La plus belle ville de Minorque — rues étroites en calcaire, cathédrale du XIVe et port naturel spectaculaire."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "walk",
+      "local",
+      "foodie"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "bal-es-trenc",
+    "city": "campos",
+    "destination": "baleares",
+    "name": {
+      "es": "Es Trenc — la playa sin urbanización",
+      "en": "Es Trenc — the undeveloped beach",
+      "fr": "Es Trenc — la plage sans urbanisation"
+    },
+    "desc": {
+      "es": "La última playa virgen de Mallorca — arena blanca, aguas turquesas y sin un solo hotel a la vista. Parque natural protegido. Sin hamacas de alquiler. Solo se puede llegar a pie o en bicicleta desde Campos.",
+      "en": "Mallorca's last virgin beach — white sand, turquoise waters and not a single hotel in sight. Protected natural park. No sun lounger rentals. Only reachable on foot or by bicycle from Campos.",
+      "fr": "La dernière plage vierge de Majorque — sable blanc, eaux turquoise et pas un seul hôtel en vue."
+    },
+    "tags": [
+      "nature",
+      "relax",
+      "views",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "mad-museo-prado",
+    "city": "madrid",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "Museo del Prado",
+      "en": "Prado Museum",
+      "fr": "Musée du Prado"
+    },
+    "desc": {
+      "es": "La mayor pinacoteca del mundo — Velázquez, Goya, El Bosco, Rubens. Llegas para Las Meninas y te quedas 4 horas. Abre hasta las 20h — los últimos 2h son los menos concurridos.",
+      "en": "The world's greatest painting collection — Velázquez, Goya, Bosch, Rubens. You come for Las Meninas and stay 4 hours. Open until 8pm — the last 2h are the least crowded.",
+      "fr": "La plus grande pinacothèque du monde — Velázquez, Goya, Bosch, Rubens."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 15,
+    "book_ahead": false,
+    "iconic": true
+  },
+  {
+    "id": "mad-reina-sofia",
+    "city": "madrid",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "Museo Reina Sofía — Guernica",
+      "en": "Reina Sofía Museum — Guernica",
+      "fr": "Musée Reina Sofía — Guernica"
+    },
+    "desc": {
+      "es": "El Guernica de Picasso en el mismo tamaño que lo pintó — 3,49 x 7,76 metros de historia. La colección de arte moderno y contemporáneo español es la mejor del mundo.",
+      "en": "Picasso's Guernica at the same size he painted it — 3.49 x 7.76 metres of history. The modern and contemporary Spanish art collection is the world's best.",
+      "fr": "Le Guernica de Picasso à la même taille qu'il l'a peint — 3,49 x 7,76 mètres d'histoire."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "art",
+      "history"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 12,
+    "iconic": true
+  },
+  {
+    "id": "mad-la-pedriza",
+    "city": "madrid",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "La Pedriza — el granito a 50km de Madrid",
+      "en": "La Pedriza — granite 50km from Madrid",
+      "fr": "La Pedriza — le granit à 50km de Madrid"
+    },
+    "desc": {
+      "es": "El mayor conjunto de erosión granítica de Europa Occidental — a 50km de la Puerta del Sol. El circo de La Pedriza Mayor, los colores rojizos del granito y el silencio total sorprenden a todos los que llegan.",
+      "en": "Western Europe's largest granite erosion complex — 50km from Puerta del Sol. The circo de La Pedriza Mayor, the reddish granite colours and total silence surprise everyone who arrives.",
+      "fr": "Le plus grand ensemble d'érosion granitique d'Europe occidentale — à 50km de la Puerta del Sol."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "adventure",
+      "walk",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "mad-segovia",
+    "city": "segovia",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "Segovia — el acueducto romano y el alcázar",
+      "en": "Segovia — Roman aqueduct and alcázar",
+      "fr": "Ségovie — l'aqueduc romain et l'alcazar"
+    },
+    "desc": {
+      "es": "El acueducto romano más preservado del mundo — construido sin mortero, en uso hasta el siglo XX. El Alcázar que inspiró el castillo de Disney y el cochinillo asado más famoso de España.",
+      "en": "The world's best-preserved Roman aqueduct — built without mortar, in use until the 20th century. The Alcázar that inspired Disney's castle and Spain's most famous roast suckling pig.",
+      "fr": "L'aqueduc romain le mieux préservé au monde — construit sans mortier, utilisé jusqu'au XXe siècle."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "foodie",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "mad-toledo",
+    "city": "toledo",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "Toledo — la ciudad de las tres culturas",
+      "en": "Toledo — the city of three cultures",
+      "fr": "Tolède — la ville des trois cultures"
+    },
+    "desc": {
+      "es": "La única ciudad del mundo donde convivieron durante siglos cristianos, judíos y musulmanes — y donde esa convivencia sigue visible en cada calle. El Greco eligió Toledo para sus mejores obras.",
+      "en": "The world's only city where Christians, Jews and Muslims coexisted for centuries — and where that coexistence is still visible on every street. El Greco chose Toledo for his best works.",
+      "fr": "La seule ville au monde où chrétiens, juifs et musulmans ont coexisté pendant des siècles."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "mad-mercado-san-miguel",
+    "city": "madrid",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "Mercado de San Miguel y La Latina",
+      "en": "San Miguel Market and La Latina",
+      "fr": "Marché San Miguel et La Latina"
+    },
+    "desc": {
+      "es": "El mercado más elegante de Madrid — pinchos, ibérico, ostras y vermut. Combinado con el bar hopping en La Latina (La Cava Baja) el domingo al mediodía es la experiencia más madrileña que existe.",
+      "en": "Madrid's most elegant market — pinchos, ibérico, oysters and vermouth. Combined with bar-hopping in La Latina (La Cava Baja) on Sunday lunchtime it's the most Madrileño experience there is.",
+      "fr": "Le marché le plus élégant de Madrid — pintxos, ibérico, huîtres et vermouth."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 20,
+    "iconic": false
+  },
+  {
+    "id": "mad-el-escorial",
+    "city": "el-escorial",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "El Escorial — el panteón de los reyes",
+      "en": "El Escorial — the kings' pantheon",
+      "fr": "L'Escorial — le panthéon des rois"
+    },
+    "desc": {
+      "es": "El edificio renacentista más importante de España — monasterio, palacio y necrópolis real en uno. Felipe II lo construyó para que fuera el centro del universo español. Uno de los más fascinantes del mundo.",
+      "en": "Spain's most important Renaissance building — monastery, palace and royal necropolis in one. Philip II built it to be the centre of the Spanish universe. One of the world's most fascinating.",
+      "fr": "Le plus important édifice de la Renaissance espagnole — monastère, palais et nécropole royale en un."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "iconic",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "mad-retiro",
+    "city": "madrid",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "El Retiro — el parque de Madrid",
+      "en": "El Retiro — Madrid's park",
+      "fr": "Le Retiro — le parc de Madrid"
+    },
+    "desc": {
+      "es": "El jardín más grande del centro de Madrid — 118 hectáreas de árboles centenarios, el estanque central y el Palacio de Cristal. Los madrileños vienen aquí cada domingo. Patrimonio UNESCO desde 2021.",
+      "en": "Madrid's largest central garden — 118 hectares of centuries-old trees, the central lake and the Palacio de Cristal. Madrileños come here every Sunday. UNESCO heritage since 2021.",
+      "fr": "Le plus grand jardin du centre de Madrid — 118 hectares, lac central et Palacio de Cristal."
+    },
+    "tags": [
+      "nature",
+      "local",
+      "relax",
+      "culture",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "mad-navacerrada",
+    "city": "navacerrada",
+    "destination": "madrid-naturaleza",
+    "name": {
+      "es": "Puerto de Navacerrada — la sierra más accesible de Europa",
+      "en": "Navacerrada Pass — Europe's most accessible sierra",
+      "fr": "Port de Navacerrada — la sierra la plus accessible d'Europe"
+    },
+    "desc": {
+      "es": "A 50km de Madrid, a 1.858m de altitud — robles centenarios, nieve en invierno, senderismo en verano. El tren de la Naturaleza llega directamente desde Cercanías. El Chalet de Navacerrada tiene la mejor caldereta serrana.",
+      "en": "50km from Madrid, at 1,858m altitude — centuries-old oaks, snow in winter, hiking in summer. The Cercanías train arrives directly. Chalet de Navacerrada has the best mountain stew.",
+      "fr": "À 50km de Madrid, à 1.858m d'altitude — chênes centenaires, neige en hiver, randonnée en été."
+    },
+    "tags": [
+      "nature",
+      "local",
+      "walk",
+      "adventure"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "ss-parte-vieja",
+    "city": "san-sebastian",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Parte Vieja — la ruta de pintxos",
+      "en": "Parte Vieja — the pintxos route",
+      "fr": "Vieille Ville — la route des pintxos"
+    },
+    "desc": {
+      "es": "La Parte Vieja de San Sebastián tiene la mayor concentración de bares de pintxos por metro cuadrado del mundo. El ritual es ir de bar en bar, pidiendo una ronda en cada uno. Calle 31 de Agosto y Fermín Calbetón son las mejores.",
+      "en": "San Sebastián's Parte Vieja has the world's highest concentration of pintxos bars per square metre. The ritual is bar-hopping, ordering one round at each. Calle 31 de Agosto and Fermín Calbetón are the best.",
+      "fr": "La Vieille Ville de Saint-Sébastien a la plus haute concentration de bars à pintxos au monde."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "iconic",
+      "culture",
+      "nightlife"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 25,
+    "iconic": true
+  },
+  {
+    "id": "ss-la-concha",
+    "city": "san-sebastian",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Playa de La Concha — la mejor playa urbana de Europa",
+      "en": "La Concha beach — Europe's best urban beach",
+      "fr": "Plage de La Concha — la meilleure plage urbaine d'Europe"
+    },
+    "desc": {
+      "es": "Una bahía perfecta en forma de concha a 5 minutos del centro histórico. Las vistas desde el Monte Igueldo o desde el paseo marítimo son la imagen más elegante de la España atlántica.",
+      "en": "A perfect shell-shaped bay 5 minutes from the historic centre. The views from Monte Igueldo or from the seafront promenade are the most elegant image of Atlantic Spain.",
+      "fr": "Une baie parfaite en forme de coquille à 5 minutes du centre historique."
+    },
+    "tags": [
+      "nature",
+      "iconic",
+      "views",
+      "walk",
+      "relax"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "ss-guggenheim",
+    "city": "bilbao",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Guggenheim Bilbao — el efecto Bilbao",
+      "en": "Guggenheim Bilbao — the Bilbao effect",
+      "fr": "Guggenheim Bilbao — l'effet Bilbao"
+    },
+    "desc": {
+      "es": "El edificio más influyente de los últimos 30 años — Frank Gehry transformó una ciudad industrial decadente en destino cultural mundial. El titanio curvo sobre la ría del Nervión es una de las imágenes arquitectónicas más reconocibles del mundo.",
+      "en": "The most influential building of the last 30 years — Frank Gehry transformed a decaying industrial city into a world cultural destination. The curved titanium over the Nervión estuary is one of the world's most recognisable architectural images.",
+      "fr": "Le bâtiment le plus influent des 30 dernières années — Frank Gehry a transformé une ville industrielle décadente en destination culturelle mondiale."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "architecture",
+      "art"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 18,
+    "book_ahead": false,
+    "iconic": true
+  },
+  {
+    "id": "ss-costa-vasca",
+    "city": "getaria",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Costa vasca — Getaria y Zarautz",
+      "en": "Basque coast — Getaria and Zarautz",
+      "fr": "Côte basque — Getaria et Zarautz"
+    },
+    "desc": {
+      "es": "La costa más hermosa del Cantábrico — acantilados verdes, pueblos de pescadores y txakoli (vino blanco espumoso vasco) servido desde altura. Getaria es el pueblo natal de Cristóbal Balenciaga.",
+      "en": "The most beautiful coast on the Bay of Biscay — green cliffs, fishing villages and txakoli (Basque sparkling white wine) poured from height. Getaria is Cristóbal Balenciaga's birthplace.",
+      "fr": "La plus belle côte du Cantabrique — falaises vertes, villages de pêcheurs et txakoli servi de hauteur."
+    },
+    "tags": [
+      "nature",
+      "foodie",
+      "local",
+      "culture",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "ss-monte-igueldo",
+    "city": "san-sebastian",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Monte Igueldo — la panorámica de San Sebastián",
+      "en": "Monte Igueldo — San Sebastián's panorama",
+      "fr": "Monte Igueldo — le panorama de Saint-Sébastien"
+    },
+    "desc": {
+      "es": "El teleférico sube al monte que domina la bahía de La Concha. La vista de la ciudad, el mar y el monte Urgull desde arriba es la más completa de San Sebastián.",
+      "en": "The funicular rises to the mount dominating La Concha bay. The view of the city, sea and Monte Urgull from above is the most complete in San Sebastián.",
+      "fr": "Le funiculaire monte au mont dominant la baie de La Concha."
+    },
+    "tags": [
+      "views",
+      "iconic",
+      "local"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 4,
+    "iconic": false
+  },
+  {
+    "id": "ss-mercado-bretxa",
+    "city": "san-sebastian",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Mercado de La Bretxa — el desayuno vasco",
+      "en": "La Bretxa Market — the Basque breakfast",
+      "fr": "Marché de La Bretxa — le petit-déjeuner basque"
+    },
+    "desc": {
+      "es": "El mercado de la Parte Vieja con la mejor oferta de pintxos de mañana. El desayuno vasco — pintxos de tortilla y jamón con zumo de naranja y café con leche — es el mejor desayuno de España.",
+      "en": "The Parte Vieja market with the best morning pintxos. The Basque breakfast — tortilla and jamón pintxos with orange juice and café con leche — is Spain's best breakfast.",
+      "fr": "Le marché de la Vieille Ville avec les meilleurs pintxos du matin."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning"
+    ],
+    "duration_hours": 1.5,
+    "price_eur": 10,
+    "iconic": false
+  },
+  {
+    "id": "ss-san-telmo",
+    "city": "san-sebastian",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Museo San Telmo — identidad vasca",
+      "en": "San Telmo Museum — Basque identity",
+      "fr": "Musée San Telmo — identité basque"
+    },
+    "desc": {
+      "es": "El museo de historia y cultura vasca más completo — en un convento dominico del siglo XVI con una ampliación contemporánea extraordinaria. La colección sobre el euskera y la identidad vasca es única.",
+      "en": "The most complete museum of Basque history and culture — in a 16th-century Dominican convent with an extraordinary contemporary extension. The collection on the Basque language and identity is unique.",
+      "fr": "Le musée d'histoire et de culture basque le plus complet — dans un couvent dominicain du XVIe siècle."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "local"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 8,
+    "iconic": false
+  },
+  {
+    "id": "ss-txoko",
+    "city": "san-sebastian",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Cultura txoko — las sociedades gastronómicas vascas",
+      "en": "Txoko culture — Basque gastronomic societies",
+      "fr": "Culture txoko — les sociétés gastronomiques basques"
+    },
+    "desc": {
+      "es": "Los txokos son los clubes gastronómicos privados vascos — solo para socios, sin mujeres en algunos hasta hace poco. Son el secreto de la cultura culinaria vasca. Algunos organizan cenas para visitantes bajo reserva.",
+      "en": "Txokos are private Basque gastronomic clubs — members only, some without women until recently. They are the secret of Basque culinary culture. Some organise dinners for visitors by reservation.",
+      "fr": "Les txokos sont des clubs gastronomiques privés basques. Certains organisent des dîners pour les visiteurs."
+    },
+    "tags": [
+      "foodie",
+      "culture",
+      "local",
+      "iconic"
+    ],
+    "time_of_day": [
+      "evening"
+    ],
+    "duration_hours": 3,
+    "price_eur": 45,
+    "book_ahead": true,
+    "iconic": false
+  },
+  {
+    "id": "ss-hondarribia",
+    "city": "hondarribia",
+    "destination": "san-sebastian",
+    "name": {
+      "es": "Hondarribia — el pueblo medieval sobre el Bidasoa",
+      "en": "Hondarribia — the medieval village on the Bidasoa",
+      "fr": "Hondarribia — le village médiéval sur le Bidasoa"
+    },
+    "desc": {
+      "es": "El pueblo más pintoresco del País Vasco — murallas medievales del siglo XV, casas de madera pintadas de colores vivos y la mejor anchoa del Cantábrico. Frente a Hendaya francesa.",
+      "en": "The most picturesque village in the Basque Country — 15th-century medieval walls, colourful painted timber houses and the best anchovy on the Bay of Biscay. Facing French Hendaye.",
+      "fr": "Le village le plus pittoresque du Pays Basque — remparts médiévaux, maisons en bois colorées et la meilleure anchois du Cantabrique."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "local",
+      "foodie",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "als-estrasburgo",
+    "city": "estrasburgo",
+    "destination": "alsacia",
+    "name": {
+      "es": "Estrasburgo — La Petite France",
+      "en": "Strasbourg — La Petite France",
+      "fr": "Strasbourg — La Petite France"
+    },
+    "desc": {
+      "es": "El barrio de La Petite France — canales, molinos medievales y casas de entramado de madera — es el más fotografiado de Francia. La catedral de arenisca rosa dominó el skyline europeo durante 200 años.",
+      "en": "The La Petite France quarter — canals, medieval mills and timber-framed houses — is the most photographed in France. The pink sandstone cathedral dominated the European skyline for 200 years.",
+      "fr": "Le quartier de La Petite France — canaux, moulins médiévaux et maisons à colombages — est le plus photographié de France."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "walk",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "als-riquewihr",
+    "city": "riquewihr",
+    "destination": "alsacia",
+    "name": {
+      "es": "Riquewihr — el pueblo intacto de la Edad Media",
+      "en": "Riquewihr — the intact medieval village",
+      "fr": "Riquewihr — le village médiéval intact"
+    },
+    "desc": {
+      "es": "El pueblo mejor preservado de Alsacia — murallas medievales del siglo XIII, casas de entramado del siglo XVI y ningún edificio construido después de 1800. En plena Route des Vins.",
+      "en": "Alsace's best-preserved village — 13th-century medieval walls, 16th-century timber-framed houses and nothing built after 1800. Right on the Route des Vins.",
+      "fr": "Le village le mieux préservé d'Alsace — remparts médiévaux du XIIIe siècle et maisons à colombages du XVIe siècle."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "local",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "als-route-des-vins",
+    "city": "colmar",
+    "destination": "alsacia",
+    "name": {
+      "es": "Route des Vins — Riesling y Gewürztraminer",
+      "en": "Route des Vins — Riesling and Gewürztraminer",
+      "fr": "Route des Vins — Riesling et Gewürztraminer"
+    },
+    "desc": {
+      "es": "170km de viñedos entre Marlenheim y Thann — la ruta vinícola más bella de Francia. El Riesling alsaciano y el Gewürztraminer son los vinos más expresivos de Europa. Las bodegas familiares reciben sin cita.",
+      "en": "170km of vineyards between Marlenheim and Thann — France's most beautiful wine route. Alsatian Riesling and Gewürztraminer are Europe's most expressive wines. Family wineries receive without appointment.",
+      "fr": "170km de vignobles — la plus belle route des vins de France."
+    },
+    "tags": [
+      "foodie",
+      "nature",
+      "local",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 5,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "als-colmar",
+    "city": "colmar",
+    "destination": "alsacia",
+    "name": {
+      "es": "Colmar — el pueblo de cuento de hadas",
+      "en": "Colmar — the fairytale town",
+      "fr": "Colmar — la ville de conte de fées"
+    },
+    "desc": {
+      "es": "El casco histórico más fotogénico de Francia — canales con casas de madera reflejándose en el agua, el barrio de La Petite Venise y el Retablo de Isenheim de Grünewald en el museo.",
+      "en": "France's most photogenic historic centre — canals with timber houses reflected in the water, the Petite Venise quarter and Grünewald's Isenheim Altarpiece in the museum.",
+      "fr": "Le centre historique le plus photogénique de France — canaux avec maisons à colombages reflétées dans l'eau."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "walk",
+      "photo"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "als-choucroute",
+    "city": "estrasburgo",
+    "destination": "alsacia",
+    "name": {
+      "es": "Choucroute garnie — la cocina alsaciana",
+      "en": "Choucroute garnie — Alsatian cooking",
+      "fr": "Choucroute garnie — la cuisine alsacienne"
+    },
+    "desc": {
+      "es": "La choucroute garnie — chucrut con tres tipos de cerdo, salchicha y patatas — es el plato más contundente de Francia. En una winstub tradicional de Estrasburgo con un Pinot Gris alsaciano.",
+      "en": "Choucroute garnie — sauerkraut with three types of pork, sausage and potatoes — is France's most hearty dish. In a traditional Strasbourg winstub with an Alsatian Pinot Gris.",
+      "fr": "La choucroute garnie est le plat le plus copieux de France. Dans une winstub traditionnelle de Strasbourg."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 22,
+    "iconic": false
+  },
+  {
+    "id": "als-mont-sainte-odile",
+    "city": "mont-sainte-odile",
+    "destination": "alsacia",
+    "name": {
+      "es": "Mont Sainte-Odile — el muro pagano",
+      "en": "Mont Sainte-Odile — the pagan wall",
+      "fr": "Mont Sainte-Odile — le mur païen"
+    },
+    "desc": {
+      "es": "El monte sagrado de Alsacia — un monasterio del siglo VII sobre un acantilado de arenisca roja, rodeado por el Muro Pagano (10km de muralla de origen desconocido). Vistas sobre los Vosgos y la llanura del Rin.",
+      "en": "Alsace's sacred mountain — a 7th-century monastery on a red sandstone cliff, surrounded by the Pagan Wall (10km of wall of unknown origin). Views over the Vosges and Rhine plain.",
+      "fr": "La montagne sacrée d'Alsace — un monastère du VIIe siècle sur une falaise de grès rouge."
+    },
+    "tags": [
+      "culture",
+      "nature",
+      "history",
+      "walk",
+      "views",
+      "spiritual"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "als-eguisheim",
+    "city": "eguisheim",
+    "destination": "alsacia",
+    "name": {
+      "es": "Eguisheim — el pueblo más bonito de Francia 2013",
+      "en": "Eguisheim — France's most beautiful village 2013",
+      "fr": "Eguisheim — plus beau village de France 2013"
+    },
+    "desc": {
+      "es": "El pueblo circular medieval donde nació el Papa León IX — las calles concéntricas de casas de entramado de madera multicolor son de los más bonitos de Europa. Menos visitado que Riquewihr.",
+      "en": "The medieval circular village where Pope Leo IX was born — the concentric streets of multicoloured timber-framed houses are among Europe's most beautiful. Less visited than Riquewihr.",
+      "fr": "Le village médiéval circulaire où est né le Pape Léon IX — les rues concentriques de maisons à colombages multicolores."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "local",
+      "walk",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "als-kaysersberg",
+    "city": "kaysersberg",
+    "destination": "alsacia",
+    "name": {
+      "es": "Kaysersberg — el pueblo de Albert Schweitzer",
+      "en": "Kaysersberg — Albert Schweitzer's village",
+      "fr": "Kaysersberg — le village d'Albert Schweitzer"
+    },
+    "desc": {
+      "es": "El pueblo natal del Premio Nobel Albert Schweitzer — con el castillo medieval más completo de Alsacia, la iglesia del siglo XV y el río Weiss atravesando el casco histórico.",
+      "en": "Nobel Prize winner Albert Schweitzer's birthplace — with Alsace's most complete medieval castle, a 15th-century church and the Weiss river crossing the historic centre.",
+      "fr": "Le village natal du Prix Nobel Albert Schweitzer — avec le château médiéval le plus complet d'Alsace."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "local",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "als-brezel-flammkuchen",
+    "city": "colmar",
+    "destination": "alsacia",
+    "name": {
+      "es": "Flammkuchen y bretzel — las tapas alsacianas",
+      "en": "Flammkuchen and bretzel — Alsatian tapas",
+      "fr": "Flammkuchen et bretzel — les tapas alsaciennes"
+    },
+    "desc": {
+      "es": "El Flammkuchen (tarte flambée) — masa finísima con crème fraîche, lardons y cebolla, cocido en horno de leña — es la mejor comida rápida del mundo. El bretzel recién hecho a €0.80 es el desayuno alsaciano por excelencia.",
+      "en": "Flammkuchen (tarte flambée) — thin dough with crème fraîche, lardons and onion, cooked in a wood oven — is the world's best fast food. A freshly baked bretzel at €0.80 is the Alsatian breakfast par excellence.",
+      "fr": "Le Flammkuchen — pâte très fine avec crème fraîche, lardons et oignon — est la meilleure restauration rapide du monde."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "iconic",
+      "culture"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 1,
+    "price_eur": 12,
+    "iconic": false
+  },
+  {
+    "id": "per-lascaux",
+    "city": "les-eyzies",
+    "destination": "perigord",
+    "name": {
+      "es": "Lascaux IV — el arte rupestre más importante del mundo",
+      "en": "Lascaux IV — the world's most important cave art",
+      "fr": "Lascaux IV — l'art rupestre le plus important du monde"
+    },
+    "desc": {
+      "es": "Las pinturas de Lascaux — 17.000 años de antigüedad — son el punto de partida del arte occidental. La cueva original está cerrada para preservación desde 1963. La réplica de Lascaux IV (2016) reproduce cada trazo con precisión milimétrica.",
+      "en": "Lascaux's paintings — 17,000 years old — are the starting point of Western art. The original cave has been closed for preservation since 1963. The Lascaux IV replica (2016) reproduces every stroke with millimetre precision.",
+      "fr": "Les peintures de Lascaux — 17.000 ans d'ancienneté — sont le point de départ de l'art occidental."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "art",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 20,
+    "book_ahead": true,
+    "iconic": true
+  },
+  {
+    "id": "per-sarlat",
+    "city": "sarlat",
+    "destination": "perigord",
+    "name": {
+      "es": "Sarlat-la-Canéda — la capital del Périgord Negro",
+      "en": "Sarlat-la-Canéda — the Black Périgord capital",
+      "fr": "Sarlat-la-Canéda — la capitale du Périgord Noir"
+    },
+    "desc": {
+      "es": "El casco medieval mejor preservado del sudoeste francés — casas de piedra caliza del siglo XV sin una sola modificación moderna. El mercado del sábado con foie gras, nueces, trufas y fresas es de los mejores de Francia.",
+      "en": "The best-preserved medieval centre in southwest France — 15th-century limestone houses with not a single modern modification. The Saturday market with foie gras, walnuts, truffles and strawberries is among France's best.",
+      "fr": "Le centre médiéval le mieux préservé du sud-ouest français — maisons en calcaire du XVe siècle sans une seule modification moderne."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "walk",
+      "foodie"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "per-beynac",
+    "city": "beynac",
+    "destination": "perigord",
+    "name": {
+      "es": "Beynac — el castillo sobre el acantilado",
+      "en": "Beynac — the castle on the cliff",
+      "fr": "Beynac — le château sur la falaise"
+    },
+    "desc": {
+      "es": "El castillo más espectacular del Périgord — encaramado a 150m sobre el Dordoña. El río visto desde las almenas, con los otros castillos medievales visibles en ambas direcciones, es una imagen que no tiene igual en Francia.",
+      "en": "The Périgord's most spectacular castle — perched 150m above the Dordogne. The river seen from the battlements, with other medieval castles visible in both directions, is an image with no equal in France.",
+      "fr": "Le château le plus spectaculaire du Périgord — perché à 150m au-dessus de la Dordogne."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "views"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 3,
+    "price_eur": 9,
+    "iconic": true
+  },
+  {
+    "id": "per-rocamadour",
+    "city": "rocamadour",
+    "destination": "perigord",
+    "name": {
+      "es": "Rocamadour — el santuario en el acantilado",
+      "en": "Rocamadour — the cliff sanctuary",
+      "fr": "Rocamadour — le sanctuaire dans la falaise"
+    },
+    "desc": {
+      "es": "Un santuario medieval construido literalmente en la pared de un acantilado — la iglesia, el castillo y el pueblo en pisos horizontales sobre el vacío. El lugar de peregrinación más sorprendente de Francia.",
+      "en": "A medieval sanctuary literally built into a cliff face — the church, castle and village in horizontal tiers over the void. France's most surprising pilgrimage site.",
+      "fr": "Un sanctuaire médiéval littéralement construit dans une falaise — l'église, le château et le village en niveaux horizontaux au-dessus du vide."
+    },
+    "tags": [
+      "culture",
+      "iconic",
+      "history",
+      "architecture",
+      "spiritual"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
+    "iconic": true
+  },
+  {
+    "id": "per-canoe-dordogne",
+    "city": "sarlat",
+    "destination": "perigord",
+    "name": {
+      "es": "Canoa por el Dordoña",
+      "en": "Canoeing the Dordogne",
+      "fr": "Canoë sur la Dordogne"
+    },
+    "desc": {
+      "es": "El río Dordoña se puede descender en canoa entre castillos medievales — Beynac, Castelnaud, La Roque-Gageac. El tramo Cénac-Beynac (14km, 3h) es el más bello.",
+      "en": "The Dordogne river can be canoed between medieval castles — Beynac, Castelnaud, La Roque-Gageac. The Cénac-Beynac section (14km, 3h) is the most beautiful.",
+      "fr": "La rivière Dordogne se descend en canoë entre châteaux médiévaux. Le tronçon Cénac-Beynac (14km, 3h) est le plus beau."
+    },
+    "tags": [
+      "adventure",
+      "nature",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 18,
+    "iconic": false
+  },
+  {
+    "id": "per-foie-gras",
+    "city": "sarlat",
+    "destination": "perigord",
+    "name": {
+      "es": "Foie gras y trufa negra — la cocina del Périgord",
+      "en": "Foie gras and black truffle — Périgord cooking",
+      "fr": "Foie gras et truffe noire — la cuisine du Périgord"
+    },
+    "desc": {
+      "es": "El Périgord es la capital mundial del foie gras y la trufa negra (Tuber melanosporum). El magret de canard a la sarteneja, el confit de pato y la salade périgourdine son los pilares de una cocina de producto sin igual.",
+      "en": "The Périgord is the world capital of foie gras and black truffle (Tuber melanosporum). Magret de canard, duck confit and salade périgourdine are the pillars of an unrivalled produce-based cuisine.",
+      "fr": "Le Périgord est la capitale mondiale du foie gras et de la truffe noire."
+    },
+    "tags": [
+      "foodie",
+      "local",
+      "culture",
+      "iconic"
+    ],
+    "time_of_day": [
+      "afternoon",
+      "evening"
+    ],
+    "duration_hours": 2,
+    "price_eur": 35,
+    "iconic": true
+  },
+  {
+    "id": "per-eyzies",
+    "city": "les-eyzies",
+    "destination": "perigord",
+    "name": {
+      "es": "Les Eyzies — la capital mundial de la prehistoria",
+      "en": "Les Eyzies — the world capital of prehistory",
+      "fr": "Les Eyzies — la capitale mondiale de la préhistoire"
+    },
+    "desc": {
+      "es": "Más de 200 yacimientos prehistóricos en un radio de 25km — el mayor del mundo. El Musée National de Préhistoire está excavado en la roca viva. La Font-de-Gaume todavía tiene pinturas rupestres originales accesibles.",
+      "en": "More than 200 prehistoric sites within 25km — the world's largest. The Musée National de Préhistoire is carved from living rock. Font-de-Gaume still has accessible original cave paintings.",
+      "fr": "Plus de 200 gisements préhistoriques dans un rayon de 25km — le plus grand au monde."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "iconic",
+      "UNESCO"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 12,
+    "book_ahead": true,
+    "iconic": false
+  },
+  {
+    "id": "per-la-roque-gageac",
+    "city": "la-roque-gageac",
+    "destination": "perigord",
+    "name": {
+      "es": "La Roque-Gageac — el pueblo en el acantilado",
+      "en": "La Roque-Gageac — the cliff village",
+      "fr": "La Roque-Gageac — le village dans la falaise"
+    },
+    "desc": {
+      "es": "Un pueblo medieval construido literalmente bajo un acantilado, a orillas del Dordoña. El microclima cálido permite que crezcan palmeras y bambú — inexplicable en esta latitud. Uno de los 'Plus Beaux Villages de France'.",
+      "en": "A medieval village literally built beneath a cliff, on the banks of the Dordogne. The warm microclimate allows palms and bamboo to grow — inexplicable at this latitude. One of the 'Plus Beaux Villages de France'.",
+      "fr": "Un village médiéval littéralement construit sous une falaise, au bord de la Dordogne."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "local",
+      "views",
+      "iconic"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 2,
+    "price_eur": 0,
+    "iconic": false
+  },
+  {
+    "id": "per-perigueux",
+    "city": "perigueux",
+    "destination": "perigord",
+    "name": {
+      "es": "Périgueux — la catedral bizantine en Francia",
+      "en": "Périgueux — the Byzantine cathedral in France",
+      "fr": "Périgueux — la cathédrale byzantine en France"
+    },
+    "desc": {
+      "es": "La Cathédrale Saint-Front — con cinco cúpulas bizantinas inspiradas en Santa Sofía y San Marcos — es la catedral más inesperada de Francia. El casco galo-romano y la ciudad medieval son igualmente sorprendentes.",
+      "en": "The Cathédrale Saint-Front — with five Byzantine domes inspired by Hagia Sophia and St Mark's — is France's most unexpected cathedral. The Gallo-Roman centre and medieval city are equally surprising.",
+      "fr": "La Cathédrale Saint-Front — avec cinq coupoles byzantines inspirées de Sainte-Sophie — est la cathédrale la plus inattendue de France."
+    },
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "iconic",
+      "walk"
+    ],
+    "time_of_day": [
+      "morning",
+      "afternoon"
+    ],
+    "duration_hours": 4,
+    "price_eur": 0,
     "iconic": false
   }
 ]

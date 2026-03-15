@@ -272,5 +272,643 @@
       12
     ],
     "proximityScore": 6
+  },
+  {
+    "slug": "dolomitas",
+    "name": "Dolomitas",
+    "country": "Italia",
+    "region": "Europa",
+    "proximity": "nearby",
+    "type": "nature",
+    "avgCostPerDay": 130,
+    "idealDays": [
+      5,
+      10
+    ],
+    "proximityScore": 7,
+    "tripTypes": [
+      "nature",
+      "adventure",
+      "cultural",
+      "relaxed"
+    ],
+    "highlight": "Agujas de roca rosada al atardecer, valles sin coches y una gastronomía entre Austria e Italia.",
+    "transport": {
+      "system": "Coche + senderismo",
+      "description": "Imprescindible el coche para moverse entre valles. Los Passes (Sella, Gardena, Pordoi) son carreteras de montaña espectaculares. En verano algunos cierran al tráfico — consulta antes.",
+      "airportTransfer": "Vuelo a Venecia (VCE) o Bolzano (BZO). Desde Venecia, 2h30 en coche."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Ortisei / St. Ulrich",
+        "pricePerNight": 70
+      },
+      {
+        "type": "mid",
+        "zone": "Corvara / Alta Badia",
+        "pricePerNight": 140
+      },
+      {
+        "type": "luxury",
+        "zone": "Cortina d'Ampezzo",
+        "pricePerNight": 320
+      }
+    ]
+  },
+  {
+    "slug": "azores",
+    "name": "Azores",
+    "country": "Portugal",
+    "region": "Atlántico",
+    "proximity": "nearby",
+    "type": "nature",
+    "avgCostPerDay": 90,
+    "idealDays": [
+      6,
+      10
+    ],
+    "proximityScore": 8,
+    "tripTypes": [
+      "nature",
+      "adventure",
+      "relaxed"
+    ],
+    "highlight": "Volcanes activos, lagos en cráteres, ballenas y una calma atlántica que no existe en ningún otro lugar de Europa.",
+    "transport": {
+      "system": "Coche de alquiler",
+      "description": "Cada isla requiere coche. São Miguel se puede hacer en 3-4 días completos. Para islas múltiples, los ferries SATA Linhas Aéreas conectan el archipiélago.",
+      "airportTransfer": "Vuelo directo a Ponta Delgada (PDL) desde Lisboa en 2h20."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Ponta Delgada centro",
+        "pricePerNight": 55
+      },
+      {
+        "type": "mid",
+        "zone": "Furnas / interior",
+        "pricePerNight": 95
+      },
+      {
+        "type": "luxury",
+        "zone": "Ribeira Grande",
+        "pricePerNight": 220
+      }
+    ]
+  },
+  {
+    "slug": "islandia",
+    "name": "Islandia",
+    "country": "Islandia",
+    "region": "Europa del Norte",
+    "proximity": "far",
+    "type": "nature",
+    "avgCostPerDay": 200,
+    "idealDays": [
+      7,
+      14
+    ],
+    "proximityScore": 4,
+    "tripTypes": [
+      "nature",
+      "adventure"
+    ],
+    "highlight": "Géiseres, auroras boreales, glaciares y carreteras de lava negra que terminan en el fin del mundo.",
+    "transport": {
+      "system": "Coche 4x4 de alquiler",
+      "description": "La Ring Road (Route 1) circunvala toda la isla — 1.332km. Para el interior (Highlands) necesitas un 4x4. Conducción por la izquierda.",
+      "airportTransfer": "Vuelo a Keflavík (KEF). Bus Flybus a Reikiavik: 45 min."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Reikiavik albergues",
+        "pricePerNight": 80
+      },
+      {
+        "type": "mid",
+        "zone": "Guesthouses Ring Road",
+        "pricePerNight": 170
+      },
+      {
+        "type": "luxury",
+        "zone": "Lodges del sur glacial",
+        "pricePerNight": 380
+      }
+    ]
+  },
+  {
+    "slug": "lanzarote",
+    "name": "Lanzarote",
+    "country": "España",
+    "region": "Canarias",
+    "proximity": "nearby",
+    "type": "nature",
+    "avgCostPerDay": 95,
+    "idealDays": [
+      5,
+      9
+    ],
+    "proximityScore": 9,
+    "tripTypes": [
+      "nature",
+      "cultural",
+      "relaxed"
+    ],
+    "highlight": "Paisaje lunar de lava negra, arquitectura de César Manrique integrada en la tierra y vinos volcánicos únicos en el mundo.",
+    "transport": {
+      "system": "Coche de alquiler",
+      "description": "Imprescindible para moverse entre el norte (Jameos del Agua) y el sur (Timanfaya). La isla se recorre en 3 días con coche.",
+      "airportTransfer": "Vuelo a Arrecife (ACE). Coche desde el aeropuerto — 10 min al centro."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Arrecife / Tías",
+        "pricePerNight": 55
+      },
+      {
+        "type": "mid",
+        "zone": "Haría / norte de la isla",
+        "pricePerNight": 100
+      },
+      {
+        "type": "luxury",
+        "zone": "Playa Blanca",
+        "pricePerNight": 220
+      }
+    ]
+  },
+  {
+    "slug": "gran-canaria",
+    "name": "Gran Canaria",
+    "country": "España",
+    "region": "Canarias",
+    "proximity": "nearby",
+    "type": "nature",
+    "avgCostPerDay": 90,
+    "idealDays": [
+      5,
+      9
+    ],
+    "proximityScore": 9,
+    "tripTypes": [
+      "nature",
+      "cultural",
+      "relaxed",
+      "adventure"
+    ],
+    "highlight": "Un continente en miniatura — dunas de arena, barrancos profundos, cumbres de 2.000m y una ciudad colonial que pocos esperan.",
+    "transport": {
+      "system": "Coche de alquiler",
+      "description": "Coche imprescindible para el interior. Las carreteras de los barrancos (GC-60, GC-21) son de las más espectaculares de Europa.",
+      "airportTransfer": "Vuelo a Las Palmas (LPA). Coche desde el aeropuerto — 20 min al centro."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Las Palmas centro",
+        "pricePerNight": 50
+      },
+      {
+        "type": "mid",
+        "zone": "Tejeda / interior",
+        "pricePerNight": 95
+      },
+      {
+        "type": "luxury",
+        "zone": "Agaete / noroeste",
+        "pricePerNight": 200
+      }
+    ]
+  },
+  {
+    "slug": "costa-brava",
+    "name": "Costa Brava",
+    "country": "España",
+    "region": "Cataluña",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 110,
+    "idealDays": [
+      5,
+      9
+    ],
+    "proximityScore": 8,
+    "tripTypes": [
+      "cultural",
+      "relaxed",
+      "nature",
+      "food"
+    ],
+    "highlight": "Calas de agua turquesa entre pinos, pueblos medievales en lo alto y la gastronomía más honesta del Mediterráneo.",
+    "transport": {
+      "system": "Coche de alquiler",
+      "description": "La ruta natural es de Girona hacia el norte hasta Cap de Creus. Las carreteras de cornisa son lentas pero extraordinarias.",
+      "airportTransfer": "Vuelo a Girona (GRO) o Barcelona (BCN). Desde Barcelona, 1h30 en coche hasta Tossa de Mar."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Girona ciudad",
+        "pricePerNight": 65
+      },
+      {
+        "type": "mid",
+        "zone": "Begur / Palafrugell",
+        "pricePerNight": 120
+      },
+      {
+        "type": "luxury",
+        "zone": "Cadaqués",
+        "pricePerNight": 260
+      }
+    ]
+  },
+  {
+    "slug": "galicia",
+    "name": "Galicia",
+    "country": "España",
+    "region": "Noroeste ibérico",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 85,
+    "idealDays": [
+      6,
+      10
+    ],
+    "proximityScore": 7,
+    "tripTypes": [
+      "cultural",
+      "nature",
+      "food",
+      "relaxed"
+    ],
+    "highlight": "Rías profundas, faro del fin del mundo, pulpo de Carballiño y una arquitectura de granito que parece crecer del suelo.",
+    "transport": {
+      "system": "Coche de alquiler",
+      "description": "La ruta natural: Santiago → Rías Baixas → Costa da Morte → Rías Altas. Las carreteras costeras son de las más hermosas de Europa.",
+      "airportTransfer": "Vuelo a Santiago de Compostela (SCQ) o Vigo (VGO). Coche imprescindible desde el primer día."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Santiago casco histórico",
+        "pricePerNight": 55
+      },
+      {
+        "type": "mid",
+        "zone": "Cambados / Rías Baixas",
+        "pricePerNight": 90
+      },
+      {
+        "type": "luxury",
+        "zone": "Baiona / Pontevedra",
+        "pricePerNight": 190
+      }
+    ]
+  },
+  {
+    "slug": "valle-del-loira",
+    "name": "Valle del Loira",
+    "country": "Francia",
+    "region": "Centro-Oeste de Francia",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 120,
+    "idealDays": [
+      5,
+      8
+    ],
+    "proximityScore": 7,
+    "tripTypes": [
+      "cultural",
+      "relaxed",
+      "food"
+    ],
+    "highlight": "El jardín de Francia — castillos renacentistas, vinos de Sancerre y Vouvray, y ciclismo entre viñedos.",
+    "transport": {
+      "system": "Coche o bicicleta",
+      "description": "La Loire à Vélo es una ruta ciclista de 900km perfectamente señalizada. En coche, la ruta natural es Tours → Amboise → Blois → Chambord → Chinon.",
+      "airportTransfer": "Vuelo a Tours (TUF) o París (CDG). Desde París, 1h en TGV a Tours."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Tours ciudad",
+        "pricePerNight": 65
+      },
+      {
+        "type": "mid",
+        "zone": "Amboise / troglodyte",
+        "pricePerNight": 115
+      },
+      {
+        "type": "luxury",
+        "zone": "Châteaux hôtels",
+        "pricePerNight": 280
+      }
+    ]
+  },
+  {
+    "slug": "bretana",
+    "name": "Costa norte de Bretaña",
+    "country": "Francia",
+    "region": "Bretaña",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 100,
+    "idealDays": [
+      5,
+      8
+    ],
+    "proximityScore": 6,
+    "tripTypes": [
+      "nature",
+      "cultural",
+      "relaxed",
+      "food"
+    ],
+    "highlight": "Megalitos de 5.000 años, acantilados rosas, crêpes de trigo negro y el mar más salvaje de Europa occidental.",
+    "transport": {
+      "system": "Coche de alquiler",
+      "description": "La GR34 — el sendero costero — recorre toda la costa norte a pie. En coche: Saint-Malo → Dinard → Cap Fréhel → Perros-Guirec → Brest.",
+      "airportTransfer": "Vuelo a Rennes (RNS) o Brest (BES). Desde Rennes, 1h en coche hasta Saint-Malo."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Saint-Malo intramuros",
+        "pricePerNight": 60
+      },
+      {
+        "type": "mid",
+        "zone": "Tréguier / Paimpol",
+        "pricePerNight": 105
+      },
+      {
+        "type": "luxury",
+        "zone": "Perros-Guirec",
+        "pricePerNight": 210
+      }
+    ]
+  },
+  {
+    "slug": "pirineo",
+    "name": "Pirineo",
+    "country": "España / Francia",
+    "region": "Pirineos",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 100,
+    "idealDays": [
+      6,
+      10
+    ],
+    "proximityScore": 7,
+    "tripTypes": [
+      "nature",
+      "adventure",
+      "cultural",
+      "relaxed"
+    ],
+    "highlight": "Valles sin asfaltar, pueblos románicos del siglo XI y cumbres de 3.000m que se bajan a pie hasta lagos de color esmeralda.",
+    "transport": {
+      "system": "Coche de alquiler + senderismo",
+      "description": "La ruta natural por el lado español: Jaca → Hecho → Ansó → Ordesa → Ainsa → Valle de Benasque. Por el francés: Pau → Gavarnie → Luz-Saint-Sauveur.",
+      "airportTransfer": "Vuelo a Zaragoza (ZAZ), Pamplona (PNA) o Pau (PUF)."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Jaca / Ainsa",
+        "pricePerNight": 55
+      },
+      {
+        "type": "mid",
+        "zone": "Hecho / Ansó / Benasque",
+        "pricePerNight": 95
+      },
+      {
+        "type": "luxury",
+        "zone": "Balnearios y lodges",
+        "pricePerNight": 200
+      }
+    ]
+  },
+  {
+    "slug": "baleares",
+    "name": "Baleares — Mallorca y Menorca",
+    "country": "España",
+    "region": "Mediterráneo occidental",
+    "proximity": "nearby",
+    "type": "nature",
+    "avgCostPerDay": 110,
+    "idealDays": [
+      5,
+      9
+    ],
+    "proximityScore": 9,
+    "tripTypes": [
+      "relaxed",
+      "cultural",
+      "nature",
+      "food"
+    ],
+    "highlight": "Sierra de Tramuntana en Mallorca, calas vírgenes de Menorca y pueblos de piedra que no han cambiado en 200 años.",
+    "transport": {
+      "system": "Coche de alquiler + ferry entre islas",
+      "description": "Mallorca: coche imprescindible para la Serra de Tramuntana (GR221). Menorca: coche para el Camí de Cavalls costero. Ferry Acciona entre islas.",
+      "airportTransfer": "Vuelo a Palma (PMI) o Menorca (MAH)."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Palma La Lonja",
+        "pricePerNight": 65
+      },
+      {
+        "type": "mid",
+        "zone": "Deià / Sóller",
+        "pricePerNight": 130
+      },
+      {
+        "type": "luxury",
+        "zone": "Binibeca / Menorca",
+        "pricePerNight": 280
+      }
+    ]
+  },
+  {
+    "slug": "madrid-naturaleza",
+    "name": "Madrid y entorno natural",
+    "country": "España",
+    "region": "Castilla",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 100,
+    "idealDays": [
+      4,
+      7
+    ],
+    "proximityScore": 8,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "nature"
+    ],
+    "highlight": "La mejor pinacoteca del mundo a 90 minutos de la sierra más accesible de Europa, con Segovia y Toledo de propina.",
+    "transport": {
+      "system": "Metro + Cercanías + coche",
+      "description": "Madrid ciudad: metro perfecto. Excursiones: Cercanías a El Escorial, Segovia y Toledo. Para la sierra (Pedriza, Navacerrada): coche o autobús interurbano.",
+      "airportTransfer": "Metro línea 8 desde Barajas (MAD) al centro — 30 min, €5."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Lavapiés / Malasaña",
+        "pricePerNight": 60
+      },
+      {
+        "type": "mid",
+        "zone": "Chueca / Barrio de las Letras",
+        "pricePerNight": 110
+      },
+      {
+        "type": "luxury",
+        "zone": "Salamanca / Retiro",
+        "pricePerNight": 260
+      }
+    ]
+  },
+  {
+    "slug": "san-sebastian",
+    "name": "San Sebastián y costa vasca",
+    "country": "España",
+    "region": "País Vasco",
+    "proximity": "nearby",
+    "type": "city",
+    "avgCostPerDay": 120,
+    "idealDays": [
+      4,
+      7
+    ],
+    "proximityScore": 8,
+    "tripTypes": [
+      "food",
+      "cultural",
+      "relaxed",
+      "nature"
+    ],
+    "highlight": "La ciudad con más estrellas Michelin por habitante del mundo, una playa urbana perfecta y una cultura que no pide permiso para existir.",
+    "transport": {
+      "system": "A pie + autobús + coche",
+      "description": "San Sebastián ciudad: perfectamente a pie. Costa vasca: autobús Lurraldebus o coche. Bilbao a 1h — imprescindible el Guggenheim.",
+      "airportTransfer": "Vuelo a San Sebastián (EAS) o Bilbao (BIO). Desde Bilbao, 1h en autobús directo."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Parte Vieja",
+        "pricePerNight": 70
+      },
+      {
+        "type": "mid",
+        "zone": "Gros / Ondarreta",
+        "pricePerNight": 130
+      },
+      {
+        "type": "luxury",
+        "zone": "La Concha frente al mar",
+        "pricePerNight": 290
+      }
+    ]
+  },
+  {
+    "slug": "alsacia",
+    "name": "Alsacia",
+    "country": "Francia",
+    "region": "Alsacia",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 110,
+    "idealDays": [
+      4,
+      7
+    ],
+    "proximityScore": 7,
+    "tripTypes": [
+      "cultural",
+      "food",
+      "relaxed"
+    ],
+    "highlight": "Pueblos de entramado de madera que parecen sacados de un cuento, Riesling y Gewürztraminer, y la catedral de Estrasburgo que dominó el skyline europeo durante 200 años.",
+    "transport": {
+      "system": "Coche o bicicleta",
+      "description": "La Route des Vins d'Alsace recorre 170km de Marlenheim a Thann. En bicicleta es plana y perfectamente señalizada. En coche, 3-4 días bastan.",
+      "airportTransfer": "Vuelo a Estrasburgo (SXB) o Basilea (BSL). Tren desde París en 2h10 (TGV)."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Colmar centro",
+        "pricePerNight": 65
+      },
+      {
+        "type": "mid",
+        "zone": "Riquewihr / Eguisheim",
+        "pricePerNight": 110
+      },
+      {
+        "type": "luxury",
+        "zone": "Estrasburgo La Petite France",
+        "pricePerNight": 230
+      }
+    ]
+  },
+  {
+    "slug": "perigord",
+    "name": "Périgord / Dordogne",
+    "country": "Francia",
+    "region": "Sudoeste de Francia",
+    "proximity": "nearby",
+    "type": "roadtrip",
+    "avgCostPerDay": 105,
+    "idealDays": [
+      5,
+      8
+    ],
+    "proximityScore": 6,
+    "tripTypes": [
+      "cultural",
+      "relaxed",
+      "food",
+      "nature"
+    ],
+    "highlight": "Prehistoria en Lascaux, castillos cátaros sobre acantilados, el río Dordogne en canoa y foie gras en cada pueblo.",
+    "transport": {
+      "system": "Coche de alquiler",
+      "description": "Coche imprescindible — el transporte público es casi inexistente. La ruta natural: Périgueux → Les Eyzies → Sarlat → Beynac → Rocamadour.",
+      "airportTransfer": "Vuelo a Bergerac (EGC) o Bordeaux (BOD). Desde Bordeaux, 1h30 en coche."
+    },
+    "accommodation": [
+      {
+        "type": "budget",
+        "zone": "Sarlat-la-Canéda",
+        "pricePerNight": 60
+      },
+      {
+        "type": "mid",
+        "zone": "Dommes / La Roque",
+        "pricePerNight": 100
+      },
+      {
+        "type": "luxury",
+        "zone": "Manoirs de Dordogne",
+        "pricePerNight": 240
+      }
+    ]
   }
 ]
