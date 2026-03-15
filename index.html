@@ -418,6 +418,60 @@ input::placeholder{color:var(--muted)}
 .summary-empty{font-size:.82rem;color:var(--muted);font-style:italic;padding:.4rem 0}
 
 
+
+/* ── EDITORIAL GUIDE SECTIONS ── */
+.guide-section{background:var(--white);border:1px solid var(--border);border-radius:var(--r-lg);
+  overflow:hidden;margin-bottom:1.5rem;box-shadow:var(--shadow)}
+.guide-section-title{font-family:var(--font-display);font-size:1rem;font-weight:600;
+  padding:1rem 1.5rem;border-bottom:1px solid var(--border);color:var(--ink);
+  background:var(--sand);letter-spacing:-.01em}
+
+/* Areas */
+.areas-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.8rem;padding:1.2rem 1.5rem}
+.area-card{background:var(--forest-pale);border:1px solid var(--forest-light);border-radius:var(--r);padding:.9rem 1rem}
+.area-name{font-weight:700;font-size:.88rem;color:var(--forest);margin-bottom:.3rem}
+.area-desc{font-size:.78rem;color:var(--ink2);line-height:1.55}
+
+/* Experiences */
+.exp-guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.9rem;padding:1.2rem 1.5rem}
+.exp-guide-card{border:1.5px solid var(--border);border-radius:var(--r);padding:1rem;
+  background:var(--white);display:flex;flex-direction:column;gap:.5rem;transition:border-color .15s}
+.exp-guide-card:hover{border-color:var(--forest-mid)}
+.exp-guide-top{display:flex;align-items:flex-start;gap:.5rem}
+.exp-guide-icon{font-size:1.1rem;flex-shrink:0;margin-top:.05rem}
+.exp-guide-name{flex:1;font-weight:700;font-size:.86rem;color:var(--ink);line-height:1.35}
+.exp-guide-price{font-size:.75rem;font-weight:700;color:var(--forest);white-space:nowrap}
+.exp-guide-desc{font-size:.78rem;color:var(--ink2);line-height:1.55;font-family:var(--font-prose);font-style:italic}
+.exp-guide-book{display:inline-flex;align-items:center;margin-top:.3rem;padding:.3rem .75rem;
+  border-radius:6px;background:var(--forest);color:#fff;font-size:.68rem;font-weight:700;
+  text-decoration:none;transition:background .14s;width:fit-content}
+.exp-guide-book:hover{background:var(--forest-mid)}
+
+/* Restaurants */
+.restaurants-list{padding:.5rem 1.5rem 1rem}
+.rest-row{display:flex;align-items:flex-start;gap:.75rem;padding:.75rem 0;
+  border-bottom:1px solid var(--border)}
+.rest-row:last-child{border-bottom:none}
+.rest-icon{font-size:1.2rem;flex-shrink:0;margin-top:.1rem}
+.rest-info{flex:1}
+.rest-name{font-weight:700;font-size:.86rem;color:var(--ink);margin-bottom:.2rem}
+.rest-price{font-size:.72rem;font-weight:600;color:var(--forest-mid);margin-left:.3rem}
+.rest-desc{font-size:.78rem;color:var(--ink2);line-height:1.5}
+
+/* Local transport */
+.local-transport-text{padding:1rem 1.5rem;font-family:var(--font-prose);font-size:.94rem;
+  color:var(--ink2);line-height:1.85;font-style:italic}
+
+/* Itinerary toggle */
+.itin-toggle-wrap{margin-bottom:1.5rem;text-align:center}
+.itin-toggle-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.5rem;
+  border:2px solid var(--border);border-radius:var(--r-lg);background:var(--white);
+  color:var(--ink2);font-size:.82rem;font-weight:700;cursor:pointer;transition:all .18s;
+  font-family:var(--font-body)}
+.itin-toggle-btn:hover{border-color:var(--forest-mid);color:var(--forest);background:var(--forest-pale)}
+.itin-toggle-sub{font-size:.7rem;color:var(--muted);font-style:italic;margin-top:.4rem}
+
+
 /* ── HOW TO GET THERE ── */
 .howto-grid{display:flex;flex-direction:column;gap:.5rem;margin-top:.8rem}
 .howto-row{display:grid;grid-template-columns:24px 80px 80px 1fr auto;align-items:center;gap:.7rem;
@@ -577,12 +631,19 @@ input::placeholder{color:var(--muted)}
   </div>
 
   <div class="itin-wrap" id="itinWrap">
+    <!-- EDITORIAL GUIDE -->
     <div id="itinIntro" class="itin-intro" style="display:none"></div>
     <div id="transportBlock"></div>
-    <div id="accomBlock"></div>
-    <div id="itinDays"></div>
+    <div id="areasBlock"></div>
+    <div id="experiencesBlock"></div>
     <div id="tipsBlock"></div>
+    <div id="restaurantsBlock"></div>
+    <div id="localTransportBlock"></div>
+    <div id="accomBlock"></div>
     <div id="costBlock"></div>
+    <!-- ITINERARY (collapsible) -->
+    <div id="itinToggleBlock"></div>
+    <div id="itinDays" style="display:none"></div>
     <div id="summaryBlock"></div>
     <div class="email-block" id="emailBlock">
       <div class="email-title" id="emailTitle">Recibe tu plan por email</div>
@@ -942,20 +1003,20 @@ function renderTrip(trip){
     introEl.style.display = 'none';
   }
 
-  // Transport
+  // ── EDITORIAL GUIDE ──
   renderTransport(trip.transport, trip.destination);
-
-  // Accommodation
+  renderAreas(trip.areas);
+  renderExperiences(trip.experiences, trip.destination);
+  renderTips(trip.local_tips || trip.tips);
+  renderRestaurants(trip.restaurants, trip.destination);
+  renderLocalTransport(trip.local_transport, trip.destination);
   renderAccom(trip.accommodation, trip.destination);
+  renderCost(trip.estimatedCost);
 
-  // Days
+  // ── ITINERARY (collapsible) ──
+  renderItinToggle(trip.itinerary);
   renderDays(trip.itinerary, trip.destination);
 
-  // Tips
-  renderTips(trip.tips);
-
-  // Cost
-  renderCost(trip.estimatedCost);
   renderSummary();
 }
 
@@ -1017,14 +1078,14 @@ function buildHowToGetThere(dist, dest, lang) {
   if (dist > 200) {
     const flightH  = dist < 800 ? '1h30–2h30' : dist < 3000 ? '2h30–4h' : '10–14h';
     const flightP  = dist < 800 ? '60–150' : dist < 3000 ? '120–300' : '400–800';
-    const flightUrl = `https://www.skyscanner.es/vuelos/${encodeURIComponent(dest.toLowerCase())}`;
+    const flightUrl = AFF.flight(dest);
     rows.push({icon:'✈️', label:{es:'Vuelo',en:'Flight',fr:'Vol'}, time:flightH, price:flightP, url:flightUrl, affType:'flight'});
   }
   // Train
   if (dist < 1200) {
     const trainH = dist < 300 ? '0h45–2h' : dist < 600 ? '2h–4h' : '4h–7h';
     const trainP = dist < 300 ? '15–40' : dist < 600 ? '30–90' : '60–140';
-    const trainUrl = `https://www.thetrainline.com/search?destination=${encodeURIComponent(dest)}`;
+    const trainUrl = AFF.train(dest);
     rows.push({icon:'🚂', label:{es:'Tren',en:'Train',fr:'Train'}, time:trainH, price:trainP, url:trainUrl, affType:'train'});
   }
   // Car
@@ -1048,7 +1109,7 @@ function buildHowToGetThere(dist, dest, lang) {
 function renderAccom(accom, dest){
   const el = document.getElementById('accomBlock');
   if(!accom?.length){ el.innerHTML=''; return; }
-  const BOOK_URL = `https://www.booking.com/search.html?ss=${encodeURIComponent(dest)}`;
+  const BOOK_URL = AFF.hotel(dest);
 
   const tierLabels = {
     budget:  {es:'Económico',    en:'Budget',      fr:'Économique'},
@@ -1061,7 +1122,7 @@ function renderAccom(accom, dest){
     const label = `🏨 ${tLabel} · ${a.zone} (~€${a.pricePerNight}/noche)`;
     const added = selectedActivities.some(x => x.id === id);
     // Affiliate hook — data-aff ready for Booking.com / Hotels.com partner links
-    const affUrl = `https://www.booking.com/search.html?ss=${encodeURIComponent(dest)}&price_min=${Math.round(a.pricePerNight*0.8)}&price_max=${Math.round(a.pricePerNight*1.2)}`;
+    const affUrl = AFF.hotel(dest);
     return `<div class="accom-row" id="acr-${id}" data-aff-type="hotel" data-aff-dest="${dest}">
       <div class="accom-tier-badge">${tLabel}</div>
       <span class="accom-zone">${a.zone}</span>
@@ -1144,7 +1205,7 @@ function buildSearchUrl(system, dest) {
   const s = (system||'').toLowerCase();
   const q = encodeURIComponent(dest);
   if (/train|tren|rail|rer|shinkansen/.test(s)) return `https://www.thetrainline.com/search?destination=${q}`;
-  if (/car|coche|voiture|rent/.test(s))          return `https://www.rentalcars.com/?destinationName=${q}`;
+  if (/car|coche|voiture|rent/.test(s))          return AFF.car(q);
   if (/flight|vuelo|avion|fly/.test(s))          return `https://www.skyscanner.es/vuelos/${q}`;
   return `https://www.rome2rio.com/s/${q}`;
 }
@@ -1310,6 +1371,155 @@ function removeFromSummary(id) {
   if (id.startsWith('hotel')) toggleAccom(id, item.label);
   else if (id.startsWith('transport') || document.getElementById('tco-'+id)) toggleTransport(id, item.label, item.icon);
   else toggleActivity(id, item.label, item.day);
+}
+
+// ═══════════════════════════════════
+// AFFILIATE CONFIG — replace placeholders with your real IDs
+// ═══════════════════════════════════
+const AFF = {
+  // Travelpayouts marker (your account marker, found in Travelpayouts dashboard)
+  marker: 'YOUR_TRAVELPAYOUTS_MARKER',
+
+  // GetYourGuide partner ID
+  gygPartnerId: 'YOUR_GYG_PARTNER_ID',
+
+  // Booking.com affiliate ID (via Travelpayouts or Booking Partner Centre)
+  bookingAid: 'YOUR_BOOKING_AID',
+
+  // Build URLs — swap these when you have real IDs
+  flight: (dest, origin='') =>
+    `https://www.skyscanner.net/transport/flights/${encodeURIComponent(origin)}/${encodeURIComponent(dest)}/?marker=${AFF.marker}`,
+
+  hotel: (dest, checkin='', checkout='') =>
+    `https://www.booking.com/search.html?ss=${encodeURIComponent(dest)}&aid=${AFF.bookingAid}`,
+
+  activity: (dest, activityName='') =>
+    `https://www.getyourguide.com/s/?q=${encodeURIComponent(activityName+' '+dest)}&partner_id=${AFF.gygPartnerId}`,
+
+  car: (dest) =>
+    `https://www.rentalcars.com/?destinationName=${encodeURIComponent(dest)}&affiliateCode=travelpayouts&marker=${AFF.marker}`,
+
+  train: (dest) =>
+    `https://www.thetrainline.com/search?destination=${encodeURIComponent(dest)}`,
+};
+
+// ─────────────────────────────────────
+// RENDER AREAS
+// ─────────────────────────────────────
+function renderAreas(areas) {
+  const el = document.getElementById('areasBlock');
+  if (!areas?.length) { el.innerHTML=''; return; }
+  const L = {es:'Zonas para explorar', en:'Areas to explore', fr:'Zones à explorer'};
+  el.innerHTML = `<div class="guide-section">
+    <div class="guide-section-title">${L[lang]||L.en}</div>
+    <div class="areas-grid">
+      ${areas.map(a => `<div class="area-card">
+        <div class="area-name">${a.name}</div>
+        <div class="area-desc">${a.desc}</div>
+      </div>`).join('')}
+    </div>
+  </div>`;
+}
+
+// ─────────────────────────────────────
+// RENDER EXPERIENCES (GYG affiliate)
+// ─────────────────────────────────────
+function renderExperiences(experiences, dest) {
+  const el = document.getElementById('experiencesBlock');
+  if (!experiences?.length) { el.innerHTML=''; return; }
+  const L = {es:'Experiencias clave', en:'Key experiences', fr:'Expériences clés'};
+  const freeLbl  = {es:'Gratis', en:'Free', fr:'Gratuit'};
+  const bookLbl  = {es:'Reservar', en:'Book', fr:'Réserver'};
+  const paidIcon = '🎟';
+  const freeIcon = '✨';
+
+  el.innerHTML = `<div class="guide-section">
+    <div class="guide-section-title">${L[lang]||L.en}</div>
+    <div class="exp-guide-grid">
+      ${experiences.map(e => {
+        const isPaid = e.type === 'paid' && e.approx_price_eur;
+        const affLink = AFF.activity(dest, e.name);
+        return `<div class="exp-guide-card" data-aff-type="activity" data-aff-dest="${dest}">
+          <div class="exp-guide-top">
+            <span class="exp-guide-icon">${isPaid ? paidIcon : freeIcon}</span>
+            <div class="exp-guide-name">${e.name}</div>
+            <div class="exp-guide-price">${isPaid ? `~€${e.approx_price_eur}` : (freeLbl[lang]||freeLbl.en)}</div>
+          </div>
+          <div class="exp-guide-desc">${e.desc}</div>
+          ${isPaid ? `<a class="exp-guide-book" href="${affLink}" target="_blank" rel="noopener sponsored">${bookLbl[lang]||bookLbl.en} →</a>` : ''}
+        </div>`;
+      }).join('')}
+    </div>
+  </div>`;
+}
+
+// ─────────────────────────────────────
+// RENDER RESTAURANTS
+// ─────────────────────────────────────
+function renderRestaurants(restaurants, dest) {
+  const el = document.getElementById('restaurantsBlock');
+  if (!restaurants?.length) { el.innerHTML=''; return; }
+  const L = {es:'Dónde comer', en:'Where to eat', fr:'Où manger'};
+  const typeIcons = { restaurant:'🍽', cafe:'☕', market:'🛒', street:'🌮' };
+
+  el.innerHTML = `<div class="guide-section">
+    <div class="guide-section-title">${L[lang]||L.en}</div>
+    <div class="restaurants-list">
+      ${restaurants.map(r => `<div class="rest-row">
+        <span class="rest-icon">${typeIcons[r.type]||'🍽'}</span>
+        <div class="rest-info">
+          <div class="rest-name">${r.name} <span class="rest-price">${r.price_range||''}</span></div>
+          <div class="rest-desc">${r.desc}</div>
+        </div>
+      </div>`).join('')}
+    </div>
+  </div>`;
+}
+
+// ─────────────────────────────────────
+// RENDER LOCAL TRANSPORT
+// ─────────────────────────────────────
+function renderLocalTransport(text, dest) {
+  const el = document.getElementById('localTransportBlock');
+  if (!text) { el.innerHTML=''; return; }
+  const L = {es:'Cómo moverse', en:'Getting around', fr:'Se déplacer'};
+  el.innerHTML = `<div class="guide-section">
+    <div class="guide-section-title">${L[lang]||L.en}</div>
+    <div class="local-transport-text">${text}</div>
+  </div>`;
+}
+
+// ─────────────────────────────────────
+// RENDER ITINERARY TOGGLE
+// ─────────────────────────────────────
+function renderItinToggle(days) {
+  const el = document.getElementById('itinToggleBlock');
+  if (!days?.length) { el.innerHTML=''; return; }
+  const L = {
+    show: {es:`Ver itinerario sugerido (${days.length} días)`, en:`See suggested itinerary (${days.length} days)`, fr:`Voir l'itinéraire suggéré (${days.length} jours)`},
+    hide: {es:'Ocultar itinerario', en:'Hide itinerary', fr:"Masquer l'itinéraire"},
+    sub:  {es:'Una propuesta de estructura — adáptala a tu ritmo', en:'A suggested structure — adapt it to your pace', fr:'Une proposition — adaptez-la à votre rythme'},
+  };
+  el.innerHTML = `<div class="itin-toggle-wrap">
+    <button class="itin-toggle-btn" id="itinToggleBtn" onclick="toggleItinerary()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      <span id="itinToggleTxt">${(L.show[lang]||L.show.en)}</span>
+    </button>
+    <div class="itin-toggle-sub">${L.sub[lang]||L.sub.en}</div>
+  </div>`;
+}
+
+function toggleItinerary() {
+  const days = document.getElementById('itinDays');
+  const btn  = document.getElementById('itinToggleTxt');
+  const L = {
+    show: {es:`Ver itinerario sugerido`, en:`See suggested itinerary`, fr:`Voir l'itinéraire`},
+    hide: {es:'Ocultar itinerario', en:'Hide itinerary', fr:"Masquer l'itinéraire"},
+  };
+  const isHidden = days.style.display === 'none';
+  days.style.display = isHidden ? 'block' : 'none';
+  btn.textContent = isHidden ? (L.hide[lang]||L.hide.en) : (L.show[lang]||L.show.en);
+  if (isHidden) days.scrollIntoView({behavior:'smooth', block:'start'});
 }
 
 function renderTips(tips){
