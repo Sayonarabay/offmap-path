@@ -14,6 +14,11 @@ module.exports = async (req, res) => {
   const totalBudget = budgetPer === 'person' ? budget * travelers : budget;
   const bppd = totalBudget / Math.max(travelers,1) / Math.max(days,1);
 
+  // Normalize origin for distance lookup
+  const originKey = (origin||'').toLowerCase().trim()
+    .replace(/[áàâ]/g,'a').replace(/[éèê]/g,'e').replace(/[íì]/g,'i').replace(/[óòô]/g,'o').replace(/[úù]/g,'u')
+    .replace(/\s+/g,'-');
+
   // ── Score every destination ──
   const scored = all.map(dest => {
     const cpd = dest.avgCostPerDay || 120;
@@ -40,7 +45,15 @@ module.exports = async (req, res) => {
     if (days >= idealDays[0] && days <= idealDays[1]) score += 20;
     else if (days >= idealDays[0] - 1)                score += 10;
 
-    // 4. Randomness — ensures different proposals each time (0–15 pts)
+    // 4. Distance from origin bonus (0–10 pts) — closer = better for nearby trips
+    if (originKey && dest.distanceKm) {
+      const dist = dest.distanceKm[originKey] || dest.distanceKm.default || 1500;
+      if (dist < 300)        score += 10;
+      else if (dist < 800)   score += 5;
+      else if (dist < 2000)  score += 2;
+    }
+
+    // 5. Randomness — ensures different proposals each time (0–15 pts)
     score += Math.random() * 15;
 
     // 5. Small bonus for variety (proximity diversity)
