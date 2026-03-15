@@ -1,0 +1,79 @@
+{
+  "slug": "kyoto-7day-cultural",
+  "destination": "kyoto",
+  "days_count": 7,
+  "tripType": "cultural",
+  "tags": ["temples", "history", "nature", "spiritual", "gastronomy"],
+  "days": [
+    {
+      "day": 1,
+      "title": "Arrival & Gion District",
+      "theme": "first steps in old Kyoto",
+      "morning": "Check in and walk through **Gion**, Kyoto's most famous geisha district. The wooden machiya townhouses along Hanamikoji Street are perfectly preserved.",
+      "afternoon": "Visit **Yasaka Shrine** at the end of Shijo Street. Free entry, open 24h. Walk up through **Maruyama Park** to decompress after the journey.",
+      "evening": "Dinner in Gion — try a traditional **kaiseki** set menu or ramen at a local spot on Nishiki Market's side streets.",
+      "gem": "Arrive at Gion just after 6pm on weekdays — you may spot a real geiko or maiko walking to their engagements.",
+      "activities": ["yasaka-shrine", "gion-walk", "maruyama-park"]
+    },
+    {
+      "day": 2,
+      "title": "Fushimi Inari & Nishiki Market",
+      "theme": "torii gates and street food",
+      "morning": "**Fushimi Inari Shrine** — arrive before 8am for an empty lower trail. Walk past the first third to leave the crowds behind. The upper forest is extraordinary.",
+      "afternoon": "**Nishiki Market** — Kyoto's kitchen. Try tamagoyaki, fresh tofu, pickled vegetables, and skewered octopus. Never crowded before noon.",
+      "evening": "Pontocho alley for dinner — a narrow lantern-lit lane packed with restaurants overlooking the Kamo River.",
+      "gem": "The very top of Fushimi Inari (233m) takes 2h round trip and is almost deserted — the view over Osaka on clear days is stunning.",
+      "activities": ["fushimi-inari", "nishiki-market", "pontocho"]
+    },
+    {
+      "day": 3,
+      "title": "Arashiyama & Bamboo Grove",
+      "theme": "nature and Zen",
+      "morning": "**Arashiyama Bamboo Grove** — go at 7am before tour buses arrive. Walk through to **Okochi Sanso Villa** garden (¥1000, includes tea).",
+      "afternoon": "**Tenryu-ji Temple** — UNESCO World Heritage garden with a stunning borrowed landscape of the Arashiyama mountains. Then walk along the river.",
+      "evening": "Return to central Kyoto. Light dinner at a tofu restaurant in Arashiyama or back in Gion.",
+      "gem": "Rent a rowboat on the Oi River for ¥1500/hour — the view of the mountains from the water is completely different from the shore.",
+      "activities": ["bamboo-grove", "tenryu-ji", "arashiyama-river"]
+    },
+    {
+      "day": 4,
+      "title": "Nijo Castle & Nishijin",
+      "theme": "samurai power and silk",
+      "morning": "**Nijo Castle** — the shogun's Kyoto residence. The nightingale floors (designed to squeak as an alarm system) are fascinating. Gardens are excellent in any season.",
+      "afternoon": "**Nishijin textile district** — the historic centre of Kyoto's silk weaving industry. Visit Nishijin Textile Center for a free kimono show at 2pm.",
+      "evening": "Drinks at a standing bar in Sanjo or Kawaramachi. Kyoto's craft beer scene is small but excellent.",
+      "gem": "The Nijo Castle cherry trees are the most photographed in Japan — but the inner garden pond in autumn is equally spectacular and half as busy.",
+      "activities": ["nijo-castle", "nishijin-walk", "textile-center"]
+    },
+    {
+      "day": 5,
+      "title": "Philosopher's Path & Silver Pavilion",
+      "theme": "contemplative Kyoto",
+      "morning": "Walk the **Philosopher's Path** — a 2km canal-side trail lined with cherry trees connecting the major temple districts. Best between 8-10am.",
+      "afternoon": "**Ginkaku-ji (Silver Pavilion)** at the north end of the path. Despite the name, it was never actually covered in silver — the story is part of its charm. Sand garden is exceptional.",
+      "evening": "Dinner in the Okazaki area — several excellent restaurants near Heian Shrine.",
+      "gem": "The viewpoint hill behind Ginkaku-ji gives a panorama over the entire path and eastern Kyoto — most visitors miss the 5-minute climb.",
+      "activities": ["philosophers-path", "ginkaku-ji", "heian-shrine"]
+    },
+    {
+      "day": 6,
+      "title": "Kinkaku-ji & Ryoan-ji",
+      "theme": "gold and Zen stones",
+      "morning": "**Kinkaku-ji (Golden Pavilion)** — arrive at opening time (9am) before the crowds. The reflection in the mirror pond is best on still mornings.",
+      "afternoon": "**Ryoan-ji Temple** — home of Japan's most famous rock garden. 15 stones arranged so you can never see all 15 at once from any angle. Spend time sitting with it.",
+      "evening": "Farewell dinner — splurge on a full kaiseki experience or try Kyoto-style sushi (different from Tokyo — milder, more delicate).",
+      "gem": "The large pond behind Ryoan-ji (Kyoyochi Pond) predates the rock garden by 400 years and is completely uncrowded — walk the full circuit.",
+      "activities": ["kinkaku-ji", "ryoan-ji", "ninna-ji"]
+    },
+    {
+      "day": 7,
+      "title": "Fushimi Sake District & Departure",
+      "theme": "sake and slow goodbye",
+      "morning": "**Fushimi sake district** — Kyoto's brewing neighbourhood. Visit Gekkeikan Okura Sake Museum (¥600). Walk the canal paths lined with sake warehouses.",
+      "afternoon": "Last shopping at **Teramachi covered arcade** — antiques, ceramics, tea, Japanese knives. Head to Kyoto Station for shinkansen.",
+      "evening": "Departure from Kyoto Station. The station building itself is an architectural landmark — worth 30 minutes to explore.",
+      "gem": "Toba Fushimi district has a 1.5km sake warehouse canal walk that almost no tourists do — completely authentic neighbourhood feeling.",
+      "activities": ["fushimi-sake", "teramachi", "kyoto-station"]
+    }
+  ]
+}

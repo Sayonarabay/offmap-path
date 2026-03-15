@@ -1,0 +1,79 @@
+{
+  "slug": "andalucia-roadtrip-7day-cultural",
+  "destination": "andalucia-roadtrip",
+  "days_count": 7,
+  "tripType": "cultural",
+  "tags": ["flamenco", "moorish", "food", "history", "architecture"],
+  "days": [
+    {
+      "day": 1,
+      "title": "Arrival in Seville",
+      "theme": "into the heat of Andalucía",
+      "morning": "Fly into Seville (SVQ). Pick up rental car — you won't need it in the city, park it at the hotel. Walk to the **Cathedral and Giralda tower** — the largest Gothic cathedral in the world.",
+      "afternoon": "**Real Alcázar** — a living royal palace with stunning Mudéjar architecture. Book timed entry online. The gardens alone are worth an hour.",
+      "evening": "Tapas crawl in **El Arenal** neighbourhood. Order montaditos, jamón ibérico, and a cold Cruzcampo. Seville's tapas culture means small plates come free with drinks in many bars.",
+      "gem": "The Alcázar rooftop terrace is included in the ticket but almost nobody goes up — views over the cathedral and old city are extraordinary.",
+      "activities": ["seville-cathedral", "real-alcazar", "el-arenal-tapas"]
+    },
+    {
+      "day": 2,
+      "title": "Seville Deep Dive",
+      "theme": "flamenco and the old Jewish quarter",
+      "morning": "**Barrio Santa Cruz** — the old Jewish quarter, a labyrinth of whitewashed alleys, orange trees, and hidden plazas. Get lost intentionally.",
+      "afternoon": "**Museo del Baile Flamenco** — the best flamenco museum in Spain. Evening show tickets available here too (book ahead).",
+      "evening": "Live **flamenco tablao** show — Casa de la Memoria or Tablao El Arenal. Raw, intimate, nothing like the tourist versions elsewhere.",
+      "gem": "Plaza de Santa Cruz has an iron cross in the centre that's actually a lamppost designed to look ancient — and the square has no cars, ever.",
+      "activities": ["barrio-santa-cruz", "flamenco-museum", "flamenco-show"]
+    },
+    {
+      "day": 3,
+      "title": "Seville → Córdoba",
+      "theme": "the caliphate road",
+      "morning": "Drive Seville to **Córdoba** (145km, 1h40). Check in and walk immediately to the **Mezquita-Catedral** — one of the most extraordinary buildings in the world. A cathedral built inside a mosque inside a Roman temple.",
+      "afternoon": "**Judería** (Jewish quarter) and **Calleja de las Flores** — a tiny alley so pretty it's been photographed millions of times. Still worth seeing in person.",
+      "evening": "Dinner in Córdoba — try **rabo de toro** (oxtail stew) and **salmorejo** (thicker, richer cousin of gazpacho). Both are local specialities.",
+      "gem": "The Mezquita is free entry every morning from 8:30-9:30am for Catholic mass — you can enter as a visitor during this time at no cost.",
+      "activities": ["mezquita-cordoba", "juderia-cordoba", "calleja-flores"]
+    },
+    {
+      "day": 4,
+      "title": "Córdoba → Granada",
+      "theme": "towards the Alhambra",
+      "morning": "**Medina Azahara** — a ruined 10th-century caliphate city just outside Córdoba, largely unvisited. Drive there before leaving (30min from centre).",
+      "afternoon": "Drive to **Granada** (200km, 2h). Check in, then walk up to the **Mirador de San Nicolás** for the classic Alhambra view at golden hour.",
+      "evening": "Dinner in the **Albaicín** — Granada's Moorish quarter. Moroccan tea houses and tapas bars coexist on the same steep streets.",
+      "gem": "Granada is the last city in Spain where tapas still come free with every drink — order a beer and get a full plate of food at no extra cost.",
+      "activities": ["medina-azahara", "mirador-san-nicolas", "albaicin-walk"]
+    },
+    {
+      "day": 5,
+      "title": "The Alhambra",
+      "theme": "the most visited monument in Spain",
+      "morning": "**Alhambra Palace** — book 6-8 weeks in advance, tickets sell out completely. Arrive at opening (8:30am). Start with the Nasrid Palaces (timed entry slot).",
+      "afternoon": "**Generalife gardens** and the Alcazaba fortress are included in the ticket and less crowded in the afternoon. Take your time — most people rush.",
+      "evening": "Flamenco in a **cave tablaos** in Sacromonte neighbourhood — the authentic Roma flamenco tradition of Granada, different in style from Seville.",
+      "gem": "The Partal gardens at the east end of the Alhambra are the oldest surviving part and almost always empty — a reflecting pool with a porticoed tower.",
+      "activities": ["alhambra-nasrid", "generalife", "sacromonte-flamenco"]
+    },
+    {
+      "day": 6,
+      "title": "Granada → Ronda",
+      "theme": "the white village on the cliff",
+      "morning": "Drive to **Ronda** (180km, 2h via A-92 and A-374). Ronda sits on a dramatic gorge — arrival is genuinely breathtaking.",
+      "afternoon": "**Puente Nuevo** bridge over the 100m El Tajo gorge. Walk down into the gorge via the Camino de los Molinos. **Plaza de Toros** — one of Spain's oldest bullrings, now a museum.",
+      "evening": "Stay overnight in Ronda — smaller than the other cities but the evening atmosphere when day-trippers leave is magical.",
+      "gem": "The path down to the old Arab baths at the bottom of the gorge takes 20 minutes and is almost always empty — the view back up to the bridge is the best angle.",
+      "activities": ["puente-nuevo", "el-tajo-gorge", "plaza-de-toros-ronda"]
+    },
+    {
+      "day": 7,
+      "title": "Ronda → Málaga & Departure",
+      "theme": "coast and goodbye",
+      "morning": "Drive Ronda to **Málaga** (100km, 1h20). Return rental car at AGP airport. If time allows: **Picasso Museum** in Málaga city centre (he was born here).",
+      "afternoon": "**Málaga Cathedral** and the Alcazaba fortress — smaller than Granada's but far less crowded. Walk the **Calle Larios** pedestrian street.",
+      "evening": "Flight home from Málaga (AGP). Last espresso and a **pestiño** pastry at the airport.",
+      "gem": "Málaga's Soho neighbourhood has become one of Spain's best street art districts in the last 5 years — a 30-minute walk reveals murals by international artists.",
+      "activities": ["picasso-museum-malaga", "malaga-alcazaba", "malaga-cathedral"]
+    }
+  ]
+}
