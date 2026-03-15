@@ -394,25 +394,28 @@ input::placeholder{color:var(--muted)}
 .summary-header{padding:1.1rem 1.5rem;background:linear-gradient(135deg,var(--forest),var(--forest-mid));
   display:flex;align-items:center;justify-content:space-between}
 .summary-title{font-family:var(--font-display);font-size:1rem;color:#fff}
+.summary-count-pill{background:rgba(255,255,255,.18);color:#fff;border-radius:100px;
+  padding:.18rem .65rem;font-size:.65rem;font-weight:700}
 .summary-body{padding:1.2rem 1.5rem}
-.summary-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-bottom:1.2rem}
+.summary-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-bottom:1.4rem}
 .summary-meta-row{display:flex;flex-direction:column;gap:.2rem;
   background:var(--forest-pale);border-radius:var(--r);padding:.7rem .9rem}
+.summary-meta-row--total{background:var(--forest-light);border:1.5px solid var(--forest-mid)}
 .summary-meta-label{font-size:.55rem;font-weight:700;text-transform:uppercase;
   letter-spacing:.1em;color:var(--forest-mid)}
 .summary-meta-val{font-family:var(--font-display);font-size:1.1rem;color:var(--ink)}
-.summary-acts-title{font-size:.62rem;font-weight:700;text-transform:uppercase;
-  letter-spacing:.1em;color:var(--muted);margin-bottom:.6rem;display:flex;align-items:center;gap:.4rem}
-.summary-count{background:var(--forest-mid);color:#fff;border-radius:100px;
-  padding:.08rem .45rem;font-size:.6rem;font-weight:800}
-.summary-act-row{display:flex;align-items:center;gap:.6rem;padding:.55rem .75rem;
-  border:1px solid var(--border);border-radius:8px;margin-bottom:.35rem;background:var(--white)}
-.summary-act-day{font-size:.62rem;font-weight:700;color:var(--forest-mid);
-  white-space:nowrap;min-width:42px}
-.summary-act-label{flex:1;font-size:.82rem;color:var(--ink)}
-.summary-act-remove{font-size:.62rem;font-weight:700;color:var(--terracotta);
+.summary-total-val{color:var(--forest);font-size:1.25rem}
+.summary-group{margin-bottom:1.1rem}
+.summary-group-title{font-size:.6rem;font-weight:800;text-transform:uppercase;
+  letter-spacing:.12em;color:var(--muted);margin-bottom:.45rem}
+.summary-act-row{display:flex;align-items:center;gap:.5rem;padding:.5rem .7rem;
+  border:1px solid var(--border);border-radius:8px;margin-bottom:.3rem;background:var(--white)}
+.summary-act-icon{font-size:.95rem;flex-shrink:0}
+.summary-act-label{flex:1;font-size:.8rem;color:var(--ink);line-height:1.35}
+.summary-act-price{font-size:.75rem;font-weight:700;color:var(--forest);white-space:nowrap}
+.summary-act-remove{font-size:.6rem;font-weight:700;color:var(--terracotta);
   background:transparent;border:1px solid var(--terracotta);border-radius:5px;
-  padding:.15rem .45rem;cursor:pointer;transition:all .13s;white-space:nowrap;font-family:var(--font-body)}
+  padding:.15rem .4rem;cursor:pointer;transition:all .13s;white-space:nowrap;font-family:var(--font-body);flex-shrink:0}
 .summary-act-remove:hover{background:var(--terracotta);color:#fff}
 .summary-empty{font-size:.82rem;color:var(--muted);font-style:italic;padding:.4rem 0}
 
@@ -433,7 +436,7 @@ input::placeholder{color:var(--muted)}
 
 <!-- NAV -->
 <nav>
-  <div class="logo">Off<span>site</span></div>
+  <div class="logo">Off<span>map</span></div>
   <div class="nav-actions">
     <div class="lang-sw">
       <button class="lang-btn on" onclick="setLang('es')">ES</button>
@@ -988,25 +991,47 @@ function autoSelectAll(trip) {
   selectedActivities = [];
   const isRoadtrip = trip.tripType === 'roadtrip' || (trip.slug||'').includes('roadtrip');
 
-  // Transport options → all pre-selected
+  // Transport → all pre-selected
   const trOptions = trip.transport?.options || [];
   trOptions.forEach(item => {
-    selectedActivities.push({ id: item.id, label: item.label, day: 0, icon: item.icon||'🚌' });
+    selectedActivities.push({ id: item.id, label: item.label, day: 0, icon: item.icon||'🚌', price: item.priceEst||0 });
   });
-  // Fallback if no options array
   if (!trOptions.length && trip.transport?.system) {
-    selectedActivities.push({ id:'transport-main', label:trip.transport.system, day:0, icon:guessIcon(trip.transport.system) });
+    selectedActivities.push({ id:'transport-main', label:trip.transport.system, day:0, icon:guessIcon(trip.transport.system), price:0 });
   }
 
-  // Accommodation → pre-select mid tier by default (or all for roadtrip)
-  (trip.accommodation||[]).forEach((a, i) => {
-    const id    = `hotel-${a.type}`;
-    const label = `🏨 ${a.zone} (~€${a.pricePerNight}/noche)`;
-    // roadtrip: select all tiers; city: select only mid
-    if (isRoadtrip || a.type === 'mid') {
-      selectedActivities.push({ id, label, day: 0, icon: '🏨' });
+  // Accommodation:
+  // - city trip → only mid tier pre-selected
+  // - roadtrip  → mid tier × number of cities (days - 1 nights, but 1 hotel entry per city)
+  const accom = trip.accommodation || [];
+  const midOption = accom.find(a => a.type === 'mid') || accom[0];
+  if (midOption) {
+    if (isRoadtrip) {
+      // One hotel entry per city in the itinerary
+      const cities = getRoadtripCities(trip);
+      cities.forEach((city, i) => {
+        const id    = `hotel-city-${i}`;
+        const label = `🏨 ${city} — ${midOption.zone} (~€${midOption.pricePerNight}/noche)`;
+        selectedActivities.push({ id, label, day: i+1, icon: '🏨', price: midOption.pricePerNight, nights: 1 });
+      });
+    } else {
+      const nights = trip.days - 1;
+      const id    = `hotel-mid`;
+      const label = `🏨 ${midOption.zone} · ${nights} noches (~€${midOption.pricePerNight}/noche)`;
+      selectedActivities.push({ id, label, day: 0, icon: '🏨', price: midOption.pricePerNight * nights });
     }
-  });
+  }
+}
+
+// Extract city names from roadtrip itinerary days
+function getRoadtripCities(trip) {
+  if (!trip.itinerary?.length) return [];
+  return trip.itinerary.map(d => {
+    const title = typeof d.title === 'object' ? (d.title.es || d.title.en || '') : (d.title || '');
+    // Try to extract city name from title (e.g. "Arrival in Seville" → "Seville")
+    const m = title.match(/(?:en|in|à|a)\s+([A-ZÁÉÍÓÚÀÂÊ][a-záéíóúàâêñ]+)/);
+    return m ? m[1] : title.split(' ').slice(-1)[0] || `Ciudad ${d.day}`;
+  }).filter((c,i,arr) => arr.indexOf(c) === i); // deduplicate
 }
 
 function toggleTransport(id, label, icon) {
@@ -1128,30 +1153,69 @@ function renderSummary() {
   const el = document.getElementById('summaryBlock');
   if (!el || !currentTrip) return;
 
-  const dayWord  = {es:'días',en:'days',fr:'jours'}[lang]||'days';
-  const actsHTML = selectedActivities.length
-    ? selectedActivities.map(a => `
-        <div class="summary-act-row">
-          <span class="summary-act-day">${{es:'Día',en:'Day',fr:'Jour'}[lang]} ${a.day}</span>
-          <span class="summary-act-label">${a.label}</span>
-          <button class="summary-act-remove" onclick="toggleActivity('${a.id}','${a.label}',${a.day})">${t('removeAct')}</button>
-        </div>`).join('')
-    : `<div class="summary-empty">${t('summaryEmpty')}</div>`;
+  const dayWord = {es:'días',en:'days',fr:'jours'}[lang]||'days';
+  const L = {
+    transport: {es:'Transporte',    en:'Transport',      fr:'Transport'},
+    hotel:     {es:'Alojamiento',   en:'Accommodation',  fr:'Hébergement'},
+    activity:  {es:'Actividades',   en:'Activities',     fr:'Activités'},
+    total:     {es:'Total estimado',en:'Estimated total',fr:'Total estimé'},
+    items:     {es:'elementos',     en:'items',          fr:'éléments'},
+  };
+  const l = k => L[k][lang] || L[k].es;
+
+  // Group items
+  const transport = selectedActivities.filter(a => a.id.startsWith('transport') || a.id.startsWith('andal-flight') || a.id.startsWith('paris-') || a.id.startsWith('lisbon-') || a.id.startsWith('kyoto-'));
+  const hotels    = selectedActivities.filter(a => a.id.startsWith('hotel'));
+  const acts      = selectedActivities.filter(a => !transport.includes(a) && !hotels.includes(a));
+
+  // Compute total cost from items that have a price
+  const totalItems = selectedActivities.reduce((sum, a) => sum + (a.price||0), 0);
+  const baseCost   = currentTrip.estimatedCost?.mid || 0;
+  const displayTotal = totalItems > 0 ? totalItems : baseCost;
+
+  function group(items, icon, labelKey) {
+    if (!items.length) return '';
+    const rows = items.map(a => `
+      <div class="summary-act-row">
+        <span class="summary-act-icon">${a.icon||icon}</span>
+        <span class="summary-act-label">${a.label}</span>
+        ${a.price ? `<span class="summary-act-price">~€${a.price.toLocaleString()}</span>` : ''}
+        <button class="summary-act-remove" onclick="removeFromSummary('${a.id}')">${t('removeAct')}</button>
+      </div>`).join('');
+    return `<div class="summary-group">
+      <div class="summary-group-title">${icon} ${l(labelKey)}</div>
+      ${rows}
+    </div>`;
+  }
+
+  const isEmpty = !selectedActivities.length;
 
   el.innerHTML = `<div class="summary-card">
     <div class="summary-header">
       <div class="summary-title">📋 ${t('summaryTitle')}</div>
+      <div class="summary-count-pill">${selectedActivities.length} ${l('items')}</div>
     </div>
     <div class="summary-body">
       <div class="summary-meta">
         <div class="summary-meta-row"><span class="summary-meta-label">${t('summaryDest')}</span><span class="summary-meta-val">${currentTrip.destination}</span></div>
         <div class="summary-meta-row"><span class="summary-meta-label">${t('summaryDays')}</span><span class="summary-meta-val">${currentTrip.days} ${dayWord}</span></div>
-        <div class="summary-meta-row"><span class="summary-meta-label">${t('summaryCost')}</span><span class="summary-meta-val">€${currentTrip.estimatedCost?.mid?.toLocaleString() || '—'}</span></div>
+        <div class="summary-meta-row summary-meta-row--total"><span class="summary-meta-label">${l('total')}</span><span class="summary-meta-val summary-total-val">€${displayTotal.toLocaleString()}</span></div>
       </div>
-      <div class="summary-acts-title">${t('summaryActs')} ${selectedActivities.length ? `<span class="summary-count">${selectedActivities.length}</span>` : ''}</div>
-      <div class="summary-acts">${actsHTML}</div>
+      ${isEmpty
+        ? `<div class="summary-empty">${t('summaryEmpty')}</div>`
+        : group(transport,'✈️','transport') + group(hotels,'🏨','hotel') + group(acts,'🎟','activity')
+      }
     </div>
   </div>`;
+}
+
+function removeFromSummary(id) {
+  const item = selectedActivities.find(x => x.id === id);
+  if (!item) return;
+  // Delegate to correct toggle function
+  if (id.startsWith('hotel')) toggleAccom(id, item.label);
+  else if (id.startsWith('transport') || document.getElementById('tco-'+id)) toggleTransport(id, item.label, item.icon);
+  else toggleActivity(id, item.label, item.day);
 }
 
 function renderTips(tips){
