@@ -3,77 +3,279 @@
   "destination": "andalucia-roadtrip",
   "days_count": 7,
   "tripType": "cultural",
-  "tags": ["flamenco", "moorish", "food", "history", "architecture"],
+  "tags": [
+    "flamenco",
+    "moorish",
+    "food",
+    "history",
+    "architecture"
+  ],
   "days": [
     {
       "day": 1,
-      "title": "Arrival in Seville",
-      "theme": "into the heat of Andalucía",
-      "morning": "Fly into Seville (SVQ). Pick up rental car — you won't need it in the city, park it at the hotel. Walk to the **Cathedral and Giralda tower** — the largest Gothic cathedral in the world.",
-      "afternoon": "**Real Alcázar** — a living royal palace with stunning Mudéjar architecture. Book timed entry online. The gardens alone are worth an hour.",
-      "evening": "Tapas crawl in **El Arenal** neighbourhood. Order montaditos, jamón ibérico, and a cold Cruzcampo. Seville's tapas culture means small plates come free with drinks in many bars.",
-      "gem": "The Alcázar rooftop terrace is included in the ticket but almost nobody goes up — views over the cathedral and old city are extraordinary.",
-      "activities": ["seville-cathedral", "real-alcazar", "el-arenal-tapas"]
+      "title": {
+        "es": "Llegada a Sevilla",
+        "en": "Arrival in Seville",
+        "fr": "Arrivée à Séville"
+      },
+      "theme": {
+        "es": "en el corazón de Andalucía",
+        "en": "into the heart of Andalucía",
+        "fr": "au cœur de l'Andalousie"
+      },
+      "morning": {
+        "es": "Vuelo a Sevilla (SVQ). Recoge el coche de alquiler. Visita la Catedral y la Giralda — la catedral gótica más grande del mundo.",
+        "en": "Fly into Seville (SVQ). Pick up rental car. Walk to the Cathedral and Giralda tower — the largest Gothic cathedral in the world.",
+        "fr": "Vol à Séville (SVQ). Récupérez la voiture de location. Visitez la Cathédrale et la Giralda — la plus grande cathédrale gothique du monde."
+      },
+      "afternoon": {
+        "es": "Real Alcázar — un palacio real vivo con impresionante arquitectura mudéjar. Reserva entrada con antelación.",
+        "en": "Real Alcázar — a living royal palace with stunning Mudéjar architecture. Book timed entry online.",
+        "fr": "Real Alcázar — un palais royal vivant avec une splendide architecture mudéjar. Réservez en ligne."
+      },
+      "evening": {
+        "es": "Ruta de tapas por el Arenal. Pide montaditos, jamón ibérico y una Cruzcampo fría.",
+        "en": "Tapas crawl in El Arenal neighbourhood. Order montaditos, jamón ibérico, and a cold Cruzcampo.",
+        "fr": "Tournée de tapas dans le quartier El Arenal. Commandez des montaditos, du jamón ibérico et une Cruzcampo fraîche."
+      },
+      "gem": {
+        "es": "La terraza del Alcázar está incluida en la entrada pero casi nadie sube — las vistas sobre la catedral son extraordinarias.",
+        "en": "The Alcázar rooftop terrace is included in the ticket but almost nobody goes up — views over the cathedral are extraordinary.",
+        "fr": "La terrasse de l'Alcázar est incluse dans le billet mais presque personne n'y monte — la vue sur la cathédrale est extraordinaire."
+      },
+      "activities": [
+        "seville-cathedral",
+        "real-alcazar",
+        "el-arenal-tapas"
+      ]
     },
     {
       "day": 2,
-      "title": "Seville Deep Dive",
-      "theme": "flamenco and the old Jewish quarter",
-      "morning": "**Barrio Santa Cruz** — the old Jewish quarter, a labyrinth of whitewashed alleys, orange trees, and hidden plazas. Get lost intentionally.",
-      "afternoon": "**Museo del Baile Flamenco** — the best flamenco museum in Spain. Evening show tickets available here too (book ahead).",
-      "evening": "Live **flamenco tablao** show — Casa de la Memoria or Tablao El Arenal. Raw, intimate, nothing like the tourist versions elsewhere.",
-      "gem": "Plaza de Santa Cruz has an iron cross in the centre that's actually a lamppost designed to look ancient — and the square has no cars, ever.",
-      "activities": ["barrio-santa-cruz", "flamenco-museum", "flamenco-show"]
+      "title": {
+        "es": "Sevilla a fondo",
+        "en": "Seville Deep Dive",
+        "fr": "Séville en profondeur"
+      },
+      "theme": {
+        "es": "flamenco y el barrio judío",
+        "en": "flamenco and the old Jewish quarter",
+        "fr": "flamenco et le quartier juif"
+      },
+      "morning": {
+        "es": "Barrio Santa Cruz — el antiguo barrio judío, un laberinto de callejuelas encaladas, naranjos y plazas escondidas.",
+        "en": "Barrio Santa Cruz — the old Jewish quarter, a labyrinth of whitewashed alleys, orange trees, and hidden plazas.",
+        "fr": "Barrio Santa Cruz — l'ancien quartier juif, un labyrinthe de ruelles blanchies à la chaux, d'orangers et de places cachées."
+      },
+      "afternoon": {
+        "es": "Museo del Baile Flamenco — el mejor museo de flamenco de España. Entradas para el espectáculo nocturno disponibles aquí.",
+        "en": "Museo del Baile Flamenco — the best flamenco museum in Spain. Evening show tickets available here too.",
+        "fr": "Museo del Baile Flamenco — le meilleur musée de flamenco d'Espagne. Billets pour le spectacle du soir disponibles ici."
+      },
+      "evening": {
+        "es": "Espectáculo de flamenco en vivo — Casa de la Memoria o Tablao El Arenal. Crudo, íntimo.",
+        "en": "Live flamenco tablao show — Casa de la Memoria or Tablao El Arenal. Raw, intimate.",
+        "fr": "Spectacle de flamenco en direct — Casa de la Memoria ou Tablao El Arenal. Brut, intime."
+      },
+      "gem": {
+        "es": "La Plaza de Santa Cruz no tiene coches nunca — y la cruz de hierro del centro es en realidad una farola diseñada para parecer antigua.",
+        "en": "Plaza de Santa Cruz has no cars ever — and the iron cross in the centre is actually a lamppost designed to look ancient.",
+        "fr": "La Plaza de Santa Cruz n'a jamais de voitures — et la croix en fer au centre est en fait un lampadaire conçu pour paraître ancien."
+      },
+      "activities": [
+        "barrio-santa-cruz",
+        "flamenco-museum",
+        "flamenco-show"
+      ]
     },
     {
       "day": 3,
-      "title": "Seville → Córdoba",
-      "theme": "the caliphate road",
-      "morning": "Drive Seville to **Córdoba** (145km, 1h40). Check in and walk immediately to the **Mezquita-Catedral** — one of the most extraordinary buildings in the world. A cathedral built inside a mosque inside a Roman temple.",
-      "afternoon": "**Judería** (Jewish quarter) and **Calleja de las Flores** — a tiny alley so pretty it's been photographed millions of times. Still worth seeing in person.",
-      "evening": "Dinner in Córdoba — try **rabo de toro** (oxtail stew) and **salmorejo** (thicker, richer cousin of gazpacho). Both are local specialities.",
-      "gem": "The Mezquita is free entry every morning from 8:30-9:30am for Catholic mass — you can enter as a visitor during this time at no cost.",
-      "activities": ["mezquita-cordoba", "juderia-cordoba", "calleja-flores"]
+      "title": {
+        "es": "Sevilla → Córdoba",
+        "en": "Seville → Córdoba",
+        "fr": "Séville → Cordoue"
+      },
+      "theme": {
+        "es": "la ruta del califato",
+        "en": "the caliphate road",
+        "fr": "la route du califat"
+      },
+      "morning": {
+        "es": "Conduce de Sevilla a Córdoba (145km, 1h40). Visita la Mezquita-Catedral — una catedral construida dentro de una mezquita dentro de un templo romano.",
+        "en": "Drive Seville to Córdoba (145km, 1h40). Visit the Mezquita-Catedral — a cathedral built inside a mosque inside a Roman temple.",
+        "fr": "Conduisez de Séville à Cordoue (145km, 1h40). Visitez la Mezquita-Catedral — une cathédrale construite dans une mosquée dans un temple romain."
+      },
+      "afternoon": {
+        "es": "Judería (barrio judío) y Calleja de las Flores — un callejón diminuto fotografiado millones de veces.",
+        "en": "Judería (Jewish quarter) and Calleja de las Flores — a tiny alley photographed millions of times.",
+        "fr": "Judería (quartier juif) et Calleja de las Flores — une minuscule ruelle photographiée des millions de fois."
+      },
+      "evening": {
+        "es": "Cena en Córdoba — prueba el rabo de toro y el salmorejo. Especialidades locales.",
+        "en": "Dinner in Córdoba — try rabo de toro (oxtail stew) and salmorejo. Both are local specialities.",
+        "fr": "Dîner à Cordoue — goûtez le rabo de toro (ragoût de queue de bœuf) et le salmorejo. Spécialités locales."
+      },
+      "gem": {
+        "es": "La Mezquita es de entrada gratuita cada mañana de 8:30 a 9:30h para misa católica — puedes entrar como visitante sin coste.",
+        "en": "The Mezquita is free entry every morning from 8:30-9:30am for Catholic mass — you can enter as a visitor at no cost.",
+        "fr": "La Mezquita est gratuite chaque matin de 8h30 à 9h30 pour la messe — vous pouvez y entrer comme visiteur sans frais."
+      },
+      "activities": [
+        "mezquita-cordoba",
+        "juderia-cordoba",
+        "calleja-flores"
+      ]
     },
     {
       "day": 4,
-      "title": "Córdoba → Granada",
-      "theme": "towards the Alhambra",
-      "morning": "**Medina Azahara** — a ruined 10th-century caliphate city just outside Córdoba, largely unvisited. Drive there before leaving (30min from centre).",
-      "afternoon": "Drive to **Granada** (200km, 2h). Check in, then walk up to the **Mirador de San Nicolás** for the classic Alhambra view at golden hour.",
-      "evening": "Dinner in the **Albaicín** — Granada's Moorish quarter. Moroccan tea houses and tapas bars coexist on the same steep streets.",
-      "gem": "Granada is the last city in Spain where tapas still come free with every drink — order a beer and get a full plate of food at no extra cost.",
-      "activities": ["medina-azahara", "mirador-san-nicolas", "albaicin-walk"]
+      "title": {
+        "es": "Córdoba → Granada",
+        "en": "Córdoba → Granada",
+        "fr": "Cordoue → Grenade"
+      },
+      "theme": {
+        "es": "hacia la Alhambra",
+        "en": "towards the Alhambra",
+        "fr": "vers l'Alhambra"
+      },
+      "morning": {
+        "es": "Medina Azahara — una ciudad califal del siglo X en ruinas, muy poco visitada. Conduce a Granada (200km, 2h).",
+        "en": "Medina Azahara — a ruined 10th-century caliphate city, largely unvisited. Drive to Granada (200km, 2h).",
+        "fr": "Medina Azahara — une cité califale du Xe siècle en ruines, très peu visitée. Conduisez jusqu'à Grenade (200km, 2h)."
+      },
+      "afternoon": {
+        "es": "Check-in, luego sube al Mirador de San Nicolás para la vista clásica de la Alhambra a la hora dorada.",
+        "en": "Check in, then walk up to Mirador de San Nicolás for the classic Alhambra view at golden hour.",
+        "fr": "Check-in, puis montez au Mirador de San Nicolás pour la vue classique de l'Alhambra à l'heure dorée."
+      },
+      "evening": {
+        "es": "Cena en el Albaicín — el barrio morisco de Granada. Teterías marroquíes y bares de tapas en las mismas calles empinadas.",
+        "en": "Dinner in the Albaicín — Granada's Moorish quarter. Moroccan tea houses and tapas bars on the same steep streets.",
+        "fr": "Dîner dans l'Albaicín — le quartier mauresque de Grenade. Maisons de thé marocaines et bars à tapas dans les mêmes ruelles escarpées."
+      },
+      "gem": {
+        "es": "Granada es la última ciudad de España donde las tapas siguen siendo gratuitas con cada consumición — pide una cerveza y te traen un plato de comida.",
+        "en": "Granada is the last city in Spain where tapas come free with every drink — order a beer and get a full plate of food.",
+        "fr": "Grenade est la dernière ville d'Espagne où les tapas sont gratuites avec chaque boisson — commandez une bière et recevez une assiette de nourriture."
+      },
+      "activities": [
+        "medina-azahara",
+        "mirador-san-nicolas",
+        "albaicin-walk"
+      ]
     },
     {
       "day": 5,
-      "title": "The Alhambra",
-      "theme": "the most visited monument in Spain",
-      "morning": "**Alhambra Palace** — book 6-8 weeks in advance, tickets sell out completely. Arrive at opening (8:30am). Start with the Nasrid Palaces (timed entry slot).",
-      "afternoon": "**Generalife gardens** and the Alcazaba fortress are included in the ticket and less crowded in the afternoon. Take your time — most people rush.",
-      "evening": "Flamenco in a **cave tablaos** in Sacromonte neighbourhood — the authentic Roma flamenco tradition of Granada, different in style from Seville.",
-      "gem": "The Partal gardens at the east end of the Alhambra are the oldest surviving part and almost always empty — a reflecting pool with a porticoed tower.",
-      "activities": ["alhambra-nasrid", "generalife", "sacromonte-flamenco"]
+      "title": {
+        "es": "La Alhambra",
+        "en": "The Alhambra",
+        "fr": "L'Alhambra"
+      },
+      "theme": {
+        "es": "el monumento más visitado de España",
+        "en": "the most visited monument in Spain",
+        "fr": "le monument le plus visité d'Espagne"
+      },
+      "morning": {
+        "es": "Palacio de la Alhambra — reserva con 6-8 semanas de antelación. Llega a la apertura (8:30h). Empieza por los Palacios Nazaríes.",
+        "en": "Alhambra Palace — book 6-8 weeks in advance, tickets sell out completely. Arrive at opening (8:30am). Start with the Nasrid Palaces.",
+        "fr": "Palais de l'Alhambra — réservez 6-8 semaines à l'avance, les billets s'épuisent. Arrivez à l'ouverture (8h30). Commencez par les Palais Nasrides."
+      },
+      "afternoon": {
+        "es": "Jardines del Generalife y la Alcazaba están incluidos en la entrada y tienen menos gente por la tarde.",
+        "en": "Generalife gardens and the Alcazaba fortress are included in the ticket and less crowded in the afternoon.",
+        "fr": "Les jardins du Generalife et l'Alcazaba sont inclus et moins fréquentés l'après-midi."
+      },
+      "evening": {
+        "es": "Flamenco en una cueva tablaos en el barrio Sacromonte — la auténtica tradición flamenca gitana de Granada.",
+        "en": "Flamenco in a cave tablaos in Sacromonte neighbourhood — the authentic Roma flamenco tradition of Granada.",
+        "fr": "Flamenco dans une grotte tablaos à Sacromonte — la tradition flamenca gitane authentique de Grenade."
+      },
+      "gem": {
+        "es": "Los jardines del Partal al este de la Alhambra son la parte más antigua que se conserva y casi siempre están vacíos.",
+        "en": "The Partal gardens at the east end of the Alhambra are the oldest surviving part and almost always empty.",
+        "fr": "Les jardins du Partal à l'est de l'Alhambra sont la partie la plus ancienne conservée et presque toujours vides."
+      },
+      "activities": [
+        "alhambra-nasrid",
+        "generalife",
+        "sacromonte-flamenco"
+      ]
     },
     {
       "day": 6,
-      "title": "Granada → Ronda",
-      "theme": "the white village on the cliff",
-      "morning": "Drive to **Ronda** (180km, 2h via A-92 and A-374). Ronda sits on a dramatic gorge — arrival is genuinely breathtaking.",
-      "afternoon": "**Puente Nuevo** bridge over the 100m El Tajo gorge. Walk down into the gorge via the Camino de los Molinos. **Plaza de Toros** — one of Spain's oldest bullrings, now a museum.",
-      "evening": "Stay overnight in Ronda — smaller than the other cities but the evening atmosphere when day-trippers leave is magical.",
-      "gem": "The path down to the old Arab baths at the bottom of the gorge takes 20 minutes and is almost always empty — the view back up to the bridge is the best angle.",
-      "activities": ["puente-nuevo", "el-tajo-gorge", "plaza-de-toros-ronda"]
+      "title": {
+        "es": "Granada → Ronda",
+        "en": "Granada → Ronda",
+        "fr": "Grenade → Ronda"
+      },
+      "theme": {
+        "es": "el pueblo blanco sobre el acantilado",
+        "en": "the white village on the cliff",
+        "fr": "le village blanc sur la falaise"
+      },
+      "morning": {
+        "es": "Conduce a Ronda (180km, 2h). Ronda está sobre un dramático desfiladero — la llegada es impresionante.",
+        "en": "Drive to Ronda (180km, 2h). Ronda sits on a dramatic gorge — arrival is genuinely breathtaking.",
+        "fr": "Conduisez jusqu'à Ronda (180km, 2h). Ronda est perchée sur des gorges spectaculaires — l'arrivée est vraiment époustouflante."
+      },
+      "afternoon": {
+        "es": "Puente Nuevo sobre el tajo de 100m. Baja al desfiladero por el Camino de los Molinos. Plaza de Toros — una de las plazas de toros más antiguas de España.",
+        "en": "Puente Nuevo bridge over the 100m El Tajo gorge. Walk down into the gorge via Camino de los Molinos. Plaza de Toros — one of Spain's oldest bullrings.",
+        "fr": "Le Puente Nuevo sur les gorges de 100m. Descendez dans les gorges par le Camino de los Molinos. Plaza de Toros — l'une des plus anciennes arènes d'Espagne."
+      },
+      "evening": {
+        "es": "Quédate a dormir en Ronda — más pequeña que las otras ciudades pero la atmósfera al irse los excursionistas es mágica.",
+        "en": "Stay overnight in Ronda — smaller than the other cities but the evening atmosphere when day-trippers leave is magical.",
+        "fr": "Restez la nuit à Ronda — plus petite que les autres villes mais l'atmosphère du soir quand les excursionnistes partent est magique."
+      },
+      "gem": {
+        "es": "El camino a los antiguos baños árabes en el fondo del desfiladero tarda 20 minutos y está casi siempre vacío — la vista del puente desde abajo es el mejor ángulo.",
+        "en": "The path down to the old Arab baths takes 20 minutes and is almost always empty — the view back up to the bridge is the best angle.",
+        "fr": "Le chemin vers les anciens bains arabes prend 20 minutes et est presque toujours vide — la vue vers le haut du pont est le meilleur angle."
+      },
+      "activities": [
+        "puente-nuevo",
+        "el-tajo-gorge",
+        "plaza-de-toros-ronda"
+      ]
     },
     {
       "day": 7,
-      "title": "Ronda → Málaga & Departure",
-      "theme": "coast and goodbye",
-      "morning": "Drive Ronda to **Málaga** (100km, 1h20). Return rental car at AGP airport. If time allows: **Picasso Museum** in Málaga city centre (he was born here).",
-      "afternoon": "**Málaga Cathedral** and the Alcazaba fortress — smaller than Granada's but far less crowded. Walk the **Calle Larios** pedestrian street.",
-      "evening": "Flight home from Málaga (AGP). Last espresso and a **pestiño** pastry at the airport.",
-      "gem": "Málaga's Soho neighbourhood has become one of Spain's best street art districts in the last 5 years — a 30-minute walk reveals murals by international artists.",
-      "activities": ["picasso-museum-malaga", "malaga-alcazaba", "malaga-cathedral"]
+      "title": {
+        "es": "Ronda → Málaga y partida",
+        "en": "Ronda → Málaga & Departure",
+        "fr": "Ronda → Málaga et départ"
+      },
+      "theme": {
+        "es": "costa y adiós",
+        "en": "coast and goodbye",
+        "fr": "côte et au revoir"
+      },
+      "morning": {
+        "es": "Conduce Ronda a Málaga (100km, 1h20). Devuelve el coche en el aeropuerto AGP. Si hay tiempo: Museo Picasso en el centro de Málaga.",
+        "en": "Drive Ronda to Málaga (100km, 1h20). Return rental car at AGP airport. If time allows: Picasso Museum in Málaga city centre.",
+        "fr": "Conduisez de Ronda à Málaga (100km, 1h20). Restituez la voiture à l'aéroport AGP. Si le temps le permet : Musée Picasso au centre-ville."
+      },
+      "afternoon": {
+        "es": "Catedral de Málaga y la Alcazaba — más pequeña que la de Granada pero mucho menos concurrida. Pasea por la Calle Larios.",
+        "en": "Málaga Cathedral and the Alcazaba fortress — smaller than Granada's but far less crowded. Walk the Calle Larios pedestrian street.",
+        "fr": "Cathédrale de Málaga et l'Alcazaba — plus petite que celle de Grenade mais bien moins fréquentée. Promenez-vous dans la rue piétonne Calle Larios."
+      },
+      "evening": {
+        "es": "Vuelo de vuelta desde Málaga (AGP). Último café y un pestiño en el aeropuerto.",
+        "en": "Flight home from Málaga (AGP). Last espresso and a pestiño pastry at the airport.",
+        "fr": "Vol retour depuis Málaga (AGP). Dernier café et un gâteau pestiño à l'aéroport."
+      },
+      "gem": {
+        "es": "El barrio Soho de Málaga se ha convertido en uno de los mejores distritos de arte urbano de España en los últimos 5 años.",
+        "en": "Málaga's Soho neighbourhood has become one of Spain's best street art districts in the last 5 years.",
+        "fr": "Le quartier Soho de Málaga est devenu l'un des meilleurs quartiers d'art urbain d'Espagne ces 5 dernières années."
+      },
+      "activities": [
+        "picasso-museum-malaga",
+        "malaga-alcazaba",
+        "malaga-cathedral"
+      ]
     }
   ]
 }
