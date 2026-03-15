@@ -1,0 +1,37 @@
+[
+  {
+    "id": "seville",
+    "destination": "andalucia-roadtrip",
+    "name": { "es": "Sevilla", "en": "Seville", "fr": "Séville" },
+    "nights": 2,
+    "order": 1
+  },
+  {
+    "id": "cordoba",
+    "destination": "andalucia-roadtrip",
+    "name": { "es": "Córdoba", "en": "Córdoba", "fr": "Cordoue" },
+    "nights": 1,
+    "order": 2
+  },
+  {
+    "id": "granada",
+    "destination": "andalucia-roadtrip",
+    "name": { "es": "Granada", "en": "Granada", "fr": "Grenade" },
+    "nights": 2,
+    "order": 3
+  },
+  {
+    "id": "ronda",
+    "destination": "andalucia-roadtrip",
+    "name": { "es": "Ronda", "en": "Ronda", "fr": "Ronda" },
+    "nights": 1,
+    "order": 4
+  },
+  {
+    "id": "malaga",
+    "destination": "andalucia-roadtrip",
+    "name": { "es": "Málaga", "en": "Málaga", "fr": "Malaga" },
+    "nights": 1,
+    "order": 5
+  }
+]

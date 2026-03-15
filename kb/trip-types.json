@@ -1,0 +1,8 @@
+{
+  "cultural":   { "preferred_tags": ["culture","history","architecture","iconic","UNESCO"], "avoid_tags": [] },
+  "relaxed":    { "preferred_tags": ["relax","views","walk","local","foodie"],              "avoid_tags": ["adventure"] },
+  "adventure":  { "preferred_tags": ["adventure","nature","hike","sport"],                  "avoid_tags": ["relax"] },
+  "food":       { "preferred_tags": ["foodie","local","market"],                            "avoid_tags": [] },
+  "nature":     { "preferred_tags": ["nature","views","hike","walk"],                       "avoid_tags": ["nightlife"] },
+  "nightlife":  { "preferred_tags": ["nightlife","local","foodie"],                         "avoid_tags": [] }
+}
