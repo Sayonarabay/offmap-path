@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Offmap — Viajes con criterio</title>
+<title>Offsite — Viajes con criterio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Instrument+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet"/>
 <style>
@@ -137,6 +137,14 @@ input::placeholder{color:var(--muted)}
 .pax-btn:hover{border-color:var(--forest-mid);color:var(--forest)}
 #paxCount{font-size:.9rem;font-weight:700;min-width:16px;text-align:center}
 
+/* Origin field */
+.origin-wrap{position:relative;display:flex;align-items:center}
+.origin-wrap input{padding-right:2.4rem}
+.geo-btn{position:absolute;right:.5rem;background:none;border:none;
+  cursor:pointer;font-size:1rem;padding:.2rem;opacity:.55;transition:opacity .15s}
+.geo-btn:hover{opacity:1}
+.geo-btn.loading{animation:spin .8s linear infinite;display:inline-block}
+
 /* CTA */
 .btn-search{width:100%;padding:.9rem;border:none;border-radius:var(--r);
   background:linear-gradient(135deg,var(--forest),var(--forest-mid));color:#fff;
@@ -236,6 +244,13 @@ input::placeholder{color:var(--muted)}
 .accom-link{font-size:.7rem;font-weight:700;color:var(--forest-mid);text-decoration:none;
   border:1px solid var(--forest-mid);border-radius:5px;padding:.18rem .55rem;transition:all .14s}
 .accom-link:hover{background:var(--forest-mid);color:#fff}
+.accom-add-btn{font-size:.62rem;font-weight:700;color:var(--forest);
+  background:transparent;border:1.5px solid var(--forest-mid);border-radius:5px;
+  padding:.2rem .55rem;cursor:pointer;transition:all .13s;white-space:nowrap;font-family:var(--font-body)}
+.accom-add-btn:hover{background:var(--forest-mid);color:#fff}
+.accom-add-btn.added{background:var(--forest);color:#fff;border-color:var(--forest)}
+.accom-roadtrip-note{font-size:.75rem;color:var(--ink2);font-style:italic;
+  padding:.6rem 1.5rem;border-bottom:1px solid var(--border);background:var(--forest-pale)}
 
 /* Day cards */
 .day-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r-lg);
@@ -458,6 +473,15 @@ input::placeholder{color:var(--muted)}
       </div>
     </div>
 
+    <!-- Origin -->
+    <div class="fg">
+      <label id="lOrigin">Ciudad de origen</label>
+      <div class="origin-wrap">
+        <input type="text" id="origin" placeholder="Ej: Madrid, París…"/>
+        <button class="geo-btn" id="geoBtn" onclick="detectOrigin()" title="Detectar ubicación">📍</button>
+      </div>
+    </div>
+
     <!-- Dates -->
     <div class="g2">
       <div class="fg"><label id="lFrom">Salida</label><input type="date" id="df"/></div>
@@ -583,6 +607,9 @@ const T = {
   optPerson:    {es:'por persona', en:'per person', fr:'par personne'},
   lFrom:        {es:'Salida', en:'Departure', fr:'Départ'},
   lTo:          {es:'Vuelta', en:'Return', fr:'Retour'},
+  lOrigin:      {es:'Ciudad de origen', en:'Origin city', fr:'Ville de départ'},
+  originPh:     {es:'Ej: Madrid, París…', en:'E.g. Madrid, Paris…', fr:'Ex: Madrid, Paris…'},
+  geoBtn:       {es:'📍', en:'📍', fr:'📍'},
   lTrav:        {es:'Viajeros', en:'Travelers', fr:'Voyageurs'},
   lTravLabel:   {es:'Número de personas', en:'Number of people', fr:'Nombre de personnes'},
   lType:        {es:'Tipo de viaje', en:'Trip type', fr:'Type de voyage'},
@@ -737,7 +764,8 @@ async function doSearch(){
     const res = await fetch('/api/search-trips', {
       method:'POST',
       headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({ budget, budgetPer, days, travelers: pax, tripType, lang })
+      body: JSON.stringify({ budget, budgetPer, days, travelers: pax, tripType, lang,
+        origin: document.getElementById('origin')?.value?.trim() || '' })
     });
     const data = await res.json();
     hideLoad();
@@ -807,7 +835,8 @@ async function selectProposal(idx){
     const res = await fetch('/api/generate-trip', {
       method:'POST',
       headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({ destination: slug, days, travelers: pax, tripType, budget, lang })
+      body: JSON.stringify({ destination: slug, days, travelers: pax, tripType, budget, lang,
+        origin: document.getElementById('origin')?.value?.trim() || '' })
     });
     if(!res.ok){ const err=await res.json(); throw new Error(err.error||'Server error'); }
     currentTrip = await res.json();
@@ -850,8 +879,8 @@ function renderTrip(trip){
   ].filter(c=>c.v).map(c=>`<div class="chip"><span class="chip-l">${c.l}</span><span class="chip-v">${c.v}</span></div>`).join('');
   document.getElementById('tripChips').innerHTML = chips;
 
-  // Reset activities on new trip
-  selectedActivities = [];
+  // Reset activities on new trip and auto-select transport + hotel
+  autoSelectAll(trip);
 
   // AI intro
   const introEl = document.getElementById('itinIntro');
@@ -879,25 +908,10 @@ function renderTransport(tr, dest){
   const el = document.getElementById('transportBlock');
   if(!tr){ el.innerHTML=''; return; }
 
-  // Build transport options from KB data
   const options = tr.options || [];
-
-  // Fallback: if no options array, build one from legacy fields
   const items = options.length ? options : [
-    tr.system && {
-      id:    'transport-main',
-      icon:  guessIcon(tr.system),
-      label: tr.system,
-      desc:  tr.description || '',
-      url:   buildSearchUrl(tr.system, dest),
-    },
-    tr.airportTransfer && {
-      id:    'transport-airport',
-      icon:  '✈️',
-      label: {es:'Traslado aeropuerto', en:'Airport transfer', fr:'Transfert aéroport'}[lang],
-      desc:  tr.airportTransfer,
-      url:   '',
-    },
+    tr.system && { id:'transport-main', icon:guessIcon(tr.system), label:tr.system, desc:tr.description||'', url:buildSearchUrl(tr.system,dest) },
+    tr.airportTransfer && { id:'transport-airport', icon:'✈️', label:{es:'Traslado aeropuerto',en:'Airport transfer',fr:'Transfert aéroport'}[lang], desc:tr.airportTransfer, url:'' },
   ].filter(Boolean);
 
   const rows = items.map(item => {
@@ -925,6 +939,86 @@ function renderTransport(tr, dest){
   </div>`;
 }
 
+function renderAccom(accom, dest){
+  const el = document.getElementById('accomBlock');
+  if(!accom?.length){ el.innerHTML=''; return; }
+  const isRoadtrip = currentTrip?.tripType === 'roadtrip' || (currentTrip?.slug||'').includes('roadtrip');
+  const BOOK_URL = `https://www.booking.com/search.html?ss=${encodeURIComponent(dest)}`;
+
+  const rows = accom.map(a => {
+    const id    = `hotel-${a.type}`;
+    const label = `🏨 ${a.zone} (~€${a.pricePerNight}/noche)`;
+    const added = selectedActivities.some(x => x.id === id);
+    return `<div class="accom-row" id="acr-${id}">
+      <span class="accom-type">${a.type}</span>
+      <span class="accom-zone">${a.zone}</span>
+      <span class="accom-price">~€${a.pricePerNight}/noche</span>
+      <div style="display:flex;gap:.4rem;align-items:center">
+        <a class="accom-link" href="${BOOK_URL}" target="_blank" rel="noopener">Ver →</a>
+        <button class="accom-add-btn ${added?'added':''}" onclick="toggleAccom('${id}','${label}')">
+          ${added ? t('addedTransport') : t('addTransport')}
+        </button>
+      </div>
+    </div>`;
+  }).join('');
+
+  const roadtripNote = isRoadtrip
+    ? `<div class="accom-roadtrip-note">🚗 ${({es:'Road trip: reserva hotel a hotel según tu ruta.',en:'Road trip: book hotel by hotel along your route.',fr:'Road trip: réservez hôtel par hôtel sur votre route.'})[lang]}</div>`
+    : '';
+
+  el.innerHTML = `<div class="accom-card" style="margin-bottom:1.5rem">
+    <div class="accom-header"><div class="accom-title">🏨 ${t('accomLbl')}</div></div>
+    ${roadtripNote}
+    <div class="accom-rows">${rows}</div>
+  </div>`;
+}
+
+function toggleAccom(id, label) {
+  const idx = selectedActivities.findIndex(x => x.id === id);
+  if (idx >= 0) selectedActivities.splice(idx, 1);
+  else selectedActivities.push({ id, label, day: 0, icon: '🏨' });
+  const added = selectedActivities.some(x => x.id === id);
+  const btn = document.querySelector(`#acr-${id} .accom-add-btn`);
+  if (btn) { btn.classList.toggle('added', added); btn.textContent = added ? t('addedTransport') : t('addTransport'); }
+  renderSummary();
+}
+
+// Auto-select all transport + accommodation items
+function autoSelectAll(trip) {
+  selectedActivities = [];
+  const isRoadtrip = trip.tripType === 'roadtrip' || (trip.slug||'').includes('roadtrip');
+
+  // Transport options → all pre-selected
+  const trOptions = trip.transport?.options || [];
+  trOptions.forEach(item => {
+    selectedActivities.push({ id: item.id, label: item.label, day: 0, icon: item.icon||'🚌' });
+  });
+  // Fallback if no options array
+  if (!trOptions.length && trip.transport?.system) {
+    selectedActivities.push({ id:'transport-main', label:trip.transport.system, day:0, icon:guessIcon(trip.transport.system) });
+  }
+
+  // Accommodation → pre-select mid tier by default (or all for roadtrip)
+  (trip.accommodation||[]).forEach((a, i) => {
+    const id    = `hotel-${a.type}`;
+    const label = `🏨 ${a.zone} (~€${a.pricePerNight}/noche)`;
+    // roadtrip: select all tiers; city: select only mid
+    if (isRoadtrip || a.type === 'mid') {
+      selectedActivities.push({ id, label, day: 0, icon: '🏨' });
+    }
+  });
+}
+
+function toggleTransport(id, label, icon) {
+  const idx = selectedActivities.findIndex(x => x.id === id);
+  if (idx >= 0) selectedActivities.splice(idx, 1);
+  else selectedActivities.push({ id, label, day: 0, icon });
+  const added = selectedActivities.some(x => x.id === id);
+  const btn = document.querySelector(`#tco-${id} .tc-add-btn`);
+  if (btn) { btn.classList.toggle('added', added); btn.textContent = added ? t('addedTransport') : t('addTransport'); }
+  renderSummary();
+}
+
 function guessIcon(system) {
   const s = (system||'').toLowerCase();
   if (/train|tren|rail|rer|shinkansen|tgv/.test(s)) return '🚂';
@@ -947,36 +1041,21 @@ function buildSearchUrl(system, dest) {
   return `https://www.rome2rio.com/s/${q}`;
 }
 
-function toggleTransport(id, label, icon) {
-  const idx = selectedActivities.findIndex(x => x.id === id);
-  if (idx >= 0) {
-    selectedActivities.splice(idx, 1);
-  } else {
-    selectedActivities.push({ id, label, day: 1, icon });
-  }
-  const added = selectedActivities.some(x => x.id === id);
-  const btn = document.querySelector(`#tco-${id} .tc-add-btn`);
-  if (btn) { btn.classList.toggle('added', added); btn.textContent = added ? t('addedTransport') : t('addTransport'); }
-  renderSummary();
-}
-
-function renderAccom(accom, dest){
-  const el = document.getElementById('accomBlock');
-  if(!accom?.length){ el.innerHTML=''; return; }
-  const BOOK_URL = `https://www.booking.com/search.html?ss=${encodeURIComponent(dest)}`;
-  const rows = accom.map(a=>`
-    <div class="accom-row">
-      <span class="accom-type">${a.type}</span>
-      <span class="accom-zone">${a.zone}</span>
-      <span class="accom-price">~€${a.pricePerNight}/noche</span>
-      <a class="accom-link" href="${BOOK_URL}" target="_blank" rel="noopener">Ver →</a>
-    </div>`).join('');
-  el.innerHTML = `<div class="accom-card" style="margin-bottom:1.5rem">
-    <div class="accom-header">
-      <div class="accom-title">🏨 ${t('accomLbl')}</div>
-    </div>
-    <div class="accom-rows">${rows}</div>
-  </div>`;
+// ── GEOLOCATION ──
+async function detectOrigin() {
+  const btn = document.getElementById('geoBtn');
+  if (!navigator.geolocation) return;
+  btn.classList.add('loading');
+  navigator.geolocation.getCurrentPosition(async pos => {
+    try {
+      const { latitude: lat, longitude: lon } = pos.coords;
+      const res  = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`);
+      const data = await res.json();
+      const city = data.address?.city || data.address?.town || data.address?.village || data.address?.county || '';
+      if (city) document.getElementById('origin').value = city;
+    } catch(e) { /* silently fail */ }
+    btn.classList.remove('loading');
+  }, () => btn.classList.remove('loading'));
 }
 
 function loc(field) {
@@ -1146,6 +1225,7 @@ async function doSendEmail(){
 // ═══════════════════════════════════
 document.addEventListener('DOMContentLoaded', ()=>{
   applyLang();
+  detectOrigin();
 });
 </script>
 </body>
