@@ -171,8 +171,18 @@ function dayTheme(acts, lang) {
 }
 
 function mergeAI(trip, ai) {
-  const { _destData, ...clean } = trip; // strip internal KB ref, keep _activities
-  return { ...clean, title: ai.title || trip.destination, introduction: ai.introduction || '', tips: ai.tips || [] };
+  const { _destData, ...clean } = trip;
+  return {
+    ...clean,
+    title:          ai.title          || trip.destination,
+    introduction:   ai.introduction   || '',
+    areas:          ai.areas          || [],
+    experiences:    ai.experiences    || [],
+    local_tips:     ai.local_tips     || [],
+    restaurants:    ai.restaurants    || [],
+    local_transport:ai.local_transport|| '',
+    tips:           ai.local_tips     || [], // backward compat
+  };
 }
 
 module.exports = { buildTrip, mergeAI };
