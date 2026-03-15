@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/server.js" }
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "@vercel/node@3"
+    }
+  },
+  "routes": [
+    { "src": "/api/search-trips",  "dest": "/api/routes/searchTrips.js" },
+    { "src": "/api/generate-trip", "dest": "/api/routes/generateTrip.js" },
+    { "src": "/api/email",         "dest": "/api/routes/sendEmail.js" },
+    { "src": "/api/trip",          "dest": "/api/routes/trip.js" },
+    { "src": "/(.*)",              "dest": "/public/index.html" }
   ]
 }
