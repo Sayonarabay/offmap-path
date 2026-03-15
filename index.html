@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Offmap — Viajes con criterio</title>
+<title>Offsite — Viajes con criterio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Instrument+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet"/>
 <style>
@@ -342,6 +342,43 @@ input::placeholder{color:var(--muted)}
 #loadBar{height:100%;width:0%;background:linear-gradient(90deg,var(--forest-mid),var(--forest));
   transition:width .4s ease;border-radius:2px}
 
+/* ── ADD ACTIVITY BUTTON ── */
+.act-add-btn{
+  margin-left:.4rem;padding:.15rem .5rem;border-radius:5px;
+  border:1.5px solid var(--forest-mid);background:transparent;
+  color:var(--forest);font-size:.58rem;font-weight:700;cursor:pointer;
+  transition:all .13s;font-family:var(--font-body);white-space:nowrap}
+.act-add-btn:hover{background:var(--forest-mid);color:#fff}
+.act-add-btn.added{background:var(--forest);color:#fff;border-color:var(--forest)}
+
+/* ── SUMMARY CARD ── */
+.summary-card{background:var(--white);border:1.5px solid var(--forest-mid);
+  border-radius:var(--r-lg);overflow:hidden;margin-bottom:1.5rem;box-shadow:var(--shadow-md)}
+.summary-header{padding:1.1rem 1.5rem;background:linear-gradient(135deg,var(--forest),var(--forest-mid));
+  display:flex;align-items:center;justify-content:space-between}
+.summary-title{font-family:var(--font-display);font-size:1rem;color:#fff}
+.summary-body{padding:1.2rem 1.5rem}
+.summary-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-bottom:1.2rem}
+.summary-meta-row{display:flex;flex-direction:column;gap:.2rem;
+  background:var(--forest-pale);border-radius:var(--r);padding:.7rem .9rem}
+.summary-meta-label{font-size:.55rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.1em;color:var(--forest-mid)}
+.summary-meta-val{font-family:var(--font-display);font-size:1.1rem;color:var(--ink)}
+.summary-acts-title{font-size:.62rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.1em;color:var(--muted);margin-bottom:.6rem;display:flex;align-items:center;gap:.4rem}
+.summary-count{background:var(--forest-mid);color:#fff;border-radius:100px;
+  padding:.08rem .45rem;font-size:.6rem;font-weight:800}
+.summary-act-row{display:flex;align-items:center;gap:.6rem;padding:.55rem .75rem;
+  border:1px solid var(--border);border-radius:8px;margin-bottom:.35rem;background:var(--white)}
+.summary-act-day{font-size:.62rem;font-weight:700;color:var(--forest-mid);
+  white-space:nowrap;min-width:42px}
+.summary-act-label{flex:1;font-size:.82rem;color:var(--ink)}
+.summary-act-remove{font-size:.62rem;font-weight:700;color:var(--terracotta);
+  background:transparent;border:1px solid var(--terracotta);border-radius:5px;
+  padding:.15rem .45rem;cursor:pointer;transition:all .13s;white-space:nowrap;font-family:var(--font-body)}
+.summary-act-remove:hover{background:var(--terracotta);color:#fff}
+.summary-empty{font-size:.82rem;color:var(--muted);font-style:italic;padding:.4rem 0}
+
 /* ── RESPONSIVE ── */
 @media(max-width:900px){
   .hero{grid-template-columns:1fr;min-height:auto}
@@ -470,6 +507,7 @@ input::placeholder{color:var(--muted)}
     <div id="itinDays"></div>
     <div id="tipsBlock"></div>
     <div id="costBlock"></div>
+    <div id="summaryBlock"></div>
     <div class="email-block" id="emailBlock">
       <div class="email-title" id="emailTitle">Recibe tu plan por email</div>
       <div class="email-sub" id="emailSub">Con un enlace para recuperarlo desde cualquier dispositivo.</div>
@@ -501,9 +539,10 @@ input::placeholder{color:var(--muted)}
 // ═══════════════════════════════════
 let lang = 'es';
 let pax  = 2;
-let currentTrip   = null;
-let selectedSlug  = null;
-let cart          = [];
+let currentTrip      = null;
+let selectedSlug     = null;
+let cart             = [];
+let selectedActivities = []; // { id, label, day }
 
 // ═══════════════════════════════════
 // I18N
@@ -558,6 +597,15 @@ const T = {
   costTitle:    {es:'Presupuesto estimado', en:'Estimated budget', fr:'Budget estimé'},
   costNote:     {es:'Costes por persona para toda la estancia, vuelos incluidos.', en:'Cost per person for the full stay, flights included.', fr:'Coût par personne pour tout le séjour, vols inclus.'},
   tipsTitle:    {es:'Consejos prácticos', en:'Practical tips', fr:'Conseils pratiques'},
+  addActBtn:    {es:'+ Añadir a mi viaje', en:'+ Add to my trip', fr:'+ Ajouter à mon voyage'},
+  addedActBtn:  {es:'✓ Añadido', en:'✓ Added', fr:'✓ Ajouté'},
+  summaryTitle: {es:'Mi viaje', en:'My trip', fr:'Mon voyage'},
+  summaryDest:  {es:'Destino', en:'Destination', fr:'Destination'},
+  summaryDays:  {es:'Días', en:'Days', fr:'Jours'},
+  summaryCost:  {es:'Coste estimado', en:'Estimated cost', fr:'Coût estimé'},
+  summaryActs:  {es:'Actividades seleccionadas', en:'Selected activities', fr:'Activités sélectionnées'},
+  summaryEmpty: {es:'Aún no has añadido actividades.', en:'No activities added yet.', fr:'Aucune activité ajoutée.'},
+  removeAct:    {es:'Quitar', en:'Remove', fr:'Retirer'},
   emailTitle:   {es:'Recibe tu plan por email', en:'Get your plan by email', fr:'Recevez votre plan par email'},
   emailSub:     {es:'Con un enlace para recuperarlo desde cualquier dispositivo.', en:'With a link to access it from any device.', fr:'Avec un lien pour y accéder depuis n\'importe quel appareil.'},
   emailSendBtn: {es:'Enviar →', en:'Send →', fr:'Envoyer →'},
@@ -777,6 +825,9 @@ function renderTrip(trip){
   ].filter(c=>c.v).map(c=>`<div class="chip"><span class="chip-l">${c.l}</span><span class="chip-v">${c.v}</span></div>`).join('');
   document.getElementById('tripChips').innerHTML = chips;
 
+  // Reset activities on new trip
+  selectedActivities = [];
+
   // AI intro
   const introEl = document.getElementById('itinIntro');
   if(trip.introduction){ introEl.innerHTML = trip.introduction; introEl.style.display='block'; }
@@ -796,6 +847,7 @@ function renderTrip(trip){
 
   // Cost
   renderCost(trip.estimatedCost);
+  renderSummary();
 }
 
 function renderTransport(tr, dest){
@@ -828,23 +880,36 @@ function renderAccom(accom, dest){
   </div>`;
 }
 
+function loc(field) {
+  if (!field) return '';
+  if (typeof field === 'string') return field;
+  return field[lang] || field['en'] || field['es'] || '';
+}
+
 function renderDays(days, dest){
   const el = document.getElementById('itinDays');
   if(!days?.length){ el.innerHTML=''; return; }
   const dayWord = {es:'DÍA',en:'DAY',fr:'JOUR'}[lang]||'DAY';
   el.innerHTML = days.map((day, i)=>{
     const n = i+1;
-    const morningHTML  = day.morning  ? `<div class="moment moment-m"><div class="moment-time"><div class="moment-label">${t('mornLbl')}</div></div><div class="moment-body"><div class="moment-text">${day.morning}</div></div></div>` : '';
-    const afternoonHTML= day.afternoon? `<div class="moment moment-a"><div class="moment-time"><div class="moment-label">${t('aftLbl')}</div></div><div class="moment-body"><div class="moment-text">${day.afternoon}</div></div></div>` : '';
-    const eveningHTML  = day.evening  ? `<div class="moment moment-e"><div class="moment-time"><div class="moment-label">${t('eveLbl')}</div></div><div class="moment-body"><div class="moment-text">${day.evening}</div></div></div>` : '';
-    const gemHTML = day.gem ? `<div class="day-gem">
+    const morningHTML   = loc(day.morning)   ? `<div class="moment moment-m"><div class="moment-time"><div class="moment-label">${t('mornLbl')}</div></div><div class="moment-body"><div class="moment-text">${loc(day.morning)}</div></div></div>` : '';
+    const afternoonHTML = loc(day.afternoon) ? `<div class="moment moment-a"><div class="moment-time"><div class="moment-label">${t('aftLbl')}</div></div><div class="moment-body"><div class="moment-text">${loc(day.afternoon)}</div></div></div>` : '';
+    const eveningHTML   = loc(day.evening)   ? `<div class="moment moment-e"><div class="moment-time"><div class="moment-label">${t('eveLbl')}</div></div><div class="moment-body"><div class="moment-text">${loc(day.evening)}</div></div></div>` : '';
+    const gemHTML = loc(day.gem) ? `<div class="day-gem">
       <div class="gem-ico"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
-      <div class="gem-txt"><strong>${t('gemLbl')}:</strong> ${day.gem}</div>
+      <div class="gem-txt"><strong>${t('gemLbl')}:</strong> ${loc(day.gem)}</div>
     </div>` : '';
 
     const actHTML = day.activities?.length ? `<div class="day-activities">
       <div class="day-act-header">${t('activitiesLbl')}</div>
-      <div class="act-chips">${day.activities.map(a=>`<span class="act-chip">${a}</span>`).join('')}</div>
+      <div class="act-chips">${day.activities.map(a=>{
+        const id = `day${n}-${a}`;
+        const added = selectedActivities.some(x=>x.id===id);
+        return `<span class="act-chip ${added?'added':''}" id="chip-${id}">
+          ${a}
+          <button class="act-add-btn ${added?'added':''}" onclick="toggleActivity('${id}','${a}',${n})">${added ? t('addedActBtn') : t('addActBtn')}</button>
+        </span>`;
+      }).join('')}</div>
     </div>` : '';
 
     return `<div class="day-card" id="day-${n}">
@@ -854,8 +919,8 @@ function renderDays(days, dest){
           <div class="day-num-word">${dayWord}</div>
         </div>
         <div class="day-title-col">
-          <div class="day-title">${day.title||''}</div>
-          ${day.theme ? `<div class="day-theme">${day.theme}</div>` : ''}
+          <div class="day-title">${loc(day.title)||''}</div>
+          ${loc(day.theme) ? `<div class="day-theme">${loc(day.theme)}</div>` : ''}
         </div>
       </div>
       ${morningHTML}${afternoonHTML}${eveningHTML}
@@ -863,6 +928,52 @@ function renderDays(days, dest){
       ${actHTML}
     </div>`;
   }).join('');
+}
+
+function toggleActivity(id, label, day) {
+  const idx = selectedActivities.findIndex(x => x.id === id);
+  if (idx >= 0) {
+    selectedActivities.splice(idx, 1);
+  } else {
+    selectedActivities.push({ id, label, day });
+  }
+  // Update chip UI without full re-render
+  const chip = document.getElementById('chip-'+id);
+  const btn  = chip?.querySelector('.act-add-btn');
+  const added = selectedActivities.some(x => x.id === id);
+  if (chip) chip.classList.toggle('added', added);
+  if (btn)  { btn.classList.toggle('added', added); btn.textContent = added ? t('addedActBtn') : t('addActBtn'); }
+  renderSummary();
+}
+
+function renderSummary() {
+  const el = document.getElementById('summaryBlock');
+  if (!el || !currentTrip) return;
+
+  const dayWord  = {es:'días',en:'days',fr:'jours'}[lang]||'days';
+  const actsHTML = selectedActivities.length
+    ? selectedActivities.map(a => `
+        <div class="summary-act-row">
+          <span class="summary-act-day">${{es:'Día',en:'Day',fr:'Jour'}[lang]} ${a.day}</span>
+          <span class="summary-act-label">${a.label}</span>
+          <button class="summary-act-remove" onclick="toggleActivity('${a.id}','${a.label}',${a.day})">${t('removeAct')}</button>
+        </div>`).join('')
+    : `<div class="summary-empty">${t('summaryEmpty')}</div>`;
+
+  el.innerHTML = `<div class="summary-card">
+    <div class="summary-header">
+      <div class="summary-title">📋 ${t('summaryTitle')}</div>
+    </div>
+    <div class="summary-body">
+      <div class="summary-meta">
+        <div class="summary-meta-row"><span class="summary-meta-label">${t('summaryDest')}</span><span class="summary-meta-val">${currentTrip.destination}</span></div>
+        <div class="summary-meta-row"><span class="summary-meta-label">${t('summaryDays')}</span><span class="summary-meta-val">${currentTrip.days} ${dayWord}</span></div>
+        <div class="summary-meta-row"><span class="summary-meta-label">${t('summaryCost')}</span><span class="summary-meta-val">€${currentTrip.estimatedCost?.mid?.toLocaleString() || '—'}</span></div>
+      </div>
+      <div class="summary-acts-title">${t('summaryActs')} ${selectedActivities.length ? `<span class="summary-count">${selectedActivities.length}</span>` : ''}</div>
+      <div class="summary-acts">${actsHTML}</div>
+    </div>
+  </div>`;
 }
 
 function renderTips(tips){
